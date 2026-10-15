@@ -27,6 +27,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SAIDA = os.path.join(BASE_DIR, "dados", "financas")
 API = "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/"
 ANOS = range(2014, 2026)
+REVISTOS = set()
 
 
 def consulta(caminho):
@@ -37,6 +38,13 @@ def consulta(caminho):
         if not rede.em_cache(url):
             time.sleep(1)  # pedido do Tesouro: no máximo 1 requisição por segundo
         d = rede.get_json(url)
+        if not d.get("items") and not offset and url not in REVISTOS:
+            # a API devolve vazio em momentos de instabilidade e o cache guardou isso (ex.: RGF de Alvarães 2024 existe);
+            # resposta vazia é baixada de novo uma vez por execução
+            REVISTOS.add(url)
+            rede.esquecer(url)
+            time.sleep(1)
+            d = rede.get_json(url)
         itens += d.get("items", [])
         if not d.get("hasMore"):
             return itens, url

@@ -19,6 +19,13 @@ def em_cache(url):
     return os.path.exists(os.path.join(CACHE, hashlib.sha1(url.encode()).hexdigest()[:20]))
 
 
+def esquecer(url):
+    """Tira a resposta do cache (ex.: resposta vazia gravada durante instabilidade da API)."""
+    arq = os.path.join(CACHE, hashlib.sha1(url.encode()).hexdigest()[:20])
+    if os.path.exists(arq):
+        os.remove(arq)
+
+
 def get(url, tentativas=5, cache=True):
     """Bytes da URL. Com cache=True, a resposta fica gravada e é reutilizada (a URL é a chave)."""
     arq = os.path.join(CACHE, hashlib.sha1(url.encode()).hexdigest()[:20])
