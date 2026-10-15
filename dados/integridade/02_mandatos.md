@@ -1,0 +1,1403 @@
+# Integridade — mandatos de prefeito (gerado em 15/10/2026 15:52)
+
+- Candidaturas a prefeito (linhas por turno): 1673
+- Linhas de mandato: 443
+- Pessoas distintas: 964
+- Checagens: **1337 de 1337 passaram**
+
+## Checagens que falharam
+
+- nenhuma
+
+## Alertas para verificação humana
+
+- ⚠️ 2004 Anama: Luiz Guedes Brandao (Eleições Municipais De 2004 - 1º Turno, ELEITO) só existe no arquivo de votação; pessoa ligada sem título — código provisório pelo nome
+- ⚠️ 2004 Beruri: José Domingos De Oliveira (Eleições Municipais De 2004 - 1º Turno, NÃO ELEITO) só existe no arquivo de votação; pessoa ligada pelo nome (único)
+- ⚠️ 2004 Carauari: Maria Santana Cabral Dos Santos (Eleições Municipais De 2004 - 1º Turno, NÃO ELEITO) só existe no arquivo de votação; pessoa ligada sem título — código provisório pelo nome
+- ⚠️ 2004 Anamã: vice de Luiz Guedes Brandao não identificado (fora do arquivo de candidatos)
+- ⚠️ 2004 Boca do Acre: eleição de 2004-10-03 (Antonio Iran De Souza Lima) substituída por suplementar em 2004-12-05, antes da posse
+- ⚠️ 2008 Anamã: Esmeralda Moura Da Silva (Eleições Suplementares 2008, NÃO ELEITO) só existe no arquivo de votação; pessoa ligada pelo nome (único)
+- ⚠️ 2008 Anamã: Jecimar Pinheiro Matos (Eleições Suplementares 2008, ELEITO) só existe no arquivo de votação; pessoa ligada pelo nome (único)
+- ⚠️ 2008 Coari: Arnaldo Almeida Mitouso (Eleições Suplementares 2008, ELEITO) só existe no arquivo de votação; pessoa ligada pelo nome (único)
+- ⚠️ 2008 Ipixuna: Ana Maria Farias De Oliveira (Eleições 2008, ELEITO) só existe no arquivo de votação; pessoa ligada sem título — código provisório pelo nome
+- ⚠️ 2008 Tefé: Abel Rodrigues Alves (Eleições Suplementares 2008, NÃO ELEITO) só existe no arquivo de votação; pessoa ligada pelo nome (único)
+- ⚠️ 2008 Tefé: Jucimar De Oliveira Veloso (Eleições Suplementares 2008, ELEITO) só existe no arquivo de votação; pessoa ligada pelo nome (único)
+- ⚠️ 2008 Tefé: Wiseman Araújo Celani (Eleições Suplementares 2008, NÃO ELEITO) só existe no arquivo de votação; pessoa ligada pelo nome (único)
+- ⚠️ 2008 Anamã: vice de Jecimar Pinheiro Matos não identificado (fora do arquivo de candidatos)
+- ⚠️ 2008 Coari: vice de Arnaldo Almeida Mitouso não identificado (fora do arquivo de candidatos)
+- ⚠️ 2008 Ipixuna: vice de Ana Maria Farias De Oliveira não identificado (fora do arquivo de candidatos)
+- ⚠️ 2008 Tefé: vice de Jucimar De Oliveira Veloso não identificado (fora do arquivo de candidatos)
+- ⚠️ 2008 Silves: ninguém consta como ELEITO na ordinária (candidatura cassada/indeferida?); NENHUMA suplementar no TSE — verificar quem governou
+- ⚠️ 2020 Coari: ninguém consta como ELEITO na ordinária (candidatura cassada/indeferida?); suplementar em 2021-12-05
+- ⚠️ pessoa 5b138b6830 (Pedro Duarte Guedes) com datas de nascimento divergentes no TSE: ['16/03/1953', '16/06/1953']
+- ⚠️ pessoa de9dfbf8a6 (Antonio Ferreira Lima) com datas de nascimento divergentes no TSE: ['30/06/1956', '30/07/1956']
+- ⚠️ pessoa 550ffe3cad (Eneas De Jesus Gonçalves Sobrinho) com datas de nascimento divergentes no TSE: ['13/10/1956', '18/10/1956']
+- ⚠️ pessoa 65d5d16fa8 (Rosario Conte Galate Neto) com datas de nascimento divergentes no TSE: ['25/02/1946', '25/02/1948']
+- ⚠️ pessoa 42a58c3aaa (Ranolfo Litaiff Barbosa) com datas de nascimento divergentes no TSE: ['11/05/1944', '11/05/1945']
+- ⚠️ pessoa 98ce3c7530 (Valdeci Raposo E Silva) com datas de nascimento divergentes no TSE: ['01/03/1953', '01/05/1953']
+- ⚠️ pessoa a7dac0583f (Jose Raimundo Do Vale) com datas de nascimento divergentes no TSE: ['15/02/1952', '15/02/1961']
+- ⚠️ pessoa c044474a88 (Jorge Amazonas Azevedo) com datas de nascimento divergentes no TSE: ['08/01/1959', '15/01/1959']
+- ⚠️ pessoa bd861f45c2 (Manuel Antonio Vital) com datas de nascimento divergentes no TSE: ['15/01/1944', '15/01/1945']
+- ⚠️ pessoa 29f25a0470 (Armando Correia De Oliveira Filho) com datas de nascimento divergentes no TSE: ['14/12/1967', '14/12/1968']
+- ⚠️ pessoa 0890e987cc (Iranilson Da Silva Medeiros) com datas de nascimento divergentes no TSE: ['14/12/1196', '14/12/1965']
+- ⚠️ pessoa e82e15d26b (Carlos Alexandre Ferreira Silva) com datas de nascimento divergentes no TSE: ['01/10/1975', '07/10/1975']
+- ⚠️ pessoa 602cd73a52 (Raimundo Damacena Barbosa) com datas de nascimento divergentes no TSE: ['10/02/1937', '10/02/1938']
+- ⚠️ pessoa b9566d1658 (José Vicente Amorim) com datas de nascimento divergentes no TSE: ['22/01/1941', '22/10/1941']
+- ⚠️ pessoa 3fc0b9285a (Jair Aguiar Souto) com datas de nascimento divergentes no TSE: ['17/02/1965', '17/02/1966']
+- ⚠️ pessoa 052519e90e (Felix Vital De Almeida) com datas de nascimento divergentes no TSE: ['23/03/1933', '23/05/1933']
+- ⚠️ pessoa d9ea5d20b5 (Raimundo Damasceno Fonseca) com datas de nascimento divergentes no TSE: ['04/11/1950', '04/11/1959']
+- ⚠️ pessoa a33cbf7813 (Eronildo Neves Da Mota) com datas de nascimento divergentes no TSE: ['17/10/1959', '27/10/1959']
+- ⚠️ pessoa 4bc7e0c58e (Antunes Bitar Ruas) com datas de nascimento divergentes no TSE: ['08/02/1959', '08/02/1961']
+- ⚠️ pessoa 916734e4c5 (Katsuhiro Nagai) com datas de nascimento divergentes no TSE: ['18/10/1945', '18/11/1945']
+- ⚠️ pessoa 863a204456 (Odemilson Lima Magalhães) com datas de nascimento divergentes no TSE: ['28/09/1968', '29/09/1968']
+- ⚠️ pessoa 422dfa14b0 (Amazonino Armando Mendes) com datas de nascimento divergentes no TSE: ['16/11/1939', '19/11/1939']
+- ⚠️ pessoa 19579da12e (Araildo Mendes Do Nascimento) com datas de nascimento divergentes no TSE: ['17/02/1964', '17/09/1964', '17/9 /1964']
+- ⚠️ pessoa a13f83a6ea (Francisco De Souza) com datas de nascimento divergentes no TSE: ['03/11/1952', '03/11/1959']
+- ⚠️ pessoa 61fe92bcf7 (Maria Rosineide Mourão Solart) com datas de nascimento divergentes no TSE: ['02/10/1963', '29/01/1957']
+- ⚠️ pessoa e82a3d39af (Messias De Oliveira) com datas de nascimento divergentes no TSE: ['02/09/1971', '02/09/1972']
+- ⚠️ pessoa 6dcb2ea661 (Luiz Manoel Navarro) com datas de nascimento divergentes no TSE: ['02/08/1942', '20/08/1942']
+- ⚠️ pessoa 33214bd649 (Raimundo Nonato De Araujo Magalhaes) com datas de nascimento divergentes no TSE: ['08/09/1963', '09/06/1963']
+- ⚠️ pessoa b54b6503bb (Ilderson Marcio Enes Ribeiro) com datas de nascimento divergentes no TSE: ['13/12/1972', '13/12/1975']
+- ⚠️ pessoa b2d02f0278 (Marcelo Bezerra Da Cruz) com datas de nascimento divergentes no TSE: ['14/02/1977', '17/02/1977']
+- ⚠️ pessoa a0e3ab435d (Etã Pereira Castelo Branco) com datas de nascimento divergentes no TSE: ['01/06/1978', '01/07/1978']
+- ⚠️ ANTONIO TAUMATURGO CALDAS COELHO (04/04/1961) aparece com 2 títulos diferentes: ['1f38cfa490', 'a5fe5404d1']
+
+## Todas as checagens
+
+- ✅ IBGE lista 62 municípios no AM (achou 62)
+- ✅ cada um dos 62 municípios do IBGE tem exatamente um código do TSE (pareados 62 de 62 UEs)
+- ✅ 2000: 0 candidatura(s) recuperada(s) do arquivo de votação
+- ✅ 2000: votos encontrados para 216 de 216 candidatos que disputaram (mínimo 95%)
+- ✅ 2000 Careiro da Várzea: eleito Pedro Duarte Guedes tem vice no TSE
+- ✅ 2000 Caapiranga: eleito Antonio Ferreira Lima tem vice no TSE
+- ✅ 2000 Jutaí: eleito Asclepiades Costa De Souza tem vice no TSE
+- ✅ 2000 Parintins: eleito Enéas De Jesus Gonçalves Sobrinho tem vice no TSE
+- ✅ 2000 Manacapuru: eleito Angelus Cruz Figueira tem vice no TSE
+- ✅ 2000 Fonte Boa: eleito Wilson Ferreira Lisboa tem vice no TSE
+- ✅ 2000 Itacoatiara: eleito Mamoud Amed Filho tem vice no TSE
+- ✅ 2000 Tabatinga: eleito Raimundo Nonato Batista De Souza tem vice no TSE
+- ✅ 2000 Santa Isabel do Rio Negro: eleito Sérgio Da Silveira Cardador tem vice no TSE
+- ✅ 2000 Barreirinha: eleito Gilvan Geraldo De Aquino Seixas tem vice no TSE
+- ✅ 2000 Carauari: eleito Bruno Luis Litaiff Ramalho tem vice no TSE
+- ✅ 2000 Coari: eleito Manoel Adail Amaral Pinheiro tem vice no TSE
+- ✅ 2000 Atalaia do Norte: eleito Rosario Conte Galate Neto tem vice no TSE
+- ✅ 2000 Manaus: eleito Alfredo Pereira Do Nascimento tem vice no TSE
+- ✅ 2000 Humaitá: eleito Renato Pereira Gonçalves tem vice no TSE
+- ✅ 2000 Envira: eleito Rômulo Barbosa Mattos tem vice no TSE
+- ✅ 2000 Urucará: eleito Pedro Geraldo Raimundo Falabella tem vice no TSE
+- ✅ 2000 Santo Antônio do Içá: eleito Inês Baranda Hortêncio tem vice no TSE
+- ✅ 2000 Nova Olinda do Norte: eleito Sebastião Rodrigues Maciel tem vice no TSE
+- ✅ 2000 Boa Vista do Ramos: eleito Vasco Bento Dos Santos Ribeiro tem vice no TSE
+- ✅ 2000 Rio Preto da Eva: eleito Luiz Adail Paz tem vice no TSE
+- ✅ 2000 Itamarati: eleito Raimundo Gomes Lobo tem vice no TSE
+- ✅ 2000 São Gabriel da Cachoeira: eleito Raimundo Quirino Calixto tem vice no TSE
+- ✅ 2000 Itapiranga: eleito João De Deus Plinio Marques tem vice no TSE
+- ✅ 2000 Japurá: eleito Raimundo Matias Barbosa tem vice no TSE
+- ✅ 2000 Borba: eleito Antonio Gomes Graça tem vice no TSE
+- ✅ 2000 Alvarães: eleito Sidonio Trindade Gonçalves tem vice no TSE
+- ✅ 2000 Lábrea: eleito José Olimpio Filho tem vice no TSE
+- ✅ 2000 Canutama: eleito Raimundo Rodrigues De Amorim tem vice no TSE
+- ✅ 2000 Maués: eleito Sidney Ricardo De Oliveira Leite tem vice no TSE
+- ✅ 2000 Eirunepé: eleito José  Edy  Monteconrado  Gomes tem vice no TSE
+- ✅ 2000 Guajará: eleito Armando Correia De Oliveira Filho tem vice no TSE
+- ✅ 2000 São Sebastião do Uatumã: eleito Fernando Falabella tem vice no TSE
+- ✅ 2000 Tefé: eleito Francisco Hélio Bezerra Bessa tem vice no TSE
+- ✅ 2000 Apuí: eleito Antonio Roque Longo tem vice no TSE
+- ✅ 2000 Pauini: eleito Jose Vicente Amorim tem vice no TSE
+- ✅ 2000 Maraã: eleito Gefferson Almeida De Oliveira tem vice no TSE
+- ✅ 2000 Ipixuna: eleito Davi Farias De Oliveira tem vice no TSE
+- ✅ 2000 Novo Airão: eleito Luis Carlos Mattos Areosa tem vice no TSE
+- ✅ 2000 Iranduba: eleito José Maria Muniz De Castro tem vice no TSE
+- ✅ 2000 Manaquiri: eleito Sandro Da Silva Pires tem vice no TSE
+- ✅ 2000 Manicoré: eleito Manoel De Oliveira Galdino tem vice no TSE
+- ✅ 2000 Barcelos: eleito José Ribamar Fontes Beleza tem vice no TSE
+- ✅ 2000 Urucurituba: eleito Felix Vital De Almeida tem vice no TSE
+- ✅ 2000 Careiro: eleito Joel Rodrigues Lobo tem vice no TSE
+- ✅ 2000 Amaturá: eleito Luiz Pereira tem vice no TSE
+- ✅ 2000 Tapauá: eleito Almino Gonçalves De Albuquerque tem vice no TSE
+- ✅ 2000 Juruá: eleito Tabira Ramos Dias Ferreira tem vice no TSE
+- ✅ 2000 Beruri: eleito Odilon Galvao Picanço tem vice no TSE
+- ✅ 2000 Autazes: eleito José Thomé Filho tem vice no TSE
+- ✅ 2000 Novo Aripuanã: eleito Adiel Meira De Santana tem vice no TSE
+- ✅ 2000 Presidente Figueiredo: eleito Romeiro José Costeira De Mendonça tem vice no TSE
+- ✅ 2000 Anori: eleito Ernesto Gomes Da Rocha tem vice no TSE
+- ✅ 2000 São Paulo de Olivença: eleito Hamilton Lima Do Carmo Fermin tem vice no TSE
+- ✅ 2000 Tonantins: eleito Fabio Da Silva Cabral tem vice no TSE
+- ✅ 2000 Anamã: eleito Esmeralda Moura Da Silva tem vice no TSE
+- ✅ 2000 Benjamin Constant: eleito José Amauri Da Silva Maia tem vice no TSE
+- ✅ 2000 Boca do Acre: eleito Antonio Iran De Souza Lima tem vice no TSE
+- ✅ 2000 Silves: eleito Aristides Queiroz De Oliveira Neto tem vice no TSE
+- ✅ 2000 Uarini: eleito José Franklin Lopes tem vice no TSE
+- ✅ 2000 Codajás: eleito Abraham Lincoln Dib Bastos tem vice no TSE
+- ✅ 2000 Nhamundá: eleito Paulo Castro De Albuquerque tem vice no TSE
+- ✅ 2000 Alvarães: no máximo um eleito na eleição ordinária
+- ✅ 2000 Amaturá: no máximo um eleito na eleição ordinária
+- ✅ 2000 Anamã: no máximo um eleito na eleição ordinária
+- ✅ 2000 Anori: no máximo um eleito na eleição ordinária
+- ✅ 2000 Apuí: no máximo um eleito na eleição ordinária
+- ✅ 2000 Atalaia do Norte: no máximo um eleito na eleição ordinária
+- ✅ 2000 Autazes: no máximo um eleito na eleição ordinária
+- ✅ 2000 Barcelos: no máximo um eleito na eleição ordinária
+- ✅ 2000 Barreirinha: no máximo um eleito na eleição ordinária
+- ✅ 2000 Benjamin Constant: no máximo um eleito na eleição ordinária
+- ✅ 2000 Beruri: no máximo um eleito na eleição ordinária
+- ✅ 2000 Boa Vista do Ramos: no máximo um eleito na eleição ordinária
+- ✅ 2000 Boca do Acre: no máximo um eleito na eleição ordinária
+- ✅ 2000 Borba: no máximo um eleito na eleição ordinária
+- ✅ 2000 Caapiranga: no máximo um eleito na eleição ordinária
+- ✅ 2000 Canutama: no máximo um eleito na eleição ordinária
+- ✅ 2000 Carauari: no máximo um eleito na eleição ordinária
+- ✅ 2000 Careiro: no máximo um eleito na eleição ordinária
+- ✅ 2000 Careiro da Várzea: no máximo um eleito na eleição ordinária
+- ✅ 2000 Coari: no máximo um eleito na eleição ordinária
+- ✅ 2000 Codajás: no máximo um eleito na eleição ordinária
+- ✅ 2000 Eirunepé: no máximo um eleito na eleição ordinária
+- ✅ 2000 Envira: no máximo um eleito na eleição ordinária
+- ✅ 2000 Fonte Boa: no máximo um eleito na eleição ordinária
+- ✅ 2000 Guajará: no máximo um eleito na eleição ordinária
+- ✅ 2000 Humaitá: no máximo um eleito na eleição ordinária
+- ✅ 2000 Ipixuna: no máximo um eleito na eleição ordinária
+- ✅ 2000 Iranduba: no máximo um eleito na eleição ordinária
+- ✅ 2000 Itacoatiara: no máximo um eleito na eleição ordinária
+- ✅ 2000 Itamarati: no máximo um eleito na eleição ordinária
+- ✅ 2000 Itapiranga: no máximo um eleito na eleição ordinária
+- ✅ 2000 Japurá: no máximo um eleito na eleição ordinária
+- ✅ 2000 Juruá: no máximo um eleito na eleição ordinária
+- ✅ 2000 Jutaí: no máximo um eleito na eleição ordinária
+- ✅ 2000 Lábrea: no máximo um eleito na eleição ordinária
+- ✅ 2000 Manacapuru: no máximo um eleito na eleição ordinária
+- ✅ 2000 Manaquiri: no máximo um eleito na eleição ordinária
+- ✅ 2000 Manaus: no máximo um eleito na eleição ordinária
+- ✅ 2000 Manicoré: no máximo um eleito na eleição ordinária
+- ✅ 2000 Maraã: no máximo um eleito na eleição ordinária
+- ✅ 2000 Maués: no máximo um eleito na eleição ordinária
+- ✅ 2000 Nhamundá: no máximo um eleito na eleição ordinária
+- ✅ 2000 Nova Olinda do Norte: no máximo um eleito na eleição ordinária
+- ✅ 2000 Novo Airão: no máximo um eleito na eleição ordinária
+- ✅ 2000 Novo Aripuanã: no máximo um eleito na eleição ordinária
+- ✅ 2000 Parintins: no máximo um eleito na eleição ordinária
+- ✅ 2000 Pauini: no máximo um eleito na eleição ordinária
+- ✅ 2000 Presidente Figueiredo: no máximo um eleito na eleição ordinária
+- ✅ 2000 Rio Preto da Eva: no máximo um eleito na eleição ordinária
+- ✅ 2000 Santa Isabel do Rio Negro: no máximo um eleito na eleição ordinária
+- ✅ 2000 Santo Antônio do Içá: no máximo um eleito na eleição ordinária
+- ✅ 2000 Silves: no máximo um eleito na eleição ordinária
+- ✅ 2000 São Gabriel da Cachoeira: no máximo um eleito na eleição ordinária
+- ✅ 2000 São Paulo de Olivença: no máximo um eleito na eleição ordinária
+- ✅ 2000 São Sebastião do Uatumã: no máximo um eleito na eleição ordinária
+- ✅ 2000 Tabatinga: no máximo um eleito na eleição ordinária
+- ✅ 2000 Tapauá: no máximo um eleito na eleição ordinária
+- ✅ 2000 Tefé: no máximo um eleito na eleição ordinária
+- ✅ 2000 Tonantins: no máximo um eleito na eleição ordinária
+- ✅ 2000 Uarini: no máximo um eleito na eleição ordinária
+- ✅ 2000 Urucará: no máximo um eleito na eleição ordinária
+- ✅ 2000 Urucurituba: no máximo um eleito na eleição ordinária
+- ✅ 2000 Alvarães Sidonio Trindade Gonçalves: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Amaturá Luiz Pereira: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Anamã Esmeralda Moura Da Silva: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Anori Ernesto Gomes Da Rocha: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Apuí Antonio Roque Longo: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Atalaia do Norte Rosario Conte Galate Neto: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Autazes José Thomé Filho: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Barcelos José Ribamar Fontes Beleza: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Barreirinha Gilvan Geraldo De Aquino Seixas: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Benjamin Constant José Amauri Da Silva Maia: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Beruri Odilon Galvao Picanço: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Boa Vista do Ramos Vasco Bento Dos Santos Ribeiro: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Boca do Acre Antonio Iran De Souza Lima: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Borba Antonio Gomes Graça: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Caapiranga Antonio Ferreira Lima: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Canutama Raimundo Rodrigues De Amorim: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Carauari Bruno Luis Litaiff Ramalho: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Careiro Joel Rodrigues Lobo: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Careiro da Várzea Pedro Duarte Guedes: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Coari Manoel Adail Amaral Pinheiro: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Codajás Abraham Lincoln Dib Bastos: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Eirunepé José  Edy  Monteconrado  Gomes: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Envira Rômulo Barbosa Mattos: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Fonte Boa Wilson Ferreira Lisboa: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Guajará Armando Correia De Oliveira Filho: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Humaitá Renato Pereira Gonçalves: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Ipixuna Davi Farias De Oliveira: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Iranduba José Maria Muniz De Castro: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Itacoatiara Mamoud Amed Filho: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Itamarati Raimundo Gomes Lobo: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Itapiranga João De Deus Plinio Marques: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Japurá Raimundo Matias Barbosa: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Juruá Tabira Ramos Dias Ferreira: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Jutaí Asclepiades Costa De Souza: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Lábrea José Olimpio Filho: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Manacapuru Angelus Cruz Figueira: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Manaquiri Sandro Da Silva Pires: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Manaus Alfredo Pereira Do Nascimento: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Manicoré Manoel De Oliveira Galdino: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Maraã Gefferson Almeida De Oliveira: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Maués Sidney Ricardo De Oliveira Leite: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Nhamundá Paulo Castro De Albuquerque: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Nova Olinda do Norte Sebastião Rodrigues Maciel: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Novo Airão Luis Carlos Mattos Areosa: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Novo Aripuanã Adiel Meira De Santana: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Parintins Enéas De Jesus Gonçalves Sobrinho: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Pauini Jose Vicente Amorim: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Presidente Figueiredo Romeiro José Costeira De Mendonça: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Rio Preto da Eva Luiz Adail Paz: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Santa Isabel do Rio Negro Sérgio Da Silveira Cardador: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Santo Antônio do Içá Inês Baranda Hortêncio: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Silves Aristides Queiroz De Oliveira Neto: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 São Gabriel da Cachoeira Raimundo Quirino Calixto: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 São Paulo de Olivença Hamilton Lima Do Carmo Fermin: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 São Sebastião do Uatumã Fernando Falabella: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Tabatinga Raimundo Nonato Batista De Souza: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Tapauá Almino Gonçalves De Albuquerque: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Tefé Francisco Hélio Bezerra Bessa: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Tonantins Fabio Da Silva Cabral: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Uarini José Franklin Lopes: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Urucará Pedro Geraldo Raimundo Falabella: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000 Urucurituba Felix Vital De Almeida: início 2001-01-01 ≤ fim 2004-12-31
+- ✅ 2000: os 62 municípios têm ao menos uma linha de mandato (62)
+- ✅ 2004: 3 candidatura(s) recuperada(s) do arquivo de votação
+- ✅ 2004: votos encontrados para 191 de 191 candidatos que disputaram (mínimo 95%)
+- ✅ 2004 Manaus: eleito Serafim Fernandes Correa tem vice no TSE
+- ✅ 2004 Itapiranga: eleito Jose Nivalter Correia Lima tem vice no TSE
+- ✅ 2004 Apuí: eleito Antonio Roque Longo tem vice no TSE
+- ✅ 2004 Tapauá: eleito Almino Gonçalves De Albuquerque tem vice no TSE
+- ✅ 2004 Boca do Acre: eleito Antonio Iran De Souza Lima tem vice no TSE
+- ✅ 2004 Novo Aripuanã: eleito Geramilton De Menezes Weckner tem vice no TSE
+- ✅ 2004 Itamarati: eleito Raimundo Gomes Lobo tem vice no TSE
+- ✅ 2004 Juruá: eleito Edezio Ferreira Da Silva tem vice no TSE
+- ✅ 2004 Canutama: eleito Raimundo Sampaio Da Costa tem vice no TSE
+- ✅ 2004 Careiro: eleito Hamilton Alves Villar tem vice no TSE
+- ✅ 2004 Benjamin Constant: eleito José Maria Freitas Da Silva Júnior tem vice no TSE
+- ✅ 2004 Novo Airão: eleito Wilton Pereira Dos Santos tem vice no TSE
+- ✅ 2004 Rio Preto da Eva: eleito Anderson Jose De Souza tem vice no TSE
+- ✅ 2004 Barcelos: eleito Alberta Maria Oliveira De Deus tem vice no TSE
+- ✅ 2004 Manaquiri: eleito Jair Aguiar Souto tem vice no TSE
+- ✅ 2004 Nova Olinda do Norte: eleito Adenilson Lima Reis tem vice no TSE
+- ✅ 2004 Humaitá: eleito Roberto Rui Guerra De Souza tem vice no TSE
+- ✅ 2004 Santa Isabel do Rio Negro: eleito Eliete Da Cunha Beleza tem vice no TSE
+- ✅ 2004 Parintins: eleito Frank Luiz Da Cunha Garcia tem vice no TSE
+- ✅ 2004 Fonte Boa: eleito Sebastião Ferreira Lisboa tem vice no TSE
+- ✅ 2004 Tonantins: eleito Jorge Amazonas Azevedo tem vice no TSE
+- ✅ 2004 Silves: eleito Alzira Cildra Brito Andrade tem vice no TSE
+- ✅ 2004 Jutaí: eleito Umberto Afonso Lasmar tem vice no TSE
+- ✅ 2004 Urucará: eleito Antonio Taumaturgo Caldas Coelho tem vice no TSE
+- ✅ 2004 Borba: eleito Antonio José Muniz Cavalcante tem vice no TSE
+- ✅ 2004 Iranduba: eleito Raymundo Nonato Lopes tem vice no TSE
+- ✅ 2004 Ipixuna: eleito Davi Farias De Oliveira tem vice no TSE
+- ✅ 2004 Autazes: eleito Jose Thome Filho tem vice no TSE
+- ✅ 2004 Barreirinha: eleito Gilvan Geraldo De Aquino Seixas tem vice no TSE
+- ✅ 2004 Lábrea: eleito Gean Campos De Barros tem vice no TSE
+- ✅ 2004 Urucurituba: eleito Edivaldo Silva Araujo tem vice no TSE
+- ✅ 2004 Tabatinga: eleito Joel Santos De Lima tem vice no TSE
+- ✅ 2004 Amaturá: eleito Luiz Pereira tem vice no TSE
+- ✅ 2004 São Gabriel da Cachoeira: eleito Juscelino Ótero Gonçalves tem vice no TSE
+- ✅ 2004 Boa Vista do Ramos: eleito Roberto Carmo Dacio Dias tem vice no TSE
+- ✅ 2004 Carauari: eleito Bruno Luis Litaiff Ramalho tem vice no TSE
+- ✅ 2004 Nhamundá: eleito Mario José Chagas Paulain tem vice no TSE
+- ✅ 2004 Anori: eleito Ernesto Gomes Da Rocha tem vice no TSE
+- ✅ 2004 Alvarães: eleito Delmiro Barbosa De Lima tem vice no TSE
+- ✅ 2004 Maués: eleito Sidney Ricardo De Oliveira Leite tem vice no TSE
+- ✅ 2004 Careiro da Várzea: eleito Pedro Duarte Guedes tem vice no TSE
+- ✅ 2004 Codajás: eleito Abraham Lincoln Dib Bastos tem vice no TSE
+- ✅ 2004 Manicoré: eleito Emerson Pedraça De França tem vice no TSE
+- ✅ 2004 Caapiranga: eleito Antonio José Marques tem vice no TSE
+- ✅ 2004 Maraã: eleito Gefferson  Almeida De Oliveira tem vice no TSE
+- ✅ 2004 Boca do Acre: eleito Antonio Iran De Souza Lima tem vice no TSE
+- ✅ 2004 Japurá: eleito Raimundo Matias Barbosa tem vice no TSE
+- ✅ 2004 Uarini: eleito José Franklin Lopes Filho tem vice no TSE
+- ✅ 2004 Beruri: eleito Alcimar Bezerra Moraes tem vice no TSE
+- ✅ 2004 Atalaia do Norte: eleito Rosario Conte Galate Neto tem vice no TSE
+- ✅ 2004 São Paulo de Olivença: eleito Hamilton Lima Do Carmo Fermin tem vice no TSE
+- ✅ 2004 Santo Antônio do Içá: eleito Antunes Bitar Ruas tem vice no TSE
+- ✅ 2004 Guajará: eleito Samuel Farias De Oliveira tem vice no TSE
+- ✅ 2004 Coari: eleito Manoel Adail Amaral Pinheiro tem vice no TSE
+- ✅ 2004 Envira: eleito Ivon Rates Da Silva tem vice no TSE
+- ✅ 2004 Itacoatiara: eleito Mamoud Amed Filho tem vice no TSE
+- ✅ 2004 Pauini: eleito José Vicente Amorim tem vice no TSE
+- ✅ 2004 São Sebastião do Uatumã: eleito Fernando Falabella tem vice no TSE
+- ✅ 2004 Presidente Figueiredo: eleito Antonio Fernando Fontes Vieira tem vice no TSE
+- ✅ 2004 Tefé: eleito Sidônio Trindade Gonçalves tem vice no TSE
+- ✅ 2004 Eirunepé: eleito Francisco Das Chagas Dissica Valerio Tomaz tem vice no TSE
+- ✅ 2004 Manacapuru: eleito Washington Luis Régis Da Silva tem vice no TSE
+- ✅ 2004 Alvarães: no máximo um eleito na eleição ordinária
+- ✅ 2004 Amaturá: no máximo um eleito na eleição ordinária
+- ✅ 2004 Anamã: no máximo um eleito na eleição ordinária
+- ✅ 2004 Anori: no máximo um eleito na eleição ordinária
+- ✅ 2004 Apuí: no máximo um eleito na eleição ordinária
+- ✅ 2004 Atalaia do Norte: no máximo um eleito na eleição ordinária
+- ✅ 2004 Autazes: no máximo um eleito na eleição ordinária
+- ✅ 2004 Barcelos: no máximo um eleito na eleição ordinária
+- ✅ 2004 Barreirinha: no máximo um eleito na eleição ordinária
+- ✅ 2004 Benjamin Constant: no máximo um eleito na eleição ordinária
+- ✅ 2004 Beruri: no máximo um eleito na eleição ordinária
+- ✅ 2004 Boa Vista do Ramos: no máximo um eleito na eleição ordinária
+- ✅ 2004 Boca do Acre: no máximo um eleito na eleição ordinária
+- ✅ 2004 Borba: no máximo um eleito na eleição ordinária
+- ✅ 2004 Caapiranga: no máximo um eleito na eleição ordinária
+- ✅ 2004 Canutama: no máximo um eleito na eleição ordinária
+- ✅ 2004 Carauari: no máximo um eleito na eleição ordinária
+- ✅ 2004 Careiro: no máximo um eleito na eleição ordinária
+- ✅ 2004 Careiro da Várzea: no máximo um eleito na eleição ordinária
+- ✅ 2004 Coari: no máximo um eleito na eleição ordinária
+- ✅ 2004 Codajás: no máximo um eleito na eleição ordinária
+- ✅ 2004 Eirunepé: no máximo um eleito na eleição ordinária
+- ✅ 2004 Envira: no máximo um eleito na eleição ordinária
+- ✅ 2004 Fonte Boa: no máximo um eleito na eleição ordinária
+- ✅ 2004 Guajará: no máximo um eleito na eleição ordinária
+- ✅ 2004 Humaitá: no máximo um eleito na eleição ordinária
+- ✅ 2004 Ipixuna: no máximo um eleito na eleição ordinária
+- ✅ 2004 Iranduba: no máximo um eleito na eleição ordinária
+- ✅ 2004 Itacoatiara: no máximo um eleito na eleição ordinária
+- ✅ 2004 Itamarati: no máximo um eleito na eleição ordinária
+- ✅ 2004 Itapiranga: no máximo um eleito na eleição ordinária
+- ✅ 2004 Japurá: no máximo um eleito na eleição ordinária
+- ✅ 2004 Juruá: no máximo um eleito na eleição ordinária
+- ✅ 2004 Jutaí: no máximo um eleito na eleição ordinária
+- ✅ 2004 Lábrea: no máximo um eleito na eleição ordinária
+- ✅ 2004 Manacapuru: no máximo um eleito na eleição ordinária
+- ✅ 2004 Manaquiri: no máximo um eleito na eleição ordinária
+- ✅ 2004 Manaus: no máximo um eleito na eleição ordinária
+- ✅ 2004 Manicoré: no máximo um eleito na eleição ordinária
+- ✅ 2004 Maraã: no máximo um eleito na eleição ordinária
+- ✅ 2004 Maués: no máximo um eleito na eleição ordinária
+- ✅ 2004 Nhamundá: no máximo um eleito na eleição ordinária
+- ✅ 2004 Nova Olinda do Norte: no máximo um eleito na eleição ordinária
+- ✅ 2004 Novo Airão: no máximo um eleito na eleição ordinária
+- ✅ 2004 Novo Aripuanã: no máximo um eleito na eleição ordinária
+- ✅ 2004 Parintins: no máximo um eleito na eleição ordinária
+- ✅ 2004 Pauini: no máximo um eleito na eleição ordinária
+- ✅ 2004 Presidente Figueiredo: no máximo um eleito na eleição ordinária
+- ✅ 2004 Rio Preto da Eva: no máximo um eleito na eleição ordinária
+- ✅ 2004 Santa Isabel do Rio Negro: no máximo um eleito na eleição ordinária
+- ✅ 2004 Santo Antônio do Içá: no máximo um eleito na eleição ordinária
+- ✅ 2004 Silves: no máximo um eleito na eleição ordinária
+- ✅ 2004 São Gabriel da Cachoeira: no máximo um eleito na eleição ordinária
+- ✅ 2004 São Paulo de Olivença: no máximo um eleito na eleição ordinária
+- ✅ 2004 São Sebastião do Uatumã: no máximo um eleito na eleição ordinária
+- ✅ 2004 Tabatinga: no máximo um eleito na eleição ordinária
+- ✅ 2004 Tapauá: no máximo um eleito na eleição ordinária
+- ✅ 2004 Tefé: no máximo um eleito na eleição ordinária
+- ✅ 2004 Tonantins: no máximo um eleito na eleição ordinária
+- ✅ 2004 Uarini: no máximo um eleito na eleição ordinária
+- ✅ 2004 Urucará: no máximo um eleito na eleição ordinária
+- ✅ 2004 Urucurituba: no máximo um eleito na eleição ordinária
+- ✅ 2004 Alvarães Delmiro Barbosa De Lima: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Amaturá Luiz Pereira: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Anamã Luiz Guedes Brandao: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Anori Ernesto Gomes Da Rocha: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Apuí Antonio Roque Longo: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Atalaia do Norte Rosario Conte Galate Neto: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Autazes Jose Thome Filho: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Barcelos Alberta Maria Oliveira De Deus: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Barreirinha Gilvan Geraldo De Aquino Seixas: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Benjamin Constant José Maria Freitas Da Silva Júnior: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Beruri Alcimar Bezerra Moraes: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Boa Vista do Ramos Roberto Carmo Dacio Dias: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Boca do Acre Antonio Iran De Souza Lima: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Borba Antonio José Muniz Cavalcante: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Caapiranga Antonio José Marques: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Canutama Raimundo Sampaio Da Costa: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Carauari Bruno Luis Litaiff Ramalho: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Careiro Hamilton Alves Villar: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Careiro da Várzea Pedro Duarte Guedes: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Coari Manoel Adail Amaral Pinheiro: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Codajás Abraham Lincoln Dib Bastos: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Eirunepé Francisco Das Chagas Dissica Valerio Tomaz: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Envira Ivon Rates Da Silva: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Fonte Boa Sebastião Ferreira Lisboa: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Guajará Samuel Farias De Oliveira: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Humaitá Roberto Rui Guerra De Souza: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Ipixuna Davi Farias De Oliveira: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Iranduba Raymundo Nonato Lopes: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Itacoatiara Mamoud Amed Filho: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Itamarati Raimundo Gomes Lobo: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Itapiranga Jose Nivalter Correia Lima: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Japurá Raimundo Matias Barbosa: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Juruá Edezio Ferreira Da Silva: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Jutaí Umberto Afonso Lasmar: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Lábrea Gean Campos De Barros: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Manacapuru Washington Luis Régis Da Silva: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Manaquiri Jair Aguiar Souto: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Manaus Serafim Fernandes Correa: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Manicoré Emerson Pedraça De França: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Maraã Gefferson  Almeida De Oliveira: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Maués Sidney Ricardo De Oliveira Leite: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Nhamundá Mario José Chagas Paulain: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Nova Olinda do Norte Adenilson Lima Reis: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Novo Airão Wilton Pereira Dos Santos: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Novo Aripuanã Geramilton De Menezes Weckner: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Parintins Frank Luiz Da Cunha Garcia: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Pauini José Vicente Amorim: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Presidente Figueiredo Antonio Fernando Fontes Vieira: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Rio Preto da Eva Anderson Jose De Souza: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Santa Isabel do Rio Negro Eliete Da Cunha Beleza: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Santo Antônio do Içá Antunes Bitar Ruas: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Silves Alzira Cildra Brito Andrade: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 São Gabriel da Cachoeira Juscelino Ótero Gonçalves: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 São Paulo de Olivença Hamilton Lima Do Carmo Fermin: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 São Sebastião do Uatumã Fernando Falabella: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Tabatinga Joel Santos De Lima: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Tapauá Almino Gonçalves De Albuquerque: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Tefé Sidônio Trindade Gonçalves: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Tonantins Jorge Amazonas Azevedo: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Uarini José Franklin Lopes Filho: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Urucará Antonio Taumaturgo Caldas Coelho: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004 Urucurituba Edivaldo Silva Araujo: início 2005-01-01 ≤ fim 2008-12-31
+- ✅ 2004: os 62 municípios têm ao menos uma linha de mandato (62)
+- ✅ 2008: 7 candidatura(s) recuperada(s) do arquivo de votação
+- ✅ 2008: votos encontrados para 218 de 218 candidatos que disputaram (mínimo 95%)
+- ✅ 2008 Maués: eleito Odivaldo Miguel De Oliveira Paiva tem vice no TSE
+- ✅ 2008 Manacapuru: eleito Edson Bastos Bessa tem vice no TSE
+- ✅ 2008 Boca do Acre: eleito Maria Das Dores Oliveira Munhoz tem vice no TSE
+- ✅ 2008 Autazes: eleito Raimundo Wanderlan Penalber Sampaio tem vice no TSE
+- ✅ 2008 Fonte Boa: eleito Antonio Gomes Ferreira tem vice no TSE
+- ✅ 2008 Barcelos: eleito Jose Ribamar Fontes Beleza tem vice no TSE
+- ✅ 2008 Novo Aripuanã: eleito Aminadab Meira De Santana tem vice no TSE
+- ✅ 2008 Japurá: eleito Maria Rosineide Mourao Solarte tem vice no TSE
+- ✅ 2008 Careiro: eleito Joel Rodrigues Lobo tem vice no TSE
+- ✅ 2008 Envira: eleito Rômulo Barbosa Mattos tem vice no TSE
+- ✅ 2008 Coari: eleito Rodrigo Alves Da Costa tem vice no TSE
+- ✅ 2008 Alvarães: eleito Mário Tomás Litaiff tem vice no TSE
+- ✅ 2008 Anori: eleito Sansuray Pereira Xavier tem vice no TSE
+- ✅ 2008 Tapauá: eleito Claudio Gomes Dias tem vice no TSE
+- ✅ 2008 Nhamundá: eleito Tomaz De Souza Pontes tem vice no TSE
+- ✅ 2008 Borba: eleito Antonio Jose Muniz Cavalcante tem vice no TSE
+- ✅ 2008 Atalaia do Norte: eleito Anete Peres Castro Pinto tem vice no TSE
+- ✅ 2008 Nova Olinda do Norte: eleito Adenilson Lima Reis tem vice no TSE
+- ✅ 2008 Itapiranga: eleito Nadiel Serrão Do Nascimento tem vice no TSE
+- ✅ 2008 Canutama: eleito Joao Ocivaldo Batista De Amorim tem vice no TSE
+- ✅ 2008 Itacoatiara: eleito Antonio Peixoto De Oliveira tem vice no TSE
+- ✅ 2008 Careiro da Várzea: eleito Raimundo Nonato Da Silva tem vice no TSE
+- ✅ 2008 Lábrea: eleito Gean Campos De Barros tem vice no TSE
+- ✅ 2008 Caapiranga: eleito Antonio Ferreira Lima tem vice no TSE
+- ✅ 2008 Juruá: eleito Edezio Ferreira Da Silva tem vice no TSE
+- ✅ 2008 Boa Vista do Ramos: eleito Elmir Lima Mota tem vice no TSE
+- ✅ 2008 Tefé: eleito Sidonio Trindade Goncalves tem vice no TSE
+- ✅ 2008 Apuí: eleito Antonio Marcos Maciel Fernandes tem vice no TSE
+- ✅ 2008 Tabatinga: eleito Saul Nunes Bemerguy tem vice no TSE
+- ✅ 2008 Rio Preto da Eva: eleito Fullvio Da Silva Pinto tem vice no TSE
+- ✅ 2008 Novo Airão: eleito Leosvaldo Roque Migueis tem vice no TSE
+- ✅ 2008 Beruri: eleito José Domingos De Oliveira tem vice no TSE
+- ✅ 2008 Uarini: eleito Francisco Togo Soares tem vice no TSE
+- ✅ 2008 Maraã: eleito Dilmar Santos Avila tem vice no TSE
+- ✅ 2008 Amaturá: eleito João Braga Dias tem vice no TSE
+- ✅ 2008 Benjamin Constant: eleito José Maria Freitas Da Silva Júnior tem vice no TSE
+- ✅ 2008 Humaitá: eleito José Cidenei Lobo Do Nascimento tem vice no TSE
+- ✅ 2008 Urucará: eleito Fernando Falabella tem vice no TSE
+- ✅ 2008 Jutaí: eleito Asclepíades Costa De Souza tem vice no TSE
+- ✅ 2008 Anamã: eleito Raimundo Pinheiro Da Silva tem vice no TSE
+- ✅ 2008 Santo Antônio do Içá: eleito Antunes Bitar Ruas tem vice no TSE
+- ✅ 2008 São Paulo de Olivença: eleito Raimundo Nonato Souza Martins tem vice no TSE
+- ✅ 2008 Japurá: eleito Raimundo Guedes Dos Santos tem vice no TSE
+- ✅ 2008 Presidente Figueiredo: eleito Antonio Fernando Fontes Vieira tem vice no TSE
+- ✅ 2008 Parintins: eleito Frank Luiz Da Cunha Garcia tem vice no TSE
+- ✅ 2008 Iranduba: eleito Raymundo Nonato Lopes tem vice no TSE
+- ✅ 2008 Pauini: eleito Maria Barroso Da Costa tem vice no TSE
+- ✅ 2008 Manaquiri: eleito Jair Aguiar Souto tem vice no TSE
+- ✅ 2008 Manaus: eleito Amazonino Armando Mendes tem vice no TSE
+- ✅ 2008 Santa Isabel do Rio Negro: eleito Eliete Da Cunha Beleza tem vice no TSE
+- ✅ 2008 Carauari: eleito Francisco Costa Dos Santos tem vice no TSE
+- ✅ 2008 Manicoré: eleito Emerson Pedraca De Franca tem vice no TSE
+- ✅ 2008 Guajará: eleito Manoel Helio Alves De Paula tem vice no TSE
+- ✅ 2008 Tonantins: eleito Fabio Da Silva Cabral tem vice no TSE
+- ✅ 2008 Eirunepé: eleito Francisco Das Chagas Dissica Valério Tomaz tem vice no TSE
+- ✅ 2008 Barreirinha: eleito Mecias Pereira Batista tem vice no TSE
+- ✅ 2008 Urucurituba: eleito Edivaldo Silva Araújo tem vice no TSE
+- ✅ 2008 São Sebastião do Uatumã: eleito Carlos Da Silva Amora tem vice no TSE
+- ✅ 2008 Codajás: eleito Agnaldo Da Paz Dantas tem vice no TSE
+- ✅ 2008 Itamarati: eleito Joao Medeiros Campelo tem vice no TSE
+- ✅ 2008 São Gabriel da Cachoeira: eleito Pedro Garcia tem vice no TSE
+- ✅ 2008 Alvarães: no máximo um eleito na eleição ordinária
+- ✅ 2008 Amaturá: no máximo um eleito na eleição ordinária
+- ✅ 2008 Anamã: no máximo um eleito na eleição ordinária
+- ✅ 2008 Anori: no máximo um eleito na eleição ordinária
+- ✅ 2008 Apuí: no máximo um eleito na eleição ordinária
+- ✅ 2008 Atalaia do Norte: no máximo um eleito na eleição ordinária
+- ✅ 2008 Autazes: no máximo um eleito na eleição ordinária
+- ✅ 2008 Barcelos: no máximo um eleito na eleição ordinária
+- ✅ 2008 Barreirinha: no máximo um eleito na eleição ordinária
+- ✅ 2008 Benjamin Constant: no máximo um eleito na eleição ordinária
+- ✅ 2008 Beruri: no máximo um eleito na eleição ordinária
+- ✅ 2008 Boa Vista do Ramos: no máximo um eleito na eleição ordinária
+- ✅ 2008 Boca do Acre: no máximo um eleito na eleição ordinária
+- ✅ 2008 Borba: no máximo um eleito na eleição ordinária
+- ✅ 2008 Caapiranga: no máximo um eleito na eleição ordinária
+- ✅ 2008 Canutama: no máximo um eleito na eleição ordinária
+- ✅ 2008 Carauari: no máximo um eleito na eleição ordinária
+- ✅ 2008 Careiro: no máximo um eleito na eleição ordinária
+- ✅ 2008 Careiro da Várzea: no máximo um eleito na eleição ordinária
+- ✅ 2008 Coari: no máximo um eleito na eleição ordinária
+- ✅ 2008 Codajás: no máximo um eleito na eleição ordinária
+- ✅ 2008 Eirunepé: no máximo um eleito na eleição ordinária
+- ✅ 2008 Envira: no máximo um eleito na eleição ordinária
+- ✅ 2008 Fonte Boa: no máximo um eleito na eleição ordinária
+- ✅ 2008 Guajará: no máximo um eleito na eleição ordinária
+- ✅ 2008 Humaitá: no máximo um eleito na eleição ordinária
+- ✅ 2008 Ipixuna: no máximo um eleito na eleição ordinária
+- ✅ 2008 Iranduba: no máximo um eleito na eleição ordinária
+- ✅ 2008 Itacoatiara: no máximo um eleito na eleição ordinária
+- ✅ 2008 Itamarati: no máximo um eleito na eleição ordinária
+- ✅ 2008 Itapiranga: no máximo um eleito na eleição ordinária
+- ✅ 2008 Japurá: no máximo um eleito na eleição ordinária
+- ✅ 2008 Juruá: no máximo um eleito na eleição ordinária
+- ✅ 2008 Jutaí: no máximo um eleito na eleição ordinária
+- ✅ 2008 Lábrea: no máximo um eleito na eleição ordinária
+- ✅ 2008 Manacapuru: no máximo um eleito na eleição ordinária
+- ✅ 2008 Manaquiri: no máximo um eleito na eleição ordinária
+- ✅ 2008 Manaus: no máximo um eleito na eleição ordinária
+- ✅ 2008 Manicoré: no máximo um eleito na eleição ordinária
+- ✅ 2008 Maraã: no máximo um eleito na eleição ordinária
+- ✅ 2008 Maués: no máximo um eleito na eleição ordinária
+- ✅ 2008 Nhamundá: no máximo um eleito na eleição ordinária
+- ✅ 2008 Nova Olinda do Norte: no máximo um eleito na eleição ordinária
+- ✅ 2008 Novo Airão: no máximo um eleito na eleição ordinária
+- ✅ 2008 Novo Aripuanã: no máximo um eleito na eleição ordinária
+- ✅ 2008 Parintins: no máximo um eleito na eleição ordinária
+- ✅ 2008 Pauini: no máximo um eleito na eleição ordinária
+- ✅ 2008 Presidente Figueiredo: no máximo um eleito na eleição ordinária
+- ✅ 2008 Rio Preto da Eva: no máximo um eleito na eleição ordinária
+- ✅ 2008 Santa Isabel do Rio Negro: no máximo um eleito na eleição ordinária
+- ✅ 2008 Santo Antônio do Içá: no máximo um eleito na eleição ordinária
+- ✅ 2008 Silves: no máximo um eleito na eleição ordinária
+- ✅ 2008 São Gabriel da Cachoeira: no máximo um eleito na eleição ordinária
+- ✅ 2008 São Paulo de Olivença: no máximo um eleito na eleição ordinária
+- ✅ 2008 São Sebastião do Uatumã: no máximo um eleito na eleição ordinária
+- ✅ 2008 Tabatinga: no máximo um eleito na eleição ordinária
+- ✅ 2008 Tapauá: no máximo um eleito na eleição ordinária
+- ✅ 2008 Tefé: no máximo um eleito na eleição ordinária
+- ✅ 2008 Tonantins: no máximo um eleito na eleição ordinária
+- ✅ 2008 Uarini: no máximo um eleito na eleição ordinária
+- ✅ 2008 Urucará: no máximo um eleito na eleição ordinária
+- ✅ 2008 Urucurituba: no máximo um eleito na eleição ordinária
+- ✅ 2008 Alvarães Mário Tomás Litaiff: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Amaturá João Braga Dias: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Anamã Raimundo Pinheiro Da Silva: início 2009-01-01 ≤ fim 2010-12-19
+- ✅ 2008 Anamã Jecimar Pinheiro Matos: início 2010-12-19 ≤ fim 2012-12-31
+- ✅ 2008 Anori Sansuray Pereira Xavier: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Apuí Antonio Marcos Maciel Fernandes: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Atalaia do Norte Anete Peres Castro Pinto: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Autazes Raimundo Wanderlan Penalber Sampaio: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Barcelos Jose Ribamar Fontes Beleza: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Barreirinha Mecias Pereira Batista: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Benjamin Constant José Maria Freitas Da Silva Júnior: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Beruri José Domingos De Oliveira: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Boa Vista do Ramos Elmir Lima Mota: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Boca do Acre Maria Das Dores Oliveira Munhoz: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Borba Antonio Jose Muniz Cavalcante: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Caapiranga Antonio Ferreira Lima: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Canutama Joao Ocivaldo Batista De Amorim: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Carauari Francisco Costa Dos Santos: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Careiro Joel Rodrigues Lobo: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Careiro da Várzea Raimundo Nonato Da Silva: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Coari Rodrigo Alves Da Costa: início 2009-01-01 ≤ fim 2009-09-20
+- ✅ 2008 Coari Arnaldo Almeida Mitouso: início 2009-09-20 ≤ fim 2012-12-31
+- ✅ 2008 Codajás Agnaldo Da Paz Dantas: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Eirunepé Francisco Das Chagas Dissica Valério Tomaz: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Envira Rômulo Barbosa Mattos: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Fonte Boa Antonio Gomes Ferreira: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Guajará Manoel Helio Alves De Paula: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Humaitá José Cidenei Lobo Do Nascimento: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Ipixuna Ana Maria Farias De Oliveira: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Iranduba Raymundo Nonato Lopes: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Itacoatiara Antonio Peixoto De Oliveira: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Itamarati Joao Medeiros Campelo: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Itapiranga Nadiel Serrão Do Nascimento: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Japurá Maria Rosineide Mourao Solarte: início 2009-01-01 ≤ fim 2009-02-15
+- ✅ 2008 Japurá Raimundo Guedes Dos Santos: início 2009-02-15 ≤ fim 2012-12-31
+- ✅ 2008 Juruá Edezio Ferreira Da Silva: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Jutaí Asclepíades Costa De Souza: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Lábrea Gean Campos De Barros: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Manacapuru Edson Bastos Bessa: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Manaquiri Jair Aguiar Souto: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Manaus Amazonino Armando Mendes: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Manicoré Emerson Pedraca De Franca: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Maraã Dilmar Santos Avila: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Maués Odivaldo Miguel De Oliveira Paiva: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Nhamundá Tomaz De Souza Pontes: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Nova Olinda do Norte Adenilson Lima Reis: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Novo Airão Leosvaldo Roque Migueis: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Novo Aripuanã Aminadab Meira De Santana: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Parintins Frank Luiz Da Cunha Garcia: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Pauini Maria Barroso Da Costa: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Presidente Figueiredo Antonio Fernando Fontes Vieira: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Rio Preto da Eva Fullvio Da Silva Pinto: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Santa Isabel do Rio Negro Eliete Da Cunha Beleza: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Santo Antônio do Içá Antunes Bitar Ruas: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Silves (não identificado no TSE): início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 São Gabriel da Cachoeira Pedro Garcia: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 São Paulo de Olivença Raimundo Nonato Souza Martins: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 São Sebastião do Uatumã Carlos Da Silva Amora: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Tabatinga Saul Nunes Bemerguy: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Tapauá Claudio Gomes Dias: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Tefé Sidonio Trindade Goncalves: início 2009-01-01 ≤ fim 2011-01-23
+- ✅ 2008 Tefé Jucimar De Oliveira Veloso: início 2011-01-23 ≤ fim 2012-12-31
+- ✅ 2008 Tonantins Fabio Da Silva Cabral: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Uarini Francisco Togo Soares: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Urucará Fernando Falabella: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008 Urucurituba Edivaldo Silva Araújo: início 2009-01-01 ≤ fim 2012-12-31
+- ✅ 2008: os 62 municípios têm ao menos uma linha de mandato (62)
+- ✅ 2012: 0 candidatura(s) recuperada(s) do arquivo de votação
+- ✅ 2012: votos encontrados para 219 de 230 candidatos que disputaram (mínimo 95%)
+- ✅ 2012 Itacoatiara: eleito Mamoud Amed Filho tem vice no TSE
+- ✅ 2012 Rio Preto da Eva: eleito Luiz Ricardo De Moura Chagas tem vice no TSE
+- ✅ 2012 Urucará: eleito Felipe Antonio tem vice no TSE
+- ✅ 2012 Autazes: eleito Raimundo Wanderlan Penalber Sampaio tem vice no TSE
+- ✅ 2012 Anamã: eleito Jecimar Pinheiro Matos tem vice no TSE
+- ✅ 2012 Envira: eleito Ivon Rates Da Silva tem vice no TSE
+- ✅ 2012 Silves: eleito Franrossi De Oliveira Lira tem vice no TSE
+- ✅ 2012 Urucurituba: eleito Pedro Amorim Rocha tem vice no TSE
+- ✅ 2012 Anori: eleito Sansuray Pereira Xavier tem vice no TSE
+- ✅ 2012 Japurá: eleito Raimundo Guedes Dos Santos tem vice no TSE
+- ✅ 2012 Jutaí: eleito Marlene Gonçalves Cardoso tem vice no TSE
+- ✅ 2012 Barreirinha: eleito Mecias Pereira Batista tem vice no TSE
+- ✅ 2012 Careiro da Várzea: eleito Pedro Duarte Guedes tem vice no TSE
+- ✅ 2012 Fonte Boa: eleito Jose Suediney De Souza Araujo tem vice no TSE
+- ✅ 2012 Ipixuna: eleito Aguimar Silverio Da Silva tem vice no TSE
+- ✅ 2012 Boa Vista do Ramos: eleito Amintas Junior Lopes Pinheiro tem vice no TSE
+- ✅ 2012 Atalaia do Norte: eleito Nonato Do Nascimento Tenazor tem vice no TSE
+- ✅ 2012 Carauari: eleito Francisco Costa Dos Santos tem vice no TSE
+- ✅ 2012 Iranduba: eleito Xinaik Silva De Medeiros tem vice no TSE
+- ✅ 2012 São Gabriel da Cachoeira: eleito Rene Coimbra tem vice no TSE
+- ✅ 2012 Manaus: eleito Arthur Virgilio Do Carmo Ribeiro Neto tem vice no TSE
+- ✅ 2012 Caapiranga: eleito Zilmar Almeida De Sales tem vice no TSE
+- ✅ 2012 Parintins: eleito Carlos Alexandre Ferreira Silva tem vice no TSE
+- ✅ 2012 Uarini: eleito Carlos Gonçalves De Souza Neto tem vice no TSE
+- ✅ 2012 Benjamin Constant: eleito Iracema Maia Da Silva tem vice no TSE
+- ✅ 2012 São Sebastião do Uatumã: eleito Adalberto Silveira Leite tem vice no TSE
+- ✅ 2012 Itapiranga: eleito Nadiel Serrão Do Nascimento tem vice no TSE
+- ✅ 2012 Tonantins: eleito Simeao Garcia Do Nascimento tem vice no TSE
+- ✅ 2012 Humaitá: eleito José Cidenei Lobo Do Nascimento tem vice no TSE
+- ✅ 2012 Manacapuru: eleito Washington Luis Régis Da Silva tem vice no TSE
+- ✅ 2012 Santo Antônio do Içá: eleito Abraao Magalhaes Lasmar tem vice no TSE
+- ✅ 2012 Manicoré: eleito Lúcio Flávio Do Rosário tem vice no TSE
+- ✅ 2012 Maués: eleito Raimundo Carlos Goes Pinheiro tem vice no TSE
+- ✅ 2012 Novo Aripuanã: eleito Raimundo Robson De Sá tem vice no TSE
+- ✅ 2012 São Paulo de Olivença: eleito Raimundo Nonato Souza Martins tem vice no TSE
+- ✅ 2012 Tabatinga: eleito Raimundo Carvalho Caldas tem vice no TSE
+- ✅ 2012 Codajás: eleito Abrahan Lincon Dib Bastos tem vice no TSE
+- ✅ 2012 Nova Olinda do Norte: eleito Joseias Lopes Da Silva tem vice no TSE
+- ✅ 2012 Canutama: eleito Joao Ocivaldo Batista De Amorim tem vice no TSE
+- ✅ 2012 Itamarati: eleito Joao Medeiros Campelo tem vice no TSE
+- ✅ 2012 Tefé: eleito Antenor Moreira Paz tem vice no TSE
+- ✅ 2012 Manaquiri: eleito Aguinaldo Martins Rodrigues tem vice no TSE
+- ✅ 2012 Pauini: eleito Maria Barroso Da Costa tem vice no TSE
+- ✅ 2012 Eirunepé: eleito Joaquim Neto Cavalcante Monteiro tem vice no TSE
+- ✅ 2012 Amaturá: eleito João Braga Dias tem vice no TSE
+- ✅ 2012 Tapauá: eleito Almino Goncalves De Albuquerque tem vice no TSE
+- ✅ 2012 Barcelos: eleito Jose Ribamar Fontes Beleza tem vice no TSE
+- ✅ 2012 Juruá: eleito Tabira Ramos Dias Ferreira tem vice no TSE
+- ✅ 2012 Novo Airão: eleito Lindinalva Ferreira Silva tem vice no TSE
+- ✅ 2012 Maraã: eleito Cicero Lopes Da Silva tem vice no TSE
+- ✅ 2012 Coari: eleito Manoel Adail Amaral Pinheiro tem vice no TSE
+- ✅ 2012 Santa Isabel do Rio Negro: eleito Mariolino Siqueira De Oliveira tem vice no TSE
+- ✅ 2012 Boca do Acre: eleito Antonio Iran De Souza Lima tem vice no TSE
+- ✅ 2012 Presidente Figueiredo: eleito Neilson Da Cruz Cavalcante tem vice no TSE
+- ✅ 2012 Borba: eleito Jose Maria Da Silva Maia tem vice no TSE
+- ✅ 2012 Apuí: eleito Adimilson Nogueira tem vice no TSE
+- ✅ 2012 Guajará: eleito Manoel Helio Alves De Paula tem vice no TSE
+- ✅ 2012 Beruri: eleito Odemilson Lima Magalhães tem vice no TSE
+- ✅ 2012 Nhamundá: eleito Gledson Hadson Paulain Machado tem vice no TSE
+- ✅ 2012 Lábrea: eleito Evaldo De Souza Gomes tem vice no TSE
+- ✅ 2012 Alvarães: eleito Mario Tomas Litaiff tem vice no TSE
+- ✅ 2012 Careiro: eleito Hamilton Alves Villar tem vice no TSE
+- ✅ 2012 Alvarães: no máximo um eleito na eleição ordinária
+- ✅ 2012 Amaturá: no máximo um eleito na eleição ordinária
+- ✅ 2012 Anamã: no máximo um eleito na eleição ordinária
+- ✅ 2012 Anori: no máximo um eleito na eleição ordinária
+- ✅ 2012 Apuí: no máximo um eleito na eleição ordinária
+- ✅ 2012 Atalaia do Norte: no máximo um eleito na eleição ordinária
+- ✅ 2012 Autazes: no máximo um eleito na eleição ordinária
+- ✅ 2012 Barcelos: no máximo um eleito na eleição ordinária
+- ✅ 2012 Barreirinha: no máximo um eleito na eleição ordinária
+- ✅ 2012 Benjamin Constant: no máximo um eleito na eleição ordinária
+- ✅ 2012 Beruri: no máximo um eleito na eleição ordinária
+- ✅ 2012 Boa Vista do Ramos: no máximo um eleito na eleição ordinária
+- ✅ 2012 Boca do Acre: no máximo um eleito na eleição ordinária
+- ✅ 2012 Borba: no máximo um eleito na eleição ordinária
+- ✅ 2012 Caapiranga: no máximo um eleito na eleição ordinária
+- ✅ 2012 Canutama: no máximo um eleito na eleição ordinária
+- ✅ 2012 Carauari: no máximo um eleito na eleição ordinária
+- ✅ 2012 Careiro: no máximo um eleito na eleição ordinária
+- ✅ 2012 Careiro da Várzea: no máximo um eleito na eleição ordinária
+- ✅ 2012 Coari: no máximo um eleito na eleição ordinária
+- ✅ 2012 Codajás: no máximo um eleito na eleição ordinária
+- ✅ 2012 Eirunepé: no máximo um eleito na eleição ordinária
+- ✅ 2012 Envira: no máximo um eleito na eleição ordinária
+- ✅ 2012 Fonte Boa: no máximo um eleito na eleição ordinária
+- ✅ 2012 Guajará: no máximo um eleito na eleição ordinária
+- ✅ 2012 Humaitá: no máximo um eleito na eleição ordinária
+- ✅ 2012 Ipixuna: no máximo um eleito na eleição ordinária
+- ✅ 2012 Iranduba: no máximo um eleito na eleição ordinária
+- ✅ 2012 Itacoatiara: no máximo um eleito na eleição ordinária
+- ✅ 2012 Itamarati: no máximo um eleito na eleição ordinária
+- ✅ 2012 Itapiranga: no máximo um eleito na eleição ordinária
+- ✅ 2012 Japurá: no máximo um eleito na eleição ordinária
+- ✅ 2012 Juruá: no máximo um eleito na eleição ordinária
+- ✅ 2012 Jutaí: no máximo um eleito na eleição ordinária
+- ✅ 2012 Lábrea: no máximo um eleito na eleição ordinária
+- ✅ 2012 Manacapuru: no máximo um eleito na eleição ordinária
+- ✅ 2012 Manaquiri: no máximo um eleito na eleição ordinária
+- ✅ 2012 Manaus: no máximo um eleito na eleição ordinária
+- ✅ 2012 Manicoré: no máximo um eleito na eleição ordinária
+- ✅ 2012 Maraã: no máximo um eleito na eleição ordinária
+- ✅ 2012 Maués: no máximo um eleito na eleição ordinária
+- ✅ 2012 Nhamundá: no máximo um eleito na eleição ordinária
+- ✅ 2012 Nova Olinda do Norte: no máximo um eleito na eleição ordinária
+- ✅ 2012 Novo Airão: no máximo um eleito na eleição ordinária
+- ✅ 2012 Novo Aripuanã: no máximo um eleito na eleição ordinária
+- ✅ 2012 Parintins: no máximo um eleito na eleição ordinária
+- ✅ 2012 Pauini: no máximo um eleito na eleição ordinária
+- ✅ 2012 Presidente Figueiredo: no máximo um eleito na eleição ordinária
+- ✅ 2012 Rio Preto da Eva: no máximo um eleito na eleição ordinária
+- ✅ 2012 Santa Isabel do Rio Negro: no máximo um eleito na eleição ordinária
+- ✅ 2012 Santo Antônio do Içá: no máximo um eleito na eleição ordinária
+- ✅ 2012 Silves: no máximo um eleito na eleição ordinária
+- ✅ 2012 São Gabriel da Cachoeira: no máximo um eleito na eleição ordinária
+- ✅ 2012 São Paulo de Olivença: no máximo um eleito na eleição ordinária
+- ✅ 2012 São Sebastião do Uatumã: no máximo um eleito na eleição ordinária
+- ✅ 2012 Tabatinga: no máximo um eleito na eleição ordinária
+- ✅ 2012 Tapauá: no máximo um eleito na eleição ordinária
+- ✅ 2012 Tefé: no máximo um eleito na eleição ordinária
+- ✅ 2012 Tonantins: no máximo um eleito na eleição ordinária
+- ✅ 2012 Uarini: no máximo um eleito na eleição ordinária
+- ✅ 2012 Urucará: no máximo um eleito na eleição ordinária
+- ✅ 2012 Urucurituba: no máximo um eleito na eleição ordinária
+- ✅ 2012 Alvarães Mario Tomas Litaiff: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Amaturá João Braga Dias: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Anamã Jecimar Pinheiro Matos: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Anori Sansuray Pereira Xavier: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Apuí Adimilson Nogueira: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Atalaia do Norte Nonato Do Nascimento Tenazor: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Autazes Raimundo Wanderlan Penalber Sampaio: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Barcelos Jose Ribamar Fontes Beleza: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Barreirinha Mecias Pereira Batista: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Benjamin Constant Iracema Maia Da Silva: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Beruri Odemilson Lima Magalhães: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Boa Vista do Ramos Amintas Junior Lopes Pinheiro: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Boca do Acre Antonio Iran De Souza Lima: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Borba Jose Maria Da Silva Maia: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Caapiranga Zilmar Almeida De Sales: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Canutama Joao Ocivaldo Batista De Amorim: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Carauari Francisco Costa Dos Santos: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Careiro Hamilton Alves Villar: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Careiro da Várzea Pedro Duarte Guedes: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Coari Manoel Adail Amaral Pinheiro: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Codajás Abrahan Lincon Dib Bastos: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Eirunepé Joaquim Neto Cavalcante Monteiro: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Envira Ivon Rates Da Silva: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Fonte Boa Jose Suediney De Souza Araujo: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Guajará Manoel Helio Alves De Paula: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Humaitá José Cidenei Lobo Do Nascimento: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Ipixuna Aguimar Silverio Da Silva: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Iranduba Xinaik Silva De Medeiros: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Itacoatiara Mamoud Amed Filho: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Itamarati Joao Medeiros Campelo: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Itapiranga Nadiel Serrão Do Nascimento: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Japurá Raimundo Guedes Dos Santos: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Juruá Tabira Ramos Dias Ferreira: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Jutaí Marlene Gonçalves Cardoso: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Lábrea Evaldo De Souza Gomes: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Manacapuru Washington Luis Régis Da Silva: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Manaquiri Aguinaldo Martins Rodrigues: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Manaus Arthur Virgilio Do Carmo Ribeiro Neto: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Manicoré Lúcio Flávio Do Rosário: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Maraã Cicero Lopes Da Silva: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Maués Raimundo Carlos Goes Pinheiro: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Nhamundá Gledson Hadson Paulain Machado: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Nova Olinda do Norte Joseias Lopes Da Silva: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Novo Airão Lindinalva Ferreira Silva: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Novo Aripuanã Raimundo Robson De Sá: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Parintins Carlos Alexandre Ferreira Silva: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Pauini Maria Barroso Da Costa: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Presidente Figueiredo Neilson Da Cruz Cavalcante: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Rio Preto da Eva Luiz Ricardo De Moura Chagas: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Santa Isabel do Rio Negro Mariolino Siqueira De Oliveira: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Santo Antônio do Içá Abraao Magalhaes Lasmar: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Silves Franrossi De Oliveira Lira: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 São Gabriel da Cachoeira Rene Coimbra: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 São Paulo de Olivença Raimundo Nonato Souza Martins: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 São Sebastião do Uatumã Adalberto Silveira Leite: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Tabatinga Raimundo Carvalho Caldas: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Tapauá Almino Goncalves De Albuquerque: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Tefé Antenor Moreira Paz: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Tonantins Simeao Garcia Do Nascimento: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Uarini Carlos Gonçalves De Souza Neto: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Urucará Felipe Antonio: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012 Urucurituba Pedro Amorim Rocha: início 2013-01-01 ≤ fim 2016-12-31
+- ✅ 2012: os 62 municípios têm ao menos uma linha de mandato (62)
+- ✅ 2016: 0 candidatura(s) recuperada(s) do arquivo de votação
+- ✅ 2016: votos encontrados para 254 de 263 candidatos que disputaram (mínimo 95%)
+- ✅ 2016 Coari: eleito Adail Jose Figueiredo Pinheiro tem vice no TSE
+- ✅ 2016 São Paulo de Olivença: eleito Paulo De Oliveira Mafra tem vice no TSE
+- ✅ 2016 Caapiranga: eleito Antonio Ferreira Lima tem vice no TSE
+- ✅ 2016 Santo Antônio do Içá: eleito Abraão Magalhães Lasmar tem vice no TSE
+- ✅ 2016 Novo Airão: eleito Roberto Frederico Paes Junior tem vice no TSE
+- ✅ 2016 Caapiranga: eleito Francisco Andrade Braz tem vice no TSE
+- ✅ 2016 Careiro da Várzea: eleito Pedro Duarte Guedes tem vice no TSE
+- ✅ 2016 Silves: eleito Aristides Queiroz De Oliveira Neto tem vice no TSE
+- ✅ 2016 Atalaia do Norte: eleito Nonato Do Nascimento Tenazor tem vice no TSE
+- ✅ 2016 Novo Aripuanã: eleito Aminadab Meira De Santana tem vice no TSE
+- ✅ 2016 Anori: eleito Jamilson Ribeiro Carvalho tem vice no TSE
+- ✅ 2016 Boa Vista do Ramos: eleito Eraldo Trindade Da Silva tem vice no TSE
+- ✅ 2016 Jutaí: eleito Pedro Macario Barboza tem vice no TSE
+- ✅ 2016 Novo Airão: eleito Wilton Pereira Dos Santos tem vice no TSE
+- ✅ 2016 Novo Aripuanã: eleito Jocione Dos Santos Souza tem vice no TSE
+- ✅ 2016 Tonantins: eleito Lazaro De Souza Martins tem vice no TSE
+- ✅ 2016 Maraã: eleito Luiz Magno Praiano Moraes tem vice no TSE
+- ✅ 2016 Japurá: eleito Gracineide Lopes De Souza tem vice no TSE
+- ✅ 2016 Envira: eleito Ivon Rates Da Silva tem vice no TSE
+- ✅ 2016 Canutama: eleito Otaniel Lyra De Oliveira tem vice no TSE
+- ✅ 2016 Humaitá: eleito Herivaneo Vieira De Oliveira tem vice no TSE
+- ✅ 2016 Tapauá: eleito José Bezerra Guedes tem vice no TSE
+- ✅ 2016 Borba: eleito Simão Peixoto Lima tem vice no TSE
+- ✅ 2016 Nova Olinda do Norte: eleito Adenilson Lima Reis tem vice no TSE
+- ✅ 2016 Guajará: eleito Ordean Gonzaga Da Silva tem vice no TSE
+- ✅ 2016 Barreirinha: eleito Glenio José Marques Seixas tem vice no TSE
+- ✅ 2016 Amaturá: eleito Joaquim Francisco Da Silva Corado tem vice no TSE
+- ✅ 2016 Anamã: eleito Raimundo Pinheiro Da Silva tem vice no TSE
+- ✅ 2016 Pauini: eleito Eliana Oliveira Amorim tem vice no TSE
+- ✅ 2016 São Sebastião do Uatumã: eleito Fernando Falabella tem vice no TSE
+- ✅ 2016 Uarini: eleito Antonio Waldetrudes Uchoa De Brito tem vice no TSE
+- ✅ 2016 Manaus: eleito Arthur Virgilio Do Carmo Ribeiro Neto tem vice no TSE
+- ✅ 2016 Tefé: eleito Normando Bessa De Sa tem vice no TSE
+- ✅ 2016 Lábrea: eleito Gean Campos De Barros tem vice no TSE
+- ✅ 2016 Manicoré: eleito Manuel Sebastião Pimentel De Medeiros tem vice no TSE
+- ✅ 2016 Ipixuna: eleito Maria Do Socorro De Paula Oliveira tem vice no TSE
+- ✅ 2016 Eirunepé: eleito Raylan Barroso De Alencar tem vice no TSE
+- ✅ 2016 Iranduba: eleito Francisco Gomes Da Silva tem vice no TSE
+- ✅ 2016 Urucurituba: eleito Jose Claudenor De Castro Pontes tem vice no TSE
+- ✅ 2016 Manaquiri: eleito Jair Aguiar Souto tem vice no TSE
+- ✅ 2016 Alvarães: eleito Edy Rubem Tomas Barboza tem vice no TSE
+- ✅ 2016 Fonte Boa: eleito Gilberto Ferreira Lisboa tem vice no TSE
+- ✅ 2016 Itamarati: eleito Antonio Maia Da Silva tem vice no TSE
+- ✅ 2016 Tabatinga: eleito Saul Nunes Bemerguy tem vice no TSE
+- ✅ 2016 Beruri: eleito Maria Lucir Santos De Oliveira tem vice no TSE
+- ✅ 2016 Codajás: eleito Abraham Lincoln Dib Bastos tem vice no TSE
+- ✅ 2016 Benjamin Constant: eleito David Nunes Bemerguy tem vice no TSE
+- ✅ 2016 Apuí: eleito Antonio Roque Longo tem vice no TSE
+- ✅ 2016 Barcelos: eleito Edson De Paula Rodrigues Mendes tem vice no TSE
+- ✅ 2016 Juruá: eleito Jose Maria Rodrigues Da Rocha Junior tem vice no TSE
+- ✅ 2016 São Gabriel da Cachoeira: eleito Clovis Moreira Saldanha tem vice no TSE
+- ✅ 2016 Boca do Acre: eleito Jose Maria Silva Da Cruz tem vice no TSE
+- ✅ 2016 Parintins: eleito Frank Luiz Da Cunha Garcia tem vice no TSE
+- ✅ 2016 Maués: eleito Carlos Roberto De Oliveira Júnior tem vice no TSE
+- ✅ 2016 Itacoatiara: eleito Antonio Peixoto De Oliveira tem vice no TSE
+- ✅ 2016 Autazes: eleito Andreson Adriano Oliveira Cavalcante tem vice no TSE
+- ✅ 2016 Santa Isabel do Rio Negro: eleito Araildo Mendes Do Nascimento tem vice no TSE
+- ✅ 2016 Manacapuru: eleito Betanael Da Silva Dangelo tem vice no TSE
+- ✅ 2016 Presidente Figueiredo: eleito Romeiro Jose Costeira De Mendonca tem vice no TSE
+- ✅ 2016 Urucará: eleito Enrico De Souza Falabella tem vice no TSE
+- ✅ 2016 Carauari: eleito Bruno Luis Litaiff Ramalho tem vice no TSE
+- ✅ 2016 Itapiranga: eleito Denise De Farias Lima tem vice no TSE
+- ✅ 2016 Nhamundá: eleito Gledson Hadson Paulain Machado tem vice no TSE
+- ✅ 2016 Careiro: eleito Nathan Macena De Souza tem vice no TSE
+- ✅ 2016 Rio Preto da Eva: eleito Anderson José De Souza tem vice no TSE
+- ✅ 2016 Anamã: eleito Francisco Nunes Bastos tem vice no TSE
+- ✅ 2016 Alvarães: no máximo um eleito na eleição ordinária
+- ✅ 2016 Amaturá: no máximo um eleito na eleição ordinária
+- ✅ 2016 Anamã: no máximo um eleito na eleição ordinária
+- ✅ 2016 Anori: no máximo um eleito na eleição ordinária
+- ✅ 2016 Apuí: no máximo um eleito na eleição ordinária
+- ✅ 2016 Atalaia do Norte: no máximo um eleito na eleição ordinária
+- ✅ 2016 Autazes: no máximo um eleito na eleição ordinária
+- ✅ 2016 Barcelos: no máximo um eleito na eleição ordinária
+- ✅ 2016 Barreirinha: no máximo um eleito na eleição ordinária
+- ✅ 2016 Benjamin Constant: no máximo um eleito na eleição ordinária
+- ✅ 2016 Beruri: no máximo um eleito na eleição ordinária
+- ✅ 2016 Boa Vista do Ramos: no máximo um eleito na eleição ordinária
+- ✅ 2016 Boca do Acre: no máximo um eleito na eleição ordinária
+- ✅ 2016 Borba: no máximo um eleito na eleição ordinária
+- ✅ 2016 Caapiranga: no máximo um eleito na eleição ordinária
+- ✅ 2016 Canutama: no máximo um eleito na eleição ordinária
+- ✅ 2016 Carauari: no máximo um eleito na eleição ordinária
+- ✅ 2016 Careiro: no máximo um eleito na eleição ordinária
+- ✅ 2016 Careiro da Várzea: no máximo um eleito na eleição ordinária
+- ✅ 2016 Coari: no máximo um eleito na eleição ordinária
+- ✅ 2016 Codajás: no máximo um eleito na eleição ordinária
+- ✅ 2016 Eirunepé: no máximo um eleito na eleição ordinária
+- ✅ 2016 Envira: no máximo um eleito na eleição ordinária
+- ✅ 2016 Fonte Boa: no máximo um eleito na eleição ordinária
+- ✅ 2016 Guajará: no máximo um eleito na eleição ordinária
+- ✅ 2016 Humaitá: no máximo um eleito na eleição ordinária
+- ✅ 2016 Ipixuna: no máximo um eleito na eleição ordinária
+- ✅ 2016 Iranduba: no máximo um eleito na eleição ordinária
+- ✅ 2016 Itacoatiara: no máximo um eleito na eleição ordinária
+- ✅ 2016 Itamarati: no máximo um eleito na eleição ordinária
+- ✅ 2016 Itapiranga: no máximo um eleito na eleição ordinária
+- ✅ 2016 Japurá: no máximo um eleito na eleição ordinária
+- ✅ 2016 Juruá: no máximo um eleito na eleição ordinária
+- ✅ 2016 Jutaí: no máximo um eleito na eleição ordinária
+- ✅ 2016 Lábrea: no máximo um eleito na eleição ordinária
+- ✅ 2016 Manacapuru: no máximo um eleito na eleição ordinária
+- ✅ 2016 Manaquiri: no máximo um eleito na eleição ordinária
+- ✅ 2016 Manaus: no máximo um eleito na eleição ordinária
+- ✅ 2016 Manicoré: no máximo um eleito na eleição ordinária
+- ✅ 2016 Maraã: no máximo um eleito na eleição ordinária
+- ✅ 2016 Maués: no máximo um eleito na eleição ordinária
+- ✅ 2016 Nhamundá: no máximo um eleito na eleição ordinária
+- ✅ 2016 Nova Olinda do Norte: no máximo um eleito na eleição ordinária
+- ✅ 2016 Novo Airão: no máximo um eleito na eleição ordinária
+- ✅ 2016 Novo Aripuanã: no máximo um eleito na eleição ordinária
+- ✅ 2016 Parintins: no máximo um eleito na eleição ordinária
+- ✅ 2016 Pauini: no máximo um eleito na eleição ordinária
+- ✅ 2016 Presidente Figueiredo: no máximo um eleito na eleição ordinária
+- ✅ 2016 Rio Preto da Eva: no máximo um eleito na eleição ordinária
+- ✅ 2016 Santa Isabel do Rio Negro: no máximo um eleito na eleição ordinária
+- ✅ 2016 Santo Antônio do Içá: no máximo um eleito na eleição ordinária
+- ✅ 2016 Silves: no máximo um eleito na eleição ordinária
+- ✅ 2016 São Gabriel da Cachoeira: no máximo um eleito na eleição ordinária
+- ✅ 2016 São Paulo de Olivença: no máximo um eleito na eleição ordinária
+- ✅ 2016 São Sebastião do Uatumã: no máximo um eleito na eleição ordinária
+- ✅ 2016 Tabatinga: no máximo um eleito na eleição ordinária
+- ✅ 2016 Tapauá: no máximo um eleito na eleição ordinária
+- ✅ 2016 Tefé: no máximo um eleito na eleição ordinária
+- ✅ 2016 Tonantins: no máximo um eleito na eleição ordinária
+- ✅ 2016 Uarini: no máximo um eleito na eleição ordinária
+- ✅ 2016 Urucará: no máximo um eleito na eleição ordinária
+- ✅ 2016 Urucurituba: no máximo um eleito na eleição ordinária
+- ✅ 2016 Alvarães Edy Rubem Tomas Barboza: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Amaturá Joaquim Francisco Da Silva Corado: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Anamã Raimundo Pinheiro Da Silva: início 2017-01-01 ≤ fim 2018-10-28
+- ✅ 2016 Anamã Francisco Nunes Bastos: início 2018-10-28 ≤ fim 2020-12-31
+- ✅ 2016 Anori Jamilson Ribeiro Carvalho: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Apuí Antonio Roque Longo: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Atalaia do Norte Nonato Do Nascimento Tenazor: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Autazes Andreson Adriano Oliveira Cavalcante: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Barcelos Edson De Paula Rodrigues Mendes: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Barreirinha Glenio José Marques Seixas: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Benjamin Constant David Nunes Bemerguy: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Beruri Maria Lucir Santos De Oliveira: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Boa Vista do Ramos Eraldo Trindade Da Silva: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Boca do Acre Jose Maria Silva Da Cruz: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Borba Simão Peixoto Lima: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Caapiranga Antonio Ferreira Lima: início 2017-01-01 ≤ fim 2019-04-07
+- ✅ 2016 Caapiranga Francisco Andrade Braz: início 2019-04-07 ≤ fim 2020-12-31
+- ✅ 2016 Canutama Otaniel Lyra De Oliveira: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Carauari Bruno Luis Litaiff Ramalho: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Careiro Nathan Macena De Souza: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Careiro da Várzea Pedro Duarte Guedes: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Coari Adail Jose Figueiredo Pinheiro: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Codajás Abraham Lincoln Dib Bastos: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Eirunepé Raylan Barroso De Alencar: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Envira Ivon Rates Da Silva: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Fonte Boa Gilberto Ferreira Lisboa: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Guajará Ordean Gonzaga Da Silva: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Humaitá Herivaneo Vieira De Oliveira: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Ipixuna Maria Do Socorro De Paula Oliveira: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Iranduba Francisco Gomes Da Silva: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Itacoatiara Antonio Peixoto De Oliveira: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Itamarati Antonio Maia Da Silva: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Itapiranga Denise De Farias Lima: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Japurá Gracineide Lopes De Souza: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Juruá Jose Maria Rodrigues Da Rocha Junior: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Jutaí Pedro Macario Barboza: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Lábrea Gean Campos De Barros: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Manacapuru Betanael Da Silva Dangelo: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Manaquiri Jair Aguiar Souto: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Manaus Arthur Virgilio Do Carmo Ribeiro Neto: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Manicoré Manuel Sebastião Pimentel De Medeiros: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Maraã Luiz Magno Praiano Moraes: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Maués Carlos Roberto De Oliveira Júnior: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Nhamundá Gledson Hadson Paulain Machado: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Nova Olinda do Norte Adenilson Lima Reis: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Novo Airão Wilton Pereira Dos Santos: início 2017-01-01 ≤ fim 2018-10-28
+- ✅ 2016 Novo Airão Roberto Frederico Paes Junior: início 2018-10-28 ≤ fim 2020-12-31
+- ✅ 2016 Novo Aripuanã Aminadab Meira De Santana: início 2017-01-01 ≤ fim 2018-02-04
+- ✅ 2016 Novo Aripuanã Jocione Dos Santos Souza: início 2018-02-04 ≤ fim 2020-12-31
+- ✅ 2016 Parintins Frank Luiz Da Cunha Garcia: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Pauini Eliana Oliveira Amorim: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Presidente Figueiredo Romeiro Jose Costeira De Mendonca: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Rio Preto da Eva Anderson José De Souza: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Santa Isabel do Rio Negro Araildo Mendes Do Nascimento: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Santo Antônio do Içá Abraão Magalhães Lasmar: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Silves Aristides Queiroz De Oliveira Neto: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 São Gabriel da Cachoeira Clovis Moreira Saldanha: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 São Paulo de Olivença Paulo De Oliveira Mafra: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 São Sebastião do Uatumã Fernando Falabella: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Tabatinga Saul Nunes Bemerguy: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Tapauá José Bezerra Guedes: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Tefé Normando Bessa De Sa: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Tonantins Lazaro De Souza Martins: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Uarini Antonio Waldetrudes Uchoa De Brito: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Urucará Enrico De Souza Falabella: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016 Urucurituba Jose Claudenor De Castro Pontes: início 2017-01-01 ≤ fim 2020-12-31
+- ✅ 2016: os 62 municípios têm ao menos uma linha de mandato (62)
+- ✅ 2020: 0 candidatura(s) recuperada(s) do arquivo de votação
+- ✅ 2020: votos encontrados para 270 de 282 candidatos que disputaram (mínimo 95%)
+- ✅ 2020 Ipixuna: eleito Maria Do Socorro De Paula Oliveira tem vice no TSE
+- ✅ 2020 Beruri: eleito Maria Lucir Dos Santos De Oliveira tem vice no TSE
+- ✅ 2020 Itamarati: eleito João Medeiros Campelo tem vice no TSE
+- ✅ 2020 Manaus: eleito David Antonio Abisai Pereira De Almeida tem vice no TSE
+- ✅ 2020 Jutaí: eleito Pedro Macario Barboza tem vice no TSE
+- ✅ 2020 Novo Airão: eleito Roberto Frederico Paes Junior tem vice no TSE
+- ✅ 2020 Rio Preto da Eva: eleito Anderson Jose De Sousa tem vice no TSE
+- ✅ 2020 Codajás: eleito Antonio Ferreira Dos Santos tem vice no TSE
+- ✅ 2020 Presidente Figueiredo: eleito Patricia Lopes Miranda tem vice no TSE
+- ✅ 2020 Urucurituba: eleito José Claudenor De Castro Pontes tem vice no TSE
+- ✅ 2020 Tefé: eleito Nicson Marreira Lima tem vice no TSE
+- ✅ 2020 Apuí: eleito Marcos Antonio Lise tem vice no TSE
+- ✅ 2020 Novo Aripuanã: eleito Jocione Dos Santos Souza tem vice no TSE
+- ✅ 2020 Japurá: eleito Vanilso Monteiro Da Silva tem vice no TSE
+- ✅ 2020 Autazes: eleito Andreson Adriano Oliveira Cavalcante tem vice no TSE
+- ✅ 2020 Pauini: eleito Raimundo Renato Rodrigues Afonso tem vice no TSE
+- ✅ 2020 Silves: eleito Raimundo Paulino De Almeida Grana tem vice no TSE
+- ✅ 2020 Manaquiri: eleito Jair Aguiar Souto tem vice no TSE
+- ✅ 2020 Maués: eleito Carlos Roberto De Oliveira Junior tem vice no TSE
+- ✅ 2020 Juruá: eleito Jose Maria Rodrigues Da Rocha Junior tem vice no TSE
+- ✅ 2020 Careiro da Várzea: eleito Pedro Duarte Guedes tem vice no TSE
+- ✅ 2020 Barcelos: eleito Edson De Paula Rodrigues Mendes tem vice no TSE
+- ✅ 2020 Tabatinga: eleito Saul Nunes Bemerguy tem vice no TSE
+- ✅ 2020 Itacoatiara: eleito Mário Jorge Bouez Abrahim tem vice no TSE
+- ✅ 2020 Atalaia do Norte: eleito Denis Linder Rojas De Paiva tem vice no TSE
+- ✅ 2020 Tapauá: eleito Gamaliel Andrade De Almeida tem vice no TSE
+- ✅ 2020 Iranduba: eleito Jose Augusto Ferraz De Lima tem vice no TSE
+- ✅ 2020 Nhamundá: eleito Raimunda Marina Brito Pandolfo tem vice no TSE
+- ✅ 2020 Benjamin Constant: eleito David Nunes Bemerguy tem vice no TSE
+- ✅ 2020 Coari: eleito Keitton Wyllyson Pinheiro Batista tem vice no TSE
+- ✅ 2020 Eirunepé: eleito Raylan Barroso De Alencar tem vice no TSE
+- ✅ 2020 Parintins: eleito Frank Luiz Da Cunha Garcia tem vice no TSE
+- ✅ 2020 São Gabriel da Cachoeira: eleito Clovis Moreira Saldanha tem vice no TSE
+- ✅ 2020 Humaitá: eleito Jose Cidenei Lobo Do Nascimento tem vice no TSE
+- ✅ 2020 Itapiranga: eleito Denise De Farias Lima tem vice no TSE
+- ✅ 2020 Guajará: eleito Ordean Gonzaga Da Silva tem vice no TSE
+- ✅ 2020 Urucará: eleito Enrico De Souza Falabella tem vice no TSE
+- ✅ 2020 Caapiranga: eleito Francisco Andrade Braz tem vice no TSE
+- ✅ 2020 Barreirinha: eleito Glenio Jose Marques Seixas tem vice no TSE
+- ✅ 2020 Uarini: eleito Antonio Waldetrudes Uchoa De Brito tem vice no TSE
+- ✅ 2020 Amaturá: eleito Jose Augusto Barrozo Eufrasio tem vice no TSE
+- ✅ 2020 Borba: eleito Simao Peixoto Lima tem vice no TSE
+- ✅ 2020 São Paulo de Olivença: eleito Nazareno Souza Martins tem vice no TSE
+- ✅ 2020 Santo Antônio do Içá: eleito Walder Ribeiro Da Costa tem vice no TSE
+- ✅ 2020 Anamã: eleito Francisco Nunes Bastos tem vice no TSE
+- ✅ 2020 Nova Olinda do Norte: eleito Adenilson Lima Reis tem vice no TSE
+- ✅ 2020 Fonte Boa: eleito Gilberto Ferreira Lisboa tem vice no TSE
+- ✅ 2020 Boa Vista do Ramos: eleito Eraldo Trindade Da Silva tem vice no TSE
+- ✅ 2020 Alvarães: eleito Lucenildo De Souza Macedo tem vice no TSE
+- ✅ 2020 Tonantins: eleito Francisco Sales De Oliveira tem vice no TSE
+- ✅ 2020 Santa Isabel do Rio Negro: eleito José Ribamar Fontes Beleza tem vice no TSE
+- ✅ 2020 Lábrea: eleito Gean Campos De Barros tem vice no TSE
+- ✅ 2020 Envira: eleito Paulo Ruan Portela Mattos tem vice no TSE
+- ✅ 2020 Manacapuru: eleito Betanael Da Silva Dangelo tem vice no TSE
+- ✅ 2020 São Sebastião do Uatumã: eleito Jander Paes De Almeida tem vice no TSE
+- ✅ 2020 Maraã: eleito Edir Costa Castelo Branco tem vice no TSE
+- ✅ 2020 Canutama: eleito Jose Roberto Torres De Pontes tem vice no TSE
+- ✅ 2020 Manicoré: eleito Lucio Flavio Do Rosario tem vice no TSE
+- ✅ 2020 Careiro: eleito Nathan Macena De Souza tem vice no TSE
+- ✅ 2020 Anori: eleito Reginaldo Nazare Da Costa tem vice no TSE
+- ✅ 2020 Carauari: eleito Bruno Luis Litaiff Ramalho tem vice no TSE
+- ✅ 2020 Boca do Acre: eleito Jose Maria Silva Da Cruz tem vice no TSE
+- ✅ 2020 Alvarães: no máximo um eleito na eleição ordinária
+- ✅ 2020 Amaturá: no máximo um eleito na eleição ordinária
+- ✅ 2020 Anamã: no máximo um eleito na eleição ordinária
+- ✅ 2020 Anori: no máximo um eleito na eleição ordinária
+- ✅ 2020 Apuí: no máximo um eleito na eleição ordinária
+- ✅ 2020 Atalaia do Norte: no máximo um eleito na eleição ordinária
+- ✅ 2020 Autazes: no máximo um eleito na eleição ordinária
+- ✅ 2020 Barcelos: no máximo um eleito na eleição ordinária
+- ✅ 2020 Barreirinha: no máximo um eleito na eleição ordinária
+- ✅ 2020 Benjamin Constant: no máximo um eleito na eleição ordinária
+- ✅ 2020 Beruri: no máximo um eleito na eleição ordinária
+- ✅ 2020 Boa Vista do Ramos: no máximo um eleito na eleição ordinária
+- ✅ 2020 Boca do Acre: no máximo um eleito na eleição ordinária
+- ✅ 2020 Borba: no máximo um eleito na eleição ordinária
+- ✅ 2020 Caapiranga: no máximo um eleito na eleição ordinária
+- ✅ 2020 Canutama: no máximo um eleito na eleição ordinária
+- ✅ 2020 Carauari: no máximo um eleito na eleição ordinária
+- ✅ 2020 Careiro: no máximo um eleito na eleição ordinária
+- ✅ 2020 Careiro da Várzea: no máximo um eleito na eleição ordinária
+- ✅ 2020 Coari: no máximo um eleito na eleição ordinária
+- ✅ 2020 Codajás: no máximo um eleito na eleição ordinária
+- ✅ 2020 Eirunepé: no máximo um eleito na eleição ordinária
+- ✅ 2020 Envira: no máximo um eleito na eleição ordinária
+- ✅ 2020 Fonte Boa: no máximo um eleito na eleição ordinária
+- ✅ 2020 Guajará: no máximo um eleito na eleição ordinária
+- ✅ 2020 Humaitá: no máximo um eleito na eleição ordinária
+- ✅ 2020 Ipixuna: no máximo um eleito na eleição ordinária
+- ✅ 2020 Iranduba: no máximo um eleito na eleição ordinária
+- ✅ 2020 Itacoatiara: no máximo um eleito na eleição ordinária
+- ✅ 2020 Itamarati: no máximo um eleito na eleição ordinária
+- ✅ 2020 Itapiranga: no máximo um eleito na eleição ordinária
+- ✅ 2020 Japurá: no máximo um eleito na eleição ordinária
+- ✅ 2020 Juruá: no máximo um eleito na eleição ordinária
+- ✅ 2020 Jutaí: no máximo um eleito na eleição ordinária
+- ✅ 2020 Lábrea: no máximo um eleito na eleição ordinária
+- ✅ 2020 Manacapuru: no máximo um eleito na eleição ordinária
+- ✅ 2020 Manaquiri: no máximo um eleito na eleição ordinária
+- ✅ 2020 Manaus: no máximo um eleito na eleição ordinária
+- ✅ 2020 Manicoré: no máximo um eleito na eleição ordinária
+- ✅ 2020 Maraã: no máximo um eleito na eleição ordinária
+- ✅ 2020 Maués: no máximo um eleito na eleição ordinária
+- ✅ 2020 Nhamundá: no máximo um eleito na eleição ordinária
+- ✅ 2020 Nova Olinda do Norte: no máximo um eleito na eleição ordinária
+- ✅ 2020 Novo Airão: no máximo um eleito na eleição ordinária
+- ✅ 2020 Novo Aripuanã: no máximo um eleito na eleição ordinária
+- ✅ 2020 Parintins: no máximo um eleito na eleição ordinária
+- ✅ 2020 Pauini: no máximo um eleito na eleição ordinária
+- ✅ 2020 Presidente Figueiredo: no máximo um eleito na eleição ordinária
+- ✅ 2020 Rio Preto da Eva: no máximo um eleito na eleição ordinária
+- ✅ 2020 Santa Isabel do Rio Negro: no máximo um eleito na eleição ordinária
+- ✅ 2020 Santo Antônio do Içá: no máximo um eleito na eleição ordinária
+- ✅ 2020 Silves: no máximo um eleito na eleição ordinária
+- ✅ 2020 São Gabriel da Cachoeira: no máximo um eleito na eleição ordinária
+- ✅ 2020 São Paulo de Olivença: no máximo um eleito na eleição ordinária
+- ✅ 2020 São Sebastião do Uatumã: no máximo um eleito na eleição ordinária
+- ✅ 2020 Tabatinga: no máximo um eleito na eleição ordinária
+- ✅ 2020 Tapauá: no máximo um eleito na eleição ordinária
+- ✅ 2020 Tefé: no máximo um eleito na eleição ordinária
+- ✅ 2020 Tonantins: no máximo um eleito na eleição ordinária
+- ✅ 2020 Uarini: no máximo um eleito na eleição ordinária
+- ✅ 2020 Urucará: no máximo um eleito na eleição ordinária
+- ✅ 2020 Urucurituba: no máximo um eleito na eleição ordinária
+- ✅ 2020 Alvarães Lucenildo De Souza Macedo: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Amaturá Jose Augusto Barrozo Eufrasio: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Anamã Francisco Nunes Bastos: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Anori Reginaldo Nazare Da Costa: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Apuí Marcos Antonio Lise: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Atalaia do Norte Denis Linder Rojas De Paiva: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Autazes Andreson Adriano Oliveira Cavalcante: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Barcelos Edson De Paula Rodrigues Mendes: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Barreirinha Glenio Jose Marques Seixas: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Benjamin Constant David Nunes Bemerguy: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Beruri Maria Lucir Dos Santos De Oliveira: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Boa Vista do Ramos Eraldo Trindade Da Silva: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Boca do Acre Jose Maria Silva Da Cruz: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Borba Simao Peixoto Lima: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Caapiranga Francisco Andrade Braz: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Canutama Jose Roberto Torres De Pontes: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Carauari Bruno Luis Litaiff Ramalho: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Careiro Nathan Macena De Souza: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Careiro da Várzea Pedro Duarte Guedes: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Coari Keitton Wyllyson Pinheiro Batista: início 2021-12-05 ≤ fim 2024-12-31
+- ✅ 2020 Coari (interino — não consta no TSE): início 2021-01-01 ≤ fim 2021-12-05
+- ✅ 2020 Codajás Antonio Ferreira Dos Santos: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Eirunepé Raylan Barroso De Alencar: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Envira Paulo Ruan Portela Mattos: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Fonte Boa Gilberto Ferreira Lisboa: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Guajará Ordean Gonzaga Da Silva: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Humaitá Jose Cidenei Lobo Do Nascimento: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Ipixuna Maria Do Socorro De Paula Oliveira: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Iranduba Jose Augusto Ferraz De Lima: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Itacoatiara Mário Jorge Bouez Abrahim: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Itamarati João Medeiros Campelo: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Itapiranga Denise De Farias Lima: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Japurá Vanilso Monteiro Da Silva: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Juruá Jose Maria Rodrigues Da Rocha Junior: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Jutaí Pedro Macario Barboza: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Lábrea Gean Campos De Barros: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Manacapuru Betanael Da Silva Dangelo: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Manaquiri Jair Aguiar Souto: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Manaus David Antonio Abisai Pereira De Almeida: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Manicoré Lucio Flavio Do Rosario: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Maraã Edir Costa Castelo Branco: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Maués Carlos Roberto De Oliveira Junior: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Nhamundá Raimunda Marina Brito Pandolfo: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Nova Olinda do Norte Adenilson Lima Reis: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Novo Airão Roberto Frederico Paes Junior: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Novo Aripuanã Jocione Dos Santos Souza: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Parintins Frank Luiz Da Cunha Garcia: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Pauini Raimundo Renato Rodrigues Afonso: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Presidente Figueiredo Patricia Lopes Miranda: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Rio Preto da Eva Anderson Jose De Sousa: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Santa Isabel do Rio Negro José Ribamar Fontes Beleza: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Santo Antônio do Içá Walder Ribeiro Da Costa: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Silves Raimundo Paulino De Almeida Grana: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 São Gabriel da Cachoeira Clovis Moreira Saldanha: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 São Paulo de Olivença Nazareno Souza Martins: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 São Sebastião do Uatumã Jander Paes De Almeida: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Tabatinga Saul Nunes Bemerguy: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Tapauá Gamaliel Andrade De Almeida: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Tefé Nicson Marreira Lima: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Tonantins Francisco Sales De Oliveira: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Uarini Antonio Waldetrudes Uchoa De Brito: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Urucará Enrico De Souza Falabella: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020 Urucurituba José Claudenor De Castro Pontes: início 2021-01-01 ≤ fim 2024-12-31
+- ✅ 2020: os 62 municípios têm ao menos uma linha de mandato (62)
+- ✅ 2024: 0 candidatura(s) recuperada(s) do arquivo de votação
+- ✅ 2024: votos encontrados para 200 de 204 candidatos que disputaram (mínimo 95%)
+- ✅ 2024 Itapiranga: eleito Thiago Gama Lima tem vice no TSE
+- ✅ 2024 Jutaí: eleito Mercedes Mendes Vargas tem vice no TSE
+- ✅ 2024 Manicoré: eleito Lúcio Flávio Do Rosário tem vice no TSE
+- ✅ 2024 Barcelos: eleito Radson Rogerton Dos Santos Alves tem vice no TSE
+- ✅ 2024 Codajás: eleito Antônio Ferreira Dos Santos tem vice no TSE
+- ✅ 2024 Beruri: eleito Emerson Klinger Gonçalves De Mello tem vice no TSE
+- ✅ 2024 Itamarati: eleito João Medeiros Campelo tem vice no TSE
+- ✅ 2024 Careiro da Várzea: eleito Pedro Duarte Guedes tem vice no TSE
+- ✅ 2024 Manaquiri: eleito Nelson Pereira Da Silva tem vice no TSE
+- ✅ 2024 Nhamundá: eleito Raimunda Marina Brito Pandolfo tem vice no TSE
+- ✅ 2024 Parintins: eleito Mateus Ferreira Assayag tem vice no TSE
+- ✅ 2024 São Sebastião do Uatumã: eleito Jander Paes De Almeida tem vice no TSE
+- ✅ 2024 Rio Preto da Eva: eleito Maria Do Socorro Nogueira Fontinele tem vice no TSE
+- ✅ 2024 Juruá: eleito Ilque Cunha De Lima tem vice no TSE
+- ✅ 2024 Guajará: eleito Adaildo Da Costa Melo Filho tem vice no TSE
+- ✅ 2024 Santo Antônio do Içá: eleito Walder Ribeiro Da Costa tem vice no TSE
+- ✅ 2024 Maraã: eleito Edir Costa Castelo Branco tem vice no TSE
+- ✅ 2024 Boca do Acre: eleito Frank Sobreira Barros tem vice no TSE
+- ✅ 2024 Boa Vista do Ramos: eleito Jarlem De Almeida Trindade tem vice no TSE
+- ✅ 2024 Lábrea: eleito Gerlando Lopes Do Nascimento tem vice no TSE
+- ✅ 2024 Iranduba: eleito Jose Augusto Ferraz De Lima tem vice no TSE
+- ✅ 2024 Uarini: eleito Marcos Souza Martins tem vice no TSE
+- ✅ 2024 Novo Aripuanã: eleito Raymundo Lopes De Albuquerque Sobrinho tem vice no TSE
+- ✅ 2024 Tapauá: eleito Gamaliel Andrade De Almeida tem vice no TSE
+- ✅ 2024 Fonte Boa: eleito Lázaro De Araujo De Almeida tem vice no TSE
+- ✅ 2024 Tonantins: eleito Francisco Sales De Oliveira tem vice no TSE
+- ✅ 2024 Nova Olinda do Norte: eleito Araci Rodrigues Da Cunha tem vice no TSE
+- ✅ 2024 Coari: eleito Manoel Adail Amaral Pinheiro tem vice no TSE
+- ✅ 2024 Presidente Figueiredo: eleito Antonio Fernando Fontes Vieira tem vice no TSE
+- ✅ 2024 Manaus: eleito David Antonio Abisai Pereira De Almeida tem vice no TSE
+- ✅ 2024 Pauini: eleito Raimundo Renato Rodrigues Afonso tem vice no TSE
+- ✅ 2024 Carauari: eleito Jose Airton Freitas Siqueira tem vice no TSE
+- ✅ 2024 Careiro: eleito Mara Alves De Lima tem vice no TSE
+- ✅ 2024 Novo Airão: eleito Otávio Da Cruz Farias tem vice no TSE
+- ✅ 2024 Benjamin Constant: eleito Semeide Bermeguy Porto tem vice no TSE
+- ✅ 2024 Ipixuna: eleito Paula Augusta Monteiro De Oliveira tem vice no TSE
+- ✅ 2024 Tefé: eleito Nicson Marreira Lima tem vice no TSE
+- ✅ 2024 Maués: eleito Macelly Cristina De Souza Veras tem vice no TSE
+- ✅ 2024 Santa Isabel do Rio Negro: eleito José Ribamar Fontes Beleza tem vice no TSE
+- ✅ 2024 Barreirinha: eleito Darlan Taveira Peres tem vice no TSE
+- ✅ 2024 Itacoatiara: eleito Mario Jorge Bouez Abrahim tem vice no TSE
+- ✅ 2024 Autazes: eleito José Thomé Neto tem vice no TSE
+- ✅ 2024 Urucurituba: eleito Leôncio Antônio Tundis Carvalho tem vice no TSE
+- ✅ 2024 Alvarães: eleito Lucenildo De Souza Macedo tem vice no TSE
+- ✅ 2024 Caapiranga: eleito Matulinho Xavier Braz tem vice no TSE
+- ✅ 2024 Envira: eleito Ivon Rates Da Silva tem vice no TSE
+- ✅ 2024 Manacapuru: eleito Valcileia Flores Maciel tem vice no TSE
+- ✅ 2024 São Paulo de Olivença: eleito Nazareno Souza Martins tem vice no TSE
+- ✅ 2024 São Gabriel da Cachoeira: eleito Egmar Velasques Saldanha tem vice no TSE
+- ✅ 2024 Tabatinga: eleito Plinio Souza Da Cruz tem vice no TSE
+- ✅ 2024 Anori: eleito Reginaldo Nazaré Da Costa tem vice no TSE
+- ✅ 2024 Humaitá: eleito Jose Cidenei Lobo Do Nascimento tem vice no TSE
+- ✅ 2024 Amaturá: eleito Maria De Nazaré Da Silva Rocha tem vice no TSE
+- ✅ 2024 Canutama: eleito José Roberto Torres De Pontes tem vice no TSE
+- ✅ 2024 Urucará: eleito João Bosco Falabella tem vice no TSE
+- ✅ 2024 Apuí: eleito Antônio Marcos Maciel Fernandes tem vice no TSE
+- ✅ 2024 Atalaia do Norte: eleito Denis Linder Rojas De Paiva tem vice no TSE
+- ✅ 2024 Borba: eleito Raimundo Santana De Freitas tem vice no TSE
+- ✅ 2024 Japurá: eleito Vanilso Monteiro Da Silva tem vice no TSE
+- ✅ 2024 Silves: eleito Raimundo Paulino De Almeida Grana tem vice no TSE
+- ✅ 2024 Eirunepé: eleito Áurea Maria Ester Alves Marques tem vice no TSE
+- ✅ 2024 Anamã: eleito Katia Maria Dantas Ribeiro tem vice no TSE
+- ✅ 2024 Alvarães: no máximo um eleito na eleição ordinária
+- ✅ 2024 Amaturá: no máximo um eleito na eleição ordinária
+- ✅ 2024 Anamã: no máximo um eleito na eleição ordinária
+- ✅ 2024 Anori: no máximo um eleito na eleição ordinária
+- ✅ 2024 Apuí: no máximo um eleito na eleição ordinária
+- ✅ 2024 Atalaia do Norte: no máximo um eleito na eleição ordinária
+- ✅ 2024 Autazes: no máximo um eleito na eleição ordinária
+- ✅ 2024 Barcelos: no máximo um eleito na eleição ordinária
+- ✅ 2024 Barreirinha: no máximo um eleito na eleição ordinária
+- ✅ 2024 Benjamin Constant: no máximo um eleito na eleição ordinária
+- ✅ 2024 Beruri: no máximo um eleito na eleição ordinária
+- ✅ 2024 Boa Vista do Ramos: no máximo um eleito na eleição ordinária
+- ✅ 2024 Boca do Acre: no máximo um eleito na eleição ordinária
+- ✅ 2024 Borba: no máximo um eleito na eleição ordinária
+- ✅ 2024 Caapiranga: no máximo um eleito na eleição ordinária
+- ✅ 2024 Canutama: no máximo um eleito na eleição ordinária
+- ✅ 2024 Carauari: no máximo um eleito na eleição ordinária
+- ✅ 2024 Careiro: no máximo um eleito na eleição ordinária
+- ✅ 2024 Careiro da Várzea: no máximo um eleito na eleição ordinária
+- ✅ 2024 Coari: no máximo um eleito na eleição ordinária
+- ✅ 2024 Codajás: no máximo um eleito na eleição ordinária
+- ✅ 2024 Eirunepé: no máximo um eleito na eleição ordinária
+- ✅ 2024 Envira: no máximo um eleito na eleição ordinária
+- ✅ 2024 Fonte Boa: no máximo um eleito na eleição ordinária
+- ✅ 2024 Guajará: no máximo um eleito na eleição ordinária
+- ✅ 2024 Humaitá: no máximo um eleito na eleição ordinária
+- ✅ 2024 Ipixuna: no máximo um eleito na eleição ordinária
+- ✅ 2024 Iranduba: no máximo um eleito na eleição ordinária
+- ✅ 2024 Itacoatiara: no máximo um eleito na eleição ordinária
+- ✅ 2024 Itamarati: no máximo um eleito na eleição ordinária
+- ✅ 2024 Itapiranga: no máximo um eleito na eleição ordinária
+- ✅ 2024 Japurá: no máximo um eleito na eleição ordinária
+- ✅ 2024 Juruá: no máximo um eleito na eleição ordinária
+- ✅ 2024 Jutaí: no máximo um eleito na eleição ordinária
+- ✅ 2024 Lábrea: no máximo um eleito na eleição ordinária
+- ✅ 2024 Manacapuru: no máximo um eleito na eleição ordinária
+- ✅ 2024 Manaquiri: no máximo um eleito na eleição ordinária
+- ✅ 2024 Manaus: no máximo um eleito na eleição ordinária
+- ✅ 2024 Manicoré: no máximo um eleito na eleição ordinária
+- ✅ 2024 Maraã: no máximo um eleito na eleição ordinária
+- ✅ 2024 Maués: no máximo um eleito na eleição ordinária
+- ✅ 2024 Nhamundá: no máximo um eleito na eleição ordinária
+- ✅ 2024 Nova Olinda do Norte: no máximo um eleito na eleição ordinária
+- ✅ 2024 Novo Airão: no máximo um eleito na eleição ordinária
+- ✅ 2024 Novo Aripuanã: no máximo um eleito na eleição ordinária
+- ✅ 2024 Parintins: no máximo um eleito na eleição ordinária
+- ✅ 2024 Pauini: no máximo um eleito na eleição ordinária
+- ✅ 2024 Presidente Figueiredo: no máximo um eleito na eleição ordinária
+- ✅ 2024 Rio Preto da Eva: no máximo um eleito na eleição ordinária
+- ✅ 2024 Santa Isabel do Rio Negro: no máximo um eleito na eleição ordinária
+- ✅ 2024 Santo Antônio do Içá: no máximo um eleito na eleição ordinária
+- ✅ 2024 Silves: no máximo um eleito na eleição ordinária
+- ✅ 2024 São Gabriel da Cachoeira: no máximo um eleito na eleição ordinária
+- ✅ 2024 São Paulo de Olivença: no máximo um eleito na eleição ordinária
+- ✅ 2024 São Sebastião do Uatumã: no máximo um eleito na eleição ordinária
+- ✅ 2024 Tabatinga: no máximo um eleito na eleição ordinária
+- ✅ 2024 Tapauá: no máximo um eleito na eleição ordinária
+- ✅ 2024 Tefé: no máximo um eleito na eleição ordinária
+- ✅ 2024 Tonantins: no máximo um eleito na eleição ordinária
+- ✅ 2024 Uarini: no máximo um eleito na eleição ordinária
+- ✅ 2024 Urucará: no máximo um eleito na eleição ordinária
+- ✅ 2024 Urucurituba: no máximo um eleito na eleição ordinária
+- ✅ 2024 Alvarães Lucenildo De Souza Macedo: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Amaturá Maria De Nazaré Da Silva Rocha: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Anamã Katia Maria Dantas Ribeiro: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Anori Reginaldo Nazaré Da Costa: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Apuí Antônio Marcos Maciel Fernandes: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Atalaia do Norte Denis Linder Rojas De Paiva: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Autazes José Thomé Neto: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Barcelos Radson Rogerton Dos Santos Alves: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Barreirinha Darlan Taveira Peres: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Benjamin Constant Semeide Bermeguy Porto: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Beruri Emerson Klinger Gonçalves De Mello: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Boa Vista do Ramos Jarlem De Almeida Trindade: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Boca do Acre Frank Sobreira Barros: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Borba Raimundo Santana De Freitas: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Caapiranga Matulinho Xavier Braz: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Canutama José Roberto Torres De Pontes: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Carauari Jose Airton Freitas Siqueira: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Careiro Mara Alves De Lima: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Careiro da Várzea Pedro Duarte Guedes: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Coari Manoel Adail Amaral Pinheiro: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Codajás Antônio Ferreira Dos Santos: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Eirunepé Áurea Maria Ester Alves Marques: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Envira Ivon Rates Da Silva: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Fonte Boa Lázaro De Araujo De Almeida: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Guajará Adaildo Da Costa Melo Filho: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Humaitá Jose Cidenei Lobo Do Nascimento: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Ipixuna Paula Augusta Monteiro De Oliveira: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Iranduba Jose Augusto Ferraz De Lima: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Itacoatiara Mario Jorge Bouez Abrahim: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Itamarati João Medeiros Campelo: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Itapiranga Thiago Gama Lima: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Japurá Vanilso Monteiro Da Silva: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Juruá Ilque Cunha De Lima: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Jutaí Mercedes Mendes Vargas: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Lábrea Gerlando Lopes Do Nascimento: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Manacapuru Valcileia Flores Maciel: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Manaquiri Nelson Pereira Da Silva: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Manaus David Antonio Abisai Pereira De Almeida: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Manicoré Lúcio Flávio Do Rosário: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Maraã Edir Costa Castelo Branco: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Maués Macelly Cristina De Souza Veras: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Nhamundá Raimunda Marina Brito Pandolfo: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Nova Olinda do Norte Araci Rodrigues Da Cunha: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Novo Airão Otávio Da Cruz Farias: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Novo Aripuanã Raymundo Lopes De Albuquerque Sobrinho: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Parintins Mateus Ferreira Assayag: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Pauini Raimundo Renato Rodrigues Afonso: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Presidente Figueiredo Antonio Fernando Fontes Vieira: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Rio Preto da Eva Maria Do Socorro Nogueira Fontinele: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Santa Isabel do Rio Negro José Ribamar Fontes Beleza: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Santo Antônio do Içá Walder Ribeiro Da Costa: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Silves Raimundo Paulino De Almeida Grana: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 São Gabriel da Cachoeira Egmar Velasques Saldanha: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 São Paulo de Olivença Nazareno Souza Martins: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 São Sebastião do Uatumã Jander Paes De Almeida: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Tabatinga Plinio Souza Da Cruz: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Tapauá Gamaliel Andrade De Almeida: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Tefé Nicson Marreira Lima: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Tonantins Francisco Sales De Oliveira: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Uarini Marcos Souza Martins: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Urucará João Bosco Falabella: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024 Urucurituba Leôncio Antônio Tundis Carvalho: início 2025-01-01 ≤ fim 2028-12-31
+- ✅ 2024: os 62 municípios têm ao menos uma linha de mandato (62)

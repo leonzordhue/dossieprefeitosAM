@@ -1,0 +1,6 @@
+_cache/
+__pycache__/
+_*.log
+dados/brutos/**
+!dados/brutos/tse/
+!dados/brutos/tse/_proveniencia.json

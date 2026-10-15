@@ -1,0 +1,965 @@
+pessoa_id,nome,nascimento,genero,uf_nascimento,municipio_nascimento
+f8739f39b8,Abdon Cruz Pires,30/07/1971,Masculino,AM,
+c536094734,Abel Rodrigues Alves,13/04/1940,Masculino,AM,Tefé
+831c0ac7f6,Abmael Santana Gomes,23/06/1978,Masculino,AM,
+93557d72f9,Abraao Magalhaes Lasmar,06/08/1966,Masculino,AM,
+921e0978a2,Abraham Lincoln Dib Bastos,31/05/1964,Masculino,AM,
+809df7d115,Abrahão Farias Sabá,02/03/1969,Masculino,AM,
+0b805db7f1,Adail Jose Figueiredo Pinheiro,16/02/1992,Masculino,AM,
+669e77aa86,Adaildo Da Costa Melo Filho,30/04/1968,Masculino,AC,
+4a9809014d,Adalberto De Souza Tatikawa,28/05/1969,Masculino,AM,Itacoatiara
+b668d08e54,Adalberto Ferreira De Aragão,22/08/1967,Masculino,AM,
+d3b9c8fba3,Adalberto Silveira Leite,26/05/1948,Masculino,BA,Pres Janio Quadros-Ba
+92dc7c2d06,Adalfrank Teixeira Da Silva,29/02/1976,Masculino,AM,
+5f160c5b40,Adam Lavor Litaiff,14/02/1987,Masculino,AM,Alvarães
+ed44b037c2,Adejalma Camelo Da Silva,13/11/1972,Masculino,PA,
+02907ba0bf,Ademir Castellani,15/04/1955,Masculino,SP,
+d08b43d51e,Adenilson Batista Alves,08/12/1983,Masculino,AM,
+b61c5546e3,Adenilson Lima Reis,09/03/1976,Masculino,AM,
+c4d8eb0a9b,Adi Nagel Junior,18/10/1964,Masculino,SP,Guarujá
+fb1308a77b,Adiel Meira De Santana,23/03/1968,Masculino,AM,Manaus
+d72aa46366,Adimilson Nogueira,17/11/1971,Masculino,MS,Três Lagoas
+a2c58c8a55,Adolpho Peres Castro Pinto,01/10/1954,Masculino,AM,Benjamin Constant
+33e99b0807,Adonai Serrao Cavalcante,26/03/1958,Masculino,AM,Itapiranga
+2339ff0c36,Adson Jose Messias Ribeiro,29/09/1979,Masculino,PA,Juruti
+11bac0d86a,Affair Pedroza Vulcão,07/08/1958,Masculino,AM,Santo Antonio Do Içá
+e2bea4de35,Afonso Geraldo Binda Da Costa,22/04/1973,Masculino,AM,Manaus
+7de668b42a,Afrânio Pereira Junior,25/01/1960,Masculino,AM,Manaus
+5c5d9e02bb,Agnaldo Da Paz Dantas,02/03/1968,Masculino,AM,Codajás
+56276f0cf4,Aguimar Silvério Da Silva,09/09/1952,Feminino,AM,Ipixuna
+cb8a9db7e0,Aguinaldo Antonio De Souza,27/07/1949,Masculino,AM,
+2e61f0263f,Aguinaldo Martins Rodrigues,31/01/1964,Masculino,AM,Manaquiri
+9f5ee09ab2,Ailton Damasceno Da Silva,12/10/1988,Masculino,AM,
+2655370173,Alailson Ferreira Lisboa,04/01/1968,Masculino,AM,
+2af51259e9,Alain Da Silva Cruz,15/10/1970,Masculino,AM,
+52d823dca7,Alarico Justino Cidade Neto,07/11/1955,Masculino,AM,Manicoré
+f37b3fd644,Albecy Pereira Martins,18/05/1962,Masculino,AM,Ipixuna
+81f01c4446,Alberta Maria Oliveira De Deus,12/09/1937,Feminino,AM,Barcelos
+5f0a12074e,Alberto Barros Cavalcante Neto,05/05/1982,Masculino,CE,
+89781d36cf,Alberto Francisco Nascimento,26/09/1951,Masculino,AM,Tonantins
+5635b8cd22,Alcimar Bezerra Moraes,24/02/1948,Masculino,AM,Manacapuru
+4778796723,Alcimar Maciel Pereira,07/06/1972,Masculino,AM,
+c58db67a4d,Alcione De Souza Peixoto,24/04/1979,Masculino,AM,
+9550917e28,Aldemir Almeida Mitouso,16/11/1974,Masculino,AM,
+7c63194fbd,Aldenor Alho De Souza,21/06/1977,Masculino,AM,Parintins
+45cc608c9c,Aldenora Santos Magalhães,08/07/1967,Feminino,AM,
+011b244f7b,Alessandra Lydia De Jesus Azêdo,11/09/1971,Feminino,AM,Manaus
+73e9c5af85,Alexandre Ferreira Lima,04/12/1978,Masculino,AM,Manaus
+e2b52a5600,Alexandre Macedo Ribeiro,19/12/1981,Masculino,AM,
+1820534ea1,Alexandre Magno Cardoso De Oliveira,18/03/1964,Masculino,RJ,
+8da86facd0,Alfredo Alexandre De Menezes Junior,23/12/1963,Masculino,AM,
+20ab5df4fc,Alfredo Moreira De Almeida,06/12/1965,Masculino,AM,
+9fe1f93f9a,Alfredo Pereira Do Nascimento,05/05/1952,Masculino,RN,
+6a0bfd7307,Almino Goncalves De Albuquerque,12/07/1959,Masculino,AM,
+a5129670ea,Almir Da Silva Prestes,08/08/1988,Masculino,AM,
+068a0e8916,Almir Fernandes Guimarães,07/03/1953,Masculino,AM,São Sebastião Do Uatumã
+f560584897,Almir Rodrigues Dos Santos,14/01/1965,Masculino,RS,
+4891bdcdee,Aloisio Ribeiro Da Silva,28/10/1978,Masculino,SP,
+3b22446787,Altamir De Jesus Cruz Fonseca,28/07/1965,Masculino,AM,Itapiranga
+f144d732f3,Altanira Uchoa Almeida Oliveira,22/08/1962,Feminino,AM,Humaita
+6ded07053e,Altemir Batista Barroso,10/11/1972,Masculino,PA,
+289effbb65,Alvaro Moreira Luz Junior,21/09/1989,Masculino,AM,
+5dedd62b9b,Alyssonn Antonio Karrer De Melo Monteiro,19/07/1975,Masculino,AM,Borba
+bad45c7a62,Alzira Cildra Brito Andrade,22/10/1963,Feminino,PA,Oriximina
+f48f19a7cf,Amadeu Jacauna Rubem,12/09/1962,Masculino,AM,São Paulo De Olivença
+976d52bbbe,Amaurilio Silvestre Tomaz,18/04/1985,Masculino,AM,
+422dfa14b0,Amazonino Armando Mendes,16/11/1939,Masculino,AM,
+2643e15779,Amilton Bezerra Gadelha,20/04/1959,Masculino,AM,Manaquiri
+81104f1fb1,Aminadab Meira De Santana,16/07/1955,Masculino,AM,Manacapuru
+ca11bdfb42,Aminadal Gonzaga De Souza,14/08/1961,Masculino,AM,Humaitá
+f77eeb4ad4,Amintas Junior Lopes Pinheiro,21/09/1966,Masculino,PA,Igarapé-Miri
+cb33a4cf7e,Amom Mandel Lins Filho,02/01/2001,Masculino,PE,
+d842b73930,Ana Cassia Brito Andrade,29/03/1984,Feminino,AM,
+72c684f408,Ana Ester Soares Da Silva,25/10/1976,Feminino,AM,
+4d34825c9c,Ana Maria Farias De Oliveira,,,,
+51cff69337,Anailze Marques Viana,30/04/1948,Feminino,AM,Manaus
+f4b6a4de41,Anderson Jose De Sousa,23/11/1962,Masculino,AM,
+189b205692,Anderson Lopes Da Silva,31/01/1976,Masculino,AM,
+b89d3c1f5e,Anderson Pereira De Araujo,31/05/1985,Masculino,AM,
+078ca7a22d,Anderson Rodrigues Leal De Melo,25/03/1981,Masculino,AM,
+b579d600a9,Andre Fernando,18/03/1971,Masculino,AM,São Gabriel Da Cachoeira
+342ca611d5,Andre Ricardo Pereira Correa,27/08/1982,Masculino,AM,
+b6af3cf297,Andrea Da Cunha Cidade,14/10/1972,Feminino,AM,Manaus
+c7c3936e5c,Andreson Adriano Oliveira Cavalcante,01/08/1979,Masculino,AM,
+823c7e66e8,Andréa Araújo Dos Santos,18/07/1974,Feminino,AM,Manaus
+46bb08cda7,Anete Peres Castro Pinto,03/02/1955,Feminino,AM,Benjamin Constant
+0a3276bf13,Angelo Marcio Masulo Costa,03/02/1976,Masculino,AM,
+e9047e011a,Angelus Cruz Figueira,28/08/1950,Masculino,AM,
+8625cbe329,Anildo Izaias De Macedo,30/12/1940,Masculino,AM,Manaus
+6e1a33613e,Annanias Mesquita De Araújo,13/12/1981,Masculino,AM,
+62f23c77ef,Anselmo Monteiro De Goes,21/04/1951,Masculino,AM,Santa Isabel Do Rio Negro
+50fa1adb7b,Antenor Moreira Paz,08/12/1964,Masculino,AM,Japurá
+9cc491ca41,Antonia Suzy Barros De Lima,14/12/1980,Feminino,AM,Carauari
+e2ebbdcc97,Antonino Machado Da Silva,10/05/1962,Masculino,AM,Manacapuru
+c653e5a15e,Antonio Ademir Silva Do Carmo,21/06/1953,Masculino,AM,Carauari
+192aed273b,Antonio Afonso Maia,26/09/1943,Masculino,MG,Passos
+f512386ec5,Antonio Aldefran Barroso Soares,18/06/1974,Masculino,AM,Itamarati
+10dc071a30,Antonio Araujo Coelho,24/04/1951,Masculino,AM,Fonte Boa
+5f597806ac,Antonio Candido Gomes,12/07/1956,Masculino,AM,Jutaí
+db658aeb3f,Antonio Cardoso De Araújo,02/06/1953,Masculino,PB,Souza
+6bae458322,Antonio Carlos De Lima,26/02/1957,Masculino,AC,Cruzeiro Do Sul
+118d5099cf,Antonio Carlos Fontes Teixeira,04/01/1936,Masculino,AM,São Gabriel Da Cachoeira
+54309b6ffd,Antonio Carlos Maciel Da Silva,13/05/1969,Masculino,AM,
+596d2e4a48,Antonio Carlos Motta Filho,03/01/1983,Masculino,AM,Manaus
+9cdb4f119b,Antonio Da Silva Campelo,15/04/1964,Masculino,AM,São Gabriel Da Cachoeira
+7abc1ab9cd,Antonio Fernandes Feitoza,23/08/1934,Masculino,AM,Eirunepé
+4a1c98bef7,Antonio Fernando Fontes Vieira,18/01/1955,Masculino,SE,
+3088f2cede,Antonio Fernando Santos Da Silva,30/03/1953,Masculino,PA,Alenquer
+dbacb38ca6,Antonio Ferreira De Queiroz,22/05/1974,Masculino,AM,Manacapuru
+de9dfbf8a6,Antonio Ferreira Lima,30/06/1956,Masculino,AM,Caapiranga
+3963fd5a7b,Antonio Francisco De Lima,28/02/1971,Masculino,MA,
+5de221060e,Antonio Francisco Taveira De Oliveira,01/10/1972,Masculino,AM,Itamarati
+dbca04be7b,Antonio Girão Freire Neto,01/03/1979,Masculino,AM,
+f5ee83aa8d,Antonio Gomes Ferreira,30/04/1938,Masculino,AM,Fonte Boa
+683869b897,Antonio Gomes Graça,24/12/1962,Masculino,AM,Borba
+c464b36a16,Antonio Iran De Souza Lima,21/08/1964,Masculino,AM,
+0022fa605d,Antonio Jose Brana Muniz,20/08/1963,Masculino,AM,Pauini
+613b1af5d2,Antonio Jose Muniz Cavalcante,05/04/1962,Masculino,AM,Manaus
+0a0154e168,Antonio José Cruz De Lima,10/08/1978,Masculino,AM,
+465274b0ab,Antonio José Marques,22/01/1955,Masculino,AM,Manacapuru
+9f78b21e2e,Antonio Justo Salvador,07/12/1962,Masculino,AM,Lábrea
+b272663985,Antonio Maia Da Silva,14/02/1970,Masculino,AM,Itamarati
+20df165a55,Antonio Maria Martins Da Silva,08/12/1955,Masculino,AM,Novo Airão
+cc0f4f2bfb,Antonio Marreira De Lima,20/12/1954,Masculino,AM,
+55f2f80fa5,Antonio Martins Marques Neto,10/06/1966,Masculino,AM,Manaus
+5a33e02d75,Antonio Peixoto De Oliveira,14/01/1955,Masculino,AM,
+b552d0d2b0,Antonio Queiroz De Moraes,04/09/1948,Masculino,AC,Acre
+cfe3495552,Antonio Raimundo Nascimento Vieira,10/06/1966,Masculino,AM,
+a3ff526864,Antonio Roque Longo,26/09/1945,Masculino,PR,General Carneiro
+1f38cfa490,Antonio Taumaturgo Caldas Coelho,04/04/1961,Masculino,CE,Barbalha
+a5fe5404d1,Antonio Taumaturgo Caldas Coelho,04/04/1961,Masculino,CE,Barbalha
+32386ee719,Antonio Tiburtino Da Silva,24/12/1948,Masculino,SP,Iacri
+ca59461c7a,Antonio Tourinho De Souza,27/05/1962,Masculino,AM,Sao Paulo De Olivença
+63d79d49c5,Antonio Waldetrudes Uchoa De Brito,19/12/1971,Masculino,AM,
+4bc7e0c58e,Antunes Bitar Ruas,08/02/1959,Masculino,AM,
+5f911cfc8b,Antônio Ferreira Dos Santos,18/11/1965,Masculino,AM,
+ad508434ca,Antônio Marcos Maciel Fernandes,27/08/1975,Masculino,PR,
+aff78b4c13,Antônio Marques De Lima,01/08/1953,Masculino,CE,Tiangua
+fe67837753,Araci Rodrigues Da Cunha,11/11/1978,Feminino,AM,
+19579da12e,Araildo Mendes Do Nascimento,17/09/1964,Masculino,AM,
+adad091f93,Areonildes De Souza Alfaia,18/06/1969,Masculino,AM,Nhamunda
+e03ec53851,Aristheu Alberto Brandão,15/02/1968,Masculino,AM,Anori
+becb03ed8c,Aristides Queiroz De Oliveira Nerto,25/01/1942,Masculino,AM,
+ae72a99149,Arley Cardozo De Santana,19/08/1980,Masculino,AM,
+29f25a0470,Armando Correia De Oliveira Filho,14/12/1967,Masculino,AM,Ipixuna
+50fd777c4a,Arnaldo Almeida Mitouso,01/05/1958,Masculino,AM,Coari
+2ea323d36f,Arnaldo Alves Bandeira,22/01/1980,Masculino,AM,
+66d2677b23,Arnaldo Dos Santos,05/07/1932,Masculino,MG,Belo Horizonte
+bcc74629ce,Arnaldo Nascimento Da Silva,06/10/1968,Masculino,AM,Benjamin Constant
+70e55ce04c,Arnoldo Fonseca Paes,16/05/1965,Masculino,AM,
+b9e8285e9e,Arnoldo Pereira De Souza,18/11/1947,Masculino,AM,Fonte Boa
+8e660b269f,Arnoud Lucas Andrade Da Silva,04/02/1994,Masculino,AM,
+18900a8ebf,Arthur Virgilio Do Carmo Ribeiro Neto,15/11/1945,Masculino,AM,Manaus
+9f93aa837a,Arthur Virgílio Do Carmo Ribeiro Bisneto,01/10/1979,Masculino,DF,Brasilia
+2c21a035e9,Ary José De Souza Assis,08/05/1964,Masculino,AM,
+c516f0598c,Asclepíades Costa De Souza,06/02/1957,Masculino,AM,Jutaí
+1ce3d7ea00,Augusto Banega Montenegro,05/02/1950,Masculino,AM,Urucurituba
+167f933f01,Augusto De Almeida Terço,25/03/1970,Masculino,AM,São Sebastião Do Uatumã
+4d539cf130,Aurimar Terço Oliveira,23/09/1965,Masculino,MA,Urucará
+26a4622b18,Aurivaldo Moreira De Almeida,28/04/1956,Masculino,AM,Lábrea
+b15a6754bd,Belarmino Lins De Albuquerque,01/01/1946,Masculino,AM,
+dc593bab5d,Bernadete Da Silva Fontes,31/01/1980,Feminino,AM,
+66e33ccc7f,Betanael Da Silva Dangelo,01/03/1974,Masculino,AM,
+9fb73b0bcb,Bibiano Fernandes Da Costa Filho,25/01/1961,Masculino,AM,Barcelos
+f33f638322,Brena Dianná Modesto Barbosa,01/04/1993,Feminino,AM,
+4a45de431a,Bruno Luis Litaiff Ramalho,28/01/1964,Masculino,SP,
+e9160bef0c,Candido Honorio Ferreira Filho,03/03/1953,Masculino,AM,
+8d9ffe9089,Carlos Alberto Barroso Dos Santos,09/07/1958,Masculino,AM,
+5c3259ccdf,Carlos Alberto Dos Santos Noel,26/11/1960,Masculino,AM,Manaus
+e82e15d26b,Carlos Alexandre Ferreira Silva,07/10/1975,Masculino,AM,Manaus
+1d4c9fc03d,Carlos Almeida Neves,30/04/1964,Masculino,AM,Silves
+0716a34ff8,Carlos Augusto Araujo Dos Santos,19/08/1978,Masculino,AM,
+7f963abfbb,Carlos Augusto Figueira Pontes,04/08/1984,Masculino,AM,Parintins
+3e504fd4d2,Carlos Da Silva Amora,16/05/1956,Masculino,AM,Mamaus
+234236dd38,Carlos Donizetti Gomes,22/09/1959,Masculino,AM,
+cf967f8c65,Carlos Dulipe Almeida Barbosa,02/09/1961,Masculino,RS,
+17786586b1,Carlos Eduardo De Souza Braga,06/12/1960,Masculino,PA,Belem
+571f008301,Carlos Gonçalves De Souza Neto,03/04/1975,Masculino,AM,Tefé
+ac5925f715,Carlos Jorge Ataíde De Oliveira,16/02/1956,Masculino,AM,Benjamin Constant
+05aa008d59,Carlos José Esteves,06/03/1940,Masculino,AM,Maués
+c974550ece,Carlos Roberto De Oliveira Junior,01/10/1981,Masculino,AM,
+96914adcb6,Carlos Walci Dias Goes,25/07/1972,Masculino,AM,
+c6815bc0f4,Celso Colares De Alencar,21/10/1977,Masculino,AM,Novo Aripuana
+72ccd1cfe0,Cicero Lopes Da Silva,14/02/1951,Masculino,AM,Coari
+f5e9701be3,Cicero Vieira De Souza,15/01/1978,Masculino,CE,Assaré
+faec383949,Claudio Gomes Dias,13/02/1957,Masculino,GO,Goiania
+02888b79fa,Cleber Oliveira Da Silva,03/06/1980,Masculino,AM,
+129e6f716b,Clecio Luiz Strieder,11/03/1959,Masculino,PR,Toledo
+70ddd29686,Cledevaldo Guimarães Da Silva,27/07/1956,Masculino,AM,Urucara
+2321a9ac09,Cleibe Juvinape Teixeira,09/09/1974,Feminino,AM,
+fad7cd965d,Cleide Fernandes Samuel,19/07/1965,Feminino,AM,Manicoré
+9903548323,Cleudo De Oliveira Tavares,04/07/1972,Masculino,AM,
+8b5f08dceb,Clinton Rodrigues Da Silva Sobrinho,22/06/1962,Masculino,AM,Sao Felix Do Araguaia
+09790cce26,Clodoaldo Martins Rodrigues,22/06/1959,Masculino,AM,Manaquiri
+758ad30e21,Clovis Moreira Saldanha,24/11/1972,Masculino,AM,
+c1d4d015d6,Cláudio Pontes Ferreira,09/05/1974,Masculino,PB,
+9e74739937,Cristovão De Albuquerque Alencar Filho,14/07/1940,Masculino,#NULO#,#Nulo#
+3ab51d3434,Cíntia Maria Tupinambá Pereira,10/05/1971,Feminino,AM,Autazes
+50b8d23118,Cívis Ramos Da Silva,13/03/1941,Masculino,AM,São Paulo De Olivença
+2c1b925b99,Dailson De Queiroz Correa,07/06/1966,Masculino,AM,Novo Aripuana
+8ab703831c,Daniel Barros Da Cruz,21/01/1963,Masculino,AM,Manaus
+7212254bc9,Dante Glaus Rocha De Castro,13/01/1970,Masculino,AM,Manaus
+1a8e888163,Darlan Taveira Peres,10/06/1983,Masculino,AM,
+6246de8e58,Davi Farias De Oliveira,01/05/1965,Masculino,AM,Ipixuna
+6576f53a5d,Davi Taumaturgo Da Mata Souza,13/02/1969,Masculino,AM,Itapiranga
+7956cf189f,David Antonio Abisai Pereira De Almeida,08/02/1969,Masculino,AM,
+b277a011bf,David Franklin Da Silva Guimarães,14/03/1992,Masculino,AM,
+0bb993f201,David Nunes Bemerguy,01/06/1968,Masculino,AM,
+277be20128,Deizimar Freitas Rodrigues,23/02/1975,Masculino,AM,
+8663f5cb69,Delmiro Barbosa De Lima,25/05/1963,Masculino,AM,Japurá
+92d6145fd4,Delva Maria Mota Dos Santos,25/03/1962,Feminino,AM,Tefé
+4aee5cd25c,Denis Linder Rojas De Paiva,06/02/1975,Masculino,AM,
+07b11af19d,Denise De Farias Lima,29/12/1977,Feminino,AM,
+2524021cc8,Diana Velasques De Abreu,08/06/1981,Feminino,AM,São Gabriel Da Cachoeira
+b0287d2502,Dietrich Esmaile Teixeira Mendes,30/12/1970,Masculino,RJ,Rio De Janeiro
+67d7e55343,Dilmar Santos Avila,04/06/1950,Masculino,MS,Ponta Porâ
+b6089c89bb,Dlea Gomes Da Silva,25/11/1970,Feminino,AM,
+ead26bb44e,Domingos Savio Camico Agudelos,12/05/1971,Masculino,AM,São Gabriel Da Acachoeira
+ba973d2d02,Domingos Vicente Nugoli Munhoz,03/08/1952,Masculino,SP,Guararapes
+59381e9435,Donmarques Anveres De Mendonca,01/06/1974,Masculino,AM,
+5241d192a1,Douglas Batista De Oliveira,11/05/1956,Masculino,AM,
+92f267668c,Dário Vicente Da Silva,28/12/1960,Masculino,PE,Recife
+f6520fcc30,Ecila Maria Cabral Ferreira,30/01/1970,Feminino,PA,
+6e83426fc4,Edeladio De Souza Gomes,23/06/1971,Masculino,AM,
+8eaeb114fa,Edelson Penaforth Pinto,09/07/1977,Masculino,AM,
+7673691430,Edenilson Litaiff Mendes,16/07/1958,Masculino,AM,Manaus
+6fb6cb435a,Eder Ferreira De Barros,15/05/1967,Masculino,AM,Anori
+7efb32a1e2,Edezio Ferreira Da Silva,06/11/1967,Masculino,AM,Carauari
+7d2e2f3981,Edgar Xavier De Souza Filho,29/05/1966,Masculino,AM,Iranduba
+5334d48f8e,Edilson Barroso Da Costa,06/12/1975,Masculino,AM,Manaus
+8e6c64c241,Edilson Da Fonseca Batista,11/06/1968,Masculino,AM,Borba
+d332a75532,Edilson Fernandes Da Silva,04/05/1979,Masculino,AM,Anama
+113eb27bed,Edilson Fonseca Gonçalves,04/07/1983,Masculino,AM,
+ad453c125a,Edilson Paulino Dos Santos,14/09/1959,Masculino,AM,
+8c30bb6a39,Edimar Vizolli,27/11/1960,Masculino,SC,Abelardo Luz
+94dac89936,Edimilson Oliveira Da Silva,03/10/1962,Masculino,AM,
+1141aa07a9,Edir Costa Castelo Branco,23/07/1969,Masculino,AM,
+6a8ce2385a,Edison Dias,10/03/1954,Masculino,SP,Rejente Feijó
+67736739fb,Edivaldo Mendonça Souza,13/06/1957,Masculino,AM,
+70c73efff8,Edivaldo Silva Araújo,15/10/1964,Masculino,AM,Urucurituba
+b7e688cfeb,Edjane Rodrigues Meireles,29/11/1973,Feminino,AM,
+843415d37d,Edmilson Neves Medeiros,04/03/1952,Masculino,AM,Japurá
+848b1182bd,Edmundo Da Silva Costa,29/11/1955,Masculino,AM,Manaus
+b1a1d00c68,Ednaldo Rogerio Tenorio Vieira,27/12/1985,Masculino,AM,
+09cb6b5c6e,Ednelson Coelho Bastos,22/03/1955,Masculino,AM,Envira
+6776e94743,Ednilson Ferreira Da Silva,24/12/1970,Masculino,AM,Manaus
+b6f5430f09,Edson Bastos Bessa,09/03/1972,Masculino,AM,Manacapuru
+8481ea933a,Edson De Paula Rodrigues Mendes,26/09/1970,Masculino,AM,
+13780e8835,Edy Rubem Tomas Barboza,01/07/1967,Masculino,AM,
+bc106861f3,Edygley Melo De Lima,28/10/1974,Masculino,AM,
+62eb4d6b33,Egmar Velasques Saldanha,24/07/1999,Masculino,AM,
+4731a56b79,Elenize Holanda De Almeida Weiller,02/12/1959,Feminino,AM,Itacoatiara
+2d502aa649,Eliana De Oliveira Amorim,05/01/1956,Feminino,AM,
+e97d6972ec,Elias Pereira Dos Santos,28/03/1938,Masculino,SP,Marilia
+6d547a7787,Elias Sanches Dos Santos,09/03/1959,Masculino,MG,Acucema
+b847e30c33,Eliete Da Cunha Beleza,08/12/1963,Feminino,AM,Santa Isabel Do Rio Negro
+b9986cf0d0,Eligerson Mariano Coelho Beltrão,23/05/1967,Masculino,AM,Barreirinha
+c6fd2e2565,Elioney Machado Maciel,11/08/1988,Masculino,AM,
+eb3fc94561,Elis Regina Da Silva Picanco,28/11/1972,Feminino,AM,
+52b9766a9e,Eliude Bacelar De Oliveira,31/12/1958,Masculino,AM,Manaus
+2b0d930c06,Elivaldo Herculino Dos Santos,03/03/1970,Masculino,AM,Tapauá
+5775400078,Elmir Lima Mota,19/08/1971,Masculino,AM,Boa Vista Do Ramos
+f2f376801e,Elson Carvalho Bezerra,21/08/1952,Masculino,AM,Careiro
+4f25e55a17,Elson Marcelo Lima De Souza,24/02/1983,Masculino,AM,
+f5cfe2f4f8,Elton Freitas Miranda,26/10/1973,Masculino,AM,
+9f76e129a4,Emerson Klinger Gonçalves De Mello,26/06/1986,Masculino,AM,
+19316e25ce,Emerson Pedraca De Franca,16/10/1961,Masculino,AM,Manicoré
+db819bc211,Emidio Niro Kohashi,15/10/1965,Masculino,AM,Manaus
+5aca281989,Emilly Beatriz Souza Da Cruz,09/09/2001,Feminino,AM,
+550ffe3cad,Eneas De Jesus Gonçalves Sobrinho,18/10/1956,Masculino,AM,Parintins
+b3ccd02513,Enildo Batista Lopes,05/03/1964,Masculino,AM,Atalaia Do Norte
+5e93e04e97,Enilton De Alencar Vasconcelos,27/04/1980,Masculino,AM,
+63a4326067,Enrico De Souza Falabella,08/11/1978,Masculino,AM,
+57bf65a027,Eraldo Trindade Da Silva,05/07/1973,Masculino,AM,
+0e3ba3f4e5,Erivaldo Ney Ferreira Correa,29/07/1955,Masculino,AM,Maues
+fa3247fcc1,Erivan Rodrigues Mota,18/04/1974,Masculino,AM,Tefe
+db14a78c45,Ernesto Gomes Da Rocha,11/10/1943,Masculino,AM,Anori
+4bff34b69a,Ernilson Carvalho Dos Santos,11/08/1969,Masculino,AM,São Paulo De Olivença
+fe4429073b,Eron Garcia De Sá,15/01/1979,Masculino,AM,Santo Antônio Do Içá
+a61d14cf02,Eronildo Braga Bezerra,09/02/1953,Masculino,AM,Boca Do Acre
+a33cbf7813,Eronildo Neves Da Mota,17/10/1959,Masculino,AM,Tefe
+9a2e626ea1,Ervani Carvalho E Pinho,08/11/1951,Feminino,AM,Manaus
+c4bfab7ca8,Ery Martins De Alencar,21/06/1949,Masculino,AM,Eirunepé
+e3ddf36bdc,Esmeralda Moura Da Silva,16/02/1948,Feminino,AM,Anori
+a0e3ab435d,Etã Pereira Castelo Branco,01/07/1978,Masculino,AM,
+6e9768af83,Evaldo De Souza Gomes,10/08/1963,Masculino,AM,Lábrea
+dbff4663f2,Evandro Francisco Aquino De Oliveira,24/03/1955,Masculino,AM,Coari
+f34789ba50,Everaldo Silva De Oliveira,25/12/1973,Masculino,AM,Careiro
+2fd3e2863c,Fabio Da Silva Cabral,16/07/1965,Masculino,AM,Benjamin Constant
+210e959ceb,Fabio Soares Bastos,15/07/1969,Masculino,AM,Anori
+43351adb1a,Fabricio Marques Rocha,03/03/1983,Masculino,AM,Parintins
+cf15e9e312,Fantino Castro Da Silva,03/08/1957,Masculino,AM,
+de702d8cc1,Feliciano Candido Parente,28/10/1959,Masculino,AM,Fonte Boa
+9cb701ccc2,Felipe Antonio,07/03/1960,Masculino,AM,Urucara
+052519e90e,Felix Vital De Almeida,23/05/1933,Masculino,AM,Urucurituba
+74202481d7,Fernando Falabella,10/01/1945,Masculino,AM,Urucará
+42145dc58e,Fernando Nogueira De Menezes,16/07/1961,Masculino,AM,Parintins
+224dc4ad65,Fernando Washington Pereira Costa,14/06/1962,Masculino,AM,
+da525ff949,Floriano Ramos Graça,04/05/1952,Masculino,AM,Benjamin Constant
+006be6b9e3,Francimar Ferreira Ramalho,18/10/1976,Masculino,AM,
+5196271bd1,Francinei Pinto Da Silva Buzaglo,11/08/1979,Masculino,AM,Novo Aripuana
+bd9ca5f063,Francisca Graciene Nogueira Feitosa,05/06/1968,Feminino,AM,
+15a0041476,Francisca Vanusa Viana De Oliveira,09/10/1971,Feminino,AM,Manaus
+23834979ff,Francisco Amaro Monteiro,26/03/1968,Masculino,AM,
+23afae479f,Francisco Andrade Braz,08/07/1983,Masculino,PA,
+9268548103,Francisco Antonio Da Costa,12/08/1951,Masculino,AM,Envira
+05e4eadb02,Francisco Bartolomeu Barroso,30/08/1951,Masculino,AM,Ipixuna
+62979e9ee3,Francisco Braga De Souza,18/06/1951,Masculino,AM,Manaus
+67671ceafd,Francisco Carlos Da Silva Gomes,25/03/1976,Masculino,AM,
+07b6637581,Francisco Cassio Nunes Brandao,17/09/1966,Masculino,AM,Tapauá
+5d560b8e16,Francisco Castro De Oliveira,03/02/1960,Masculino,AM,
+1ffabd0ff0,Francisco Coelho Da Silva,18/03/1968,Masculino,AM,
+ff6008e951,Francisco Cornelio De Paula,16/09/1968,Masculino,MG,Rio Espera
+a52129992c,Francisco Costa Dos Santos,19/10/1949,Masculino,AM,
+d4587953ef,Francisco Darílio De França Pinheiro,19/12/1967,Masculino,AM,
+30d906caee,Francisco Das Chagas Alves,23/02/1960,Masculino,AM,Pauini
+58bf39b487,Francisco Das Chagas De Jesus Gomes Da Costa,19/11/1956,Masculino,AM,Boca Do Acre
+f6eab11c30,Francisco Das Chagas Dissica Valério Tomaz,20/01/1953,Masculino,AM,Eirunepé
+a13f83a6ea,Francisco De Souza,03/11/1952,Masculino,CE,Solonopolis
+47e66b35cb,Francisco Ednaldo Praciano,18/02/1952,Masculino,CE,Itapipoca
+ed13f2bf9d,Francisco Eudes Barbosa De Lima,04/04/1970,Masculino,CE,
+4953eade69,Francisco Fernandes Bezerra,06/12/1948,Masculino,AM,
+8741ad09c4,Francisco Gelzimar Saraiva Herculano,19/04/1973,Masculino,AM,Ipixuna
+55d66eb5f4,Francisco Gois Maia,02/04/1968,Masculino,AM,Santo Antonio Do Iça
+fc3bf871fa,Francisco Gomes Da Silva,05/12/1958,Masculino,AM,Iranduba
+5dc6cdeafa,Francisco Guedes Lopes,03/10/1957,Masculino,AM,Japurá
+5d2a38ad9e,Francisco Helio Bezerra Bessa,10/09/1949,Masculino,CE,Alto Santo
+f99c32aef2,Francisco Linares Marinho,27/04/1947,Masculino,AM,Amatura
+48fe311032,Francisco Lopes Da Silva,21/03/1958,Masculino,AM,Coari
+c77a191d65,Francisco Nunes Bastos,11/10/1965,Masculino,AM,
+ede8862436,Francisco Ocimar Ferreira Da Costa,28/03/1961,Masculino,AM,
+6e11338b72,Francisco Pereira Saraiva,02/02/1963,Masculino,AM,Ipixuna
+a11ae3b00a,Francisco Plinio Valério Tomaz,31/01/1955,Masculino,AM,Eirunepe
+6357dd92b6,Francisco Rodrigues Balieiro,27/04/1958,Masculino,AM,Santo Antônio Do Içá
+b877e7f86f,Francisco Sales De Oliveira,29/01/1967,Masculino,AM,
+f40962d2d9,Francisco Sales Pena,27/02/1962,Masculino,AM,
+19d6e9fa0a,Francisco Sidnei Oliveira Dos Reis,06/04/1970,Masculino,AM,Manaquiri
+3bbc4814c1,Francisco Togo Soares,22/04/1954,Masculino,AM,Tefe
+ee7c7671f7,Francisco Valdemar Bulcão Da Silva,29/11/1966,Masculino,AM,
+711956aedb,Francisco Virgilio Melo Da Silva,03/04/1968,Masculino,AM,Eirunepe
+093a9d9e90,Frank Jacob Junior,12/02/1981,Masculino,AM,
+1904b6ec02,Frank Luiz Da Cunha Garcia,19/08/1966,Masculino,AM,
+cf6fb79df7,Frank Sobreira Barros,05/02/1973,Masculino,AM,
+f723e4e159,Franrossi De Oliveira Lira,30/05/1958,Masculino,AM,Silves
+9691ecc74c,Fredson Alves Pinheiro,30/01/1979,Masculino,AM,
+2ff0779814,Fullvio Da Silva Pinto,18/02/1976,Masculino,AM,Manaus
+3c863e41ad,Fátima Pontes Botelho,13/05/1962,Feminino,AM,Parintins
+635d6d4f1d,Gamaliel Andrade De Almeida,06/01/1984,Masculino,AM,
+227a28f59d,Gean Campos De Barros,04/11/1976,Masculino,AM,
+89c6d2d1d8,Gefferson Almeida De Oliveira,01/06/1962,Masculino,AM,
+1d4749f121,Gelciane Ferreira Gomes,07/10/1984,Feminino,AM,
+95bae39d73,Geni Alves Da Silva Narimatsu,31/08/1968,Feminino,SP,Rancharia
+5943147d07,Gentil Castro De Oliveira,21/08/1964,Masculino,AM,Tonantins
+6c20ff4564,George Tasso Lucena Sampaio Calado,29/09/1960,Masculino,PE,Recife
+437c845909,Geraldo Alencar Paes Barreto,19/07/1954,Masculino,AM,Codajás
+fe7a76a079,Geraldo Fialho Da Costa,05/12/1960,Masculino,AM,Anama
+1b50af53e8,Geraldo Soares De Medeiros,24/05/1934,Masculino,PB,Bananeiras
+cb737261a5,Geraldo Veloso Ferreira,16/07/1962,Masculino,AM,
+98c7a5cd07,Geramilton De Menezes Weckner,01/07/1940,Masculino,AM,Novo Aripuana
+3b015ccf4b,Gerlando Lopes Do Nascimento,15/12/1979,Masculino,AM,
+d720365b4c,Gernilson Da Silva Amancio,12/02/1982,Masculino,AM,Labrea
+0a2a19d811,Geroncio Rosa De Souza Lima Filho,10/12/1977,Masculino,AM,
+2c885a87d7,Gil E Silva Saraiva,10/02/1979,Masculino,AM,
+e9e49dcc09,Gilberto Ferreira Lisboa,07/06/1958,Masculino,AM,
+7a1ebd2725,Gilberto Vasconcelos Da Silva,15/04/1967,Masculino,AM,
+c4b01a0cfa,Gilvan Francisco Fontes,22/09/1958,Masculino,AM,
+12f31a82af,Gilvan Geraldo De Aquino Seixas,12/09/1952,Masculino,AM,Barreirinha
+0edc6f4efe,Giovannino Grisi Da Silva Pessoa,20/07/1971,Masculino,PB,João Pessoa
+bbf5bc3451,Giuliano Pinto Galate,06/03/1974,Masculino,AM,Atalaia Do Norte
+a45ef1228d,Gledson Dos Santos Batista,09/03/1980,Masculino,AM,
+4045232e64,Gledson Hadson Paulain Machado,20/08/1979,Masculino,AM,Nhamunda
+faa78ef574,Glenio Jose Marques Seixas,06/08/1981,Masculino,AM,
+4d2bce9581,Gracineide Lopes De Souza,18/02/1964,Feminino,AM,
+0b4888a35a,Gracinildo Cuesta Barroso,15/12/1979,Masculino,AM,
+b602f58cd4,Graça Maria De Menezes Moura,11/11/1968,Feminino,AM,
+e2c2b174b2,Guaracy De Jesus Miranda Dias Rebelo,20/08/1970,Feminino,AM,
+43a3d35a76,Guiomar Noronha Monteiro,24/03/1977,Feminino,AM,Barreirinha
+7b31f4e22f,Gutemberg Castro Dos Santos,15/04/1973,Masculino,AM,São Paulo De Olivença
+098aee8472,Gutembergue Lopes Dantas,04/01/1973,Masculino,PA,
+f50b7ca256,Hamilton Alves Villar,14/10/1969,Masculino,AM,Careiro
+640d75b566,Hamilton Lima Do Carmo Fermin,31/03/1970,Masculino,AM,São Paulo De Olivença
+79e30ec36c,Harben Gomes Avelar,11/02/1987,Masculino,AM,
+7cb1cc181e,Harley Gemy Castro Da Silva,18/01/1974,Masculino,AM,Urucara
+38ee334d57,Hayllen Silva De Castro,02/05/1984,Masculino,AM,Anori
+d4fbfa9f26,Helilton Jose Andrade Soares,13/09/1960,Masculino,AM,Urucurituba
+6ca8f1c4ff,Henrique De Oliveira Rita,22/05/1993,Masculino,AM,
+06869506fd,Heraldo Lucas Melo,01/03/1955,Masculino,AM,Urucara
+bc426215d9,Herbert Amazonas Massulo,16/10/1960,Masculino,AM,Manaus
+786ec8eadf,Herivaneo Vieira De Oliveira,08/11/1962,Masculino,AM,
+aa53788e8b,Hermes Filho Maramaldo,25/04/1966,Masculino,PA,Santarem
+f0dd73e792,Hernane Vaz De Abreu,01/08/1973,Masculino,AM,
+32cf8e7cda,Herodoto Jean De Sales,04/06/1965,Masculino,AM,
+893f4f2824,Hilal Hajar Hayssam,16/02/1983,Masculino,AM,
+7e3d35e486,Hilario Ramiro De Abreu Filho,24/03/1964,Masculino,AM,Tapauá
+2e4af26237,Hilton De Souza Assis,29/12/1947,Masculino,PE,Recife
+626b143094,Hilton Laborda Pinto,16/08/1948,Masculino,AM,Novo Aripuana
+d880ca2237,Hilton Laborda Pinto Junior,25/02/1982,Masculino,AM,
+52d23814eb,Hissa Nagib Abrahao Filho,02/08/1980,Masculino,AM,Manaus
+040ef4e06c,Huerton Colares Nogueira,15/01/1982,Masculino,AM,Anama
+eea91b9176,Hélio De Oliveira Rêgo Filho,23/08/1953,Masculino,AM,Manicoré
+b54b6503bb,Ilderson Marcio Enes Ribeiro,13/12/1975,Masculino,AC,
+c7c0685e82,Ilque Cunha De Lima,17/06/1987,Masculino,AM,
+03efcf285e,Ilson Serrão De Souza,20/07/1958,Masculino,AM,Manaus
+b10801c75b,Ines Baranda Hortencio,08/11/1970,Feminino,AM,Parintins
+1e0b1ae4b0,Iracema Maia Da Silva,10/01/1955,Feminino,AM,Manaus
+0890e987cc,Iranilson Da Silva Medeiros,14/12/1196,Masculino,AM,Coari
+8f73a2f8ae,Ireno Pinto Gonçalves,12/11/1967,Masculino,AM,Maués
+2502ca6436,Irizaldo Castro De Araujo,05/12/1955,Masculino,AM,Manicore
+8e94c438d1,Isidoro Walter Goncalves Zurra,16/04/1974,Masculino,AM,Tefé
+dd52dcfb5c,Israel Alexandre Muniz Paulain,23/12/1982,Masculino,AM,
+49c396655a,Israel De Jesus Oliveira Amorim,10/10/1982,Masculino,AM,
+dd23eeb878,Israel De Lima Bastos,26/08/1965,Masculino,AM,Anori
+c3666b3c88,Israel Fontes Dutra,09/07/1973,Masculino,AM,
+c186ba04d6,Itamar Brito Gonçalves,24/02/1960,Masculino,AM,
+5d89b18598,Ivanise Tourinho Simao,11/01/1978,Feminino,AM,
+ba74b8490b,Ivo Almeida Rodrigues,25/12/1963,Masculino,AM,Manaus
+e596d0b89a,Ivon Rates Da Silva,03/05/1969,Masculino,AM,
+2de5961fd2,Izaias Cintra Da Silva,26/08/1980,Masculino,AM,
+6043f34856,Jacira Fernandes,18/01/1960,Feminino,SP,Araras
+0d3c66000e,Jader Damasceno Mota,15/11/1982,Masculino,AM,
+5467108245,Jaime Vicente,17/02/1969,Masculino,ES,
+3fc0b9285a,Jair Aguiar Souto,17/02/1965,Masculino,AM,
+0b2a022a37,Jair Maia Barbosa,05/08/1987,Masculino,AM,Tapauá
+b65b166edc,Jairo Gatto Pereira,02/03/1982,Masculino,AM,
+51b31cc747,Jamilson Ribeiro Carvalho,13/10/1977,Masculino,AM,Anori
+9337f3604b,Jander Paes De Almeida,14/10/1978,Masculino,AM,
+2838eb3bcc,Janete Maria Reboucas Dos Santos Lobo,21/10/1961,Feminino,AM,
+e2f30002ad,Jarlem De Almeida Trindade,10/10/1993,Masculino,AM,
+8d472cc230,Jaziel Nunes De Alencar,16/06/1966,Masculino,AM,Manaus
+47c5d5c9c7,Jean Neder Martiniano Barbosa,30/12/1968,Masculino,AM,
+d4f0595cf0,Jecimar Pinheiro Matos,21/07/1979,Masculino,AM,Anamã
+d000e07e85,Jeferson Colares Campos,16/09/1966,Masculino,AM,Manicoré
+6cc8f48003,Jeovam Jorge Martiniano Barbosa,21/10/1963,Masculino,AM,Manaus
+cdad93990c,Jeronimo Maranhao Vieira Rodrigues,09/01/1962,Masculino,PE,Recife
+86ac654e05,Jerrimar Nogueira De Castro,14/09/1978,Masculino,AM,
+1ea776f534,Jessica Conegundes Da Silva,22/12/1990,Feminino,AM,
+b03bddf261,Jimmi Carter Santarem Barroso,12/08/1977,Masculino,AM,Boa Vista Do Ramos
+3f78aa028f,Joandre Mendes De Souza,26/03/1983,Masculino,AM,
+c942802715,Joao Bosco Cardoso Sampaio,21/12/1950,Masculino,AM,
+288a8e96ba,Joao Braga Dias,03/10/1962,Masculino,AM,
+30a9640853,Joao Carneiro Da Silva,,Não Divulgável,Não divulgável,Não Divulgável
+faf7b243bf,Joao Gomes Da Costa,01/11/1952,Masculino,AM,Ipixuna
+25b289adef,Joao Leonel De Britto Feitoza,24/06/1959,Masculino,AM,
+2f4f5a4e8f,Joao Pedro Gonçalves Da Costa,14/09/1952,Masculino,AM,Parintins
+0866634a30,Joao Pereira Amaro,10/02/1966,Masculino,AM,
+6fdf32812c,Joao Ricardo Bessa Freire,27/09/1950,Masculino,AM,Manaus
+6fd1ea66a5,Joao Roberto Da Silveira Tapajos,24/06/1956,Masculino,AM,Benjamin Constant
+d2f0676173,Joao Vasconcelos De Brito,14/08/1965,Masculino,CE,
+dfc3f70940,Joaquim Estelio De Azevedo Vinhote,18/08/1959,Masculino,AM,Borba
+2c95b3852d,Joaquim Francisco Da Silva Corado,04/10/1946,Masculino,AM,
+251b7951a4,Joaquim Neto Cavalcante Monteiro,25/11/1970,Masculino,AM,Eirunepé
+eda2928c27,Jocione Dos Santos Souza,19/12/1964,Masculino,AM,
+1af723eeb3,Joel Ferreira De Nascimento,28/04/1976,Masculino,AM,
+e0d819b962,Joel Gomes De Oliveira,19/05/1964,Masculino,AM,
+3741246eeb,Joel Rodrigues Lobo,22/11/1962,Masculino,GO,
+bce4cc71e5,Joel Santos De Lima,30/06/1949,Masculino,AM,Benjamin Constant
+7d0d8e77cc,Joelmir Ramon Sa Franca De Souza,10/03/1990,Masculino,AM,
+dcdda60bfa,Jones Karrer De Castro Monteiro,30/07/1947,Masculino,AM,Borba
+5e4dcc9272,Jones Karrer De Castro Monteiro,30/07/1948,Masculino,AM,Manaus
+b0436a3a66,Jony De Oliveira Ferreira,19/01/1965,Masculino,AM,Manaus
+16a7a20a98,Jordan Mota Da Silva,13/12/1972,Masculino,AM,
+c044474a88,Jorge Amazonas Azevedo,08/01/1959,Masculino,AM,Tonantins
+d520d4af65,Jorge Augusto Amaral Do Nascimento,10/12/1965,Masculino,AM,
+a0e19be049,Jorge Barbosa De Oliveira,22/04/1963,Masculino,AM,Atalaia Do Norte
+1ed108cbb7,Jorge Pereira Arevalo,25/03/1955,Masculino,AM,Tabatinga
+fac4593b62,Jose Airton Freitas Siqueira,22/12/1959,Masculino,AM,
+0f26d5c46a,Jose Amaury Da Silva Maia,26/06/1952,Masculino,AM,
+54c50e0ea3,Jose Antonio Macedo Cruz,12/08/1963,Masculino,AM,São Sebastião Do Uatumã
+0967c7a99d,Jose Armando Gomes Soares,06/03/1956,Masculino,AL,Campo Alegre
+55b925e92d,Jose Augusto Barrozo Eufrasio,06/11/1970,Masculino,AM,
+f348613856,Jose Augusto Dos Santos Souza,04/11/1974,Masculino,AM,Barreirinha
+93d0f29068,Jose Augusto Ferraz De Lima,09/08/1962,Masculino,AC,
+95350042f4,Jose Bezerra Guedes,25/04/1968,Masculino,AM,
+a74b2cee43,Jose Cidenei Lobo Do Nascimento,10/11/1962,Masculino,AM,
+5a2cc6c8f2,Jose De Pinho Ferreira,25/08/1948,Masculino,AM,Manaus
+02154618cb,Jose Domingos De Oliveira,18/05/1959,Masculino,AM,Manacapuru
+c40efe5818,Jose Edy Monteconrado Gomes,11/04/1938,Masculino,AM,Eirunepe
+1579a232a8,Jose Francisco Da Silva Rodrigues,15/06/1970,Masculino,AM,Juruá
+7ab8851452,Jose Freire De Souza Lobo,29/01/1953,Masculino,AM,Humaíta
+7070998392,Jose Gilson Ferreira Eduardo,29/05/1974,Masculino,AM,
+09038bea51,Jose Henrique De Oliveira Freitas,27/02/1973,Masculino,AM,
+36ad53e929,Jose Leland Herculano Saraiva,06/05/1969,Masculino,AM,Eirunepe
+4e5fdd0591,Jose Lourenço Almeida Ferreira,18/08/1975,Masculino,AM,Urucurituba
+41a2898642,Jose Maria Da Silva Maia,12/12/1956,Masculino,AM,
+1c47a61b8c,Jose Maria Freitas Da Silva Junior,30/10/1963,Masculino,AM,
+374d3746a0,Jose Maria Muniz De Castro,03/05/1944,Masculino,PB,
+1c51a45096,Jose Maria Rodrigues Da Rocha Junior,20/10/1977,Masculino,PA,
+0540e70f6d,Jose Maria Silva Da Cruz,01/10/1974,Masculino,AM,
+d3e6e1f878,Jose Mario Trindade Carneiro,15/05/1972,Masculino,AM,Barreirinha
+e2b4cba049,Jose Neto Souza Pontes,04/11/1950,Masculino,PA,Santarem
+db783154e1,Jose Olimpio Filho,03/07/1946,Masculino,RN,Joao Camara
+85cf04aae0,Jose Pedro Freitas Graça,13/09/1976,Masculino,AM,
+a7dac0583f,Jose Raimundo Do Vale,15/02/1961,Masculino,AM,Boca Do Acre
+3eb4dc42a2,Jose Ricardo Wendling,23/06/1964,Masculino,RS,
+aac8decc33,Jose Roberto Ribeiro Damasceno,02/05/1970,Masculino,AM,Jurua
+db4c1f2eb8,Jose Roberto Viana Costa,08/01/1968,Masculino,AM,
+701b465961,Jose Sales Nunes,24/12/1952,Masculino,RO,Porto Velho
+66ce963033,Jose Suediney De Souza Araujo,05/03/1969,Masculino,AM,
+1eb088a61a,Joseias Lopes Da Silva,21/07/1964,Masculino,AM,
+33670e85db,Josiel Barroso Da Silva,22/01/1989,Masculino,AM,
+c6163d3d49,Josileide Lopes Da Silva,17/09/1980,Feminino,AM,
+49db20fdda,José Alciberto De Almeida Silva,21/01/1976,Masculino,AM,Urucurituba
+818871055a,José Antonio Inácio,20/11/1946,Masculino,GO,Ipamari
+3bb9be4ab2,José Aroaldo Pereira Do Nascimento,27/02/1950,Masculino,AM,Tabatinga
+3e313e40b8,José Benedito Cardoso Filho,22/04/1965,Masculino,AM,São Gabriel Da Cachoeira
+5a0f56b6ab,José Carlos De Souza Rocha,10/02/1970,Masculino,AM,
+e43c471eb1,José Carlos Ribeiro,09/08/1969,Masculino,ES,Linhares
+95d937840a,José Claudenor De Castro Pontes,01/12/1973,Masculino,AM,
+a5ba835be8,José Daniel Santana Gusmão,17/05/1974,Masculino,AM,
+7480cb6449,José Elói De Amorim,14/08/1942,Masculino,AM,Tapauá
+d67d893824,José Franklin Lopes,14/10/1942,Masculino,AM,Uarini
+e4343d90df,José Franklin Lopes Filho,30/11/1964,Masculino,AM,Tefé
+c3d23d6247,José Henrique Oliveira,16/10/1960,Masculino,SC,Florianopolis
+d0a1c03eef,José Inácio Da Silva Siqueira Melo,21/01/1940,Masculino,AM,Autazes
+6e967d20b4,José Jorge Jaime Ladislau,19/06/1956,Masculino,AM,Anori
+a24ef15a16,José Lourenço Gadelha,23/09/1959,Masculino,AM,Barcelos
+1ef44a50e3,José Mendes De Freitas,14/02/1953,Masculino,AM,São Sebastião Do Uatumã
+191cced591,José Messias Ferreira,17/09/1948,Masculino,AL,Feira Grande
+143cfc81d4,José Miguel Souza De Almeida,28/09/1979,Masculino,AM,
+0b1b6a31d2,José Nivalter Correia Lima,17/08/1949,Masculino,AC,Cruzeiro Do Sul
+439122829d,José Raimundo De Albuquerque Faria,17/07/1955,Masculino,AM,Parintins
+e0e07d58bd,José Raimundo De Oliveira Felipe,07/12/1942,Masculino,AM,Urucará
+f5aacf0b50,José Ribamar De Araújo,19/03/1949,Masculino,AM,Careiro
+b2ed9717c8,José Ribamar Fontes Beleza,19/12/1956,Masculino,AM,
+1c002dd847,José Ribamar Pinheiro,14/02/1951,Masculino,AM,Japurá
+d78a0381f0,José Roberto Torres De Pontes,16/12/1969,Masculino,AM,
+68fac2d416,José Rodrigues Da Silva,12/01/1969,Masculino,MA,Santo Antonio Dos Lopes
+909dd0c670,José Sidnei De Lima Seixas,25/10/1968,Masculino,AM,Alvaraes
+bbe9f89f6f,José Silva Michiles,06/08/1970,Masculino,AM,
+963cab7989,José Thomé Filho,13/02/1955,Masculino,AM,Autazes
+239fe166b2,José Thomé Neto,25/07/1984,Masculino,AM,
+7cf474f6c4,José Valderi Farias De Souza,01/05/1971,Masculino,AM,Ipixuna
+b9566d1658,José Vicente Amorim,22/10/1941,Masculino,MA,Bacabal
+79c0fe8bb5,João Alberto Da Silva Nazaré,24/06/1965,Masculino,AM,
+98e865a7ab,João Batista Pereira Picanço,26/05/1969,Masculino,AM,Beruri
+941fe66dd5,João Bosco Dos Santos,20/08/1939,Masculino,AM,Coari
+6f15bac112,João Bosco Falabella,14/12/1950,Masculino,AM,
+4ea5ab5663,João Bruno Melo Moreira,26/01/1985,Masculino,AM,
+5abb674801,João De Deus Plínio Marques,23/02/1940,Masculino,AM,Itapiranga
+224d822e25,João Francisco Tussolini,31/08/1957,Masculino,PR,Pinhão
+4159fd481a,João Luiz Ferreira Lessa,24/06/1973,Masculino,PA,
+7a9d5e8ca9,João Maciel Da Silva,31/03/1963,Masculino,MA,
+a51e9983b4,João Maia Da Silva,15/06/1957,Masculino,AM,Lábrea
+ba250e575a,João Medeiros Campelo,01/02/1969,Masculino,AM,
+3f16717a1d,João Ocivaldo Batista De Amorim,17/10/1968,Masculino,AM,
+046e778bbc,João Osvaldo Diegues Da Silva,30/10/1985,Masculino,SP,
+2ea7ca5bc3,João Roberto Da Silva,05/01/1987,Masculino,AM,
+60c6ea9e98,Juarez Ramos Da Gama,31/01/1960,Masculino,AM,Urucurituba
+32b8ef3573,Jucimar De Oliveira Veloso,14/12/1963,Masculino,AM,Tabatinga
+3a258f4d09,Julio Cesar Lins Rodrigues,02/09/1958,Masculino,AM,Manaus
+6c8d47b79e,Julio Tavares Silva Neto,10/09/1950,Masculino,AM,Boca Do Acre
+e949b0b8f5,Juraci Souza Figueiredo,24/02/1961,Masculino,BA,Porto Seguro
+c621ee3cd6,Jurandir Cleuter Barros De Mendonça Júnior,25/04/1944,Masculino,AM,Itacoatiara
+9bf8eb1c6e,Juscelino Melo Manso,27/06/1962,Masculino,AM,
+59141b5bc0,Juscelino Otero Gonçalves,31/07/1963,Masculino,AM,São Gabriel Da Cachoeira
+4b68009b8e,Katia Maria Dantas Ribeiro,17/08/1981,Feminino,AM,
+916734e4c5,Katsuhiro Nagai,18/10/1945,Masculino,#NULO#,Japão
+069022b022,Kedson Guedes De Araujo,12/06/1983,Masculino,AM,
+15f2810f41,Keitton Wyllyson Pinheiro Batista,06/10/1979,Masculino,AM,
+aba0002066,Kennedy Da Costa Holanda,21/02/1971,Masculino,AM,São Paulo De Olivença
+279f6f10d4,Kennedy Oliveira Rocha,04/07/1970,Masculino,PI,Teresina
+2a92c3483f,Kleber Augusto Bechara De Oliveira,08/06/1972,Masculino,SP,São Paulo
+c4cf076f1a,Lauro Cesar Lopes,18/12/1975,Masculino,AM,Manaus
+212587909f,Lazaro Lopes Da Silva,10/02/1953,Masculino,AM,
+6c8a9d1e40,Leandro Fiori,15/03/1980,Masculino,PR,Assis Chateaubriand
+68d5d81340,Leandro Rufatto,09/06/1988,Masculino,MT,
+14b6d127d0,Leonardo Caninde Cajueiro Da Silva,23/02/1981,Masculino,AM,Tabatinga
+4c1c0f2be7,Leosvaldo Roque Migueis,03/03/1963,Masculino,AM,Manaus
+95d5e618a7,Leôncio Antônio Tundis Carvalho,10/12/1977,Masculino,AM,
+e4b76de718,Lindinalva Ferreira Silva,28/03/1956,Feminino,BA,Salvador
+e1fd78a316,Lino Marinho,12/08/1954,Masculino,AM,Benjamin Constant
+d23b3e5f10,Linylson Antonio Oliveira De França,12/09/1989,Masculino,AM,
+8483a17f95,Lison Bindá Da Costa,21/12/1956,Masculino,AM,Autazes
+d568aa1e5c,Lucenildo De Souza Macedo,04/04/1981,Masculino,AM,
+e2acdc2cd1,Lucia De Sá Barbosa,18/12/1948,Feminino,AM,Manaus
+4597a1068c,Luciana Lima De Melo,22/12/1978,Feminino,AM,
+ca7d9e66fe,Luciano De Farias,20/04/1971,Masculino,PB,
+60c23b9d3f,Lucélio Fernandes Basto,11/04/1979,Masculino,AC,Tarauacá
+243015f77d,Luis Alberto Carvalho Castelo,12/07/1940,Masculino,CE,Taua
+fe2a74434c,Luis Carlos Rodrigues De Moura,01/06/1982,Masculino,AM,
+87e2a1385b,Luis Eduardo Macedo De Souza,02/08/1970,Masculino,AM,São Sebastião Do Uatumã
+673fc595d7,Luis Gonzaga Picanço Neto,05/07/1966,Masculino,PA,
+d9cf5ddd06,Luis Ricardo Saldanha Nicolau,21/08/1975,Masculino,AM,
+f1ed684232,Luiz Adail Paz,18/04/1951,Masculino,CE,
+9ea7e0fc25,Luiz Alberto Souza Da Silva,02/06/1956,Masculino,AM,Manaus
+cf09cd93b6,Luiz Alberto Vieira Marques,01/03/1958,Masculino,AM,Barreirinha
+5f852483bd,Luiz Alexandre Rogerio Oliveira,20/06/1975,Masculino,CE,
+8453d30fad,Luiz Augusto Freire Viana,10/10/1960,Masculino,AM,Itapiranga
+6e724483d5,Luiz Carlos Cardoso Freire,30/10/1954,Masculino,AM,
+9e2b9ce2a5,Luiz Carlos Mattos Areosa,21/08/1950,Masculino,AM,Manaus
+b1a106f029,Luiz Castro Andrade Neto,14/10/1958,Masculino,SP,São Paulo
+2b0e15c1a1,Luiz De Jesus Fidelis,24/08/1974,Masculino,AM,
+752761b5c9,Luiz Franklin Chaves De Andrade,06/05/1974,Masculino,AM,Manaus
+49495ba26b,Luiz Gonzaga Da Costa Neto,17/09/1976,Masculino,AM,Nova Olinda Do Norte
+dc2cd47f00,Luiz Guedes Brandao,,,,
+6be84e8494,Luiz Henrique Braz,28/07/1950,Masculino,AM,Manaus
+3d97924b61,Luiz Lopes De Aguiar Neto,16/08/1968,Masculino,PA,Ourém
+0097e7a2de,Luiz Magno Praiano Moraes,27/06/1982,Masculino,AM,Fonte Boa
+6dcb2ea661,Luiz Manoel Navarro,02/08/1942,Masculino,AM,Manaus
+2a5056f552,Luiz Manoel Vasquez Delgado Filho,13/09/1976,Masculino,AM,
+20cd1b592a,Luiz Pereira,21/06/1938,Masculino,AM,Sao Paulo De Olivença
+142f0a81cf,Luiz Ricardo De Moura Chagas,11/08/1967,Masculino,AM,Manaus
+8d82b756ed,Luiz Saraiva Filho,02/09/1947,Masculino,AM,São Paulo De Olivença
+6dc935c211,Luiza Francisca Gomes De Moura,11/05/1965,Feminino,AM,Pauini
+0617cb9740,Luís Augusto Costa Da Silva,25/08/1975,Masculino,PA,
+136735ca62,Lázaro Damasceno Fonseca,11/02/1950,Masculino,AM,Alvaraes
+b07f7a1bba,Lázaro De Araujo De Almeida,11/02/1978,Masculino,AM,
+36a8b2c21d,Lázaro De Souza Martins,11/02/1963,Masculino,AM,
+450239a1ce,Lúcio Flávio Do Rosário,30/01/1964,Masculino,AM,
+e5f5bf8e5a,Macelly Cristina De Souza Veras,26/05/1986,Feminino,AM,
+6748686a79,Maicon Maciel Ribeiro Martins,23/02/1985,Masculino,AM,Sao Paulo De Olivença
+83e6c61068,Mamoud Amed Filho,28/04/1945,Masculino,AM,
+619155ecf5,Manoel Adail Amaral Pinheiro,09/12/1962,Masculino,AM,
+e5eda97d2f,Manoel Augusto Rodrigues De Lima,19/10/1967,Masculino,AM,Manaus
+7b562e60bd,Manoel Cunha Da Mota,28/05/1972,Masculino,AM,
+89e09bd8f3,Manoel Da Conceição Silva Da Costa,08/12/1974,Masculino,AM,
+3d3a228a88,Manoel Da Paixão Tavares Da Graça,27/03/1959,Masculino,AM,Benjamin Constant
+cb955c45e8,Manoel De Oliveira Galdino,26/01/1957,Masculino,AM,Manicoré
+15af0e8e26,Manoel De Souza Ferreira,23/07/1967,Masculino,AM,
+72935293b9,Manoel Diomedio Da Silva Filho,19/07/1967,Masculino,AM,Tapauá
+f669c8052a,Manoel Helio Alves De Paula,27/09/1948,Masculino,AM,Ipixuna
+889ef86e48,Manoel Lazaro De Souza Teixeira,01/05/1965,Masculino,AM,Parintins
+fcb5ecd3a8,Manoel Lopes De Lima,15/08/1981,Masculino,AM,
+fbb838051b,Manoel Nascimento,14/10/1959,Masculino,AM,
+b3baee6824,Manoel Orlando Monteiro Do Nascimento,24/04/1966,Masculino,AM,
+8976f10aa1,Manoel Peres Loureiro,01/03/1960,Masculino,AM,Tabatinga
+bd861f45c2,Manuel Antonio Vital,15/01/1945,Masculino,AM,Urucurituba
+e4c32bb134,Manuel Barbosa De Lima,08/09/1971,Masculino,AM,Boca Do Acre
+41cf763b91,Manuel Carvalho De Almeida,17/06/1952,Masculino,AM,Silves
+d5acda8318,Manuel Nazareno Alves Da Silva,02/04/1967,Masculino,AM,Borba
+85e263e49d,Manuel Pinheiro Feitosa,15/12/1949,Masculino,AM,
+3f9043bf9d,Manuel Sebastião Pimentel De Medeiros,29/10/1961,Masculino,AM,Manicoré
+095bf3b97c,Maqcharles Brito Lobo,05/12/1970,Masculino,AM,Itamarati
+d1d61559b0,Mara Alves De Lima,20/07/1981,Feminino,AM,
+b2d02f0278,Marcelo Bezerra Da Cruz,17/02/1977,Masculino,AM,
+e0957c012b,Marcelo Ramos Rodrigues,29/08/1973,Masculino,AM,
+71b0615761,Marcia Auxiliadora Cardoso Baranda,24/01/1966,Feminino,AM,Parintins
+b15643f36c,Marcio Antonio De Oliveira Almeida,03/02/1962,Masculino,AM,Itacoatiara
+b6f9a50c20,Marcio Cunha De Oliveira,05/10/1974,Masculino,AM,Manaus
+66ed3a3007,Marco Antonio Souza Ribeiro Da Costa,25/06/1969,Masculino,AM,
+e57e5b9cf1,Marconde Martins Rodrigues,05/04/1969,Masculino,AM,
+95af1f314e,Marcos Antonio Cavalcante Monteiro,06/01/1966,Masculino,AM,Eirunepé
+f328f12c11,Marcos Antonio De Queiroz,14/03/1968,Masculino,PB,João Pessoa
+4db571fb4f,Marcos Antonio Dias,27/03/1965,Masculino,GO,Goiania
+ed22f58870,Marcos Antonio Lima De Abreu,07/02/1989,Masculino,AM,
+ee2dea5062,Marcos Antonio Lise,26/11/1973,Masculino,PR,
+b798a98cda,Marcos Monteiro Da Silva,07/10/1953,Masculino,AM,Atalaia Do Norte
+37758be1ed,Marcos Paulo Dos Santos Pinto,03/09/1980,Masculino,AM,Novo Aripuana
+df044a963f,Marcos Souza Martins,11/05/1976,Masculino,AM,
+f173668bf8,Mardson De Oliveira Gomes,27/08/1987,Masculino,AM,
+e2b7627b4c,Marenildo Bentes Colares,26/10/1983,Masculino,AM,
+0acfb964ab,Maria Altair Da Costa Navegante,27/07/1978,Feminino,AM,Parintins
+eb5bb31c37,Maria Barroso Da Costa,18/10/1957,Feminino,AM,Pauini
+d40d49d9ed,Maria Da Conceição Do Carmo Ribeiro Castelo Branco,08/12/1951,Feminino,AM,São Paulo De Olivença
+7092570608,Maria Da Conceição Souza Vera,04/08/1955,Feminino,AM,
+5a35f7e9f8,Maria Das Dores Oliveira Munhoz,06/01/1958,Feminino,AM,Boca Do Acre
+3aaa06aaf4,Maria Das Graças Araujo De Freitas,24/12/1954,Feminino,AM,
+d1eed9fb07,Maria Das Graças Colares Izel Lopes,30/11/1949,Feminino,AM,
+238ab52ad5,Maria Das Graças Nogueira Alencar,17/06/1956,Feminino,AM,Autazes
+bc9d33079d,Maria De Fatima Ribeiro Soares,18/10/1955,Feminino,AM,Lábrea
+bfc916aa1d,Maria De Nazaré Da Silva Rocha,30/03/1975,Feminino,PA,
+57a6e14fdf,Maria De Nazaré Marques De Almeida,10/07/1956,Feminino,AM,Coari
+6113a67c8b,Maria Do Socorro De Paula Oliveira,04/03/1969,Feminino,AM,
+93cdfef182,Maria Do Socorro Dutra Lindoso,31/05/1923,Feminino,AM,Barreirinha
+1fcb20bca8,Maria Do Socorro Nogueira Fontinele,27/01/1977,Feminino,AM,
+85cd493f25,Maria Do Socorro Pereira Dos Santos,18/12/1943,Feminino,AM,Maués
+3ca16b292e,Maria Elizangela Da Silva Melgueiro,22/09/1980,Feminino,AM,
+f668750554,Maria Girlane Barbosa De Vasconcelos,28/06/1976,Feminino,PA,
+8f735f119b,Maria Jose Calheiros De Souza,18/09/1963,Feminino,AM,Parintins
+0002324720,Maria Josefa De Assis Alves,12/01/1962,Feminino,AM,
+1be3ce00d0,Maria Lucir Dos Santos De Oliveira,27/07/1963,Feminino,AM,
+9cb627d7ec,Maria Madalena De Jesus Souza,22/07/1960,Feminino,AM,Manacapuru
+6642e502dc,Maria Madalena De Oliveira Freitas,13/02/1959,Feminino,AM,
+2d7765b41f,Maria Regina Macedo Ribeiro,05/10/1957,Feminino,AM,Boa Vista Do Ramos
+61fe92bcf7,Maria Rosineide Mourão Solart,02/10/1963,Feminino,AM,Maraa
+304e651f34,Maria Santana Cabral Dos Santos,,,,
+9b242b53a5,Marilene Gomes Graça,21/01/1975,Feminino,AM,Borba
+be5d458ab1,Mario Augusto Tavares Dos Santos,28/05/1968,Masculino,AM,
+f6b088d372,Mario Jorge Bouez Abrahim,23/09/1968,Masculino,AM,
+b07d8f6d6d,Mario José Chagas Paulain,25/10/1953,Masculino,AM,Nhamundá
+56086ceeb5,Mario Sergio Leite De Melo,05/06/1975,Masculino,BA,
+3983478e67,Mariolino Siqueira De Oliveira,22/07/1948,Masculino,AM,Manaus
+e8a32d2af0,Marivelton Rodrigues Barroso,20/03/1991,Masculino,AM,
+716fab05e9,Marlene Gonçalves Cardoso,26/12/1969,Feminino,AM,Jutai
+d1d1a111fb,Marlio Daza La Serna,31/07/1952,Masculino,AM,Labrea
+0bc9f2a85b,Marlon Trindade Teixeira,30/03/1968,Masculino,AM,Itacoatiara
+42b666d3d8,Maronilson Abilio Da Costa,06/06/1984,Masculino,AM,
+ba47225dff,Mary Jane Alves Da Frota,17/09/1968,Feminino,AM,Nova Olinda Do Norte
+072f57e7b6,Mateus Ferreira Assayag,26/06/1980,Masculino,AM,
+803ac21326,Mateus Garcia Paes,25/04/1975,Masculino,AM,
+2d9d0936ae,Matulinho Xavier Braz,12/07/2001,Masculino,AM,
+29e11aed3f,Mauri Maurilio Dos Santos,18/02/1984,Masculino,AM,
+422f62cdd1,Mauricio Maciel Assad,31/10/1977,Masculino,AM,
+ddcd348e81,Maurilio Benedito Dos Santos,30/08/1942,Masculino,PE,Serinhaem
+5491b88012,Mauro Gomes De Souza,28/12/1964,Masculino,AM,Manaus
+da90720726,Maurício Wilker De Azevedo Barreto,01/08/1976,Masculino,AM,
+0a28169dfb,Maximino Sotero De Abreu,30/06/1934,Masculino,PA,Santarém
+b611b57f67,Mazile Menezes De Castro,20/01/1962,Masculino,AM,Manacapuru
+3e6649ae4c,Mecias Pereira Batista,10/11/1963,Masculino,AM,Barreirinha
+7b7e21b8ad,Mercedes Mendes Vargas,24/08/1979,Feminino,AM,
+e82a3d39af,Messias De Oliveira,02/09/1972,Masculino,AM,
+e87ee46e51,Messias Wilson De Medeiros Cursino,24/08/1957,Masculino,AM,Parintins
+7165c0ce6e,Miberwal Ferreira Jucá,10/11/1950,Masculino,AM,Carauari
+5dab2f96d0,Michel De Oliveira Bandeira,22/03/1976,Masculino,AM,Ipixuna
+524748aeea,Michele Valadares Moreira,23/11/1978,Feminino,MG,
+4096c96813,Miguel Angel Da Costa Ahuite,20/08/1962,Feminino,ZZ,Lima - Peru
+499eea83a3,Miguel De Moura Ribeiro,13/07/1958,Masculino,AM,Coari
+22f50b9535,Milton Martins De Souza,06/02/1959,Masculino,MG,Porteirinha
+29cb0c4beb,Miqueias Paz De Carvalho,08/02/1985,Masculino,AM,
+8746f086a5,Miron Osmario Fogaça,02/10/1940,Masculino,PR,Irati
+3f4619b5d6,Moacyr Canizo De Brito Filho,14/12/1971,Masculino,AM,
+f0d872d79d,Mohamad Abdul Hussein Hayssam,15/09/1954,Masculino,RJ,Libano
+0af827cf44,Moises Pantoja Lima,01/02/1939,Masculino,AM,Boca Do Acre
+d1e9c6a96a,Moises Pinto Dos Anjos,02/10/1967,Masculino,AM,
+0de0c6f792,Moisés Torres De Souza,03/09/1949,Masculino,AM,Careiro
+00598732e6,Moyses Assayag,30/08/1947,Masculino,AM,Parintins
+163c67b133,Mustaf Said,18/10/1934,Masculino,AM,Manaus
+7f708ce722,Márcio Luiz Teixeira Bastos,25/07/1975,Masculino,PA,
+e529c75d45,Mário Ruy Lacerda De Freitas Júnior,10/11/1974,Masculino,AM,
+c8a267c2b4,Mário Tomás Litaiff,08/02/1968,Masculino,AM,
+a84aaade21,Nadiel Serrão Do Nascimento,10/03/1967,Masculino,AM,
+75e22c5148,Nailson Guedes Dos Santos Silva,22/06/1974,Masculino,AM,Careiro
+9ceb424515,Nathan Macena De Souza,27/01/1977,Masculino,AM,
+633b77e4e0,Nazareno Souza Martins,24/04/1958,Masculino,AM,
+65b70a743b,Neilson Da Cruz Cavalcante,01/11/1962,Masculino,AM,Manaus
+ea98915e8e,Nelson Azevedo Dos Santos,14/04/1945,Masculino,PA,Oriximina
+f1e66d6710,Nelson De Mendonça Furtado Neto,14/08/1976,Masculino,AM,
+72cee1d597,Nelson De Souza Maranhao,28/05/1945,Masculino,AM,Manaus
+872a8b91bc,Nelson Pereira Da Silva,20/04/1975,Masculino,AM,
+35ebe21d03,Nelson Raimundo De Oliveira Azedo,25/09/1950,Masculino,AM,
+5fe4f720b3,Neuton Dacio Garcia,14/07/1965,Masculino,AM,Santo Antonio Do Içá
+7a1ffdc2cb,Ney Magalhaes Da Silva,12/04/1989,Masculino,AM,Manaquiri
+f7ee2daff1,Nicson Marreira Lima,03/02/1970,Masculino,AM,
+70cd20129a,Nicéia Da Silva Palheta,18/08/1963,Feminino,AM,Borba
+6ba3e48f8a,Nilce Tenazor Nogueira,01/06/1967,Feminino,AM,
+24015c83df,Nilson Paulo Da Silva,26/02/1964,Masculino,AM,Manaquiri
+606090adfb,Nilvo Luiz Damian,07/04/1954,Masculino,RS,Sarandi
+2deaed29e7,Nirio Schopan,27/01/1976,Masculino,RS,
+a22cea929c,Nonato Do Nascimento Tenazor,07/01/1969,Masculino,AM,Benjamin Constant
+8be0b1d070,Norma Maria Do Rego Pantoja,25/07/1970,Feminino,PA,
+401f0130ae,Normando Bessa De Sá,22/11/1974,Masculino,AM,
+13630aaecb,Ocimar Lopes De Souza,26/09/1959,Masculino,AM,Canutama
+b222313331,Odair Garcia,03/05/1958,Masculino,SP,Sao Berbardo Do Campo
+863a204456,Odemilson Lima Magalhães,29/09/1968,Masculino,AM,
+cc7ee5033f,Odilon Galvao Picanco,03/02/1943,Masculino,AM,Beruri
+4072398b4d,Odimar Cipriano Da Silva,30/12/1984,Masculino,AM,
+7cc537f53d,Odivaldo Miguel De Oliveira Paiva,29/09/1964,Masculino,AM,Maués
+3e1fca10d3,Odorman Duarte De Vasconcelos,05/02/1973,Masculino,AM,
+0f88929c91,Olavo De Angiolis Silva,03/03/1968,Masculino,AM,
+2ee227c57a,Omar Jose Abdel Aziz,13/08/1958,Masculino,SP,Sao Paulo
+a39c1011d2,Ordean Gonzaga Da Silva,06/12/1976,Masculino,AC,
+599c19fe9d,Orlan Souza Dos Santos,20/10/1977,Masculino,AM,
+1fab6f4cd8,Orlando Aristide Mendes Gonçalves,05/09/1967,Masculino,AM,
+47214ab836,Orlando Belarmino Lins Gonçalves,04/10/1962,Masculino,AM,Alvaraes
+2a950f9c11,Orlando Da Silva Corado,30/10/1943,Masculino,AM,Amaturá
+e32f7f9f11,Orlando Gualberto Cidade Filho,16/06/1953,Masculino,AM,Manicoré
+6a1d64708e,Orlando Joao Lazaro Araujo Barbosa,03/06/1958,Masculino,AM,Itapiranga
+bd20166af3,Ossias Josino Da Cota,03/07/1957,Masculino,AM,Coari
+916d017526,Otaniel Lyra De Oliveira,10/01/1977,Masculino,AM,
+bce399ea1d,Otávio Da Cruz Farias,12/11/1987,Masculino,AM,
+62c7bb41a1,Ozemir De Melo Almeida,18/07/1952,Masculino,AM,Careiro
+8c01d70648,Oziel Carvalho Goncalves,23/06/1967,Masculino,AM,
+b4be9a72e2,Pascoal Gomes Alcantara,29/07/1979,Masculino,AM,
+b5e026bfdb,Patricia Lopes Miranda,29/03/1985,Feminino,CE,
+3b670b8eb0,Patrick Cuesta Telles Arevalo,25/09/1981,Masculino,AM,
+153fc1f96f,Pauderney Tomaz Avelino,24/09/1954,Masculino,AM,Eirunepe
+9ababc744c,Paula Augusta Monteiro De Oliveira,12/12/1990,Feminino,AM,
+cd0d98702b,Paulo Castro De Albuquerque,01/07/1950,Masculino,AM,Manaus
+bcb985db3a,Paulo Cezar Mates,17/06/1972,Masculino,SC,
+dc855e6a62,Paulo Da Cunha Freire,27/01/1946,Masculino,AM,Manacapuru
+7a6a66c695,Paulo De Oliveira Mafra,11/06/1960,Masculino,AM,
+2ff081d2e3,Paulo Ruan Portela Mattos,03/06/1995,Masculino,AM,
+396b86ed5f,Paulo Sergio Machado Barbosa,27/11/1973,Masculino,AM,Boca Do Acre
+c874373228,Pedro Amorim Rocha,18/06/1964,Masculino,AM,Nhamunda
+3135253729,Pedro Andrade Barbosa,03/06/1961,Masculino,AM,Japura
+5a7a3aaac6,Pedro Bichara Jose,24/01/1964,Masculino,AM,Benjamin Constant
+1472f9d367,Pedro De Andrade Baranda,11/10/1951,Masculino,AM,Parintins
+5b138b6830,Pedro Duarte Guedes,16/06/1953,Masculino,AM,
+85dd88a21d,Pedro Elias Silva Da Mata,30/10/1969,Masculino,AM,Itapiranga
+e895eb1cf6,Pedro Garcia,16/12/1961,Masculino,AM,Sao Gabriel Da Cachoeira
+a4979a3539,Pedro Geraldo Raimundo Falabella,22/01/1942,Masculino,AM,Urucará
+c05c6ccff8,Pedro Macario Barboza,29/06/1980,Masculino,AM,
+906d0f4116,Pedro Paulo Oliveira De Souza,21/04/1971,Masculino,AM,
+a14da064eb,Pedro Roberto Bindá Palmeira,02/12/1955,Masculino,AM,Manaus
+18428519ca,Percilei Pantoja De Souza,18/05/1959,Masculino,AM,Autazes
+8d59f9b91a,Petrucio Pereira De Magalhaes Junior,07/06/1973,Masculino,AM,
+20403650d3,Plinio Souza Da Cruz,14/10/1974,Masculino,AM,
+12bc2b963a,Raad Mohamad Raad,05/12/1947,Masculino,ZZ,Líbano
+e7ef0460ce,Radson Alves De Souza,18/09/1982,Masculino,AM,
+6e3067ba8c,Radson Rogerton Dos Santos Alves,15/05/1984,Masculino,AM,
+5b7093aefb,Rafael De Araujo Romano Junior,08/11/1975,Masculino,AM,Manaus
+bcf8cf187d,Raimunda Marina Brito Pandolfo,18/06/1979,Feminino,AM,
+6c888da3d1,Raimundo Alves Nogueira,20/08/1949,Masculino,AM,
+6518768090,Raimundo Bernardo Da Silva Júnior,13/02/1966,Masculino,AM,
+55173c6a8d,Raimundo Carlos Goes Pinheiro,04/07/1973,Masculino,AM,Maués
+831f3d619a,Raimundo Carvalho Caldas,28/05/1960,Masculino,AM,Tabatinga
+9383a77dcc,Raimundo Da Costa Silva,01/02/1939,Masculino,AM,Guajara
+602cd73a52,Raimundo Damacena Barbosa,10/02/1937,Masculino,AM,Boca Do Acre
+d9ea5d20b5,Raimundo Damasceno Fonseca,04/11/1950,Masculino,AM,Japurá
+25c877c42e,Raimundo De Matos Junior,05/06/1970,Masculino,AM,
+b78091a92c,Raimundo Divino Paiva Costa,04/07/1974,Masculino,AM,Jutai
+3249537cd7,Raimundo Dos Santos Fonseca,06/07/1966,Masculino,AM,Alvarães
+7e67d0f0a9,Raimundo Eneias Mourao Solart,24/04/1951,Masculino,AM,
+6a486c0c34,Raimundo Gomes Lobo,16/08/1944,Masculino,AM,Itamarati
+de97f9f5f1,Raimundo Guedes Dos Santos,13/10/1960,Masculino,AM,
+1f5b73aa39,Raimundo Holanda Rodrigues,24/09/1942,Masculino,AM,Tefe
+12dd57d2b9,Raimundo José Brito,05/09/1965,Masculino,PI,Elizeu Martins
+a6aa7fb1d5,Raimundo Matias Barbosa,10/08/1955,Masculino,AM,Japura
+ad637f5e7e,Raimundo Nonato Batista De Souza,01/07/1959,Masculino,AM,Tabatinga
+76b4b9a574,Raimundo Nonato Castro Alves,18/02/1961,Masculino,AM,Atalaia Do Norte
+1d88cafffa,Raimundo Nonato Da Silva,05/11/1964,Masculino,AM,Careiro Da Várzeas
+33214bd649,Raimundo Nonato De Araujo Magalhaes,08/09/1963,Masculino,AC,Cruzeiro Do Sul
+b1c8b571e7,Raimundo Nonato Dos Santos,31/10/1951,Masculino,AM,Jurua
+e356a76a99,Raimundo Nonato Frota Da Silva,17/02/1948,Masculino,AM,Manaus
+fac79c3cab,Raimundo Nonato Garcez Barroso,19/04/1971,Masculino,AM,
+eb33c9a47d,Raimundo Nonato Marreiros De Oliveira,19/07/1949,Masculino,AM,Manaus
+cf9019bf25,Raimundo Nonato Silva Viana,25/09/1968,Masculino,AM,Carauari
+ea0ef161eb,Raimundo Nonato Souza Martins,16/09/1956,Masculino,AM,São Paulo De Olivença
+8cee479149,Raimundo Orleans Da Conceição De Almeida Neves,12/03/1974,Masculino,AM,
+9a10a439a9,Raimundo Paulino De Almeida Grana,25/09/1968,Masculino,AM,
+d4abd1b52c,Raimundo Pereira Lisboa,05/08/1942,Masculino,AM,Carauari
+a3e01a338d,Raimundo Pinheiro Da Silva,31/08/1963,Masculino,AM,Manacapuru
+ce96a0f226,Raimundo Quirino Calixto,23/05/1944,Masculino,AM,São Gabriel Da Cachoeira
+d7901026c6,Raimundo Reis Ferreira,03/03/1943,Masculino,AM,Parintins
+430666159f,Raimundo Renato Rodrigues Afonso,29/07/1968,Masculino,AM,
+fc6ad4d9d4,Raimundo Ribeiro Da Costa,20/05/1949,Masculino,AM,Barcelos
+5e762d5792,Raimundo Robson De Sa,13/01/1954,Masculino,AM,Novo Aripuanã
+f973328c44,Raimundo Rodrigues De Amorim,05/04/1944,Masculino,AM,Canutama
+472d06adce,Raimundo Sabino Castelo Branco Maues,31/08/1964,Masculino,AM,Manaus
+66fa61f160,Raimundo Sampaio Da Costa,06/09/1956,Masculino,AM,Canutama
+e6758defa0,Raimundo Santana De Freitas,25/07/1980,Masculino,AM,
+9d486a36bd,Raimundo Silva,15/01/1944,Masculino,AM,Itacoatiara
+335d789a44,Raimundo Walter Dos Santos Costa,21/10/1957,Masculino,AM,Urucurituba
+44277dc632,Raimundo Wanderlan Penalber Sampaio,13/05/1960,Masculino,AM,
+819e583bca,Raione Cabral Queiroz,21/05/1990,Masculino,AM,
+8c85d20707,Ralciele Bezerra De Jesus,31/08/1965,Masculino,AM,Codajas
+11a23ee2d9,Ramiro Gonçalves De Araujo,21/09/1955,Masculino,PA,
+b1ca383c9f,Ranilde Conceição De Freitas Menezes,08/12/1967,Feminino,GO,Gurupi
+42a58c3aaa,Ranolfo Litaiff Barbosa,11/05/1945,Masculino,AM,Alvaraes
+eb1885db84,Ranulfo Da Silva De Benedito,10/08/1967,Masculino,AM,
+18ea9d3305,Raylan Barroso De Alencar,19/10/1979,Masculino,AM,
+b083d566d8,Raymundo Lopes De Albuquerque Sobrinho,22/09/1951,Masculino,AM,
+d542dfe830,Raymundo Nonato Lopes,28/11/1946,Masculino,AM,Manaus
+a52ce79be2,Regildo Guedes De Souza,20/12/1978,Masculino,AM,
+d9a87003bf,Regina Celia Chaves Do Carmo,02/09/1969,Feminino,MG,Prata
+1be5e585ab,Reginaldo Nazaré Da Costa,04/05/1977,Masculino,AM,
+eddc7da79f,Reginaldo Pinheiro De Oliveira,14/11/1963,Masculino,AM,Manaus
+bb89bcf1b1,Reidivan Da Rocha De França,01/05/1968,Masculino,AM,Envira
+c328c30430,Renaldo Serrao Dos Santos,16/12/1964,Masculino,AM,Urucurituba
+84043c11b7,Renato Pereira Gonçalves,26/03/1958,Masculino,RJ,Rio De Janeiro
+06038a08d9,Rene Coimbra,23/09/1964,Masculino,AM,São Gabriel Da Cachoeira
+6ed3859d37,Ribamar Cruz De Farias,14/07/1940,Masculino,AM,Sao Paulo De Olivença
+f9bfc1900a,Ricardo Oliveira Da Costa,06/08/1964,Masculino,AM,Manaus
+43c1b726cc,Ricelli Viana Pontes,06/05/1985,Masculino,PI,
+0f7ef5a258,Ridson Dos Santos Barbosa,20/05/1974,Masculino,AM,
+aa25057061,Roberto Carmo Dacio Dias,30/04/1967,Masculino,AM,Boa Vista Do Ramos
+afba9ce444,Roberto Frederico Paes Junior,10/12/1966,Masculino,AM,
+c65188b4d6,Roberto Maia Cidade Filho,02/10/1986,Masculino,AM,
+36f713df72,Roberto Rui Guerra De Souza,15/04/1950,Masculino,AM,Borba
+bf35f2f455,Roberto Sabino Rodrigues,10/03/1959,Masculino,AM,Itacoatiara
+f1092eb05e,Roberval Rodrigues Da Silva,07/02/1934,Masculino,AM,Coari
+f5f1ced2b7,Roberval Teixeira Lopes,09/04/1961,Masculino,AM,
+bd1ae90fd1,Robson Roberto Tiradentes Junior,23/02/1987,Masculino,AM,
+60e037e8d6,Rodolfo Stanley Marques De Oliveira,04/12/1966,Masculino,RO,
+e83bbcc294,Rodrigo Alves Da Costa,20/04/1976,Masculino,AM,Coari
+ff2e7922ab,Rogerio Pereira  Da Silva,27/05/1972,Masculino,AM,Itamarati
+732f197367,Rogerio Silverio De Araujo,10/09/1986,Masculino,AM,
+091d8bdd8e,Romeiro José Costeira De Mendonça,13/10/1959,Masculino,AM,
+9c3c4807a2,Romerio Da Conceição Melo,26/04/1970,Masculino,MA,
+4e563555a9,Romero Reis,15/04/1961,Masculino,SP,
+87fb936201,Romulo Barbosa Mattos,28/06/1965,Masculino,AM,
+984f0faf0c,Ronaldo Cruz Beleza,14/09/1972,Masculino,AM,Humaitá
+809bb7f886,Ronan Dos Santos Barbosa,29/11/1967,Masculino,AM,Barreirinha
+65d5d16fa8,Rosario Conte Galate Neto,25/02/1946,Masculino,PA,Obidos
+7611da865f,Rose Thelly Moreira De Holanda Da Silva,25/05/1983,Feminino,AM,Benjamin Constant
+15ac85555f,Rosecler Guaraldi Ebling Souza,24/12/1960,Feminino,RS,Sao Leopoldo
+56523dd7f4,Rosenildo Queiroz Da Silva,02/10/1978,Masculino,AM,
+f753d0810c,Rosivaldo Sousa Dos Santos,21/12/1969,Masculino,AM,
+a3b79432e6,Rossicleide De Castro Queiroz,07/07/1958,Feminino,AM,
+c80c5fec49,Rubens Pessoa De Albuquerque,24/02/1938,Masculino,AM,Manacapuru
+cfad8b64f7,Rubens Pessoa De Albuquerque Neto,29/11/1991,Masculino,AM,
+e6d5fb67f0,Rubjaneo Ferreira Da Silva,17/07/1975,Masculino,AM,
+7b2b5a99e9,Saidmar Lima Dos Santos,25/08/1964,Masculino,AM,Juruá
+ee370bfa67,Salim David Guimarães Felipe,04/01/1980,Masculino,AM,Urucará
+199e7dec0d,Salium Andrade Ribeiro,16/06/1968,Masculino,AM,Codajas
+a745219da9,Salvador Florenco Da Silva,26/08/1956,Masculino,AM,Costa Do Pesqueiro
+6e4c37d1e3,Samuel Farias De Oliveira,10/01/1967,Masculino,AM,Ipixuna
+6af328f3e2,Sandro Da Silva Pires,09/08/1969,Masculino,AM,Manaus
+6edd411597,Sansuray Pereira Xavier,27/01/1978,Feminino,AM,
+de2f86ff2d,Saturnino Salvador De Lima,29/11/1957,Masculino,PR,Paranagi
+d332ae5d1f,Saul Nunes Bemerguy,27/11/1955,Masculino,AM,
+8e0760f67b,Sebastiao De Souza Filho,28/10/1959,Masculino,AM,Fonte Boa
+8be479a300,Sebastiao De Souza Nunes,20/01/1963,Masculino,AM,Itacoatiara
+5e300d495d,Sebastiao Rodrigues Cavalcante,25/03/1960,Masculino,AM,
+cb0dbcf86a,Sebastiao Rodrigues Maciel,20/01/1954,Masculino,AM,Careiro
+82b0985978,Sebastião Almeida Da Silva,04/08/1944,Masculino,AC,Rio Branco
+5892825a82,Sebastião Da Silva Reis,24/03/1955,Masculino,AM,Parintins
+ea7791d9ae,Sebastião Ferreira Lisboa,21/01/1928,Masculino,AM,Fonte Boa
+7f0672ee33,Sebastião Gilberto Dos Santos Martins,08/12/1950,Masculino,PA,Santa Isabel Do Pará
+b27fbad447,Sebastião Holanda Da Silva,21/01/1963,Masculino,AM,Careiro Da Varzea
+c497e91c2c,Semeide Bermeguy Porto,22/03/1984,Masculino,AM,
+7e88f70d44,Serafim Fernandes Corrêa,03/04/1947,Masculino,AM,Manaus
+586df14216,Sergilb Rodrigues De Carvalho,10/09/1974,Masculino,AM,Codajás
+0116fe5bba,Sergio Augusto Caldas Dos Santos,20/12/1976,Masculino,AM,
+38ee17be6d,Sergio Da Silveira Cardador,14/05/1932,Masculino,RJ,Rio De Janeiro
+38319a049a,Sergio Mazzini Leite Filho,09/08/1958,Masculino,AM,
+3249ad2823,Sidney Alves Temo,09/05/1965,Masculino,AM,Humaita
+46d29173f1,Sidney Ricardo De Oliveira Leite,08/04/1967,Masculino,AM,Maués
+4ddd501566,Sidnilson Martins Holanda,22/10/1965,Masculino,AM,Manaus
+818a64561f,Sidonio Trindade Goncalves,26/04/1947,Masculino,AM,Alvarães
+5ef78963d3,Silas Câmara,15/12/1962,Masculino,AC,Rio Branco
+e6b98b5f3b,Sildovério Almeida Tundis,05/12/1953,Masculino,AM,Urucurituba
+251feef276,Sileta Da Rocha Lima,19/08/1939,Feminino,AM,Anori
+2efb93a74d,Simao Barros Da Silva,01/10/1941,Masculino,AM,Codajás
+b1c5b29a34,Simao Peixoto Lima,24/11/1982,Masculino,AM,
+52b8267b25,Simeao Garcia Do Nascimento,08/10/1967,Masculino,AM,Tonantins
+7c6e9e7ada,Simone Aquila Siqueira Soares,17/10/1978,Feminino,AM,
+bcad75db8b,Sinderlei Fernandes Alfaia,26/05/1961,Masculino,AM,
+c00dc2c29a,Sulamita Barroso Cardoso,05/02/1956,Feminino,AM,Careiro
+30ea332342,Tabira Ramos Dias Ferreira,13/10/1949,Masculino,AM,
+bb3958e4a8,Telles Sandro Da Silva Dias,05/03/1983,Masculino,AM,Boa Vista Do Ramos
+faad8856b1,Tenison Onofre Santos,22/09/1964,Masculino,AC,
+7effbee25a,Thiago Gama Lima,13/09/2000,Masculino,AM,
+5dfdf47f29,Thidy Gomes De Queiroz,11/11/1992,Masculino,AM,
+165042c36d,Tomaz De Souza Pontes,06/03/1958,Masculino,AM,Parintins
+3dabcaf0bd,Tomé Moraes Filho,11/02/1937,Masculino,AM,Manaquiri
+7c13225f82,Tony Sergio Jean De Sales,24/08/1967,Masculino,AM,Atalaia Do Norte
+3690407377,Tulio Rodrigues Da Luz,04/01/1948,Masculino,MS,Rochedo
+120e93b625,Tupinamba Fernando Saraiva,10/02/1950,Masculino,AM,Borba
+e1a2c17a40,Ubaldino Meirelles Da Silva,04/07/1933,Masculino,AM,Parintins
+e9d75bcaa4,Ulisses Guimarães Felipe,18/06/1978,Masculino,AM,
+34d83920df,Umberto Afonso Lasmar,31/05/1949,Masculino,AM,Fonte Boa
+9c56fa1c56,Valcileia Flores Maciel,10/04/1965,Feminino,AM,
+98ce3c7530,Valdeci Raposo E Silva,01/05/1953,Masculino,AM,Barcelos
+a5fde5d23b,Valdemir Camara Da Silva,31/10/1941,Masculino,AM,Careiro
+33379aa12e,Valdemir Jose Dos Santos,18/10/1960,Masculino,PE,Recife
+4e646629b8,Valdimar Vieira Felizardo,24/09/1973,Masculino,AM,Careiro
+77b12a6d31,Valdino Pinheiro Campos,14/02/1964,Masculino,AM,Autazes
+b75238f366,Valdivino Dias,22/07/1959,Masculino,GO,Goiânia
+aa26e6c73d,Valeriano Sotero Da Silva,27/11/1944,Masculino,AM,Careiro Da Várzea
+16f9b4ccd8,Vanderly Genivam Dos Reis,22/01/1986,Masculino,AM,
+0fca387a24,Vanessa Grazziotin,29/06/1961,Feminino,SC,Videira
+8485ed62a5,Vanessa Pereira Ricardo Sampaio,31/03/1971,Feminino,PI,Ceiras
+d206550807,Vanilso Monteiro Da Silva,26/01/1976,Masculino,AM,
+21cd1920e5,Vasco Bento Dos Santos Ribeiro,05/05/1953,Masculino,AM,Boa Vista Do Ramos
+165f3095ce,Vera Eunice Rodrigues Pessoa,03/03/1962,Feminino,AM,
+18c5671cef,Vicente Lopes De Souza,27/08/1961,Masculino,PE,Serrita
+8ac3648ad2,Victor Gustavo Andrade Dos Santos,04/10/1999,Masculino,AM,
+f251d9293c,Vinicius Diniz Souza Dos Santos,24/03/1959,Masculino,AM,
+37466e22e7,Walder Ribeiro Da Costa,28/09/1958,Masculino,AM,
+dcf4366dde,Waldomiro Gomes,05/06/1940,Masculino,PE,Garanhuns
+86a80f0827,Wallace Menezes De Souza,18/09/1976,Masculino,AM,
+b0e244c361,Walter Lima Nogueira,17/09/1953,Masculino,AM,
+91aec64c88,Wanderlan Da Silva Ramalho,02/11/1971,Masculino,AM,
+9426b2aa8f,Washington Luis Régis Da Silva,11/03/1954,Masculino,AM,Manaus
+de48b8d005,Wenceslau Vieira De Oliveira,26/08/1972,Masculino,AM,Urucará
+2eb187a69d,Willams De Oliveira Mafra,21/04/1971,Masculino,AM,
+8f395fad23,William Anunciacao De Azevedo Vinhote,25/03/1956,Masculino,AM,
+94d825b06b,Wilson Ferreira Lisboa,26/08/1954,Masculino,AM,Fonte Boa
+7dc20ebf87,Wilson Oliveira Da Cunha,23/09/1945,Masculino,AM,Iranduba
+fe94889da0,Wilton Pereira Dos Santos,10/08/1962,Masculino,GO,Britania
+b8566a3341,Wiseman Araujo Celani,19/10/1965,Masculino,AM,
+2549b9a054,Xinaik Silva De Medeiros,17/03/1974,Masculino,AM,Manaus
+9b9cb0252e,Yamile Viana De Souza Queiroz,03/05/1981,Feminino,AM,
+1bef4defb4,Zilmar Almeida De Sales,06/07/1966,Masculino,AM,
+50847a3e5f,Áurea Maria Ester Alves Marques,24/08/1964,Feminino,AM,
