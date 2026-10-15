@@ -12,6 +12,8 @@ Uso: python -I scripts/06_bens.py
 import csv
 import hashlib
 import os
+import re
+import unicodedata
 from collections import defaultdict
 from datetime import datetime
 
@@ -32,6 +34,22 @@ def valor(s):
     return float(s.replace(".", "").replace(",", ".")) if s and not s.startswith("#") else None
 
 
+# Valor implausível para o tipo do bem = erro de digitação provável (ex.: moto "Bros 150" declarada por R$ 16,48 milhões em
+# 2012, quando o certo seria R$ 16.480,00). O bem continua no bens.csv, marcado; o total "sem_implausiveis" o exclui.
+IMPLAUSIVEL = ((re.compile(r"\bMOTO\b|MOTOCICLETA|BICICLETA|CICLOMOTOR|\bBROS\b|\bCG\b|\bBIZ\b"), 300_000),
+               (re.compile(r"\b(CELULAR|TELEFONE|TELEVISAO|TELEVISOR|GELADEIRA|FOGAO|COMPUTADOR|NOTEBOOK|ELETRODOMESTICOS?)\b"), 200_000),
+               (re.compile(r"\bGOL\b|\bUNO\b|PALIO|CELTA|CORSA|\bKA\b|FIESTA|ONIX|HB20|SANDERO|STRADA|SAVEIRO|COROLLA|CIVIC|HILUX|S10\b|RANGER"), 2_000_000),
+               # imóvel acima de R$ 50 milhões e qualquer bem acima de R$ 100 milhões, para candidato municipal no AM:
+               # nos casos vistos (apartamento de R$ 1,4 bi, prédio de 7x20 m de R$ 1 bi, casa de R$ 290 mi) são zeros a mais
+               (re.compile(r"\b(CASA|APARTAMENTO|APTO|PREDIO|LOTE|TERRENO|TERRA|IMOVEL|SITIO|CHACARA|GALPAO)\b"), 50_000_000),
+               (re.compile(r"."), 100_000_000))
+
+
+def implausivel(tipo, descricao, v):
+    t = unicodedata.normalize("NFKD", descricao or "").encode("ascii", "ignore").decode().upper()  # só a descrição: o tipo é genérico
+    return any(rx.search(t) and v > lim for rx, lim in IMPLAUSIVEL)
+
+
 def gravar(nome, linhas, campos):
     with open(os.path.join(DADOS, nome), "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, campos, extrasaction="ignore")
@@ -50,6 +68,8 @@ def main():
                 cand[(r["SG_UE"], r["SQ_CANDIDATO"])] = r
         sem_par, invalidos, n = 0, 0, 0
         soma = defaultdict(float)
+        soma_ok = defaultdict(float)
+        n_imp = defaultdict(int)
         qtd = defaultdict(int)
         for b in ler(f"bem_candidato_{ano}_AM.csv"):
             c = cand.get((b["SG_UE"], b["SQ_CANDIDATO"]))
@@ -66,16 +86,24 @@ def main():
             k = (b["SG_UE"], b["SQ_CANDIDATO"])
             soma[k] += v
             qtd[k] += 1
+            imp = implausivel(b["DS_TIPO_BEM_CANDIDATO"], b["DS_BEM_CANDIDATO"], v)
+            if imp:
+                n_imp[k] += 1
+                alertas.append(f"{ano} {c['NM_CANDIDATO'].title()} ({mun[b['SG_UE']]['municipio']}): “{b['DS_BEM_CANDIDATO'][:70]}” "
+                               f"declarado por R$ {v:,.2f} — fora do padrão para o tipo de bem (provável erro de digitação); conferir na fonte; fora do total ajustado")
+            else:
+                soma_ok[k] += v
             bens.append({"pessoa_id": p, "ano": ano, "cargo": CARGOS[c["DS_CARGO"].upper()], "cod_ibge": mun[b["SG_UE"]]["cod_ibge"],
                          "ordem": b.get("NR_ORDEM_BEM_CANDIDATO") or b.get("NR_ORDEM_CANDIDATO", ""),  # nome muda em 2020
                          "tipo": b["DS_TIPO_BEM_CANDIDATO"], "descricao": b["DS_BEM_CANDIDATO"],
-                         "valor": round(v, 2), "fonte": f"TSE bem_candidato_{ano} (SQ_CANDIDATO {b['SQ_CANDIDATO']})"})
+                         "valor": round(v, 2), "valor_implausivel": "sim" if imp else "", "fonte": f"TSE bem_candidato_{ano} (SQ_CANDIDATO {b['SQ_CANDIDATO']})"})
         for k, c in cand.items():
             resumo.append({"pessoa_id": hashlib.sha1(c["NR_TITULO_ELEITORAL_CANDIDATO"].encode()).hexdigest()[:10], "ano": ano,
                            "cargo": CARGOS[c["DS_CARGO"].upper()], "cod_ibge": mun[k[0]]["cod_ibge"], "municipio": mun[k[0]]["municipio"],
                            "nome": c["NM_CANDIDATO"].title(), "resultado": c["DS_SIT_TOT_TURNO"].upper(),
                            "declarou_bens": c.get("ST_DECLARAR_BENS", ""), "n_bens": qtd.get(k, 0),
                            "patrimonio_declarado": round(soma.get(k, 0.0), 2),
+                           "patrimonio_sem_implausiveis": round(soma_ok.get(k, 0.0), 2), "n_implausiveis": n_imp.get(k, 0),
                            "fonte": f"TSE bem_candidato_{ano} + consulta_cand_{ano} (SQ_CANDIDATO {k[1]})"})
         checagens.append((sem_par == 0, f"{ano}: {n} bens ligados a candidatos; {sem_par} sem candidato correspondente; {invalidos} valores inválidos"))
         # quem disse que declarava bens (ST_DECLARAR_BENS=S) e não tem nenhum no arquivo
@@ -93,14 +121,13 @@ def main():
         seq = sorted(anos)
         for a, b in zip(seq, seq[1:]):
             ra, rb = anos[a], anos[b]
-            if ra["resultado"] in ELEITO and ra["patrimonio_declarado"] > 0 and rb["patrimonio_declarado"] >= 5 * ra["patrimonio_declarado"] \
-                    and rb["patrimonio_declarado"] - ra["patrimonio_declarado"] >= 1_000_000:
-                variacoes.append(f"{rb['nome']} ({rb['municipio']}): R$ {ra['patrimonio_declarado']:,.2f} em {a} (eleito) → "
-                                 f"R$ {rb['patrimonio_declarado']:,.2f} em {b}")
+            va, vb = ra["patrimonio_sem_implausiveis"], rb["patrimonio_sem_implausiveis"]
+            if ra["resultado"] in ELEITO and va > 0 and vb >= 5 * va and vb - va >= 1_000_000:
+                variacoes.append(f"{rb['nome']} ({rb['municipio']}): R$ {va:,.2f} em {a} (eleito) → R$ {vb:,.2f} em {b}")
 
-    gravar("bens.csv", bens, ["pessoa_id", "ano", "cargo", "cod_ibge", "ordem", "tipo", "descricao", "valor", "fonte"])
+    gravar("bens.csv", bens, ["pessoa_id", "ano", "cargo", "cod_ibge", "ordem", "tipo", "descricao", "valor", "valor_implausivel", "fonte"])
     gravar("bens_resumo.csv", resumo, ["pessoa_id", "ano", "cargo", "cod_ibge", "municipio", "nome", "resultado", "declarou_bens",
-                                       "n_bens", "patrimonio_declarado", "fonte"])
+                                       "n_bens", "patrimonio_declarado", "patrimonio_sem_implausiveis", "n_implausiveis", "fonte"])
     ok = sum(1 for o, _ in checagens if o)
     with open(os.path.join(DADOS, "integridade", "06_bens.md"), "w", encoding="utf-8") as f:
         f.write(f"# Integridade — bens declarados (gerado em {datetime.now():%d/%m/%Y %H:%M})\n\n"

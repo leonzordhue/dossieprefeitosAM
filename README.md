@@ -1,39 +1,54 @@
-# Dossiê dos Prefeitos do Amazonas (2001–2028)
+# Dossiê dos Prefeitos e Vereadores do Amazonas (2001–2028)
 
-Compilação, a partir de fontes públicas oficiais, de quem governou cada um dos **62 municípios do Amazonas** desde as eleições de 2000. O objetivo é avaliar o desempenho de cada gestão. Para cada mandato, o projeto reúne eleição, gastos por área, cumprimento dos mínimos legais, recursos recebidos, indicadores sociais e patrimônio declarado.
+Compilação, a partir de fontes públicas oficiais, de quem governou e legislou nos **62 municípios do Amazonas** desde as eleições de 2000. O objetivo é avaliar cada gestão: eleição, gastos por área, mínimos legais, pessoal, recursos recebidos, indicadores sociais e patrimônio declarado.
+
+**Para consultar:** https://leonzordhue.github.io/politicosAM/ (plataforma que junta este repositório com [deputadosfederais](https://github.com/leonzordhue/deputadosfederais) e [senadorAM](https://github.com/leonzordhue/senadorAM)).
 
 > **Integridade em primeiro lugar.** Todo dado traz a fonte (arquivo ou URL oficial). Cada etapa gera um relatório de checagens em `dados/integridade/`. Quando um ponto não pôde ser confirmado, ele aparece como **lacuna** ou **alerta**, nunca como estimativa.
 
 ## Situação
 
-| Etapa | Fonte | Estado |
-|---|---|---|
-| 1. Mandatos e eleições (2000–2024, com suplementares) | TSE — Dados Abertos | ✅ pronto, 1.337 checagens ok |
-| 2. Finanças municipais: receita, despesa por função, pessoal/RCL, saúde, educação | Tesouro — SICONFI (2014+) e FINBRA (2000–2013) | ⏳ |
-| 3. Transferências federais, convênios e emendas recebidas | Portal da Transparência / Transferegov | ⏳ |
-| 4. Indicadores: população, PIB, IDEB, IDHM | IBGE, INEP, Atlas Brasil | ⏳ |
-| 5. Patrimônio declarado e contas de campanha | TSE | ⏳ |
-| 6. Dossiês: por município, por mandato (cada 4 anos) e por prefeito | gerados dos dados acima | ⏳ |
-| 7. Contas julgadas, rejeições e improbidade | TCE-AM, TSE (inelegíveis), CNJ | ⏳ |
+| Etapa | Script | Fonte | Estado |
+|---|---|---|---|
+| Mandatos e eleições de prefeito (2000–2024, com suplementares) | `02_mandatos.py` | TSE | ✅ 1.337 checagens ok |
+| Vereadores: candidaturas e eleitos | `05_vereadores.py` | TSE | ✅ 448 checagens ok |
+| Patrimônio declarado (2008–2024) | `06_bens.py` | TSE | ✅ |
+| Fotos (2004–2024) | `07_fotos.py` | TSE | ✅ |
+| Finanças 2000–2012 | `04_finbra.py` | Tesouro (FINBRA) | ✅ |
+| Finanças 2014–2025: despesa por função, receita, pessoal/RCL | `03_siconfi.py` | Tesouro (SICONFI) | ✅ |
+| Série harmonizada de finanças | `11_financas.py` | FINBRA + SICONFI + IBGE | ✅ (2013 sem fonte) |
+| População e PIB | `08_ibge.py` | IBGE (SIDRA) | ✅ |
+| IDEB por rede (2005–2023) | `09_ideb.py` | INEP | ✅ |
+| Emendas parlamentares pagas às prefeituras (2014+) | `10_emendas.py` | CGU | ✅ |
+| Mínimos da educação: MDE 25%, FUNDEB (2017–2025) | `12_siope.py` | SIOPE/FNDE | ✅ |
+| Inabilitados pelo TCU (ligação só por CPF) | `13_tcu.py` | TCU | ✅ |
+| Mínimo da saúde (15%) | — | SIOPS | ⏳ sem API aberta localizada |
+| Contas julgadas pelo TCE-AM, cassações, quem governou de fato | — | TCE-AM, TRE-AM, Câmaras | ⏳ |
+| IDHM | — | Atlas Brasil | ⏳ |
 
-## Dados prontos (`dados/`)
+## Dados (`dados/`)
 
-- `municipios.csv`: os 62 municípios, com código IBGE e código TSE.
-- `candidaturas_prefeito.csv`: cada candidatura a prefeito por turno, com partido, coligação, vice, situação, resultado, votos e % dos votos nominais.
-- `mandatos.csv`: quem governou cada município em cada ciclo, incluindo mandatos completados por eleição suplementar e **lacunas** explícitas.
-- `pessoas.csv`: candidatos (nome, nascimento, gênero, naturalidade). O `pessoa_id` é derivado do título de eleitor (sha1, 10 caracteres). Nem título nem CPF são publicados.
-- `integridade/02_mandatos.md`: todas as checagens e os alertas para verificação humana.
+- `municipios.csv`, `pessoas.csv` (o `pessoa_id` é o sha1 do título de eleitor, 10 caracteres; título e CPF não são publicados).
+- `candidaturas_prefeito.csv`, `mandatos.csv`, `candidaturas_vereador.csv`, `mandatos_vereador.csv`.
+- `bens.csv` (um bem por linha) e `bens_resumo.csv` (total por candidatura).
+- `financas/`: saídas brutas do FINBRA (formato longo) e do SICONFI.
+- `indicadores/`: `financas.csv`, `ibge.csv`, `ideb.csv`, `emendas_recebidas.csv`, `siope.csv`, `tcu_inabilitados.csv`.
+- `integridade/`: um relatório por script, com checagens, lacunas e alertas para verificação humana.
+- `../fotos/<pessoa_id>.jpg` (240 px).
 
-## Limitações conhecidas (etapa 1)
+## Limitações conhecidas
 
-- **O TSE não registra quem governou de fato.** O projeto não captura afastamentos, cassações pela Câmara, mortes ou renúncias seguidas de posse do vice ou do presidente da Câmara sem nova eleição. Esses casos serão completados com fontes citadas (TRE-AM, Diário Oficial, Câmaras).
-- O arquivo de candidatos do TSE é incompleto. Algumas candidaturas existem só no arquivo de votação, como as suplementares de 2008 em Anamã, Coari e Tefé, e foram recuperadas de lá, com a coluna `origem_dado` marcada.
-- O início dos mandatos de eleição suplementar usa a data da eleição (`inicio_aproximado = sim`), porque a data de posse não está no TSE.
+- **O TSE não registra quem governou de fato.** Afastamentos, cassações pela Câmara, mortes, renúncias e posse de suplente de vereador não estão capturados. Esses casos serão completados com fontes citadas.
+- O arquivo de candidatos do TSE é incompleto. Algumas candidaturas existem só no arquivo de votação e foram recuperadas de lá, com `origem_dado` marcada. Em Novo Airão (2008), o resultado de vereador é `#NULO` nos dois arquivos, e por isso fica como lacuna.
+- O início de mandato por eleição suplementar usa a data da eleição (`inicio_aproximado = sim`).
+- Finanças: o que a prefeitura declarou ao Tesouro. Ano em branco significa que não declarou. Saltos bruscos aparecem como alerta, porque costumam ser declaração incompleta.
+- Participação de saúde e educação na despesa **não** é o cálculo dos mínimos constitucionais. Para a educação, use `siope.csv`. Em 2020 e 2021 vale a EC 119/2022.
 
 ## Como reproduzir
 
 ```
-python -I scripts/01_tse_baixar.py   # baixa os zips do TSE e guarda só os CSVs do AM (com sha256 em _proveniencia.json)
-python -I scripts/02_mandatos.py     # gera mandatos, candidaturas e o relatório de integridade
+python -I scripts/01_tse_baixar.py && python -I scripts/02_mandatos.py && python -I scripts/05_vereadores.py && python -I scripts/07_fotos.py
+python -I scripts/03_siconfi.py && python -I scripts/04_finbra.py && python -I scripts/08_ibge.py && python -I scripts/11_financas.py
+python -I scripts/06_bens.py && python -I scripts/09_ideb.py && python -I scripts/10_emendas.py && python -I scripts/12_siope.py && python -I scripts/13_tcu.py
 ```
-Requer Python 3.12 e `truststore`.
+A ordem 02 → 05 → 07 importa, porque os três escrevem em `pessoas.csv`. Requer Python 3.12, `truststore`, `Pillow`, `openpyxl` e, para o FINBRA, `pyodbc` com o driver do Access.
