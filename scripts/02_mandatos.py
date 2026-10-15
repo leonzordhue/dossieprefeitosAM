@@ -58,6 +58,14 @@ def dt(s):
     return datetime.strptime(s, "%d/%m/%Y").date()
 
 
+def iso(d):
+    """Data do TSE (DD/MM/AAAA) em ISO, como pede o contrato da plataforma; valor inválido (#NULO#) vira vazio."""
+    try:
+        return datetime.strptime(d, "%d/%m/%Y").date().isoformat()
+    except (ValueError, TypeError):
+        return ""
+
+
 def pid(titulo):
     return hashlib.sha1(titulo.encode()).hexdigest()[:10]
 
@@ -162,7 +170,7 @@ def main():
                                        "uf_nascimento": "", "municipio_nascimento": ""})
             else:
                 nasc_por_pessoa[p].add(r["DT_NASCIMENTO"])
-                pessoas[p] = {"pessoa_id": p, "nome": r["NM_CANDIDATO"].title(), "nascimento": r["DT_NASCIMENTO"],
+                pessoas[p] = {"pessoa_id": p, "nome": r["NM_CANDIDATO"].title(), "nascimento": iso(r["DT_NASCIMENTO"]),
                           "genero": r["DS_GENERO"].title(), "uf_nascimento": r["SG_UF_NASCIMENTO"],
                               "municipio_nascimento": r.get("NM_MUNICIPIO_NASCIMENTO", "").title()}
             v = votos.get(k, 0)
@@ -173,7 +181,7 @@ def main():
             if vice:  # o vice também é pessoa da plataforma (contrato §2)
                 pv = pid(vice["NR_TITULO_ELEITORAL_CANDIDATO"])
                 if pv not in pessoas or not pessoas[pv]["nascimento"]:
-                    pessoas[pv] = {"pessoa_id": pv, "nome": vice["NM_CANDIDATO"].title(), "nascimento": vice["DT_NASCIMENTO"],
+                    pessoas[pv] = {"pessoa_id": pv, "nome": vice["NM_CANDIDATO"].title(), "nascimento": iso(vice["DT_NASCIMENTO"]),
                                    "genero": vice["DS_GENERO"].title(), "uf_nascimento": vice["SG_UF_NASCIMENTO"],
                                    "municipio_nascimento": vice.get("NM_MUNICIPIO_NASCIMENTO", "").title()}
             linha = {

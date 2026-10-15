@@ -76,9 +76,13 @@ def main():
                 itens, url = consulta(f"dca?an_exercicio={ano}&id_ente={cod}&no_anexo={quote(anexo)}")
                 if not itens:
                     falta[anexo].append((ano, nome))
+                secao = {}  # I-E: as funções vêm depois do total da seção ("Despesas (Exceto Intraorçamentárias)" ou "... Intraorçamentárias")
                 for x in itens:
+                    nv = nivel(x["conta"]) if anexo.endswith("I-E") else ""
+                    if nv == "total":
+                        secao[x["coluna"]] = "intra" if "exceto" not in x["conta"].lower() and "intra" in x["conta"].lower() else "exceto_intra"
                     destino.append({**base, "instituicao": x["instituicao"], "coluna": x["coluna"], "cod_conta": x["cod_conta"],
-                                    "conta": x["conta"], "nivel": nivel(x["conta"]) if anexo.endswith("I-E") else "",
+                                    "conta": x["conta"], "nivel": nv, "secao": secao.get(x["coluna"], "") if nv else "",
                                     "valor": x["valor"], "populacao": x.get("populacao", ""), "fonte": url})
             # RGF do Executivo: quadrimestral (3º quadrimestre) ou semestral (2º semestre), conforme a opção do município (LRF art. 63)
             for per, tipo in ((3, "Q"), (2, "S")):
@@ -99,6 +103,8 @@ def main():
                                                             else "acima do prudencial (51,3%)" if dtp_pct > 51.3
                                                             else "acima do alerta (48,6%)" if dtp_pct > 48.6 else "dentro"),
                         "fonte": url})
+            if lim is not None and abs(lim - 54) > 0.01:  # o Executivo municipal é 54% (LRF art. 20, III, b); 60% é o limite do ente todo
+                alertas.append(f"{ano} {nome}: RGF do Executivo informa limite máximo de {lim}% (o legal é 54%); situação calculada sobre 54%")
             if dtp and rcl and dtp_pct is not None and abs(100 * dtp / rcl - dtp_pct) > 0.5:
                 alertas.append(f"{ano} {nome}: DTP/RCL calculado {100 * dtp / rcl:.2f}% ≠ informado {dtp_pct}% (RCL ajustada difere?)")
         print(ano, "ok", flush=True)
@@ -107,9 +113,10 @@ def main():
     tot, soma = {}, defaultdict(float)
     for d in desp:
         k = (d["ano"], d["cod_ibge"], d["coluna"])
-        if d["nivel"] == "total" and d["conta"].startswith("Despesas Exceto Intra"):
+        # o texto do total muda por ano: "Despesas (Exceto Intraorçamentárias)" até 2016, sem parênteses depois
+        if d["nivel"] == "total" and d["secao"] == "exceto_intra":
             tot[k] = d["valor"]
-        elif d["nivel"] == "funcao":
+        elif d["nivel"] == "funcao" and d["secao"] == "exceto_intra":
             soma[k] += d["valor"]
     dif = [(k, tot[k], soma[k]) for k in tot if k in soma and abs(tot[k] - soma[k]) > 1.0]
     checagens.append((not dif, f"soma das funções = total geral da despesa (tolerância R$ 1): {len(tot) - len(dif)} de {len(tot)} conferem"))

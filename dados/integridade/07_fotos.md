@@ -1,4 +1,4 @@
-# Integridade — fotos (gerado em 15/10/2026 16:48)
+# Integridade — fotos (gerado em 15/10/2026 17:08)
 
 - Checagens: **7 de 7 passaram**
 

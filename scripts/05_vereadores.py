@@ -41,6 +41,14 @@ def ler(arq):
         return list(csv.DictReader(f, delimiter=";"))
 
 
+def iso(d):
+    """Data do TSE (DD/MM/AAAA) em ISO, como pede o contrato da plataforma; valor inválido (#NULO#) vira vazio."""
+    try:
+        return datetime.strptime(d, "%d/%m/%Y").date().isoformat()
+    except (ValueError, TypeError):
+        return ""
+
+
 def pid(titulo):
     return hashlib.sha1(titulo.encode()).hexdigest()[:10]
 
@@ -61,7 +69,14 @@ def main():
     nasc = defaultdict(set)
 
     for ciclo in CICLOS:
-        cand = [r for r in ler(f"consulta_cand_{ciclo}_AM.csv") if r["DS_CARGO"].upper() == "VEREADOR"]
+        todos = ler(f"consulta_cand_{ciclo}_AM.csv")
+        cand = [r for r in todos if r["DS_CARGO"].upper() == "VEREADOR"]
+        for r in todos:  # candidato a vice de chapa derrotada não passa pelo 02 sem chapa ligada; entra aqui para os bens terem dono
+            if r["DS_CARGO"].upper() == "VICE-PREFEITO":
+                p = pid(r["NR_TITULO_ELEITORAL_CANDIDATO"])
+                pessoas.setdefault(p, {"pessoa_id": p, "nome": r["NM_CANDIDATO"].title(), "nascimento": iso(r["DT_NASCIMENTO"]),
+                                       "genero": r["DS_GENERO"].title(), "uf_nascimento": r["SG_UF_NASCIMENTO"],
+                                       "municipio_nascimento": r.get("NM_MUNICIPIO_NASCIMENTO", "").title()})
         votos, res_vot = Counter(), {}
         for r in ler(f"votacao_candidato_munzona_{ciclo}_AM.csv"):
             if r["DS_CARGO"].upper() == "VEREADOR":
@@ -88,7 +103,7 @@ def main():
             p = pid(r["NR_TITULO_ELEITORAL_CANDIDATO"])
             nasc[p].add(r["DT_NASCIMENTO"])
             if p not in pessoas or not pessoas[p].get("nascimento"):
-                pessoas[p] = {"pessoa_id": p, "nome": r["NM_CANDIDATO"].title(), "nascimento": r["DT_NASCIMENTO"],
+                pessoas[p] = {"pessoa_id": p, "nome": r["NM_CANDIDATO"].title(), "nascimento": iso(r["DT_NASCIMENTO"]),
                               "genero": r["DS_GENERO"].title(), "uf_nascimento": r["SG_UF_NASCIMENTO"],
                               "municipio_nascimento": r.get("NM_MUNICIPIO_NASCIMENTO", "").title()}
             # agrupamento que disputa as vagas: coligação até 2016; partido ou federação a partir de 2020

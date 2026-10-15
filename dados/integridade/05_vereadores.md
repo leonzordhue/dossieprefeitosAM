@@ -1,8 +1,8 @@
-# Integridade — vereadores (gerado em 15/10/2026 16:47)
+# Integridade — vereadores (gerado em 15/10/2026 17:08)
 
 - Candidaturas a vereador: 51333
 - Mandatos (eleitos): 4726 — 2000: 631, 2004: 592, 2008: 585, 2012: 708, 2016: 722, 2020: 738, 2024: 750
-- Pessoas distintas candidatas a vereador: 34395 (pessoas.csv agora tem 35509)
+- Pessoas distintas candidatas a vereador: 34395 (pessoas.csv agora tem 35527)
 - Checagens: **448 de 448 passaram**
 
 ## Checagens que falharam
@@ -491,7 +491,7 @@ Mesmo título de eleitor com datas diferentes (erro de cadastro no TSE); pessoas
 - 2038a67f6f (Olavo Nunes Corrêa Filho): ['21/08/1975', '21/08/1976']
 - 647fb58320 (Francisco Mendes Pereira): ['20/08/1959', '20/08/1969']
 - 74f2ce010d (Maria Marlene Mendes): ['11/02/1948', '14/02/1948']
-- d0eb0c4b7a (Isis Litaiff De Souza Fontenele): ['-1', '07/08/1965']
+- d0eb0c4b7a (Isis Litaiff De Souza): ['-1', '07/08/1965']
 - a31fb72276 (Luiz Carlos Lima Magalhães): ['22/06/1975', '27/06/1975']
 - 4731a56b79 (Elenize Holanda De Almeida Weiller): ['02/12/1959', '20/12/1959']
 - c99d506fc2 (Antonio Elito Gomes De Sá): ['28/01/1962', '28/11/1962']

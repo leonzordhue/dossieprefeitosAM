@@ -1,4 +1,4 @@
-# Integridade — mandatos de prefeito (gerado em 15/10/2026 16:47)
+# Integridade — mandatos de prefeito (gerado em 15/10/2026 17:08)
 
 - Candidaturas a prefeito (linhas por turno): 1673
 - Linhas de mandato: 443
@@ -60,7 +60,7 @@
 - ⚠️ pessoa b54b6503bb (Ilderson Marcio Enes Ribeiro) com datas de nascimento divergentes no TSE: ['13/12/1972', '13/12/1975']
 - ⚠️ pessoa b2d02f0278 (Marcelo Bezerra Da Cruz) com datas de nascimento divergentes no TSE: ['14/02/1977', '17/02/1977']
 - ⚠️ pessoa a0e3ab435d (Etã Pereira Castelo Branco) com datas de nascimento divergentes no TSE: ['01/06/1978', '01/07/1978']
-- ⚠️ ANTONIO TAUMATURGO CALDAS COELHO (04/04/1961) aparece com 2 títulos diferentes: ['1f38cfa490', 'a5fe5404d1']
+- ⚠️ ANTONIO TAUMATURGO CALDAS COELHO (1961-04-04) aparece com 2 títulos diferentes: ['1f38cfa490', 'a5fe5404d1']
 
 ## Todas as checagens
 
