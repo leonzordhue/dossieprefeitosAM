@@ -1,6 +1,6 @@
-# Integridade — finanças harmonizadas (gerado em 15/10/2026 17:57)
+# Integridade — finanças harmonizadas (gerado em 15/10/2026 19:15)
 
-- Linhas: 1490; anos: 2000–2025 (2013 sem fonte)
+- Linhas: 1493; anos: 2000–2025 (2013 sem fonte)
 - Checagens: **26 de 26 passaram**
 
 - ✅ 2000: 56 de 62 municípios com despesa empenhada

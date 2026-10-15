@@ -9,7 +9,8 @@ Fonte: API do SICONFI — https://apidatalake.tesouro.gov.br/ords/siconfi/tt/ (d
 A DCA só existe na API a partir do exercício 2014 (2013 vem vazio, conferido em 15/10/2026); 2000-2013 virá do FINBRA.
 
 Saídas (dados/financas/): dca_despesa_funcao.csv, dca_receita.csv, rgf_pessoal.csv; integridade em dados/integridade/03_siconfi.md
-Uso: python -I scripts/03_siconfi.py   (~1 requisição/s; o cache faz a segunda rodada ser instantânea)
+Uso: python -I scripts/03_siconfi.py           (~1 requisição/s; respostas vazias do cache são baixadas de novo)
+     python -I scripts/03_siconfi.py --cache   (só reprocessa o cache, sem rede)
 """
 import csv
 import os
@@ -38,7 +39,7 @@ def consulta(caminho):
         if not rede.em_cache(url):
             time.sleep(1)  # pedido do Tesouro: no máximo 1 requisição por segundo
         d = rede.get_json(url)
-        if not d.get("items") and not offset and url not in REVISTOS:
+        if not d.get("items") and not offset and url not in REVISTOS and "--cache" not in sys.argv:
             # a API devolve vazio em momentos de instabilidade e o cache guardou isso (ex.: RGF de Alvarães 2024 existe);
             # resposta vazia é baixada de novo uma vez por execução
             REVISTOS.add(url)
@@ -93,9 +94,10 @@ def main():
                                     "conta": x["conta"], "nivel": nv, "secao": secao.get(x["coluna"], "") if nv else "",
                                     "valor": x["valor"], "populacao": x.get("populacao", ""), "fonte": url})
             # RGF do Executivo: quadrimestral (3º quadrimestre) ou semestral (2º semestre), conforme a opção do município (LRF art. 63)
-            for per, tipo in ((3, "Q"), (2, "S")):
+            # quem opta pelo semestral (municípios < 50 mil hab.) publica como "RGF Simplificado" (LRF art. 63, II, b)
+            for per, tipo, dem in ((3, "Q", "RGF"), (2, "S", "RGF"), (2, "S", "RGF%20Simplificado"), (3, "Q", "RGF%20Simplificado")):
                 itens, url = consulta(f"rgf?an_exercicio={ano}&in_periodicidade={tipo}&nr_periodo={per}"
-                                      f"&co_tipo_demonstrativo=RGF&co_poder=E&id_ente={cod}")
+                                      f"&co_tipo_demonstrativo={dem}&co_poder=E&id_ente={cod}")
                 a1 = [x for x in itens if x["anexo"] == "RGF-Anexo 01"]
                 if a1:
                     break
@@ -104,7 +106,8 @@ def main():
                 continue
             v = lambda cc, pct: next((x["valor"] for x in a1 if x["cod_conta"] == cc and ("%" in x["coluna"]) == pct), None)  # noqa: E731
             dtp, dtp_pct = v("DespesaComPessoalTotal", False), v("DespesaComPessoalTotal", True)
-            rcl = v("ReceitaCorrenteLiquidaLimiteLegal", False) or v("ReceitaCorrenteLiquida", False)
+            # RCL ajustada é a base oficial do % de pessoal; a "limite legal" difere e gerava falso alerta
+            rcl = v("ReceitaCorrenteLiquidaAjustada", False) or v("ReceitaCorrenteLiquidaLimiteLegal", False) or v("ReceitaCorrenteLiquida", False)
             lim = v("LimiteMaximoDespesaComPessoalTotal", True)
             pes.append({**base, "periodicidade": tipo, "periodo": per, "rcl_ajustada": rcl, "dtp": dtp, "dtp_pct_rcl": dtp_pct,
                         "limite_max_pct": lim, "situacao": ("" if dtp_pct is None else "acima do limite (54%)" if dtp_pct > 54
