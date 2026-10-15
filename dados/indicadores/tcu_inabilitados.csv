@@ -1,0 +1,5 @@
+pessoa_id,nome_tcu,processo,acordao,data_acordao,transito_julgado,inabilitado_ate,uf,municipio,ligacao,fonte
+5b7b8bb6d3,FRANCISCO PEREIRA DA ROCHA,020.003/2008-5,AC-000531/2016-PL,2016-03-09,2019-11-13,2027-11-13,AM,MANAUS,cpf,TCU https://contas.tcu.gov.br/ords/condenacao/consulta/inabilitados (processo 020.003/2008-5)
+e9e49dcc09,GILBERTO FERREIRA LISBOA,022.140/2023-9,AC-001634/2024-PL,2024-08-14,2025-03-21,2030-03-21,AM,FONTE BOA,cpf,TCU https://contas.tcu.gov.br/ords/condenacao/consulta/inabilitados (processo 022.140/2023-9)
+fa64d05971,JOSE RAIMUNDO GUIMARAES,022.140/2023-9,AC-001634/2024-PL,2024-08-14,2025-03-21,2030-03-21,AM,FONTE BOA,cpf,TCU https://contas.tcu.gov.br/ords/condenacao/consulta/inabilitados (processo 022.140/2023-9)
+d929fe60e4,PAULA SIMONE CRUZ FERREIRA,012.977/2021-7,AC-001097/2023-PL,2023-05-31,2023-08-25,2028-08-25,AM,TABATINGA,cpf,TCU https://contas.tcu.gov.br/ords/condenacao/consulta/inabilitados (processo 012.977/2021-7)
