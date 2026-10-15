@@ -15,6 +15,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(BASE_DIR, "dados", "brutos", "cache_http")
 
 
+def em_cache(url):
+    return os.path.exists(os.path.join(CACHE, hashlib.sha1(url.encode()).hexdigest()[:20]))
+
+
 def get(url, tentativas=5, cache=True):
     """Bytes da URL. Com cache=True, a resposta fica gravada e é reutilizada (a URL é a chave)."""
     arq = os.path.join(CACHE, hashlib.sha1(url.encode()).hexdigest()[:20])

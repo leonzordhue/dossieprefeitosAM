@@ -4,3 +4,5 @@ _*.log
 dados/brutos/**
 !dados/brutos/tse/
 !dados/brutos/tse/_proveniencia.json
+!dados/brutos/finbra/
+!dados/brutos/finbra/_proveniencia.json

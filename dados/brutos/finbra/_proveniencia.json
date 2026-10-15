@@ -1,0 +1,194 @@
+{
+ "2000": {
+  "pagina": "https://www.tesourotransparente.gov.br/publicacoes/finbra-dados-contabeis-dos-municipios-1989-a-2012/2000/26",
+  "url": "https://thot-arquivos.tesouro.gov.br/publicacao/26274",
+  "membro": "Finbra2000v0809.mdb",
+  "sha256_zip": "e0c87bcef8487bdf9cb8a3afd975ae292b23e7a44506cdb6e2b86224765c453a",
+  "linhas_AM_por_tabela": {
+   "Ativo": 56,
+   "Despesa": 56,
+   "Passivo": 56,
+   "Receita": 56
+  },
+  "coletado_em": "2026-10-15T16:13:12"
+ },
+ "2001": {
+  "pagina": "https://www.tesourotransparente.gov.br/publicacoes/finbra-dados-contabeis-dos-municipios-1989-a-2012/2001/26",
+  "url": "https://thot-arquivos.tesouro.gov.br/publicacao/26273",
+  "membro": "Finbra2001v0809.mdb",
+  "sha256_zip": "ed7efa0dc186a8092e636385a890c6cfd712a916c14b21397a81d9c64b525752",
+  "linhas_AM_por_tabela": {
+   "Ativo": 59,
+   "Despesa": 59,
+   "Passivo": 59,
+   "Receita": 59
+  },
+  "coletado_em": "2026-10-15T16:13:15"
+ },
+ "2002": {
+  "pagina": "https://www.tesourotransparente.gov.br/publicacoes/finbra-dados-contabeis-dos-municipios-1989-a-2012/2002/26",
+  "url": "https://thot-arquivos.tesouro.gov.br/publicacao/26272",
+  "membro": "Finbra2002v0809.mdb",
+  "sha256_zip": "7ab7de4278b56dd0e37e39b284cb7020f33c5b81b1ca3eee712a86966c5e9fc9",
+  "linhas_AM_por_tabela": {
+   "Ativo": 60,
+   "Passivo": 60,
+   "RecDesp": 60
+  },
+  "coletado_em": "2026-10-15T16:13:20"
+ },
+ "2003": {
+  "pagina": "https://www.tesourotransparente.gov.br/publicacoes/finbra-dados-contabeis-dos-municipios-1989-a-2012/2003/26",
+  "url": "https://thot-arquivos.tesouro.gov.br/publicacao/26271",
+  "membro": "Finbra2003/Finbra2003v0809.mdb",
+  "sha256_zip": "a8f0bea15f31f4beec5f7a498d31c2fb32f79c5414e196dfd5869ce55f027bda",
+  "linhas_AM_por_tabela": {
+   "Ativo": 62,
+   "Passivo": 62,
+   "RecDesp": 62
+  },
+  "coletado_em": "2026-10-15T16:13:25"
+ },
+ "2004": {
+  "pagina": "https://www.tesourotransparente.gov.br/publicacoes/finbra-dados-contabeis-dos-municipios-1989-a-2012/2004/26",
+  "url": "https://thot-arquivos.tesouro.gov.br/publicacao/26270",
+  "membro": "Finbra2004v0809b.mdb",
+  "sha256_zip": "5dc720f727c2c3388db8d969a53a7af41c29385693d4b889a512abb0bd8a2575",
+  "linhas_AM_por_tabela": {
+   "Ativo": 58,
+   "Despesa": 58,
+   "DFuncao": 58,
+   "Passivo": 58,
+   "Receita": 58
+  },
+  "coletado_em": "2026-10-15T16:13:33"
+ },
+ "2005": {
+  "pagina": "https://www.tesourotransparente.gov.br/publicacoes/finbra-dados-contabeis-dos-municipios-1989-a-2012/2005/26",
+  "url": "https://thot-arquivos.tesouro.gov.br/publicacao/26269",
+  "membro": "Finbra2005v0809.mdb",
+  "sha256_zip": "56404b78f8f5c8eea5f10da9ddc5d2ae0639b029af1a42ae5a36cd6763d30814",
+  "linhas_AM_por_tabela": {
+   "Ativo": 51,
+   "Despesa": 51,
+   "DSubFuncao": 51,
+   "Passivo": 51,
+   "Receita": 51
+  },
+  "coletado_em": "2026-10-15T16:13:41"
+ },
+ "2006": {
+  "pagina": "https://www.tesourotransparente.gov.br/publicacoes/finbra-dados-contabeis-dos-municipios-1989-a-2012/2006/26",
+  "url": "https://thot-arquivos.tesouro.gov.br/publicacao/26268",
+  "membro": "Finbra2006v14jan.mdb",
+  "sha256_zip": "3b326e7b3fb7f4c24111d6ee8e9a8716b079a1a34884fea403d7b29ebb580baa",
+  "linhas_AM_por_tabela": {
+   "Ativo": 61,
+   "Despesa": 61,
+   "DSubFuncao": 61,
+   "Passivo": 61,
+   "Receita": 61
+  },
+  "coletado_em": "2026-10-15T16:13:48"
+ },
+ "2007": {
+  "pagina": "https://www.tesourotransparente.gov.br/publicacoes/finbra-dados-contabeis-dos-municipios-1989-a-2012/2007/26",
+  "url": "https://thot-arquivos.tesouro.gov.br/publicacao/26267",
+  "membro": "Finbra2007v14jan.mdb",
+  "sha256_zip": "bb74d5b8cb709781fd9649b6bd3b28908c1362d663b2c62278c8e2fe6a1c2800",
+  "linhas_AM_por_tabela": {
+   "Ativo": 62,
+   "Despesa": 62,
+   "DSubFuncao": 62,
+   "Passivo": 62,
+   "Receita": 62
+  },
+  "coletado_em": "2026-10-15T16:13:55"
+ },
+ "2008": {
+  "pagina": "https://www.tesourotransparente.gov.br/publicacoes/finbra-dados-contabeis-dos-municipios-1989-a-2012/2008/26",
+  "url": "https://thot-arquivos.tesouro.gov.br/publicacao/26265",
+  "membro": "Finbra2008v14jan.mdb",
+  "sha256_zip": "6f8145d71cca35ae42bc7bb7944d6b493adc994529eefbfb51d9668e2a87193e",
+  "linhas_AM_por_tabela": {
+   "Ativo": 62,
+   "Despesa": 62,
+   "DSubFuncao": 62,
+   "Passivo": 62,
+   "Receita": 62
+  },
+  "coletado_em": "2026-10-15T16:14:03"
+ },
+ "2009": {
+  "pagina": "https://www.tesourotransparente.gov.br/publicacoes/finbra-dados-contabeis-dos-municipios-1989-a-2012/2009/26",
+  "url": "https://thot-arquivos.tesouro.gov.br/publicacao/26262",
+  "membro": "Finbra2009v14jan.mdb",
+  "sha256_zip": "19a89783856f3dd92a79b7f3de280807ca4a016d560e725aae490eb7104a9413",
+  "linhas_AM_por_tabela": {
+   "Ativo": 61,
+   "Despesa": 61,
+   "DLiquidada": 61,
+   "DPaga": 61,
+   "DSubFuncao": 61,
+   "DVPAtivo": 61,
+   "DVPPassivo": 61,
+   "Passivo": 61,
+   "Receita": 61
+  },
+  "coletado_em": "2026-10-15T16:14:16"
+ },
+ "2010": {
+  "pagina": "https://www.tesourotransparente.gov.br/publicacoes/finbra-dados-contabeis-dos-municipios-1989-a-2012/2010/26",
+  "url": "https://thot-arquivos.tesouro.gov.br/publicacao/26259",
+  "membro": "Finbra2010v14jan.mdb",
+  "sha256_zip": "a8302bdcb797b6666144f72e79c5dcec8b82eb756bcabbef92905e66fd37867e",
+  "linhas_AM_por_tabela": {
+   "Ativo": 59,
+   "Despesa": 59,
+   "DLiquidada": 59,
+   "DPaga": 59,
+   "DSubFuncao": 59,
+   "DVPAtivo": 59,
+   "DVPPassivo": 59,
+   "Passivo": 59,
+   "Receita": 59
+  },
+  "coletado_em": "2026-10-15T16:14:31"
+ },
+ "2011": {
+  "pagina": "https://www.tesourotransparente.gov.br/publicacoes/finbra-dados-contabeis-dos-municipios-1989-a-2012/2011/26",
+  "url": "https://thot-arquivos.tesouro.gov.br/publicacao/26256",
+  "membro": "Finbra2011v14jan.mdb",
+  "sha256_zip": "8ba08e2fe58c75b27915294134adbb870abd3084c6a15ec7f29cf476fe4440af",
+  "linhas_AM_por_tabela": {
+   "Ativo": 56,
+   "Despesa": 56,
+   "DLiquidada": 56,
+   "DPaga": 56,
+   "DSubFuncao": 56,
+   "DVPAtivo": 56,
+   "DVPPassivo": 56,
+   "Passivo": 56,
+   "Receita": 56
+  },
+  "coletado_em": "2026-10-15T16:14:44"
+ },
+ "2012": {
+  "pagina": "https://www.tesourotransparente.gov.br/publicacoes/finbra-dados-contabeis-dos-municipios-1989-a-2012/2012/26",
+  "url": "https://thot-arquivos.tesouro.gov.br/publicacao/26244",
+  "membro": "Finbra2012v14jan.mdb",
+  "sha256_zip": "8f94fc883e85900b67e870b4b70fd216163ea53e59cd83568d0031446234710a",
+  "linhas_AM_por_tabela": {
+   "Ativo": 51,
+   "Despesa": 51,
+   "DLiquidada": 51,
+   "DPaga": 48,
+   "DSubFuncao": 51,
+   "DVPAtivo": 51,
+   "DVPPassivo": 51,
+   "Passivo": 51,
+   "Receita": 51
+  },
+  "coletado_em": "2026-10-15T16:15:18"
+ }
+}

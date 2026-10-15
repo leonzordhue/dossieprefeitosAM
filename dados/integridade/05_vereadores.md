@@ -1,0 +1,1276 @@
+# Integridade — vereadores (gerado em 15/10/2026 16:47)
+
+- Candidaturas a vereador: 51333
+- Mandatos (eleitos): 4726 — 2000: 631, 2004: 592, 2008: 585, 2012: 708, 2016: 722, 2020: 738, 2024: 750
+- Pessoas distintas candidatas a vereador: 34395 (pessoas.csv agora tem 35509)
+- Checagens: **448 de 448 passaram**
+
+## Checagens que falharam
+
+- nenhuma
+
+## Alertas para verificação humana
+
+- ⚠️ 2000 Envira: número par de eleitos (10) — a CF fixa número ímpar; conferir
+- ⚠️ 2008 Novo Airão: resultado de vereador #NULO no TSE (candidatos e votação) — eleitos não identificados; completar com TRE-AM/Câmara
+
+## Datas de nascimento divergentes entre eleições no TSE (805)
+
+Mesmo título de eleitor com datas diferentes (erro de cadastro no TSE); pessoas.csv guarda a primeira.
+
+- 1b01232e4f (Francisco Paulo Santos Barbosa): ['05/10/1960', '05/10/1961']
+- 7bcf4d12c9 (Pedro Romão Dos Santos): ['03/06/1972', '03/06/1973']
+- 239e77bc8b (Agripino Martins): ['10/11/1965', '10/11/1969']
+- 660dfee851 (Marçal Tupinambá De Albuquerque): ['28/08/1961', '28/08/1969']
+- 560af79b2d (Raimundo Nonato Lima Torres): ['21/04/1952', '25/04/1952']
+- 8675fe9c3d (Hidemburg Filgueira Do Nascimento): ['04/01/1966', '04/07/1966']
+- a662a112da (Maria Auxiliadora De Queiroz Brasil): ['18/04/1963', '19/04/1963']
+- 72d5dd5355 (José Francisco Patricio Pereira): ['01/05/1966', '01/05/1976']
+- a81aeeb52c (Maria Zelita Moura Da Silva): ['06/01/1954', '22/06/1954']
+- 009eae1c68 (Osivaldo Silva Dos Santos): ['17/09/1959', '18/07/1959']
+- e4e2de5044 (Cecílio Fernandes De Araújo): ['22/01/1974', '22/11/1974']
+- 94b793fd33 (Ofir Marcolino Aiambo): ['20/05/1965', '20/08/1965']
+- b748a3379a (José Alves Roberto): ['08/06/1959', '08/06/1960']
+- c044e7dccd (Sebastiao Nunes Barbosa): ['20/01/1954', '20/10/1954']
+- 4abaea4300 (Raimundo Socorro Figueiredo De Castro): ['01/05/1954', '02/06/1953']
+- b07717d5b1 (Etelvina Pinheiro De Oliveira): ['19/08/1944', '19/08/1947']
+- 57b2bb45a5 (Eudes Zair Neves Litaiff): ['12/01/1952', '12/05/1952']
+- e511c2cba9 (Antonio Veiga Mota): ['27/03/1958', '27/05/1958']
+- bdeacb53eb (Francisco Reis De Oliveira): ['12/02/1963', '12/11/1963']
+- 4ce2423eba (Alfremar Dos Santos Oliveira): ['16/03/1963', '19/04/1958']
+- 1e3e8a83c5 (Osvaldo Ferreira Roque): ['09/03/1953', '09/03/1959']
+- 281f7e22df (Alonso Gomes Leite): ['21/01/1941', '21/02/1941']
+- e30129bd98 (José Ferreira Dos Santos): ['31/05/1949', '31/05/1952']
+- a8e878987a (Carlos José Da Silva): ['18/10/1966', '18/10/1967']
+- abd1b70fc3 (Hermogenes Sergio Lopes): ['10/04/1955', '19/04/1955']
+- 71fd5c150f (Elson Da Silva Carvalho): ['14/10/1982', '19/08/1960']
+- 1e54d88cd0 (Vicencia Gomes Dias): ['07/08/1958', '12/08/1952']
+- c5187f1bdd (Lazaro Dos Santos Lima): ['11/02/1960', '12/02/1960']
+- 69da42f1a0 (Walter Lira Pereira): ['17/06/1952', '18/06/1952']
+- ab4547178c (Raimundo Nonato De Souza Coêlho): ['07/02/1965', '30/09/1960']
+- 98ce044c29 (Marilene Fernandes Rocha): ['10/01/1971', '10/10/1971']
+- 8fe6c214b4 (Alva Rosa Lana Vieira): ['01/12/1974', '03/12/1974']
+- d44dd198c9 (João  Gomes  Da  Silva): ['28/03/1961', '28/03/1964']
+- 23b5ccdb0f (Francisco Barboza De Oliveira): ['09/10/1972', '19/10/1972']
+- 74558b9b75 (João  Delmiro  Cavalcante): ['25/06/1958', '25/06/1959']
+- 57ea3588f6 (Carlos Alberto Rosas Nobre): ['05/12/1965', '06/12/1965']
+- 7afd9fcd7d (Valério Ramos Graça): ['10/02/1953', '19/02/1953']
+- b2d60ab013 (José Francisco Do Nascimento Rodrigues): ['03/01/1974', '30/11/1974']
+- 7d409bc6a4 (Pedro Nogueira Da Silva): ['03/01/1962', '03/01/1967']
+- af33015b36 (Radir De Souza Magalhaes): ['04/01/1961', '04/02/1961']
+- 96f5da9122 (Nelson Cavalcanti Campos): ['-1', '08/05/1953']
+- ac69c8097e (Jorge Braga Furtado): ['22/04/1953', '23/04/1953']
+- d7707c9659 (Jonildo Mendes Do Nascimento): ['19/11/1964', '19/11/1966']
+- d1b53b87ff (Francisco Geraldo Franco De Moraes): ['13/03/1959', '13/03/1961']
+- 91e0367dcf (Jose Da Rocha Freire): ['14/09/1962', '26/05/1947']
+- 924c6ad2f3 (Amauri Batista Colares): ['03/12/1961', '12/12/1961', '13/12/1961']
+- be88ad0ca0 (Maria Lucia De Souza Coelho): ['24/01/1958', '24/10/1958']
+- 6f2504e05b (Sebastiao Gomes Nery): ['12/06/1947', '20/06/1947']
+- 0445751aed (Sebastião Barbosa De Oliveira): ['05/06/1963', '09/06/1963']
+- 85f9ed656a (Valmir Macario Da Silva): ['17/11/1965', '17/11/1967']
+- 55bd70e5a2 (Paulo Almeida Moraes): ['01/05/1961', '01/05/1986']
+- 7729559ced (Maria Do Carmo Nogueira De Carvalho): ['14/08/1965', '14/08/1975']
+- c77f4d6dd6 (Jose Vieira Braga Sobrinho): ['11/12/1953', '11/12/1954']
+- fc397aadef (Edno Ferreira Pimentel): ['01/01/1944', '01/11/1944']
+- 6901d24b02 (João Deuzerê Mendonça): ['02/11/1957', '12/01/1957']
+- d8b7008533 (Raimundo Libório Pascoal): ['13/01/1964', '23/01/1964']
+- 9c94d6b9cc (Candido Leão): ['07/01/1965', '15/12/1966']
+- e10bde521b (Maria Elizete Lopes Da Cunha): ['03/02/1948', '13/02/1948']
+- 84bbedfaa0 (Maria De Nazare Pacifico De Almeida): ['24/04/1962', '26/04/1962']
+- 12c7116898 (Henrique Simão De Vasconcelos): ['15/01/1940', '15/01/1944']
+- 531fb55c7f (Raimundo Nonato Veiga Sales): ['18/12/1958', '18/12/1959']
+- 2e4af26237 (Hilton De Souza Assis): ['26/12/1947', '29/12/1947']
+- c0cd52a905 (Francisco Do Nascimento Gomes): ['08/08/1956', '08/09/1956']
+- e6c48702df (Josias De Azevedo Tavares): ['10/06/1951', '19/06/1951']
+- bc9d33079d (Maria De Fatima Ribeiro Soares): ['18/05/1956', '18/10/1955']
+- a2ee0e1481 (Marciel Ribeiro Marinho): ['06/06/1975', '16/06/1975']
+- 1ffd83b894 (Raimundo Souza Dos Santos): ['09/07/1940', '09/07/1942']
+- 5aad556895 (Raione Moriz De Araujo): ['09/10/1975', '29/10/1975']
+- 4ee2eb1f68 (Lindomar De Lima Vasconcelos): ['18/12/1966', '18/12/1970']
+- b9e8285e9e (Arnoldo Pereira De Souza): ['18/11/1945', '18/11/1947']
+- 1f24c099c9 (Manoel Pedro Neves Correia): ['28/06/1954', '28/06/1971']
+- e0a58a6021 (Francisco De Assis Pereira): ['24/08/1943', '24/08/1947']
+- 7984b0a0e1 (Atahalpa Santos Saraiva): ['-1', '01/10/1963', '03/09/1974', '05/01/1973', '12/05/1953']
+- 3cbc5e1dd8 (Alberto Marques De Carvalho): ['22/01/1940', '22/01/1949', '22/04/1949']
+- 476d0fd898 (Rubens Nunes Da Silva): ['04/06/1942', '04/06/1948']
+- f61d8149fe (Luiz Augusto De Oliveira Mendes): ['07/09/1970', '08/09/1970']
+- 669f1dfa18 (Jose Carlos Alves Crispim): ['24/03/1965', '24/03/1976']
+- 1068a8cb8d (Vilomar Coutinho Da Mata): ['03/04/1934', '03/04/1964']
+- aa26e6c73d (Valeriano Sotero Da Silva): ['23/11/1944', '27/11/1944']
+- f3552fdf4b (Odete Braga Freire De Azevedo): ['23/10/1948', '23/10/1949']
+- 155ff5cdc5 (Janio Melo Da Silva): ['24/04/1963', '24/06/1963']
+- 3249ad2823 (Sidney Alves Temo): ['09/05/1964', '09/05/1965']
+- 1121c985d0 (Dario Marreira Cavalcante Filho): ['16/10/1956', '17/10/1957']
+- ec18ceda15 (Valderci Suami Alves De Moraes): ['11/11/1943', '15/11/1943']
+- 56d0a50ce1 (Ana Maria Nascimento De Oliveira): ['14/04/1956', '14/05/1956']
+- fd6a72feab (Carlos Alves Salinas): ['27/08/1955', '27/08/1957']
+- a28f316ead (Sebastiao Orimar Teixeira De Souza): ['10/05/1960', '20/05/1960']
+- c96f5239dc (Rita Do Amparo De Souza Picanço): ['23/06/1955', '29/06/1955']
+- 929391bcb3 (Jose Armando Oliveira Da Silva): ['08/06/1974', '08/06/1975']
+- 362f4fe7e9 (Jose Francisco De Araujo Rodrigues): ['11/05/1946', '23/02/1975']
+- 5a0092d027 (Francisco Carlos Aires Teles): ['04/10/1960', '14/10/1960']
+- d9bcda6fe0 (Evangelista Franco De Souza): ['23/04/1963', '23/04/1973']
+- 05b5730149 (Joaquim Brito De Souza): ['10/01/1947', '10/10/1947']
+- cd77cebf2b (Geraldo Ribeiro Da Silva Junior): ['30/03/1966', '30/06/1966']
+- 3425dba125 (Rezende Coelho Cacau): ['12/03/1968', '13/03/1968']
+- ff74dc36e8 (Raimundo  Marinho  Da  Silva): ['21/11/1949', '21/12/1949']
+- f0f18f281a (Miguel Marinho Pinheiro): ['24/08/1954', '26/08/1954']
+- aa826e6965 (Vicente Augusto Maciel Almeida): ['12/08/1962', '12/08/1963']
+- f4d065bfb8 (Juvaldir Veras Da Silva): ['06/05/1949', '19/05/1949']
+- ec792a109c (Fernandes Marques De Lima): ['30/05/1948', '30/05/1968']
+- 0044828eec (Albanísia Da Costa Maciel): ['20/12/1965', '28/12/1965']
+- e9de2a70ee (Walter Barbosa Dos Santos): ['04/10/1971', '07/10/1971']
+- 57ab135472 (José Amancio De Oliveira): ['03/06/1921', '03/06/1928']
+- 5c43f9ddb6 (Francisco Cuebas Dos Santos): ['18/02/1967', '18/12/1967']
+- 042c5ce7df (Marcelo Augusto Da Eira Correa): ['09/01/1977', '09/11/1977']
+- 229ec7063e (Manoel Geraldo Rodrigues Pereira): ['29/09/1957', '29/11/1957']
+- 20b5cf3ab3 (Alciney Da Cruz Obando): ['24/12/1954', '24/12/1964']
+- 8aae31b404 (Antonio Evilazio Graça Albino): ['08/07/1972', '09/07/1972']
+- 955a442a33 (Valdemir Sodre Rodrigues): ['08/10/1965', '20/05/1945']
+- 752029407f (Nazareno Alves Rodrigues): ['20/08/1953', '20/10/1953']
+- fd4796369b (Auricelio Paes Do Nascimento): ['02/03/1968', '06/03/1967']
+- 3d8faf5f3f (Maria Santana Cabral Dos Santos): ['17/08/1957', '17/08/1967']
+- 9699606be0 (Hermenegildo De Castro Cavalcante): ['20/12/1967', '20/12/1968']
+- ad9537d411 (Lisette Bouez Abrahim): ['21/11/1940', '21/11/1941']
+- 50e0a5f933 (Sebastiao Nunes Da Costa): ['22/06/1965', '26/06/1965']
+- 822a260b42 (Francisco De Souza Lopes): ['19/04/1962', '19/08/1962']
+- 1d57fdbdad (Celso Mota Resende): ['08/07/1972', '08/07/1977']
+- c0a8c0afec (Algemiro Dos Reis Duarte): ['28/06/1963', '29/06/1963']
+- f78a3dae96 (Dário Bezerra Chaves): ['06/08/1973', '06/08/1976']
+- 2b9c0ec99f (Waldy Lima De Melo): ['20/04/1950', '24/04/1950']
+- d55a252c7d (Sebastião Guedes Machado): ['13/03/1946', '13/05/1945', '15/05/1946']
+- 91b2b37f1f (Jose Ubiracy Paiva Reinaldo): ['01/03/1959', '03/01/1959']
+- 91e966658b (Maria Francinete Izel Passos): ['06/09/1964', '06/09/1965']
+- 7a401618c6 (José Amadeu Pereira Da Silva): ['05/10/1966', '25/10/1966']
+- 9c56fa1c56 (Valcileia Flores Maciel): ['10/04/1965', '11/04/1965']
+- 09fd2c2146 (Raimundo Nonato Mendes Marinho): ['25/06/1964', '26/05/1961']
+- 7e0b6cd6a0 (Francisco Da Silva E Souza): ['03/10/1951', '09/10/1951']
+- f0052f7381 (Maria Da Conceição Alves Leitão): ['05/04/1956', '06/04/1956']
+- 513ea1d7e8 (Joia De Melo Cruz): ['24/03/1961', '24/05/1961']
+- 6ede5a263a (Clovis Gonçalves Segadilha): ['02/04/1962', '05/06/1962']
+- f08b4b611c (Maria Edilene Martins Cunha): ['26/07/1960', '26/08/1960']
+- 9e348a9094 (Leomar Libório De Araujo): ['01/01/1959', '07/01/1959']
+- c5c8e8a201 (Luiz Carlos Da Silva Franco): ['13/01/1965', '13/10/1965']
+- 7255dac99d (Maria De Lourdes De Souza Barreiros): ['11/02/1952', '11/02/1953']
+- 5e220d8ce1 (Jose Costa De Aquino): ['16/03/1936', '19/03/1936']
+- a84e885b71 (Maria Jessy Do Canto Marques): ['18/04/1964', '18/06/1964']
+- ad1e27d9d7 (Geraldo Pereira Maciel): ['14/01/1948', '14/04/1948']
+- 3249537cd7 (Raimundo Dos Santos Fonseca): ['06/07/1966', '06/07/1976']
+- b70b89b966 (Francisco Maciel Da Silva): ['18/05/1961', '28/05/1961']
+- 87a15e3c8c (José Carlos Coutinho Da Silva): ['06/03/1965', '26/03/1965']
+- 38ded7325b (Ademir Dos Santos Mathias): ['26/02/1956', '26/02/1957']
+- cbf2d89ef2 (Gilmar Sales Dos Santos): ['23/06/1966', '27/06/1966']
+- ae6267af40 (Carlos Alberto Da Rocha Rodrigues): ['11/12/1968', '12/12/1968']
+- 208430a356 (Sidney Fernandes Da Silva): ['13/03/1951', '18/03/1951']
+- 46620437ef (Arnaldo Tananta): ['01/12/1943', '01/12/1953']
+- f63346b276 (Joao Rezende Pessoa): ['18/06/1956', '28/06/1956']
+- bbaf7e8a66 (Rosicléia De Sá Vinhote): ['23/06/1960', '23/07/1960']
+- 29be49485f (Francisco Pinto De Queiroz): ['24/09/1974', '29/09/1974']
+- 33a03d63b4 (Antonio Nicolau Bento Dos Santos): ['22/03/1957', '22/05/1957']
+- c22f48d722 (Raimundo José Queiroz Braga): ['21/11/1963', '22/11/1963']
+- a945efb97f (Rafael Otaviano Aiambo): ['09/12/1963', '09/12/1966']
+- 42690220e5 (Francisco De Assis Batista): ['02/02/1933', '21/02/1933']
+- 17381e8152 (Jeova Brigido Roberto): ['12/01/1961', '14/01/1961']
+- 5d1089f46f (Raimundo Mendonça De Paiva): ['20/09/1962', '28/09/1972']
+- f84751a5ef (Luiz Gonzaga Moraes De Alencar): ['27/05/1950', '27/05/1958']
+- 82d78ba53d (Terezinha De Jesus Da Silva Marruche): ['09/10/1960', '10/09/1960']
+- e5eda97d2f (Manoel Augusto Rodrigues De Lima): ['19/10/1967', '19/10/1969']
+- cd2bef936e (Jonas Cordeiro Da Silva): ['06/12/1961', '16/12/1961']
+- b906b10c7a (Jose Vagner Mendes Da Silva): ['02/06/1963', '20/06/1963']
+- 13e560a693 (João  Valdivino  Alves): ['05/06/1961', '06/06/1961']
+- 7cb79a2fac (Onildo França Bezerra Filho): ['06/08/1962', '06/08/1963']
+- 8d68e40b3e (Almir Sa De Souza): ['26/03/1965', '28/03/1965']
+- ab310d87e1 (Itamar Fernandes): ['26/12/1934', '26/12/1935']
+- 3e1fca10d3 (Odorman Duarte De Vasconcelos): ['05/02/1971', '05/02/1973']
+- 356d8f887a (Francisco Heraldo Dos Santos): ['20/02/1963', '22/02/1963']
+- 5a7a3aaac6 (Pedro Bichara Jose): ['24/01/1964', '24/01/1965']
+- e4f756f461 (Veranilde Pereira Cunha): ['26/10/1955', '27/10/1957']
+- 3d92285697 (Aclemilton Canto Da Gama): ['21/02/1962', '23/08/1936']
+- b5e06a9c00 (Aderbal Cesario Da Silva Neto): ['16/11/1959', '26/11/1959']
+- 6e223585c7 (Raimundo Ribeiro De Lima): ['10/08/1952', '10/08/1958']
+- 8d0579fe1a (Maria Do Socorro Pantoja Frota): ['01/11/1956', '09/11/1956']
+- 33d4e77e64 (Luis Maurício De Lima): ['07/10/1950', '08/10/1950']
+- d9291d348e (Tézio De Oliveira Veras): ['24/05/1949', '25/05/1949']
+- 1e99b4e106 (Mario Jorge Lopes Ferreira): ['14/04/1955', '19/04/1955']
+- a1b94ad991 (Edson Moraes De Castro Filho): ['26/01/1964', '26/01/1966']
+- 300d6b139b (Boaventura Fernandes Figueira): ['14/07/1947', '14/07/1949']
+- a21e719375 (Emanuel Pereira Da Silva): ['10/02/1950', '18/02/1950']
+- a32f5b349d (Ademar Eufrozino Da Silva): ['09/07/1955', '10/07/1955']
+- e805084ef5 (Edjan Xavier Oliveira Júnior): ['10/02/1970', '10/12/1970']
+- 8e543a0211 (Flavio Augusto Santos Negry): ['24/07/1971', '27/04/1971']
+- 9286b7c87d (Nazareno Gomes Placido): ['06/10/1939', '16/10/1939']
+- 6c2ec0fb84 (Meneval Alves Chagas): ['13/03/1965', '13/03/1975']
+- 71aa37339c (Orlando Morais De Andrade): ['23/07/1961', '30/06/1967']
+- aae6e7b336 (Ércio Campos De Albuquerque): ['07/09/1913', '07/09/1943']
+- ab6acd8733 (Jurandir Taveira De Souza): ['19/08/1961', '19/09/1961']
+- f4d1527a99 (Elias Paz Vieira): ['13/10/1964', '13/12/1964']
+- 7a273d49b9 (Temilson Ataide Leão): ['24/11/1968', '27/11/1968']
+- b58a49a2c2 (Natan Caldeira De Andrade): ['03/04/1954', '03/04/1959']
+- 6e9768af83 (Evaldo De Souza Gomes): ['10/08/1963', '10/08/1964']
+- aabc00e28f (José Valdir Pinto De Castro): ['07/08/1954', '07/09/1954']
+- 250dfc8bb9 (Hozanir De Souza Santos): ['07/12/1969', '07/12/1979']
+- 8be91c2b01 (Alcides Sebastião Guedes): ['22/07/1970', '23/07/1970']
+- 332cd3ad1c (Alzira Dos Santos Batista): ['04/06/1962', '09/06/1962']
+- c7e396286e (Paulo Jhander Andrade Rodrigues): ['04/05/1971', '05/05/1971']
+- 98a6d4f5d2 (Teodomiro Figueiredo Rolim): ['05/05/1955', '08/05/1955']
+- 9be81afbf0 (Humberto De Oliveira Moraes): ['12/07/1961', '13/07/1961', '13/07/1962']
+- 32c70cf515 (Francisco José Da Silva): ['04/09/1956', '14/09/1956']
+- 2ffbaf1795 (Jakson Magalhães Valente): ['10/09/1960', '11/08/1969']
+- 7f7ee0ee99 (Sebastiao Da Silva Coelho): ['12/02/1960', '17/02/1960']
+- e05acc5ca8 (Israel De Abreu Sodré): ['07/01/1965', '07/11/1965']
+- a0f7745055 (Joaquim Rivaldo Teodoro Da Silva): ['18/08/1952', '22/03/1972']
+- 02f9d99a2e (Linisberto Sampaio De França): ['26/01/1955', '26/11/1955']
+- eb0d8c522d (Domingos Jaco Junior): ['28/02/1970', '28/12/1970']
+- ee92c788fe (Vilson Reis Dos Santos): ['27/09/1962', '27/09/1963']
+- e63bf46ed0 (Lucio Ricardo De Medeiros Martins): ['14/04/1955', '14/04/1965']
+- 8c70c3de11 (Raimundo Henrique Ribeiro): ['17/12/1937', '17/12/1939', '17/12/1941']
+- acbbde45f6 (Francisco Raimundo Carlos De Lima): ['04/02/1962', '04/10/1962']
+- 8e591815c4 (Manoel Pereira Picanço): ['07/02/1961', '17/02/1961']
+- 881a57d59d (Raimunda Maia Barbosa): ['12/10/1958', '21/10/1958']
+- 53a8d159ac (Alzeney De Almeida Soares): ['23/06/1974', '25/09/1974']
+- 3097939d4b (Leovigilda Rodrigues Da Costa): ['03/12/1957', '06/12/1957']
+- 6004dc8930 (João De Melo Cardoso): ['11/05/1940', '11/05/1960']
+- b577ad64be (Mario Jorge Maciel Barbosa): ['09/09/1969', '09/09/1970']
+- 58b1107e66 (Paulo De Oliveira Silva): ['05/01/1957', '05/01/1967']
+- 8144518b8c (Pedro Ponciano Alves): ['20/08/1966', '28/07/1966']
+- 2667491b82 (Janderlan Da Silva Nazaré): ['20/01/1971', '20/01/1972']
+- 44a84329da (Valdeir De Souza Malta): ['06/08/1972', '06/10/1968']
+- be93a61089 (Maria Raimunda Cruz): ['27/03/1971', '27/05/1971']
+- 3a9064ffc5 (Raimundo Geraldo Gomes Azaevedo): ['23/11/1953', '23/11/1955']
+- 04d8ae9985 (Antonio Da Silva Martins): ['16/05/1952', '16/06/1952']
+- 93215e101c (Francisco  Amazonas  Lopes): ['04/01/1939', '05/01/1939']
+- b024419dc1 (José Wilson Dos Santos Oliveira): ['26/10/1960', '27/10/1960']
+- e569b47ba3 (Sebastião Marques De Araújo): ['16/03/1950', '31/10/1950']
+- c8d7fc603c (Newton Carlos De Lima): ['21/06/1958', '21/07/1958']
+- cb88811ac1 (Jose Jucimar Tamer De Souza): ['07/03/1957', '09/03/1957']
+- d796271334 (Lázaro Feitosa Santos): ['08/01/1960', '23/01/1963']
+- 020b5834b9 (Antonio Jackson Loureiro Da Costa): ['13/07/1970', '13/07/1971']
+- efbd9cecae (Erivaldo Palheta Alves): ['05/08/1965', '08/05/1965']
+- e76ccbecf7 (Rodiney Da Silva Olimpio): ['12/03/1965', '23/06/1965']
+- 612c6cb0f4 (José Augusto De Souza Ferreira): ['20/05/1965', '26/05/1965']
+- 0e71c66b03 (Carlos Pinto Dos Santos): ['18/09/1956', '28/06/1956']
+- 4c2b6a1c39 (Iranildo Nóbrega De Melo Azedo): ['03/05/1955', '03/05/1965']
+- 831a5e244e (Sirlan Gomes Cohen): ['18/08/1960', '19/08/1960']
+- 8d7dbeb69c (José Protasio Prado De Castro): ['20/02/1960', '26/02/1960']
+- 73b31e2863 (Raimundo Edimar Lopes Lamarão): ['05/02/1964', '15/02/1961', '15/02/1964']
+- 0523916e8d (Jose Augusto De Souza Rodrigues): ['08/07/1951', '29/07/1951', '30/07/1951']
+- 9cff6f437e (Aldemir Ferreira Prado): ['15/07/1973', '17/07/1973']
+- b5774e9a3b (José Álvaro Damasceno De Lima): ['04/09/1961', '09/04/1961']
+- b5aee0c2a5 (Jose Francisco Campos De Oliveira): ['04/01/1963', '04/02/1963']
+- 12e03cd76d (Izidio Pereira Guedes Filho): ['03/02/1959', '13/02/1959']
+- 89ee5e9017 (Sandra Nogueira Dos Santos): ['29/11/1970', '29/11/1973']
+- d0c01e37bf (Evandro Nogueira Cruz): ['30/03/1964', '31/03/1664', '31/03/1964']
+- 699d75da28 (Alcemir De Lima): ['23/09/1975', '28/09/1975']
+- 1ee1cbca7c (Marluce De Carvalho Lobato De Souza): ['25/05/1954', '28/05/1954']
+- 0eb045bd25 (Valdeir Da Rocha Falcão): ['24/10/1954', '25/10/1954']
+- 754b3ac1a7 (Djalma Soares De Souza): ['20/05/1947', '20/07/1947']
+- 13598b034a (Raimundo Marcondes  Oliveira Dos Santos): ['01/11/1969', '11/11/1969']
+- 206079780e (Manuel Dos Santos Franco): ['06/10/1959', '09/10/1959']
+- 1f31acd161 (João Batista Marques Tavares): ['11/06/1947', '12/06/1947']
+- 089040c765 (Francisco  Alves  De  Araújo): ['12/05/1967', '30/08/1936']
+- 0b3fa55281 (Nedy Santana Vale): ['19/08/1965', '19/08/1966']
+- a1e306d175 (Edenir Maia Da Silva): ['05/05/1964', '05/05/1966']
+- 26891f97cd (Raimundo Fernandes Dos Santos): ['01/07/1971', '07/07/1971']
+- 8664f74aff (José Rui Vieira): ['13/06/1954', '13/06/1958']
+- ba93127d56 (Francisco Antonio Bezerra De Souza): ['03/09/1969', '13/09/1961']
+- 6f4ff65d9f (João  Gabriel  Rodrigues  Cavalcante): ['05/12/1954', '15/12/1954']
+- 64e71069e1 (Jose Gomes Siqueira): ['12/01/1972', '20/01/1972']
+- fa053c6fd7 (Afonso Tourinho De Souza): ['14/05/1958', '14/05/1968']
+- 258a1d06f6 (Oscar Marques Cavalcante Júnior): ['02/05/1957', '29/01/1978']
+- 3b95ed41ae (Cláudio Pereira): ['16/06/1948', '16/07/1948']
+- cfe254946b (Raul De Oliveira Teixeira): ['11/09/1950', '11/09/1956']
+- 7f96770880 (Terezinha De Souza Pereira): ['15/10/1952', '15/10/1962']
+- 7623c2d33b (Lauri Da Silva Guerreiro): ['14/04/1950', '15/04/1950']
+- 7e9af2c1a1 (Carlos Lopes De Oliveira): ['10/07/1963', '10/07/1968', '10/08/1968']
+- 26a74d7302 (Messias Da Silva Sampaio): ['19/06/1944', '19/06/1945']
+- 5dd4d650d8 (Alzira Monteiro Da Silva): ['03/03/1945', '07/03/1945']
+- 64feef50b5 (Wilson Gomes Macedo): ['29/10/1948', '29/10/1949']
+- bfde07dd00 (Evaldo Andrade Gonçalves): ['24/04/1981', '24/04/1982']
+- 3224ebd400 (Geraldo Henrique Silva De Medeiros): ['07/12/1964', '07/12/1965']
+- a325028397 (Rutilo Marinho Parente): ['04/06/1969', '04/07/1969']
+- b5e1d9d376 (Francisco Antonio Da Costa): ['05/10/1957', '05/12/1957']
+- e473aba122 (Elias Inocencio De Lima): ['15/04/1964', '15/04/1966']
+- 5653ba36e6 (Francisco Paulo Pinto De Mesquita): ['15/02/1968', '15/12/1968']
+- e186c105c0 (Rosalina Faraco Caldas): ['06/10/1958', '09/10/1958']
+- f5cb978a02 (Julio Macarto Queiroz Da Silveira): ['15/06/1951', '15/08/1951']
+- 797cdcfdbb (Luiz Gonzaga Benigno Siqueira): ['14/12/1950', '14/12/1956']
+- a8d8d92e9a (Soraia Ladislau Pereira): ['24/08/1958', '24/09/1958']
+- 92d6145fd4 (Delva Maria Mota Dos Santos): ['24/03/1962', '25/03/1962']
+- 493de28e29 (Armando Varela Belem): ['21/01/1956', '22/06/1968']
+- b940647dfc (Francisco Elaime Monteiro Da Silva): ['25/01/1963', '25/11/1963']
+- 0339c7ab7b (Rubson Moreira Da Silva): ['08/04/1976', '08/04/1979']
+- 1eee781cee (Manoel Do Rosário Paula Da Costa): ['05/05/1964', '05/06/1964']
+- 716fab05e9 (Marlene Gonçalves Cardoso): ['25/12/1969', '26/12/1969']
+- 2f3dfc4ecf (Manoel Assunção De Souza): ['02/06/1962', '03/08/1988']
+- 12f43e24c1 (Terezinha Lima Enes): ['24/01/1968', '24/01/1969']
+- d7d61489fb (Maria Rosangela Trindade Bezerra): ['16/05/1959', '16/05/1962']
+- f887fe1893 (Damiao Honorato Ramos): ['25/05/1972', '29/05/1972']
+- e66230c732 (Rolangio Pereira De Sousa): ['19/06/1960', '19/08/1960']
+- 5a33dcb10c (Francisco Sales Barbosa): ['20/06/1953', '20/06/1956']
+- 37209adc8a (Rodolfo Otero Gonçalves): ['04/10/1956', '14/10/1956']
+- f339c75fcb (Dario Gomes De Araujo): ['03/07/1951', '03/07/1953']
+- 2377ad9904 (Francisco Da Costa Gadelha): ['10/09/1961', '19/09/1961']
+- aa2c30cb90 (Albenei Galdino Correa): ['05/07/1958', '05/10/1958']
+- bffd55ab61 (Francisco Barbosa Da Silva): ['10/12/1962', '12/10/1962']
+- d61a3ed8af (Belciney Muller Tavares): ['17/07/1963', '17/07/1967']
+- 27b1986a98 (Joao Nobre De Oliveira): ['19/07/1948', '19/07/1949']
+- 3ef452084f (Aristóteles Cordeiro De Matos): ['23/05/1954', '25/03/1954']
+- e4a03c7067 (Deivy Pereira Granjeiro): ['21/07/1976', '21/07/1977']
+- b73a570218 (Orlando Florindo): ['07/10/1955', '08/10/1954']
+- 0e772db84c (Sebastião Cordeiro De Moraes): ['20/01/1959', '20/04/1959']
+- 5bff8c2b07 (Maria Izabel Marinho Ramos): ['14/01/1964', '14/01/1967']
+- 7199108d5f (Arineide Dos Santos Tavares): ['10/01/1966', '12/01/1966']
+- 338b0b835e (Deny Dorzane Martins): ['10/02/1970', '10/02/1971']
+- c50495e396 (Acy Da Silva Lima): ['06/08/1964', '06/08/1984']
+- 73a1a03064 (Paulo Rocha Filho): ['04/10/1948', '08/10/1948']
+- d5e168cf83 (Venicio Nonato Do Nascimento): ['15/09/1955', '15/12/1955']
+- 1abceaf238 (Raimundo Borges Da Rocha): ['25/11/1964', '26/11/1964']
+- 45c3bf45e5 (Maria Lindalva Marques Da Rocha Filha): ['04/03/1967', '05/03/1967']
+- e22a82dec0 (Luiz Mauricio De Souza): ['13/02/1954', '16/02/1954']
+- d9c9682f16 (Osvaldir Jose De Albuquerque): ['25/01/1958', '26/01/1958']
+- 94a4b4d24a (Antonia De Almeida E Sousa): ['-1', '07/07/1944']
+- a47009a1bc (Edilson Sena De Oliveira): ['21/08/1966', '21/08/1986']
+- 3ef20235b2 (Antonio Franco Do Nascimento): ['03/12/1963', '13/12/1963']
+- e90243d2ce (Jucicley Cavalcante Gomes): ['08/09/1964', '18/09/1964']
+- 4b767316fe (Orlando Jose Gomes Rodrigues): ['09/07/1962', '09/09/1962']
+- c91f960c77 (Raimundo Nonato Lima Da Costa): ['07/10/1956', '07/10/1959']
+- dbc901b23b (Erico Santana Da Paixão E Silva): ['25/07/1965', '26/07/1965']
+- 09a598147f (Jose Felix Marinho): ['26/01/1955', '26/01/1956']
+- 0c4895f2be (Mauro  Henrique  Alves  Da  Cunha): ['03/08/1960', '03/08/1961']
+- f025ad105c (Manoel Vinente Bentes): ['17/08/1950', '18/08/1950']
+- 7410b0a28c (Adson Batista De Oliveira): ['07/04/1975', '17/04/1975']
+- 087e320114 (Ernandes Boaventura Ribeiro): ['02/10/1954', '12/10/1954']
+- 0e816f52c6 (Ediberto Amancio Da Silva): ['18/03/1961', '18/05/1961']
+- cfd1c6d74f (Maria Lindaura Ferreira De Oliveira): ['12/11/1955', '21/11/1955']
+- 5913e3b039 (José Carlos Saraiva): ['05/08/1967', '08/05/1967']
+- 3c013ce52b (Francisco Jose Barroso Andrade): ['05/04/1957', '06/04/1957']
+- 01452c0ff5 (Paulo Garcia Ribeiro): ['23/10/1953', '24/10/1953']
+- 3b4e4b83ab (Almiro Peres   Zedan): ['02/07/1957', '22/07/1957']
+- 1d72ac8257 (Antonia Souza Do Nascimento): ['18/04/1960', '18/04/1968']
+- aa929b86c3 (Antonio Carlos Feitoza): ['06/09/1957', '26/09/1957']
+- d4899c407d (Acrivaldo Lima Da Silva): ['20/07/1970', '22/07/1970']
+- 5b45863061 (Ivo Nazare Do Nascimento): ['07/10/1971', '07/10/1972']
+- 1bfd585be7 (Luiz José Alfon Neto): ['11/03/1958', '11/05/1958']
+- 236fb84d84 (Jorge Luis Carneiro De Andrade): ['13/03/1966', '15/03/1966']
+- 2637157a31 (Abrahim Pereira De Souza): ['28/08/1963', '29/08/1963']
+- 7a3845cc4e (Sildomar Abtibol): ['23/07/1961', '26/07/1961']
+- a8c9d6bfe5 (Adair Faustino Mauricio): ['22/04/1952', '22/04/1972']
+- 92525f706f (Ruberval Sotero Da Silva): ['22/05/1957', '23/05/1957']
+- 14f916e870 (Edson Francisco Matos Borges): ['03/10/1972', '03/10/1973']
+- 2c3cd9fec6 (José Ribamar Roberto): ['20/01/1952', '21/01/1952']
+- 71015057fe (Marcio Almino Pimentel Martins): ['02/03/1963', '03/02/1963']
+- c4d3287ef4 (Maria Das Dores Medeiros): ['01/05/1970', '01/05/1971']
+- 10f8db376f (Modesto Barroso Alexandre Neto): ['19/09/1957', '19/09/1959']
+- a7bd2da5ae (Elian Essucy Ribeiro): ['29/04/1964', '29/04/1969']
+- d1f3a678bd (João Rodrigues Da Silva): ['29/03/1951', '30/03/1951']
+- b6e81619f7 (Francisco Orleilson Gomes): ['-1', '22/08/1959']
+- 37c4f6bacc (Adelson Alves Izuisa): ['18/06/1981', '28/06/1981']
+- 4d34cccb99 (Jose Augusto Albuquerque Bastos): ['05/04/1961', '05/04/1971']
+- e6e921f2ff (Marcos Paulo Martins Da Costa): ['07/02/1954', '07/02/1974']
+- 5cf8ebef44 (Sebastiao Da Silva Correa): ['14/01/1970', '17/01/1970']
+- fd79e2b6d4 (Rozilene Souza De Freitas): ['18/05/1977', '18/06/1977']
+- 9fe09b41f9 (José Carlos Santos Cordeiro): ['15/11/1966', '16/11/1966']
+- 23295fc977 (Everaldo Farias Lima): ['17/02/1973', '17/03/1973']
+- b7e4a9cb81 (Enildo Cesario Da Silva): ['18/02/1963', '18/02/1966']
+- 1ff268f62c (Maria Do Rosario Dos Santos Rego): ['07/01/1958', '10/05/1969']
+- 65947da766 (Marilene Pena Lima): ['15/06/1965', '25/05/1965']
+- e5cf8eb208 (Paulo Cruz De Carvalho): ['22/06/1969', '26/06/1969']
+- 557177ebfd (Janio Zurra Rocha): ['05/02/1962', '05/02/1972']
+- c1e15d8ba3 (Ana Maria Dos Santos De Brito): ['18/08/1958', '19/08/1958']
+- 8923bbf776 (Ocione Cunha Da Rocha): ['17/01/1954', '28/06/1964']
+- 97fd9ee55e (Jose Sildo Pereira Dos Santos): ['26/11/1971', '26/11/1972']
+- deee1cb19b (Jaciete Beltrão Berger): ['19/07/1967', '19/07/1969']
+- 36102d87e8 (Alzira Ferreira Barros): ['20/06/1960', '20/06/1990', '22/06/1960']
+- a232b6ca90 (Coriolano Da Costa Carvalho): ['21/05/1963', '21/05/1964']
+- a2154bd951 (José Augusto Almeida Dos Santos): ['-1', '02/07/1961']
+- e343bc0cd2 (Raimundo Queiroz De Lima): ['14/01/1963', '14/02/1963']
+- 81357c2a4e (Rejane Celma Da Silva Martins): ['18/05/1976', '18/10/1971']
+- db36783f27 (Evarista Matos Craveiro): ['24/02/1964', '24/02/1974']
+- 57521abbd2 (Wesley Carvalho Cunha): ['09/08/1972', '09/08/1973']
+- 6272a242cc (Gregorio Da Costa): ['-1', '12/03/1946']
+- 09f56d366c (Miguel Do Nascimento Silva): ['18/06/1966', '18/06/1967']
+- f72ce2eff1 (Maria De Lourdes Rocha Monteiro): ['03/02/1958', '03/04/1950']
+- e1d0722af1 (Deuscimar Ferreira Da Silva): ['04/08/1975', '04/09/1975']
+- 9a50216ba8 (Rocimar Frazão Fernandes): ['09/08/1975', '09/12/1975']
+- b8eb8c3c61 (Jose Do Carmo Carvalho De Souza): ['15/07/1964', '15/07/1965']
+- a972ac18dd (Elieso Herculano Lima Filho): ['29/01/1972', '29/11/1972']
+- adea20b465 (Wagner Souza Costa): ['09/10/1945', '09/10/1965']
+- fa0c789bf8 (Silene Carvalho Pinto): ['19/04/1963', '19/12/1963']
+- 390bab8c79 (Severino Coelho Da Cruz): ['01/08/1943', '01/08/1963']
+- 06811600d5 (Jose Arribamar Mendes Dos Santos): ['11/05/1956', '31/05/1956']
+- 5ee5eef911 (Valdenice Da Silva Fontes): ['20/07/1977', '27/07/1977']
+- 8a617e3485 (Lucia Regina Antony): ['01/09/1959', '31/08/1959']
+- ecf2f4062b (Naziano Da Silva Carvalho): ['27/06/1968', '27/09/1978']
+- 825cb78f37 (Maria Bernardo De Souza): ['26/05/1957', '27/05/1957']
+- 7739c564ab (Ana Maria Fermin De Melo): ['22/04/1958', '23/07/1970']
+- 9b05e78044 (Rafael Peres Quirino): ['14/10/1969', '19/10/1969']
+- 97905630df (Matusalém Sabóia De Lima): ['17/09/1963', '24/09/1968']
+- 9a14cfeedf (Hilton Ramos Da Silva): ['15/08/1943', '15/09/1943']
+- 39597f562b (Maria Do Rosario Oliveira Bastos): ['23/02/1954', '23/06/1954']
+- 572309524e (Arnoldo Dos Santos Fermin): ['11/03/1966', '22/03/1965']
+- 302f83ed42 (Arnaldo Marques Paes): ['18/09/1966', '28/09/1966']
+- b0d81e03cc (Davi Coelho Dos Santos): ['30/01/1953', '31/01/1953']
+- 19d942ac04 (Erasmo Alexandre Ferreira): ['25/09/1967', '29/09/1967']
+- b3f1e445e5 (Roberto De Oliveira Soares): ['12/06/1961', '13/06/1961']
+- b1617d4907 (Helio Augusto Lemos De Oliveira): ['30/10/1977', '31/10/1977']
+- d148452689 (Severino Jose Coelho): ['31/01/1961', '31/10/1961']
+- 75d228e979 (Francisco Geraldo Miranda De Lira): ['30/08/1958', '31/08/1958']
+- 6a19a87873 (Mario José Henrique De Souza): ['14/01/1962', '14/02/1962']
+- 00ef8c40de (Edivaldo Da Silva): ['15/07/1955', '15/07/1965']
+- f37b3fd644 (Albecy Pereira Martins): ['17/05/1962', '18/05/1962']
+- c0d6dbac7f (Francisco Xavier De Souza Tavares): ['22/05/1951', '24/05/1951']
+- ba584c2419 (Lucimar Claudio Rozindo): ['15/02/1952', '15/02/1954']
+- 97f1c52b9f (Almires Honrato Lobo): ['26/07/1974', '26/07/1975']
+- ee8dad8361 (Maria Nei Cruz Marinho): ['20/10/1966', '26/10/1966']
+- d9bfd73a39 (Jorge Felipe De Melo Costa): ['20/08/1974', '22/08/1975']
+- 25f2988d5e (Willas Da Silva Lopes): ['01/02/1969', '16/02/1969']
+- 4a78c61f30 (Aurelio Lopes Maranhao): ['10/02/1968', '10/12/1968']
+- eb725399df (Elenilson Silva De Mendonça): ['15/11/1972', '15/11/1973']
+- 8db77f2d86 (Joao Antonio De Souza): ['12/01/1959', '12/07/1959']
+- ee30d46d2f (Raimundo Gomes Da Cruz): ['29/01/1957', '29/07/1957']
+- 2860d368e5 (Raimunda De Jesus Santos De Souza): ['25/12/1970', '25/12/1973']
+- 5340c91023 (Silmara Lima Monteiro): ['09/07/1981', '29/07/1981']
+- 37f6af8f83 (Andramites Nobre Cardoso): ['20/10/1966', '24/10/1966']
+- 46afea6186 (Reginaldo Melo De Oliveira): ['19/07/1976', '20/07/1976']
+- df34276c2d (Francisco Canindé Freitas De Lima): ['22/03/1954', '22/03/1956']
+- 8e8a304ef9 (Jose Augusto Da Silva Barbosa): ['27/02/1952', '27/09/1952']
+- 0dc97910d3 (Jose Ramalho Da Costa): ['10/03/1951', '10/09/1954']
+- 87170a4176 (Marcilene Dos Anjos Serrão): ['19/05/1961', '19/09/1961']
+- 2f9fd9591d (Walterlan Cruz Obando): ['03/11/1966', '07/07/1961']
+- 36221252a9 (Alberto Falcao Aquino): ['07/04/1962', '07/05/1962']
+- f76c50a062 (Rayol Alfaia Dos Santos): ['30/12/1983', '31/12/1983']
+- 9f92255843 (Raimundo Heuclides Lopes): ['18/12/1197', '18/12/1977']
+- a7f90e0fa1 (Maria Elizabeth Lavareda Pinto): ['10/01/1964', '10/06/1964']
+- e2c0329069 (Joaquim Jose De Alencar Souza): ['21/04/1949', '22/04/0049']
+- 1087833062 (Francisco Gomes De Oliveira): ['28/09/1956', '28/09/1958']
+- 5e8253bf4c (Álvaro Almeida De Azevedo): ['01/01/1969', '11/01/1969', '11/10/1969']
+- 613465e025 (Amos Batista Ferreira): ['01/09/1961', '14/01/1961']
+- ab508e53fe (Maria Cleia Brasil Martins): ['30/10/1955', '31/10/1955']
+- 19b24d4925 (José Raimundo Cavalcante): ['10/09/1972', '17/09/1972']
+- 7f2676c8cf (Clodomir Viana Gadelha): ['16/05/1968', '16/05/1978']
+- 127a7aa674 (Silbene Ovidio Rosindo): ['10/05/1961', '10/05/1968']
+- d7556a0898 (Tonyandson Da Silva Cordeiro): ['-1', '22/10/1980']
+- 86527a3b3d (Edilon Melo De Queiroz): ['02/05/1964', '03/05/1964']
+- b09a357e51 (José Junior Mota Moraes): ['11/02/1956', '28/12/1971']
+- 553d97ac28 (Lucia Andrea Mar Palheta): ['03/08/1985', '30/08/1985']
+- b7b9bebf64 (Manoel Martins Nunes): ['11/03/1962', '11/03/1963']
+- 191f1a0600 (Joao Evangelista De Farias): ['18/09/1986', '25/10/1955']
+- 0b32908089 (Maria Ines Paes De Souza): ['21/01/1965', '21/02/1965']
+- fce34d9c9e (José Demétrio Almeida): ['08/11/1930', '08/12/1949']
+- 6ef2ae038f (Maria Gracinha Gonçalves De Castro): ['17/07/1953', '17/07/1963']
+- 90e913aed3 (David Valente Reis): ['09/06/1973', '09/06/1978']
+- 26b54ce385 (Aroldo Do Nascimento Junior): ['20/07/1981', '26/07/1981']
+- fd84806a2c (Maria Ednelza Pereira Brandão): ['28/01/1955', '28/11/1955']
+- c6dcdb19d3 (Robertinho Da Silva): ['24/01/1965', '24/01/1975']
+- 7c2ec17db7 (Osmildo Biana Da Silva): ['03/05/1971', '25/12/1969']
+- 9e5d97f5e5 (Mário Da Mota Almeida): ['24/11/1963', '24/11/1965']
+- aac8a0a30a (Antonio Vicente Dias Góes): ['25/09/1963', '27/09/1963']
+- 23a5df5582 (Irailzo De Oliveira Michele): ['29/01/1966', '29/06/1966']
+- a0fbc4af98 (Ozéias Martins Da Silva): ['15/07/1960', '15/07/1968']
+- bbf8afc387 (Aderbal Pinheiro De Almeida): ['15/06/1969', '16/06/1969']
+- 7ee40f2c34 (Jose De Souza Batista): ['05/02/1964', '05/12/1964']
+- 2b0d6f510e (Almah Mamudy Da Silva Zacarias): ['05/09/1974', '06/09/1974']
+- 7d64bc59a6 (Francimar Lopes Barroso): ['24/01/1975', '25/01/1975']
+- 73e791f19d (Francisco Mendes Jaime): ['30/01/1974', '31/01/1974']
+- 0c2ca6829b (Luiz De Gonzaga Dias Ferreira): ['04/06/1962', '05/06/1962']
+- 746647b525 (Rubenita Freitas Mendonça): ['27/01/1962', '27/01/1964']
+- aaf84d5f15 (Egildo Rodrigues Da Costa): ['02/07/1946', '12/07/1946']
+- eb1885db84 (Ranulfo Da Silva De Benedito): ['10/08/1967', '18/08/1967']
+- efccee7598 (Luiz Jorge Henrique Dos Santos): ['02/07/1970', '12/07/1970']
+- 599c19fe9d (Orlan Souza Dos Santos): ['20/10/1977', '20/12/1977']
+- 43d1f94d22 (Jaime Costódio Manoel): ['30/12/1959', '30/12/1969']
+- cb28b45035 (Audenir Felix Ramos): ['03/11/1961', '14/08/1960']
+- db2151862d (Osvaldina Oliveira De Sa): ['30/08/1963', '31/08/1963']
+- 37e04c579e (Raimundo Rodrigues Vitorino): ['28/02/1960', '28/12/1960']
+- f875b84c9e (Jose Marinho De Souza Filho): ['14/10/1969', '16/10/1969']
+- af439646e6 (Manoel De Jesus Soares Ferreira): ['08/06/1954', '08/06/1964']
+- 78631920f6 (Raimundo Nonato Oliveira Coelho): ['09/12/1957', '19/12/1957']
+- f70353b441 (Francione Abtibol Lira): ['04/01/1976', '04/11/1976']
+- 5f3bd5785b (Valdivino Fernandes Esteves): ['24/05/1953', '24/05/1954']
+- 09d069ab21 (Cireno De Souza Campos): ['25/04/1954', '25/05/1954']
+- 2038a67f6f (Olavo Nunes Corrêa Filho): ['21/08/1975', '21/08/1976']
+- 647fb58320 (Francisco Mendes Pereira): ['20/08/1959', '20/08/1969']
+- 74f2ce010d (Maria Marlene Mendes): ['11/02/1948', '14/02/1948']
+- d0eb0c4b7a (Isis Litaiff De Souza Fontenele): ['-1', '07/08/1965']
+- a31fb72276 (Luiz Carlos Lima Magalhães): ['22/06/1975', '27/06/1975']
+- 4731a56b79 (Elenize Holanda De Almeida Weiller): ['02/12/1959', '20/12/1959']
+- c99d506fc2 (Antonio Elito Gomes De Sá): ['28/01/1962', '28/11/1962']
+- 2f6f1bda95 (Joao Soares Lopes): ['12/12/1966', '12/12/1969']
+- 04063d5b4d (Arivan Seabra Lira): ['09/06/1967', '19/06/1967']
+- 8051fcc7ab (Jose Pinheiro De Souza): ['22/06/1971', '22/06/1972']
+- 651238f307 (Mariete Souza Do Espírito Santo): ['24/06/1960', '25/06/1960']
+- 4267c719b2 (Nadir Zanes De Souza): ['10/02/1972', '16/02/1972']
+- ed5237e293 (Paulo Bezerra Ribeiro): ['07/09/1959', '07/09/1969']
+- d996fcadd0 (Atevaldo Andrade Ramires): ['23/08/1965', '27/08/1965']
+- ee044a4c1e (Anderson Melo Rodrigues): ['02/06/1973', '19/02/1973']
+- 807e178530 (Nerisvaldo Batalha Borges): ['09/02/1963', '18/09/1986']
+- be4862f8d6 (Roberto Frederico Paes): ['07/06/1944', '07/07/1944']
+- f9725e2934 (Carlos Alberto Nogueira Da Silva): ['13/06/1962', '14/06/1962']
+- 8721668547 (Edson Batista Julio): ['05/08/1968', '15/08/1968']
+- 3df848835e (Sebastiao Alves Penedo): ['12/03/1957', '12/05/1957']
+- a5d4d601a1 (Joel Xavier Do Nascimento): ['19/04/1875', '19/04/1975']
+- f21c6eb56e (Candido De Leão): ['15/12/1966', '25/08/1946']
+- 6bd67945e9 (Maria De Lourdes Souza De Menezes): ['01/09/1954', '01/09/1956']
+- 5cdd3fd847 (Auri Martins Belem): ['31/01/1954', '31/10/1954']
+- 39dc7631be (Benedito Frota Ferreira): ['24/04/1962', '24/04/1982']
+- e80ce08ba1 (Marcos Antonio Alves De Aquino): ['08/06/1964', '08/06/1968']
+- 2fad08b4d1 (Fernando De Souza Cruz): ['01/02/1960', '31/01/1960']
+- 201517dcfb (Rosanho Dos Santos Castilho): ['13/11/1969', '13/11/1970']
+- 230f66bf53 (Manoel Do Carmo Da Silva Barbosa): ['21/07/1949', '22/07/1949']
+- c84cc28830 (Teofilo Raposo Da Silva): ['25/03/1957', '25/03/1959']
+- 7b13488bc6 (Jesiel Prata Fonseca): ['27/12/1970', '29/12/1970']
+- ec44338ab7 (Denize Rodrigues De Assis): ['18/04/1977', '27/05/1984']
+- 4ded613416 (Francisco Cardoso De Oliveira): ['22/06/1944', '22/07/1944']
+- d417cc1edf (Nilmar Pereira): ['03/08/1958', '03/08/1959']
+- 565f1b9740 (Alzira Cildra Brito Andrade): ['22/10/1963', '22/10/1983']
+- 71e25b4d1c (Rômulo De Souza Elias): ['15/02/1976', '15/05/1976']
+- d76f9edc0e (Ocivaldo De Souza Sales): ['16/04/1974', '17/04/1974', '30/11/1974']
+- ce23a838f8 (Renato Do Nascimento Tenazor): ['21/01/1971', '31/01/1971']
+- 7733c63b87 (Ney Lizardo Otero): ['13/07/1957', '13/07/1959']
+- 67a66da83a (Maria Jacqueline Coelho Pinheiro): ['26/05/1964', '27/05/1964']
+- ad84a958fc (Jonatas Correa Cabral): ['24/01/1939', '25/01/1939']
+- 90b26f33ef (Jairo Ferreira Farias): ['17/08/1971', '17/08/1976']
+- d3281cdd9a (Eliomara Nogueira Prestes): ['16/09/1977', '16/09/1997']
+- 9339b14fe3 (Josué De Oliveira Melo): ['06/03/0195', '06/03/1958']
+- 7bc77bca24 (Cloves Ferreira Pessoa): ['25/09/1956', '27/09/1956']
+- f4af201f43 (Peterson Batista De Oliveira): ['29/12/1978', '29/12/1979']
+- f52b801979 (Gilza Batista Da Silva): ['02/01/1962', '15/12/1958']
+- 2286fb879e (Irailton Souza Garcia): ['25/07/1970', '27/07/1970']
+- e6856d8b1e (Manoel Evandro Queiroz Da Silva): ['03/10/1971', '21/05/1971']
+- 9ca62e0368 (Marcell Allyson De Souza Mota): ['23/07/1981', '24/07/1981']
+- 2029472cd3 (Antonia Almeida De Souza): ['05/06/1954', '06/06/1954']
+- 3941fcc374 (Hudson Ramires Pinto): ['11/11/1965', '12/11/1965']
+- 74804e618b (David Da Cruz Lima): ['12/07/1957', '17/07/1957']
+- 60ca0d9b77 (Jose Roberto Da Silva Souza): ['19/08/1969', '19/09/1969']
+- b748cc7476 (Francisco Almeida Pereira): ['02/05/1974', '22/06/1954']
+- 24703d6743 (Maria Da Gloria Sales De Souza): ['10/02/1976', '10/09/1976']
+- 4f32a438d7 (Marcel Alexandre Da Silva): ['03/10/1963', '04/10/1963']
+- 16bf423914 (Antonio Hermínio Da Silva Tavares): ['20/04/1960', '24/04/1960']
+- 7e4c2e2b20 (Ismael Silva Rodrigues): ['14/05/1971', '14/05/1974']
+- f42016f008 (Eliete Andrade De Araújo): ['03/01/1980', '30/01/1980']
+- 27470005c6 (Gilson Missias Pereira De Freitas): ['24/11/1960', '25/11/1960']
+- b0760ac3e8 (Severino Magalhães De Souza): ['09/01/1958', '09/11/1958']
+- b5ce334b81 (Marcos Dos Santos De Queiroz): ['30/01/1977', '31/01/1975']
+- 909b17239f (Gelcimara Dos Santos Pereira): ['29/11/1974', '29/11/1984']
+- ab0320280d (Gilson Ney Canto Vital): ['11/10/1974', '15/07/1960']
+- 407f0df6b5 (José Renato Freitas Lira): ['07/07/1967', '07/09/1967']
+- 7870dcc26a (José Nilton Gomes Soares): ['10/03/1970', '13/08/1970']
+- 8fe01be0bd (Valdecir Marcelino): ['13/02/1966', '13/06/1966']
+- 3906843dd9 (Reizo Felicio Da Silva Castelo Branco Maues): ['25/11/1986', '26/11/1986']
+- a90c331baf (Augusto Paz Da Costa): ['09/05/1977', '10/05/1977']
+- 1bc3156690 (Antonia Davy Da Silva Soares): ['09/01/1984', '09/01/1985']
+- f085ae75a3 (Nelson Brandão Dos Santos): ['02/07/1965', '02/09/1965']
+- cf6e54eb21 (Jadeilson Lima Ribeiro): ['17/07/1984', '19/07/1984']
+- 7a8e2ccabd (Kennedy Da Silva Fonseca): ['09/10/1982', '10/09/1982']
+- 4156ff20c3 (Jurandy De Oliveira Melo): ['06/06/1954', '06/06/1964']
+- fcfeb5b591 (Messias Figueiredo De Souza): ['10/06/1968', '10/07/1968']
+- c947ad8976 (Jorge Batista Veras): ['20/01/1958', '29/01/1958']
+- 6d6278d445 (Izaias Curica Dos Santos): ['03/05/1973', '13/05/1973']
+- ce600dd7f1 (Audo Albuquerque Da Costa): ['05/12/1962', '05/12/1967']
+- 723f439ced (Eliana Maria Gonzaga): ['18/04/1960', '18/04/1961']
+- 7d6f87bca6 (Rozineudo Dos Santos De Souza): ['12/10/1950', '12/10/1959']
+- e6d05b2905 (Maria Gomes Da Silva): ['26/06/1960', '26/07/1960']
+- 38ee61d499 (Belmiro Garcia Malaquias): ['28/01/1967', '29/01/1966']
+- 9339d4dce1 (Romildo Da Silva Rodrigues): ['05/04/1972', '05/04/1989']
+- ff3aa5c745 (Valdemir Dejesus Coelho Da Siilva): ['02/07/1962', '02/07/1972']
+- 762939cc7c (Jose Renan De Oliveira Brito): ['26/04/1970', '26/04/1972']
+- f0ce29c48c (Denize Agata Maklouf Marques De Almeida): ['05/05/1967', '05/06/1967']
+- 28f14966a5 (Dagmo Varela Da Cunha): ['12/01/1957', '12/11/1957']
+- d302774726 (Sebastião Luiz Da Cunha Teixeira): ['28/08/1964', '29/08/1974']
+- 83449e1689 (José Cláudio Da Silva Passos): ['01/01/1959', '30/01/1959']
+- 0f0082bf86 (Bianor Das Graças Lima Da Silva): ['27/05/1951', '29/05/1951']
+- 3ae055c58b (Everton Assis Dos Santos): ['22/06/1974', '23/06/1973']
+- fbbdc2cd67 (Manoel Mendes De Sales): ['08/04/1950', '08/04/1951']
+- bce007994e (Maria Walcirene De Barros): ['14/12/1956', '15/12/1956']
+- 54f8b1f1f8 (Alcenir Rodrigues Da Costa): ['30/03/1982', '31/03/1982']
+- 9848c166cd (Helton Rodrigues Paes): ['11/10/1974', '14/10/1974']
+- a47801b811 (Sebastiao Gomes Da Silva): ['21/01/1954', '21/01/1964']
+- 14b918ea89 (Rooswel Alvares Alayo): ['13/02/1980', '16/08/1976']
+- bf14c4abd4 (Raimundo Silvano Frazao): ['12/02/1966', '17/02/1963']
+- 6abb6f5fa6 (Estanilau Dos Santos): ['06/05/1958', '08/05/1958']
+- 81b86370aa (Maria Socorro Vieira Martins): ['09/04/1983', '31/12/1967']
+- 143fc4fecf (Valcijone Freitas Vilas Boas): ['19/12/1976', '19/12/1977']
+- dfd05ba9f6 (Clecio Araujo Silva): ['29/10/1968', '30/10/1968']
+- febedf0997 (Diego Roberto Afonso): ['28/05/1984', '29/05/1984']
+- 10ab19b714 (Darcileia De Oliveira Zaguri): ['10/04/1973', '30/03/1973', '30/04/1973']
+- 1cbdeb4525 (Heliomar Terço Dos Santos): ['18/03/1966', '18/03/1988']
+- f7418c86ed (Luzimauro Gonçalves Dos Santos): ['14/10/1976', '20/10/1986']
+- 5ae43b4667 (Francisco Das Chagas Batista De Souza): ['29/09/1980', '29/10/1980']
+- 8f0e46e24b (Adail Fernandes Nogueira): ['01/08/1951', '04/08/1951']
+- 19cd5d0430 (Jacy Corrêa Marinho): ['22/01/1957', '22/02/1957']
+- 8df15c6bd1 (Ana Tereza Da Silva Guimaraes): ['21/07/1965', '21/07/1967']
+- c7e01e7b15 (Claudecy Brito Frazão): ['30/01/1964', '31/01/1964']
+- 458d6e6d2d (Romildo Pereira Da Cruz): ['19/10/1972', '19/10/1973']
+- d60d1868c6 (Edival Ferreira De Almeida): ['07/09/1962', '07/11/1962']
+- c0b70d79ca (Marcia Do Nascimento Silva): ['17/08/1973', '27/08/1973']
+- 21f2a361fb (Juvenal De Oliveira): ['03/05/0195', '03/05/1959']
+- 1627d50f3c (Edivaldo Barreto Dos Santos): ['02/10/1962', '03/01/1962', '03/10/1962']
+- 269426e2c7 (Sebastião Reis Da Silva): ['17/01/1970', '19/01/1970']
+- c90efe27d2 (Lindomar Da Silva Reis): ['02/04/1973', '12/04/1973']
+- 6ecdd7f2e3 (Alonso Oliveira  De Souza): ['26/11/1961', '28/11/1961']
+- f2fa58458f (Daniel Gondim Martins): ['06/12/1976', '25/04/1976']
+- 3641eef050 (Germano Menezes Barata): ['25/05/1959', '28/05/1959']
+- 6c0fa03c85 (Luis Atila Da Silva Guimaraes): ['18/03/1984', '18/04/1984']
+- 072f57e7b6 (Mateus Ferreira Assayag): ['26/06/1980', '26/08/1980']
+- 5274a1f68a (Rosineide Aguiar Coelho): ['08/04/1965', '08/04/1985']
+- 265a21fe9d (Jose Abreu De Melo): ['10/04/1962', '14/04/1962']
+- 8920e7d71e (Israel Pereira Rodrigues): ['17/10/1975', '17/11/1975']
+- 2b27594d44 (José De Jesus Nunes Pereira): ['30/07/1950', '30/07/1960']
+- ecc12fb79e (Genesio Da Silva Reboucas): ['19/03/1973', '20/03/1972']
+- a0fbdfb4b2 (Antônio Bentes Correa): ['13/06/1972', '13/07/1972']
+- 023269c541 (Joel Maia Barros): ['13/04/1968', '13/07/1963', '13/07/1968']
+- 7987a3da40 (José Maurício De Lima): ['18/03/1968', '18/03/1978']
+- c245feb97c (Messias Ambrósio De Souza): ['21/09/1976', '26/09/1976']
+- 82a9d56810 (Manoel Oliveira Da Silva): ['26/04/1961', '27/04/1961']
+- d198e3c4bf (David De Souza Araujo): ['03/06/1964', '03/08/1964']
+- e37d446b46 (Tereza Emilia Da Costa Tenório): ['30/12/1971', '31/12/1971']
+- 62caced4f6 (Jamerson Oliveira De Souza): ['23/11/1953', '23/11/1982']
+- e05681a4a5 (Humberto Assis Marques): ['04/03/1968', '04/03/1978']
+- 8b42f02ab6 (Francisco Amaildo Lopes Coelho): ['15/09/1985', '26/06/1985']
+- ade2359539 (Julio Cesar Oliveira Do Nascimento): ['09/08/1980', '09/09/1980']
+- 4613f76ef5 (Otacila Lemos Barreto): ['01/11/1961', '05/11/1961']
+- a05112b081 (Yann Evanovick Leitão Furtado): ['07/07/1990', '09/07/1990']
+- 1468093c1d (Leonardo Inacio De Morais Neto): ['15/04/1971', '16/04/1971']
+- d0ffa80341 (Cristiano Pereira De Sales): ['05/06/1981', '06/06/1981']
+- 2e8a5c30b3 (João De Oliveira Martins): ['23/03/1979', '23/09/1979', '23/10/1979']
+- f5dfbedb11 (Cipriano Fagner Marinho Garcia): ['22/10/1983', '22/11/1983']
+- 296a19f75a (Paulo Cesar Amaral Gois): ['11/07/1971', '16/07/1971']
+- b698be4c34 (Lissandro Gomes Da Silva): ['19/04/1987', '19/07/1987']
+- d73024327e (Francisco Emerson Parente Borges): ['08/10/1962', '08/10/1972']
+- 011e878270 (Esmeraldo Fernandes Bastos): ['05/12/1972', '05/12/1975']
+- acf998764d (Vagner De Moura Costa): ['04/05/1980', '06/05/1980']
+- e3eccb776c (Luzivan Alfaia Dias): ['11/07/1969', '12/07/1969']
+- 2f3917ebd5 (Maria Francineide Belmiro Do Amaral): ['14/11/1976', '14/11/1978']
+- df53d03b4a (José Ederli Ferreira Brito): ['08/02/1974', '08/12/1974']
+- 5195fcf332 (Isaque Alves Lima): ['09/11/1982', '09/11/1992']
+- f6314678e1 (Francisco Expedito De Freitas): ['11/08/1960', '11/08/1968']
+- 83a804fa6f (Raimunda Margarida Da Silva Mesquita): ['27/08/1963', '27/08/1973']
+- f872457975 (Francisco Rodrigues Araujo): ['01/11/1968', '02/11/1968']
+- ca1789fa50 (Celso De Souza Delgado): ['04/08/1972', '04/08/1976']
+- c14af488c3 (João Francisco Batista): ['12/03/1955', '12/04/1955']
+- 3717b32be9 (José Camilo Da Silva Cordeiro): ['08/05/1958', '09/05/1958']
+- c17d71b24b (Alex Garcia Cardoso): ['24/01/1989', '24/10/1989']
+- 42b7ad5a26 (Zozima Vanuza Lira Da Silva): ['20/04/1968', '26/04/1968']
+- 36c14a5432 (Maria De Lourdes Gouveia): ['19/06/1951', '22/12/1966']
+- 5782c30a5f (Ademir Principe Rojas): ['01/05/1977', '02/05/1977']
+- f8136f0e3d (Raiderson Maia De Araujo): ['15/03/1980', '16/03/1980']
+- a9320e2f19 (Edileuzo Martins Da Silva): ['30/10/1959', '30/10/1969']
+- f0a94e8a79 (João Rodrigues Dos Reis): ['15/12/1966', '16/12/1966']
+- 354b0f919c (Francinilde Gaio De Moraes): ['21/02/1967', '22/02/1967']
+- 765bd8b833 (Orange Souza Dos Santos): ['06/11/1975', '08/11/1975']
+- 14b5fe49b0 (José De Almeida Moreira): ['07/11/1974', '07/12/1974']
+- b6e5d52d40 (Hugo Alves De Sousa): ['28/04/1975', '29/04/1975']
+- 5889ef9203 (Maria Juliana Raitz Pimentel): ['15/02/1987', '16/02/1987']
+- e8d20f8553 (Antonio Adenilson Menezes Bonfim): ['07/11/1977', '07/11/1978']
+- 31ffb6bcd3 (Anedy Araujo Damascena Junior): ['11/04/1984', '14/04/1984']
+- ed14462726 (Eder Da Silva Cordeiro): ['18/01/1992', '19/01/1992']
+- 1b62e7b163 (Antonio Damião De Souza): ['19/04/1977', '20/04/1977']
+- 1f331d40df (Ezenaldo Apricio Felix): ['22/09/1980', '22/09/1981']
+- 3639c2e359 (Darlei Ferreira Gomes): ['17/11/1980', '17/11/1982']
+- a53439fe63 (Elita Maria De Queiroz Takahashi): ['10/02/1954', '10/08/1954']
+- b170c5bc44 (Aleyda Dos Santos Loaiza): ['16/06/1985', '19/06/1985']
+- 13f9c347ad (Jaime Pinheiro Da Silva): ['14/12/1979', '24/12/1979']
+- 1bf2773ac2 (Raimundo Bulcao Da Silva): ['07/08/1956', '08/08/1956']
+- 64555b4bd0 (Manoel Francisco Ribeiro De Almeida): ['02/09/1989', '03/09/1989']
+- aa7b280494 (Jose Raimundo Nogueira Anes): ['02/10/1972', '12/10/1972']
+- 00c74dfbd7 (Paulo Dos Reis Monteiro): ['15/06/1961', '15/07/1961']
+- e0711c8276 (Neicy Augusto Da Costa): ['10/05/1975', '10/05/1976']
+- 4fe5ebb36c (Rosenilda Alfaia Marinho): ['14/04/1972', '19/04/1972']
+- 8e2f56eeb9 (João Maciel Da Silva): ['27/12/1972', '27/12/1973']
+- a453776c7a (Jucemar Honorato Dos Santos Braga): ['22/12/1963', '23/12/1963']
+- 45c9c1225a (Eliezete Barcelar Da Silva): ['23/03/1972', '24/03/1972']
+- d519f045b1 (Maria José Ferreira Fernandes): ['17/06/1962', '18/06/1962']
+- eee4b9392b (Ivo Euler Bentes Martins): ['11/08/1970', '12/08/1970']
+- 2b6c00721c (Maria Do Rosario Beltrão Coelho): ['21/12/1944', '21/12/1949']
+- c7bf0122cc (Josivaldo Pereira Alves): ['21/09/1982', '22/09/1982']
+- 77477fa51e (Jonas Rodrigues Da Silva): ['06/05/1973', '06/06/1973']
+- c77feb7060 (Peterson Chaves Da Silva): ['04/12/1990', '14/12/1990']
+- 0621595215 (Jose Marivaldo Da Costa Dias): ['13/03/1967', '14/03/1967']
+- 238e714c61 (Raimundo Jacheson Pereira Picanço): ['26/07/1967', '29/07/1967']
+- 7eae8a5b20 (Valcilene Fernandes Sangama): ['12/03/1984', '12/06/1984']
+- 73831da8b2 (Welington Rego Da Costa): ['19/06/1976', '19/06/1978']
+- f3d6e5ce8c (Joao Walter Dos Santos Da Silva): ['03/11/1972', '30/11/1972']
+- c7437e24d1 (Maria De Lourdes Costa Da Silva): ['13/05/1958', '15/05/1958']
+- cba361599d (Atos Fermin Vasques): ['16/10/1972', '19/10/1972']
+- b2bba58499 (Jose Da Silva Lima): ['17/04/1968', '17/06/1968']
+- 251f8e6199 (Jose Marcos Fernandes Lacerda): ['04/08/1981', '24/08/1981']
+- 70cc2346c8 (Andrew Renato Silva De Souza): ['03/01/1983', '13/01/1983']
+- 8192820d4e (Francisco Pereira Castelo): ['16/10/1940', '16/10/1951']
+- 8e45e03341 (Elizoneide Rodrigues Silva): ['08/05/1964', '09/05/1964']
+- ba02c079ce (Natalice França Queiroz): ['29/06/1983', '29/06/1986']
+- 8990fd7578 (Ricardo Cristiano Pesqueira Da Silva): ['08/10/1975', '09/10/1975']
+- 055d406cdb (Jorgeney Torres Bessa): ['26/07/1986', '27/07/1986']
+- 95c0107f5c (Jose Agostinho Froez Da Costa): ['27/08/1977', '28/08/1970', '28/08/1971']
+- 963d3220f4 (Jussara Andrade Dos Santos): ['18/05/1984', '18/08/1984']
+- f1dd3900ce (Benedito Moreira Barbosa): ['08/01/1969', '09/01/1969']
+- 64b0a6c029 (Nazildo Dos Reis Oliveira): ['15/01/1982', '16/01/1982']
+- 0648bef320 (Afra Nunes Gonçalves): ['22/03/1983', '23/02/1983']
+- 97d9d29e5a (Evangelista Cordeiro): ['14/07/1966', '14/07/1996']
+- 6bd2e5f033 (Maurício Araújo De Souza): ['01/05/1975', '10/05/1975']
+- 2fdf9c0b74 (Maria Gorete Barbosa Da Silva): ['15/01/1965', '16/01/1965']
+- 0c61f09a4e (Elenilton Ferreira Nogueira): ['01/03/1982', '01/03/1984']
+- cd975065ee (Leonardo Castroda Silva): ['05/07/1971', '05/09/1971']
+- 31e0b7e19f (Adalberto Cavalcante Marialva): ['19/11/1965', '20/11/1965']
+- e95ad35ba2 (Cleber De Oliveira Fereira): ['24/09/1979', '26/09/1979']
+- 56faf60516 (Marlucio Silva Do Nascimento): ['09/04/1967', '09/04/1968']
+- dc8f6be181 (Antonio Gabriel Batista Guimaraes): ['14/03/1952', '14/04/1952']
+- 1450216c63 (Markson Machado Barbosa): ['17/03/1966', '17/03/1976']
+- dabdde23b9 (Antilde José Gomes): ['01/08/1975', '02/08/1975']
+- e2dc8386a5 (Elder Balieiro De Castro): ['22/05/1983', '23/05/1983']
+- 4acb335717 (Messias Maciel De Carvalho): ['24/01/1991', '24/02/1991']
+- d03d970b7b (Maria Natividade Da Silva Rodrigues): ['05/02/1959', '06/02/1959']
+- 01157618ff (Simone Mendes Pontes): ['15/11/1985', '18/11/1985']
+- 0c1a30fe40 (Jose Mauro Da Silva): ['20/03/1962', '20/03/1969']
+- ab2e250f1c (João Amazonas Pereira Filho): ['07/06/1978', '07/09/1978']
+- 91d4dc308e (Jose Alandelon Pereira De Castro): ['23/02/1966', '24/02/1966']
+- aef721364b (Andrício Castro De Almeida): ['02/02/1982', '02/02/1992']
+- 2e85701f9f (Ney Anderson Barbosa Pereira): ['24/10/1981', '25/10/1981']
+- 08a11aad04 (Maria Do Rosario Lopes Girão): ['04/01/1949', '04/01/1959']
+- b0eee6f38c (Hugo Alerrandro De Queiroz): ['20/10/1973', '29/10/1973']
+- 584a7bb2d3 (Nailson Alves De Campos): ['09/04/1072', '09/04/1972']
+- 5c728ae59b (Lindomar Da Silva Meireles): ['02/04/1973', '03/09/1971']
+- 5de9600c0c (Maria Perpetua Da Cruz Pinto): ['22/06/1963', '23/06/1963']
+- cac433751a (Lucas Dos Santos Correa): ['27/09/0072', '27/09/1972']
+- dd3591d6c4 (Claudinei Raimundo Guilherme): ['24/10/1979', '25/10/1979']
+- a1f9a02bac (Farney Rodrigues Fernandes): ['28/07/1973', '28/07/1978']
+- b7d77740a9 (Ed Carlos Chaves De Freitas): ['16/04/1975', '16/05/1975']
+- 63759c9ba9 (Teodorino Manduca Carvalho): ['11/10/1974', '12/10/1974']
+- 59811d370f (Glacy Gustmann Machado): ['10/10/1963', '10/10/1968']
+- 27c5b1d5ac (Francisco Parente Ferreira): ['04/10/1974', '05/10/1974']
+- e5a3e6804e (Acenildo Magalhaes Correa): ['01/05/1985', '02/05/1985']
+- c8c197f48f (Pedro Paiva Galvão): ['05/09/1970', '06/09/1970']
+- 618190d12e (Nataelson Dias Lima): ['25/10/1986', '25/12/1986']
+- 674f236b00 (Daora Kanamari): ['05/08/1982', '15/01/1999']
+- 1695ffa80b (Maria Raimunda Gomes Bezerra): ['03/08/1962', '03/10/1962']
+- 461c2f4912 (Jose Luis Maciel De Oliveira): ['27/02/1989', '27/07/1989']
+- e2be6984b2 (Neuza Assis Davila): ['22/11/1964', '25/11/1964']
+- 8862eec9c9 (Raimundo Nonato Almeida Facundes Lemos): ['27/11/1964', '29/11/1964']
+- 2ddbbfc0c4 (Kelson Pinto Barros): ['13/02/1979', '13/08/1979']
+- f2ec1ab2c1 (Josimar Guimarães Cavalcante): ['11/12/1986', '15/12/1986']
+- d8feea63c7 (Orleilson De Oliveira Lima): ['27/01/1974', '27/11/1974']
+- 3270641f61 (Roberto Warlem Da Cruz Sussuarana): ['13/02/1976', '13/12/1976']
+- 90cabdf0a2 (Raimunda Regina Fernandes De Oliveira): ['27/01/1972', '27/10/1972']
+- 960cded2a6 (Frank Moreira Carvalho): ['18/07/1989', '19/07/1989']
+- 67474a9548 (Marcio Batista Dos Santos): ['28/04/1978', '29/04/1978']
+- 9122520033 (Elziana Da Silva Azedo): ['04/03/1974', '09/03/1974']
+- 74e63d3d24 (Carlos Alberto Vasconcelos Dantas): ['11/01/1996', '20/04/1966']
+- 7a75cbe34b (Sidney Cardoso De Oliveira): ['10/11/1983', '10/11/1985']
+- 72681e9407 (Valdenir Oliveira De Souza): ['02/12/1984', '06/05/1980']
+- e8033b6a13 (Antonilson Oliveira Rodrigues): ['17/12/1973', '17/12/1983']
+- 1c0b212ecc (Carlos Jose Moraes Aparicio): ['01/04/1984', '02/04/1984']
+- 764986915b (Lucimar Dos Santos Silva): ['25/02/1976', '25/02/1978']
+- 82eb3387a1 (Maria Gloria Gonçalves De Almeida): ['02/03/1979', '03/03/1979']
+- 7b42ac51fa (Kadma Martins Moreira): ['13/09/1989', '13/12/1989']
+- b37871d746 (Antonio Luis Vieira De Arruda): ['05/10/1951', '05/10/1961']
+- 49fdff9e95 (Charles Candido Ferreira): ['02/11/1973', '03/11/1973']
+- fd052f054d (Marcio Roberto Da Silva Fragata): ['27/09/1974', '27/09/1979']
+- 4e1cffc0af (Vaudinier Luiz Fortes): ['20/01/1975', '26/01/1975']
+- 0e535bbc6a (Jaleide Lopes Rodrigues): ['12/12/1978', '15/12/1978']
+- 7be9624e2c (Maxlene Tibão Moreira): ['19/02/1989', '19/12/1989']
+- cde2bd6190 (Eliseu São Miguel): ['22/05/1977', '23/05/1977']
+- bb33b2a84b (Jucilde Carvalho Neves): ['03/05/1987', '03/06/1987']
+- f87cac875d (Aureo Passos Das Neves): ['01/07/1988', '04/05/1986']
+- 94d8f9f3f9 (Joeldison Nascimento De Andrade): ['23/08/1980', '23/08/1990']
+- 85c15676fc (Tony Da Rocha Mauricio): ['27/01/1981', '27/10/1981']
+- d1ab0c0e51 (Carlos Alberto Junior Elias Da Silva): ['22/01/1986', '23/01/1986']
+- b1ae336b78 (Alzira Mafra De Almeida): ['11/02/1971', '11/07/1971']
+- d9ce9bb125 (Raquel Moraes De Almeida): ['23/07/1977', '23/10/1977']
+- 52d8f49f92 (Katia Alves De Oliveira): ['22/03/1979', '23/03/1979']
+- 8332a767d1 (Joelma Carvalho Farias): ['10/01/1978', '10/11/1978']
+- 41c5d1b1ac (Jose Luiz De Souza Serrao): ['23/04/1971', '23/10/1971']
+- 68a3974a09 (Regiane Nascimento Dos Santos): ['20/10/1983', '20/10/1993']
+- 3837a29c60 (Alexandro Ramos): ['29/10/1990', '30/10/1990']
+- 63a881d8b1 (Raimundo Guimaraes De Sena): ['09/02/1972', '28/11/1992']
+- 167d6cd56f (Terezinha Palheta Ferreira): ['10/05/1972', '12/05/1972']
+- b8350c7701 (Jordeval Muniz Coelho): ['26/10/1964', '28/10/1964']
+- ad55450de6 (Ingride Michelle Ramos Sales): ['25/05/1981', '27/05/1981']
+- 10714ff32a (Auricelma Barroso Da Cruz): ['13/10/1962', '14/10/1962']
+- 37490aebdb (José Daniel Serrão Da Silva): ['24/04/1980', '27/04/1980']
+- dfba48e42c (Ronaldo Ferreira De Gouvea): ['18/06/1962', '18/06/1964']
+- 09d712efa5 (Moacir Coelho Do Nascimento): ['12/12/1981', '19/12/1981']
+- ef707125ce (Juraci Brasil): ['22/09/1966', '25/09/1966']
+- 350f7460b6 (Rian Carlos Ferreira Dos Santos): ['15/07/1977', '17/07/1977']
+- c7e00a2bc2 (Adelson Da Silva Saldanha): ['25/06/1984', '25/06/1986']
+- 1d15452478 (Maria Angêla Pereira): ['20/01/1961', '21/01/1921']
+- 8d060a83bb (Raimundo Neidelande Martins De Araújo): ['26/02/1964', '28/02/1964']
+- f31e7be75a (Ana Paula De Souza Maciel): ['10/08/1992', '10/10/1992']
+- 2bb24369a3 (Eberth Souza De Santana): ['14/02/1973', '21/02/1973']
+- cf6c7d44da (Andreia De Oliveira Soares): ['18/02/1982', '18/12/1982']
+- 30a9047f73 (Cleonilson Gomes Lacerda): ['22/09/1975', '22/10/1975']
+- 6dfc844490 (Maria Luziane Gomes Do Nascimento): ['02/05/1975', '02/05/1995']
+- e5e8bf0a59 (Bernaldino Miranda Dos Santos): ['20/05/1955', '20/05/1995']
+- b59e27b2b9 (Jefferson Lozano Dias): ['05/08/1970', '05/08/1978']
+- 6bfced8753 (Jayson Martins De Oliveira): ['07/04/1990', '20/03/1994']
+- 382c791511 (Clovis Dos Santos Barroso): ['10/12/1969', '11/12/1969']
+- d32a1e5a7b (Raquel De Almeida): ['05/06/1977', '05/08/1977']
+- 1e61623934 (Francinaldo Gama Dos Santos): ['17/02/1976', '17/02/1977']
+- 2e7337ac2d (Delma Rita Parintins Araujo): ['17/10/1963', '17/10/1983']
+- 8956e547f5 (Flavia Nunes Batalha Uribe): ['13/06/1984', '13/08/1984']
+- 820894834e (Alcinelson Miranda Jordão): ['28/04/1987', '29/04/1987']
+- 860b6c4bc9 (Raimundo Benerson De Assis Brasil): ['26/07/1979', '27/07/1979']
+- 35fe0288fb (Isver De Souza Rodrigues): ['12/10/1976', '12/10/1978']
+- e2d7e0bc39 (Cristian Correa Alfaia): ['24/05/1982', '24/05/1992']
+- 77d41a1f0a (Mesaque Da Silva Benedito): ['01/09/1982', '01/10/1982']
+- 14b0bf9c0c (Adrinei Gama Da Silva): ['14/11/1986', '15/11/1986']
+- 70be2ba8f6 (Amaury Rodrigues De Matos): ['25/12/1988', '27/12/1988']
+- ae03e3a94c (Jose Marcelino De Barros Filho): ['13/08/1980', '18/03/1980']
+- e294ea1bfd (Maxsael Fernandes Da Luz): ['05/05/1979', '09/09/1985']
+- a64ac0ff2a (Jeilson Pereira Ferreira): ['12/11/1977', '19/11/1977']
+- 89cfe06aa3 (Michelle Barbosa Andrews): ['18/09/1984', '19/09/1984']
+- b35001f18d (Joana Marcia Cascaes Soares): ['26/06/1975', '28/06/1975']
+- 7f720477a0 (Ariane Matos Da Silva): ['03/09/1979', '13/09/1979']
+- e5f29c3f62 (Graciane Viana Marinho): ['28/01/1979', '28/04/1979']
+- 5d8d05cf90 (Cesar Thiago Quara Rodrigues): ['19/01/1987', '20/01/1987']
+- 3ded1256b3 (Roosevelt Peixoto De Oliveira): ['02/06/1974', '02/07/1974']
+- 97928ea895 (Auzieth Neves Queiroz Guedes): ['27/10/1974', '27/12/1974']
+
+## Todas as checagens
+
+- ✅ 2000: todo vereador do arquivo de votação está no arquivo de candidatos (0 fora)
+- ✅ 2000: 5332 de 5592 que disputaram estão no arquivo de votação (mínimo 95%)
+- ✅ 2000 Alvarães: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Amaturá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Anamã: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Anori: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Apuí: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Atalaia do Norte: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Autazes: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Barcelos: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Barreirinha: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Benjamin Constant: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Beruri: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Boa Vista do Ramos: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Boca do Acre: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Borba: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Caapiranga: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Canutama: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Carauari: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Careiro: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Careiro da Várzea: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Coari: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Codajás: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Eirunepé: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Envira: 10 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Fonte Boa: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Guajará: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Humaitá: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Ipixuna: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Iranduba: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Itacoatiara: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Itamarati: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Itapiranga: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Japurá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Juruá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Jutaí: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Lábrea: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Manacapuru: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Manaquiri: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Manaus: 33 vereadores eleitos (CF art. 29, IV: 9 a 41)
+- ✅ 2000 Manicoré: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Maraã: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Maués: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Nhamundá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Nova Olinda do Norte: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Novo Airão: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Novo Aripuanã: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Parintins: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Pauini: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Presidente Figueiredo: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Rio Preto da Eva: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Santa Isabel do Rio Negro: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Santo Antônio do Içá: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Silves: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 São Gabriel da Cachoeira: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 São Paulo de Olivença: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 São Sebastião do Uatumã: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Tabatinga: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Tapauá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Tefé: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Tonantins: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Uarini: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Urucará: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2000 Urucurituba: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004: todo vereador do arquivo de votação está no arquivo de candidatos (0 fora)
+- ✅ 2004: 5069 de 5265 que disputaram estão no arquivo de votação (mínimo 95%)
+- ✅ 2004 Alvarães: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Amaturá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Anamã: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Anori: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Apuí: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Atalaia do Norte: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Autazes: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Barcelos: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Barreirinha: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Benjamin Constant: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Beruri: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Boa Vista do Ramos: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Boca do Acre: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Borba: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Caapiranga: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Canutama: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Carauari: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Careiro: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Careiro da Várzea: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Coari: 10 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Codajás: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Eirunepé: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Envira: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Fonte Boa: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Guajará: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Humaitá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Ipixuna: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Iranduba: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Itacoatiara: 10 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Itamarati: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Itapiranga: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Japurá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Juruá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Jutaí: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Lábrea: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Manacapuru: 10 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Manaquiri: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Manaus: 37 vereadores eleitos (CF art. 29, IV: 9 a 41)
+- ✅ 2004 Manicoré: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Maraã: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Maués: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Nhamundá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Nova Olinda do Norte: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Novo Airão: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Novo Aripuanã: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Parintins: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Pauini: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Presidente Figueiredo: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Rio Preto da Eva: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Santa Isabel do Rio Negro: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Santo Antônio do Içá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Silves: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 São Gabriel da Cachoeira: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 São Paulo de Olivença: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 São Sebastião do Uatumã: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Tabatinga: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Tapauá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Tefé: 10 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Tonantins: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Uarini: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Urucará: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2004 Urucurituba: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008: todo vereador do arquivo de votação está no arquivo de candidatos (0 fora)
+- ✅ 2008: 5142 de 5314 que disputaram estão no arquivo de votação (mínimo 95%)
+- ✅ 2008 Alvarães: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Amaturá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Anamã: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Anori: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Apuí: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Atalaia do Norte: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Autazes: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Barcelos: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Barreirinha: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Benjamin Constant: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Beruri: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Boa Vista do Ramos: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Boca do Acre: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Borba: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Caapiranga: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Canutama: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Carauari: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Careiro: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Careiro da Várzea: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Coari: 10 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Codajás: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Eirunepé: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Envira: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Fonte Boa: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Guajará: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Humaitá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Ipixuna: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Iranduba: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Itacoatiara: 10 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Itamarati: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Itapiranga: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Japurá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Juruá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Jutaí: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Lábrea: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Manacapuru: 10 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Manaquiri: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Manaus: 38 vereadores eleitos (CF art. 29, IV: 9 a 41)
+- ✅ 2008 Manicoré: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Maraã: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Maués: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Nhamundá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Nova Olinda do Norte: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Novo Aripuanã: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Parintins: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Pauini: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Presidente Figueiredo: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Rio Preto da Eva: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Santa Isabel do Rio Negro: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Santo Antônio do Içá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Silves: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 São Gabriel da Cachoeira: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 São Paulo de Olivença: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 São Sebastião do Uatumã: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Tabatinga: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Tapauá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Tefé: 10 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Tonantins: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Uarini: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Urucará: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2008 Urucurituba: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012: todo vereador do arquivo de votação está no arquivo de candidatos (0 fora)
+- ✅ 2012: 6424 de 6424 que disputaram estão no arquivo de votação (mínimo 95%)
+- ✅ 2012 Alvarães: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Amaturá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Anamã: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Anori: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Apuí: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Atalaia do Norte: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Autazes: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Barcelos: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Barreirinha: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Benjamin Constant: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Beruri: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Boa Vista do Ramos: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Boca do Acre: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Borba: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Caapiranga: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Canutama: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Carauari: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Careiro: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Careiro da Várzea: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Coari: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Codajás: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Eirunepé: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Envira: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Fonte Boa: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Guajará: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Humaitá: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Ipixuna: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Iranduba: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Itacoatiara: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Itamarati: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Itapiranga: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Japurá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Juruá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Jutaí: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Lábrea: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Manacapuru: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Manaquiri: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Manaus: 41 vereadores eleitos (CF art. 29, IV: 9 a 41)
+- ✅ 2012 Manicoré: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Maraã: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Maués: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Nhamundá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Nova Olinda do Norte: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Novo Airão: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Novo Aripuanã: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Parintins: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Pauini: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Presidente Figueiredo: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Rio Preto da Eva: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Santa Isabel do Rio Negro: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Santo Antônio do Içá: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Silves: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 São Gabriel da Cachoeira: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 São Paulo de Olivença: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 São Sebastião do Uatumã: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Tabatinga: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Tapauá: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Tefé: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Tonantins: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Uarini: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Urucará: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2012 Urucurituba: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016: todo vereador do arquivo de votação está no arquivo de candidatos (0 fora)
+- ✅ 2016: 8114 de 8458 que disputaram estão no arquivo de votação (mínimo 95%)
+- ✅ 2016 Alvarães: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Amaturá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Anamã: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Anori: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Apuí: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Atalaia do Norte: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Autazes: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Barcelos: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Barreirinha: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Benjamin Constant: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Beruri: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Boa Vista do Ramos: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Boca do Acre: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Borba: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Caapiranga: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Canutama: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Carauari: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Careiro: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Careiro da Várzea: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Coari: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Codajás: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Eirunepé: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Envira: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Fonte Boa: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Guajará: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Humaitá: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Ipixuna: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Iranduba: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Itacoatiara: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Itamarati: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Itapiranga: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Japurá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Juruá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Jutaí: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Lábrea: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Manacapuru: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Manaquiri: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Manaus: 41 vereadores eleitos (CF art. 29, IV: 9 a 41)
+- ✅ 2016 Manicoré: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Maraã: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Maués: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Nhamundá: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Nova Olinda do Norte: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Novo Airão: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Novo Aripuanã: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Parintins: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Pauini: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Presidente Figueiredo: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Rio Preto da Eva: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Santa Isabel do Rio Negro: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Santo Antônio do Içá: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Silves: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 São Gabriel da Cachoeira: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 São Paulo de Olivença: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 São Sebastião do Uatumã: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Tabatinga: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Tapauá: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Tefé: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Tonantins: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Uarini: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Urucará: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2016 Urucurituba: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020: todo vereador do arquivo de votação está no arquivo de candidatos (0 fora)
+- ✅ 2020: 9239 de 9574 que disputaram estão no arquivo de votação (mínimo 95%)
+- ✅ 2020 Alvarães: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Amaturá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Anamã: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Anori: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Apuí: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Atalaia do Norte: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Autazes: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Barcelos: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Barreirinha: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Benjamin Constant: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Beruri: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Boa Vista do Ramos: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Boca do Acre: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Borba: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Caapiranga: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Canutama: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Carauari: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Careiro: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Careiro da Várzea: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Coari: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Codajás: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Eirunepé: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Envira: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Fonte Boa: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Guajará: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Humaitá: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Ipixuna: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Iranduba: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Itacoatiara: 17 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Itamarati: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Itapiranga: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Japurá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Juruá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Jutaí: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Lábrea: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Manacapuru: 17 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Manaquiri: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Manaus: 41 vereadores eleitos (CF art. 29, IV: 9 a 41)
+- ✅ 2020 Manicoré: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Maraã: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Maués: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Nhamundá: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Nova Olinda do Norte: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Novo Airão: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Novo Aripuanã: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Parintins: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Pauini: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Presidente Figueiredo: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Rio Preto da Eva: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Santa Isabel do Rio Negro: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Santo Antônio do Içá: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Silves: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 São Gabriel da Cachoeira: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 São Paulo de Olivença: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 São Sebastião do Uatumã: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Tabatinga: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Tapauá: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Tefé: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Tonantins: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Uarini: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Urucará: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2020 Urucurituba: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024: todo vereador do arquivo de votação está no arquivo de candidatos (0 fora)
+- ✅ 2024: 7273 de 7398 que disputaram estão no arquivo de votação (mínimo 95%)
+- ✅ 2024 Alvarães: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Amaturá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Anamã: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Anori: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Apuí: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Atalaia do Norte: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Autazes: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Barcelos: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Barreirinha: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Benjamin Constant: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Beruri: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Boa Vista do Ramos: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Boca do Acre: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Borba: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Caapiranga: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Canutama: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Carauari: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Careiro: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Careiro da Várzea: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Coari: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Codajás: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Eirunepé: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Envira: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Fonte Boa: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Guajará: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Humaitá: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Ipixuna: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Iranduba: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Itacoatiara: 17 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Itamarati: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Itapiranga: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Japurá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Juruá: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Jutaí: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Lábrea: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Manacapuru: 21 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Manaquiri: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Manaus: 41 vereadores eleitos (CF art. 29, IV: 9 a 41)
+- ✅ 2024 Manicoré: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Maraã: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Maués: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Nhamundá: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Nova Olinda do Norte: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Novo Airão: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Novo Aripuanã: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Parintins: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Pauini: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Presidente Figueiredo: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Rio Preto da Eva: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Santa Isabel do Rio Negro: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Santo Antônio do Içá: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Silves: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 São Gabriel da Cachoeira: 13 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 São Paulo de Olivença: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 São Sebastião do Uatumã: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Tabatinga: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Tapauá: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Tefé: 15 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Tonantins: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Uarini: 9 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Urucará: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ 2024 Urucurituba: 11 vereadores eleitos (CF art. 29, IV: 9 a 23)
+- ✅ ninguém eleito vereador duas vezes no mesmo ciclo

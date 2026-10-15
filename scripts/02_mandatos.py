@@ -170,6 +170,12 @@ def main():
             vice = (vices.get(("nr", r["CD_ELEICAO"], r["SG_UE"], r["NR_CANDIDATO"]))
                     or vices.get(("col", r["CD_ELEICAO"], r["SG_UE"], r["SQ_COLIGACAO"]))
                     or vices.get(("nr", r["CD_ELEICAO"], r["SG_UE"], r["NR_CANDIDATO"] + "1")))
+            if vice:  # o vice também é pessoa da plataforma (contrato §2)
+                pv = pid(vice["NR_TITULO_ELEITORAL_CANDIDATO"])
+                if pv not in pessoas or not pessoas[pv]["nascimento"]:
+                    pessoas[pv] = {"pessoa_id": pv, "nome": vice["NM_CANDIDATO"].title(), "nascimento": vice["DT_NASCIMENTO"],
+                                   "genero": vice["DS_GENERO"].title(), "uf_nascimento": vice["SG_UF_NASCIMENTO"],
+                                   "municipio_nascimento": vice.get("NM_MUNICIPIO_NASCIMENTO", "").title()}
             linha = {
                 "ciclo": ciclo, "cod_ibge": mun[r["SG_UE"]][0], "municipio": mun[r["SG_UE"]][1],
                 "tipo_eleicao": "suplementar" if r["CD_TIPO_ELEICAO"] == "1" else "ordinária",

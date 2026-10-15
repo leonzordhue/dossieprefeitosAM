@@ -1,8 +1,8 @@
-# Integridade — mandatos de prefeito (gerado em 15/10/2026 15:52)
+# Integridade — mandatos de prefeito (gerado em 15/10/2026 16:47)
 
 - Candidaturas a prefeito (linhas por turno): 1673
 - Linhas de mandato: 443
-- Pessoas distintas: 964
+- Pessoas distintas: 2060
 - Checagens: **1337 de 1337 passaram**
 
 ## Checagens que falharam
