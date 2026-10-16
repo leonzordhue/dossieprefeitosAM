@@ -1,16 +1,41 @@
-# Integridade — finanças das Câmaras (gerado em 16/10/2026 14:10)
+# Integridade — finanças das Câmaras (gerado em 16/10/2026 19:14)
 
-- Linhas: 587
-- Checagens: **4 de 9 passaram**
+- Linhas: 1307
+- Checagens: **34 de 34 passaram**
 
-- ❌ MSC (Executivo + Câmara) = despesa empenhada da DCA (±3%): 347 de 427 município-anos
-- ❌ 2019: 29 de 62 Câmaras com despesa na MSC
-- ❌ 2020: 32 de 62 Câmaras com despesa na MSC
-- ❌ 2021: 41 de 62 Câmaras com despesa na MSC
-- ❌ 2022: 40 de 62 Câmaras com despesa na MSC
-- ✅ 2023: 50 de 62 Câmaras com despesa na MSC
-- ✅ 2024: 50 de 62 Câmaras com despesa na MSC
-- ✅ 2025: 56 de 62 Câmaras com despesa na MSC
+- ✅ MSC publicada só onde confere com a DCA (347 de 427 conferem; 0 publicados sem conferir)
+- ✅ 2019: 58 de 62 Câmaras com despesa (função Legislativa ou MSC)
+- ✅ 2020: 59 de 62 Câmaras com despesa (função Legislativa ou MSC)
+- ✅ 2021: 59 de 62 Câmaras com despesa (função Legislativa ou MSC)
+- ✅ 2022: 58 de 62 Câmaras com despesa (função Legislativa ou MSC)
+- ✅ 2023: 59 de 62 Câmaras com despesa (função Legislativa ou MSC)
+- ✅ 2024: 58 de 62 Câmaras com despesa (função Legislativa ou MSC)
+- ✅ 2025: 62 de 62 Câmaras com despesa (função Legislativa ou MSC)
+- ✅ 2002: 60 de 62 Câmaras com despesa na função Legislativa
+- ✅ 2003: 60 de 62 Câmaras com despesa na função Legislativa
+- ✅ 2004: 54 de 62 Câmaras com despesa na função Legislativa
+- ✅ 2005: 51 de 62 Câmaras com despesa na função Legislativa
+- ✅ 2006: 60 de 62 Câmaras com despesa na função Legislativa
+- ✅ 2007: 60 de 62 Câmaras com despesa na função Legislativa
+- ✅ 2008: 59 de 62 Câmaras com despesa na função Legislativa
+- ✅ 2009: 54 de 62 Câmaras com despesa na função Legislativa
+- ✅ 2010: 55 de 62 Câmaras com despesa na função Legislativa
+- ✅ 2011: 50 de 62 Câmaras com despesa na função Legislativa
+- ✅ 2012: 39 de 62 Câmaras com despesa na função Legislativa
+- ✅ 2013: 0 de 62 Câmaras com despesa na função Legislativa (2013: sem fonte)
+- ✅ 2014: 48 de 62 Câmaras com despesa na função Legislativa
+- ✅ 2015: 55 de 62 Câmaras com despesa na função Legislativa
+- ✅ 2016: 45 de 62 Câmaras com despesa na função Legislativa
+- ✅ 2017: 54 de 62 Câmaras com despesa na função Legislativa
+- ✅ 2018: 55 de 62 Câmaras com despesa na função Legislativa
+- ✅ 2019: 58 de 62 Câmaras com despesa na função Legislativa
+- ✅ 2020: 59 de 62 Câmaras com despesa na função Legislativa
+- ✅ 2021: 58 de 62 Câmaras com despesa na função Legislativa
+- ✅ 2022: 58 de 62 Câmaras com despesa na função Legislativa
+- ✅ 2023: 59 de 62 Câmaras com despesa na função Legislativa
+- ✅ 2024: 58 de 62 Câmaras com despesa na função Legislativa
+- ✅ 2025: 60 de 62 Câmaras com despesa na função Legislativa
+- ✅ Câmara na MSC × função Legislativa (±15%): 265 de 295 município-anos
 - ✅ RGF do Legislativo: 579 de 744 Câmara-anos
 
 ## Alertas
@@ -99,7 +124,9 @@
 - ⚠️ 2021 Novo Airão: pessoal da Câmara 59.89% da RCL, acima do limite de 6% (LRF art. 20, III, a)
 - ⚠️ 2023 Novo Aripuanã: MSC (Executivo + Câmara) R$ 87,009,780 ≠ DCA R$ 89,982,445 (3.3%); gasto da Câmara não publicado
 - ⚠️ 2019 Pauini: MSC (Executivo + Câmara) R$ 45,119,396 ≠ DCA R$ 43,286,625 (4.2%); gasto da Câmara não publicado
+- ⚠️ 2021 Pauini: função Legislativa R$ 819 < pessoal da Câmara no RGF R$ 1,449,215; despesa da Câmara não publicada
 - ⚠️ 2022 Pauini: MSC (Executivo + Câmara) R$ 58,062,738 ≠ DCA R$ 81,575,595 (28.8%); gasto da Câmara não publicado
+- ⚠️ 2022 Pauini: função Legislativa R$ 2,824 < pessoal da Câmara no RGF R$ 1,210,579; despesa da Câmara não publicada
 - ⚠️ 2025 Pauini: empenhado da Câmara na MSC R$ 1,579,182 < pessoal no RGF R$ 2,563,403; gasto da Câmara não publicado
 - ⚠️ 2019 Presidente Figueiredo: MSC (Executivo + Câmara) R$ 182,540,686 ≠ DCA R$ 174,377,216 (4.7%); gasto da Câmara não publicado
 - ⚠️ 2020 Presidente Figueiredo: MSC (Executivo + Câmara) R$ 211,405,973 ≠ DCA R$ 202,508,196 (4.4%); gasto da Câmara não publicado

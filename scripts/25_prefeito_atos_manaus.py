@@ -69,8 +69,11 @@ def main():
             # substituto legal, que é o vice do mandato vigente (Lei Orgânica de Manaus); o presidente da Câmara aparece por extenso
             subst = re.search(r"PREFEIT[OA]\s+(?:MUNICIPAL\s+)?DE\s+MANAUS,?\s+EM\s+EXERC[IÍ]CIO", texto, re.I)
             camara = re.search(r"PRESIDENTE\s+DA\s+C[AÂ]MARA\s+MUNICIPAL[^.]{0,80}NO\s+EXERC[IÍ]CIO\s+DO\s+CARGO\s+DE\s+PREFEIT", texto, re.I)
+            # "O PREFEITO DE MANAUS, no uso..." sem "em exercício": ato do titular (o substituto sempre se declara em exercício)
+            titular = re.search(r"O\s+PREFEIT[OA]\s+(?:MUNICIPAL\s+)?DE\s+MANAUS,?\s+(?:no\s+uso|usando)", texto, re.I)
             for achou, papel, pid in ((subst, "vice (presumido: substituto legal)", vig and vig["vice_pessoa_id"]),
-                                      (camara, "presidente da Câmara no exercício do cargo", "")):
+                                      (camara, "presidente da Câmara no exercício do cargo", ""),
+                                      (titular, "titular", vig and vig["pessoa_id"])):
                 if achou and (iso, papel) not in vistos:
                     vistos.add((iso, papel))
                     linhas.append({"cod_ibge": COD, "data": iso, "nome_no_ato": "", "condicao": "em exercício", "papel": papel,
@@ -87,7 +90,7 @@ def main():
                 elif nome not in cache_nome:
                     w = decl.palavras(nome)
                     perto = (por_ponta.get(w[0], set()) | por_ponta.get(w[-1], set())) if w else set()
-                    cache_nome[nome] = next((p for p in sorted(perto) if decl.mesmo(nome, cand[p])), "")
+                    cache_nome[nome] = next((p for p in sorted(perto) if aam.estrito(nome, cand[p])), "")  # sem o mandato vigente, grafia estrita
                 pid = cache_nome[nome]
                 if not pid or (iso, pid, cond) in vistos:
                     continue

@@ -10,6 +10,10 @@ Fontes (API do SICONFI, Tesouro Nacional — https://apidatalake.tesouro.gov.br/
     que fechou no real em Anamã 2025 (83.261.256 + 2.688.774 = 85.950.030).
   - RGF Anexo 1 do Poder Legislativo (co_poder=L): despesa total com pessoal da Câmara e % da RCL (LRF art. 20, III, a:
     limite de 6% para o Legislativo municipal). Quadrimestral (3º) ou semestral (2º, "RGF Simplificado").
+  - Despesa empenhada na função 01 – Legislativa (Portaria MOG 42/1999), de dados/indicadores/financas.csv (11_financas.py:
+    FINBRA 2002–2012 e DCA-Anexo I-E 2014+). No município, a função Legislativa é a Câmara: cobre quase todos os anos e
+    Câmaras, inclusive onde a MSC não separa o Legislativo. É a série principal (coluna legislativa_empenhado);
+    a MSC fica como conferência. 2000–2001 usam a classificação antiga e 2013 não tem fonte (lacuna do FINBRA/DCA).
 Limite de gasto total da Câmara (CF art. 29-A) não é calculado: a base (receita tributária + transferências do ano
 anterior) não está nessas fontes.
 Conferência: Executivo + Legislativo (MSC) deve bater (±3%) com a despesa empenhada da DCA (dados/indicadores/financas.csv),
@@ -36,6 +40,7 @@ DADOS = os.path.join(BASE_DIR, "dados")
 API = "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/"
 ANOS_MSC = range(2019, datetime.now().year)
 ANOS_RGF = range(2014, datetime.now().year)
+ANOS_LEG = range(2002, datetime.now().year)
 
 
 def consulta(caminho):
@@ -71,8 +76,13 @@ def main():
     linhas, checagens, alertas, confere, compara = [], [], [], 0, 0
     for m in muns:
         cod = m["cod_ibge"]
-        for a in sorted(set(ANOS_MSC) | set(ANOS_RGF)):
-            lin = {"cod_ibge": cod, "municipio": m["municipio"], "ano": a, "camara_empenhado": "", "executivo_empenhado": "",
+        for a in sorted(set(ANOS_MSC) | set(ANOS_RGF) | set(ANOS_LEG)):
+            leg = fin.get((cod, a), {})
+            lin = {"cod_ibge": cod, "municipio": m["municipio"], "ano": a,
+                   "legislativa_empenhado": float(leg["desp_legislativa"]) if leg.get("desp_legislativa") else "",
+                   "fonte_legislativa": ("" if not leg.get("desp_legislativa") else f"{API}dca?an_exercicio={a}&id_ente={cod}&no_anexo=DCA-Anexo%20I-E"
+                                         if a >= 2014 else leg.get("fonte_serie", "")),
+                   "camara_empenhado": "", "executivo_empenhado": "",
                    "camara_pessoal": "", "camara_pessoal_pct_rcl": "", "msc_confere": "", "fonte_msc": "", "fonte_rgf": ""}
             if a in ANOS_MSC:
                 dca = fin.get((cod, a), {}).get("despesa_empenhada")
@@ -112,13 +122,25 @@ def main():
                 alertas.append(f"{a} {m['municipio']}: empenhado da Câmara na MSC R$ {lin['camara_empenhado']:,.0f} < pessoal no RGF "
                                f"R$ {lin['camara_pessoal']:,.0f}; gasto da Câmara não publicado")
                 lin.update(camara_empenhado="", msc_confere="não (Câmara < pessoal)")
-            if lin["fonte_msc"] or lin["fonte_rgf"]:
+            if lin["legislativa_empenhado"] != "" and lin["camara_pessoal"] != "" and lin["legislativa_empenhado"] < 0.95 * lin["camara_pessoal"]:
+                alertas.append(f"{a} {m['municipio']}: função Legislativa R$ {lin['legislativa_empenhado']:,.0f} < pessoal da Câmara no RGF "
+                               f"R$ {lin['camara_pessoal']:,.0f}; despesa da Câmara não publicada")
+                lin.update(legislativa_empenhado="", fonte_legislativa="")
+            if lin["fonte_msc"] or lin["fonte_rgf"] or lin["fonte_legislativa"]:
                 linhas.append(lin)
         print(m["municipio"], flush=True)
-    checagens.append((compara and confere >= 0.9 * compara, f"MSC (Executivo + Câmara) = despesa empenhada da DCA (±3%): {confere} de {compara} município-anos"))
+    # a MSC é conferência: só se publica o valor da Câmara onde Executivo + Câmara fecha com a DCA
+    soltos = sum(1 for x in linhas if x["camara_empenhado"] not in ("", 0, 0.0) and x["msc_confere"] not in ("saldo dez", "soma mensal", "sem DCA"))
+    checagens.append((soltos == 0, f"MSC publicada só onde confere com a DCA ({confere} de {compara} conferem; {soltos} publicados sem conferir)"))
     for a in ANOS_MSC:
-        n = sum(1 for x in linhas if x["ano"] == a and x["camara_empenhado"] not in ("", 0, 0.0))
-        checagens.append((n >= 50, f"{a}: {n} de 62 Câmaras com despesa na MSC"))
+        n = sum(1 for x in linhas if x["ano"] == a and (x["camara_empenhado"] not in ("", 0, 0.0) or x["legislativa_empenhado"] != ""))
+        checagens.append((n >= 50, f"{a}: {n} de 62 Câmaras com despesa (função Legislativa ou MSC)"))
+    for a in ANOS_LEG:
+        n = sum(1 for x in linhas if x["ano"] == a and x["legislativa_empenhado"] != "")
+        checagens.append((n >= 35 or a == 2013, f"{a}: {n} de 62 Câmaras com despesa na função Legislativa" + (" (2013: sem fonte)" if a == 2013 else "")))
+    msc_leg = [(x["camara_empenhado"], x["legislativa_empenhado"]) for x in linhas if x["camara_empenhado"] not in ("", 0, 0.0) and x["legislativa_empenhado"] != ""]
+    perto = sum(1 for c, l in msc_leg if abs(c - l) / l <= 0.15)
+    checagens.append((perto >= 0.7 * len(msc_leg), f"Câmara na MSC × função Legislativa (±15%): {perto} de {len(msc_leg)} município-anos"))
     n_rgf = sum(1 for x in linhas if x["camara_pessoal"] != "")
     checagens.append((n_rgf >= 0.6 * 62 * len(ANOS_RGF), f"RGF do Legislativo: {n_rgf} de {62 * len(ANOS_RGF)} Câmara-anos"))
     with open(os.path.join(DADOS, "indicadores", "camaras_financas.csv"), "w", encoding="utf-8", newline="") as f:

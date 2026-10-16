@@ -72,15 +72,36 @@ def nomes_no_trecho(t):
         # só o prefixo ignora maiúsculas; o nome tem de vir em maiúsculas
         depois = re.match(r"(?i:(?:\s+municipal)?(?:\s+(?:de|do|da)\s+[^,;:]{2,40}?)?(?:\s+em\s+exerc[ií]cio)?[\s,–\-]*"
                           r"(?:o\s+senhor|a\s+senhora|sr\.?|sra\.?)?)[\s,–\-]*(" + NOME + ")", t[m.end():m.end() + 140])
-        antes = re.search("(" + NOME + r")[\s,–\-]{0,4}$", t[max(0, m.start() - 90):m.start()])
+        janela = t[max(0, m.start() - 90):m.start()]
+        if m.start() > 90 and t[m.start() - 91].isalpha():
+            janela = re.sub(r"^\S*", "", janela)  # janela cortada no meio de palavra: descarta o pedaço ("ANAMÃ" → "AMÃ")
+        antes = re.search("(" + NOME + r")[\s,–\-]{0,4}$", janela)
         for g in (depois.group(1) if depois else None, antes.group(1) if antes else None):
             if not g:
                 continue
             g = re.sub(r"(?:\s+E|\.)$", "", g.strip())
-            g = re.sub(r"^(?:(?:NOME|CARGO|FUN[ÇC][ÃA]O|SIMBOLOGIA|ANEXO|MUNICIPAL\.?|ESTADO DO AMAZONAS|AM\.)\s+)+", "", g)  # cabeçalho grudado
+            g = re.sub(r"^(?:(?:NOME|CARGO|FUN[ÇC][ÃA]O|SIMBOLOGIA|ANEXO|MUNICIPAL\.?|ESTADO DO AMAZONAS|AMAZONAS|AM\.?|CIDAD[ÃA]O|SENHORA?|SR[A]?\.?)\s+)+", "", g)  # cabeçalho grudado
+            g = re.sub(r"\s+(?:SECRET[ÁA]RI[OA]|SEC\.?|CHEFE|DIRETORA?|PRESIDENTE|VICE|VEREADORA?|GABINETE)\b.*$", "", g)  # cargo grudado depois
             if len(decl.palavras(g)) >= 3 and g.upper() == g:
                 out.append((g, cond))
     return out
+
+
+def estrito(n1, n2):
+    """Ligação de quem NÃO é o titular/vice vigente (sem o contexto do mandato, a grafia tem de bater mais): mesmo número de
+    palavras ou o mais curto com 3+, e cada palavra do mais curto parecida (≥ 0,8) com uma do mais longo, na mesma ordem.
+    Sem a comparação do nome inteiro (que ligava "FRANCISCO LINO DE OLIVEIRA" a "Francisco Flores de Oliveira")."""
+    a, b = sorted((decl.palavras(n1), decl.palavras(n2)), key=len)
+    if len(a) < 2 or (len(a) < len(b) and len(a) < 3):
+        return False
+    j = 0
+    for x in a:
+        while j < len(b) and not decl.parecido(x, b[j]):
+            j += 1
+        if j == len(b):
+            return False
+        j += 1
+    return True
 
 
 def main():
@@ -114,7 +135,7 @@ def main():
             vig = next((x for x in mand[cod] if x["inicio"] <= iso <= x["fim_previsto"]), None)
             # o titular/vice do mandato vigente tem preferência (a mesma pessoa pode ter dois pessoa_id, um por título de eleitor)
             pid = (vig["pessoa_id"] if vig and decl.mesmo(nome, vig["prefeito"]) else vig["vice_pessoa_id"] if vig and vig["vice"] and decl.mesmo(nome, vig["vice"])
-                   else next((p for p, n in cand[cod].items() if decl.mesmo(nome, n)), ""))
+                   else next((p for p, n in cand[cod].items() if estrito(nome, n)), ""))
             if not pid:
                 continue
             papel = ("titular" if vig and pid == vig["pessoa_id"] else "vice" if vig and pid == vig["vice_pessoa_id"] else "outro")

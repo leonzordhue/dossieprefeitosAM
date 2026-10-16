@@ -13,7 +13,9 @@ Ligação à pessoa (só prefeitos, vices e vereadores do dossiê; CPF nunca é 
   - relação com CPF: CPF idêntico ao do registro de candidatura no TSE + mesmo nome (regra do script 17);
   - sem CPF, órgão municipal: nome idêntico (sem acento) ao de um candidato do mesmo município do órgão;
   - sem CPF e sem município: nome completo (3+ palavras) que só existe uma vez entre os candidatos municipais do AM.
-    Essa ligação é mais fraca e sai marcada "a conferir".
+    Essa ligação é mais fraca e sai marcada "a conferir". Depois ela é conferida na jurisprudência do TCE-AM
+    (https://jurisprudencia-api.tce.am.gov.br): o órgão das decisões em que o nome é parte dá o município; se bate com
+    o do candidato, vira "nome + município (jurisprudência do TCE-AM)"; se só aparecem outros municípios, sai (homônimo).
 Conta julgada irregular não é inelegibilidade automática (LC 64/1990, art. 1º, I, g).
 
 Saídas: dados/indicadores/tceam_listas_antigas.csv, dados/integridade/23_tceam_listas_antigas.md
@@ -29,12 +31,16 @@ import sys
 from collections import defaultdict
 from datetime import datetime
 from importlib import import_module
+from urllib.parse import quote, urlencode
 
 import pdfplumber
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 tcu = import_module("13_tcu")  # sem_acento, so_digitos, ANOS_CPF
 t17 = import_module("17_tceam")  # mesmo_nome
+t19 = import_module("19_tceam_decisoes")  # API e VAZIOS da jurisprudência do TCE-AM
+rede = t19.rede
+aam = import_module("24_prefeito_atos_aam")  # busca() no Diário Oficial dos Municípios
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DADOS = os.path.join(BASE_DIR, "dados")
@@ -218,6 +224,55 @@ def main():
     saida = [dict(r, relacoes=" ".join(f"{x[:4]}-{x[4:6]}-{x[6:]}" for x in sorted(r["relacoes"])))
              for r in registros.values() if (r["pessoa_id"], r["processo"]) not in ja]
     saida.sort(key=lambda x: (x["pessoa_id"], x["processo"]))
+    # ligação só pelo nome: confere o município na jurisprudência do TCE-AM (o órgão de cada decisão em que o nome é parte).
+    # Mesmo processo ou mesmo município do candidato confirma; só outros municípios derruba (homônimo); sem decisão, fica a conferir.
+    pid_muns = defaultdict(set)
+    for ps in por_nome.values():
+        for p, c in ps:
+            pid_muns[p].add(c)
+    confirmados, derrubados, tce_cache = 0, [], {}
+    for x in [x for x in saida if x["ligacao"].endswith("(a conferir)")]:
+        n = tcu.sem_acento(x["nome_tce"])
+        if n not in tce_cache:
+            p = {"strConteudo": f'"{x["nome_tce"]}"', **{k: "null" for k in t19.VAZIOS}}
+            try:
+                tce_cache[n] = [i for i in rede.get_json(t19.API + urlencode(p, quote_via=quote))
+                                if n in tcu.sem_acento(" ".join(str(i.get(k) or "") for k in ("partes", "interessados", "objeto")))]
+            except Exception as e:
+                tce_cache[n] = []
+                alertas.append(f"jurisprudência do TCE-AM para “{x['nome_tce']}”: {e.__class__.__name__}")
+        itens = tce_cache[n]
+        mesmo_proc = [i for i in itens if f"{int(i['numeroProcesso'])}/{i['anoProcesso']}" == x["processo"]] if x["processo"] else []
+        muns_tce = {c: i for i in (mesmo_proc or itens) for nm, c in norm_mun if nm in tcu.sem_acento(i.get("orgao") or "")}
+        bate = set(muns_tce) & pid_muns[x["pessoa_id"]]
+        if bate:
+            i = muns_tce[sorted(bate)[0]]
+            x["ligacao"] = "nome + município (jurisprudência do TCE-AM)"
+            x["orgao"] = x["orgao"] or (i.get("orgao") or "").strip()
+            x["fonte"] += f"; município pelo órgão em {i['caminhoArquivo']}"
+            confirmados += 1
+        elif muns_tce:
+            derrubados.append(x)
+        else:  # sem decisão no TCE-AM: o município em que o nome aparece no Diário Oficial dos Municípios (AAM/SIGPub)
+            try:
+                cards, _ = aam.busca(texto=f'"{x["nome_tce"]}"', ini="2009-01-01", ordem="antiga")
+            except Exception as e:
+                alertas.append(f"AAM para “{x['nome_tce']}”: {e.__class__.__name__}")
+                continue
+            cards = [c for c in cards if n in tcu.sem_acento(c["trecho"])]
+            muns_aam = {c: card for card in cards for nm, c in norm_mun if nm in tcu.sem_acento(card["entidade"])}
+            bate = set(muns_aam) & pid_muns[x["pessoa_id"]]
+            if bate:
+                x["ligacao"] = "nome + município (Diário Oficial dos Municípios)"
+                x["fonte"] += f"; município pelo Diário Oficial: {aam.SIGPUB}materia/{muns_aam[sorted(bate)[0]]['codigo']}"
+                confirmados += 1
+            elif muns_aam:
+                derrubados.append(x)
+    for x in derrubados:
+        saida.remove(x)
+        alertas.append(f"retirado (homônimo): “{x['nome_tce']}”, processo {x['processo'] or '?'}: no TCE-AM o nome é parte só em órgãos de outro município")
+    checagens.append((True, f"ligação só pelo nome conferida (jurisprudência do TCE-AM e Diário Oficial dos Municípios): {confirmados} confirmadas pelo município, "
+                            f"{len(derrubados)} retiradas por homônimo"))
     checagens.append((lidos >= 15, f"{lidos} relações lidas de {len(arquivos) - len(exc)} arquivos"))
     checagens.append((len(excluidos) > 0, f"{len(excluidos)} gestores excluídos após revisão (24/09/2020) aplicados à relação de 2020"))
     por_lig = defaultdict(int)

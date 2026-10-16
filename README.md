@@ -31,10 +31,10 @@ Compilação, a partir de fontes públicas oficiais, de quem governou e legislou
 | Decisões do TCE-AM desde 2016 em que prefeito/vice é parte (termos: irregular, multa, alcance, ato ilegal) | `19_tceam_decisoes.py` | API de jurisprudência do TCE-AM | ✅ classificação automática; PDF oficial junto |
 | Câmaras no SAPL: vereadores, matérias e autoria, normas, votações, votos nominais, Mesa Diretora (12 Câmaras) | `20_sapl.py` | SAPL/Interlegis de cada Câmara | ✅ |
 | Quanto cada prefeito arrecadou e gastou na gestão (R$ corrigidos pelo IPCA) | `21_gestoes.py` | série de `11_financas.py` + IPCA/IBGE | ✅ |
-| Gastos das Câmaras: despesa empenhada (MSC, 2019+, só onde Executivo + Câmara confere com a DCA) e pessoal do Legislativo (RGF, 2014+) | `22_camaras_financas.py` | SICONFI | ✅ |
-| Contas irregulares do TCE-AM de 2006 a 2021 (relações antigas retiradas do portal) | `23_tceam_listas_antigas.py` | TCE-AM, cópias do Internet Archive (Wayback) | ✅ ligação por CPF + nome, nome + município ou nome único (a conferir) |
+| Gastos das Câmaras: despesa empenhada na função 01 – Legislativa (2002+, FINBRA/DCA; MSC como conferência) e pessoal do Legislativo (RGF, 2014+) | `22_camaras_financas.py` | FINBRA + SICONFI | ✅ 58–62 Câmaras por ano |
+| Contas irregulares do TCE-AM de 2006 a 2021 (relações antigas retiradas do portal) | `23_tceam_listas_antigas.py` | TCE-AM, cópias do Internet Archive (Wayback) | ✅ ligação por CPF + nome ou nome + município (órgão, jurisprudência do TCE-AM ou Diário Oficial); 97 só pelo nome, a conferir |
 | Quem assinou atos como prefeito(a): interinos, vices em exercício, presidente da Câmara (61 municípios, 2009+) | `24_prefeito_atos_aam.py` | Diário Oficial dos Municípios (AAM/SIGPub) | ✅ sinal a conferir; link do ato junto |
-| O mesmo para Manaus (2000+) | `25_prefeito_atos_manaus.py` | DOM Manaus, texto do Querido Diário/OKBR (pacotes anuais) | ✅ de 2009 em diante o nome não está no texto: "em exercício" = vice presumido |
+| O mesmo para Manaus (2000+) | `25_prefeito_atos_manaus.py` | DOM Manaus, texto do Querido Diário/OKBR (pacotes anuais) | ✅ de 2009 em diante o nome não está no texto: "em exercício" = vice presumido; sem "em exercício" = titular (296 de 312 meses) |
 
 ## Dados (`dados/`)
 
