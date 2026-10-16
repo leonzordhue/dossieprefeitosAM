@@ -79,6 +79,23 @@ def data_decl(v):
         return None
 
 
+def responsaveis(a, p, muns):
+    """Prefeitos declarados no período. Se a consulta do estado inteiro falhar (a partir de 2024 a API devolve JSON cortado ou
+    erro 500 quando um registro está ruim), consulta município a município com $filter, para um registro ruim não derrubar os outros."""
+    try:
+        return rede.get_json(API.format(a=a, p=p), tentativas=1 if a >= 2024 else 5)["value"], []
+    except Exception:
+        pass
+    v, falhas = [], []
+    for c in muns:
+        u = API.format(a=a, p=p).replace("$filter=TIP_RESP%20eq%20'P'", f"$filter=COD_MUNI%20eq%20{c}%20and%20TIP_RESP%20eq%20'P'")
+        try:
+            v += rede.get_json(u, tentativas=3)["value"]  # o que falhar não fica no cache: rodar de novo repete só as falhas
+        except Exception as e:
+            falhas.append(f"{a}/{p} município {c}: {e.__class__.__name__}")
+    return v, falhas
+
+
 def main():
     muns = {m["cod_ibge"][:6]: m for m in csv.DictReader(open(os.path.join(DADOS, "municipios.csv"), encoding="utf-8"))}
     mand = defaultdict(list)
@@ -114,10 +131,10 @@ def main():
     for a in ANOS:
         anual = a <= 2016
         for p in ((1,) if anual else range(1, 7)):
-            try:
-                v = rede.get_json(API.format(a=a, p=p))["value"]
-            except Exception as e:  # ano ainda não publicado ou instabilidade da API
-                faltas.append(f"{a}/{p}: {e.__class__.__name__}")
+            v, f_ = responsaveis(a, p, list(muns))
+            faltas += f_
+            if not v:  # ano ainda não publicado ou instabilidade da API
+                faltas.append(f"{a}/{p}: sem resposta")
                 continue
             for x in v:
                 mu = muns.get(str(x["COD_MUNI"]))

@@ -27,11 +27,14 @@ Compilação, a partir de fontes públicas oficiais, de quem governou e legislou
 | Fundamentos de julgamento da candidatura (indeferimento, cassação) 2016–2024 | `16_julgamentos.py` | TSE motivo_cassacao | ✅ |
 | Contas julgadas irregulares pelo TCE-AM (relações 2022–2026; ligação por CPF + nome) | `17_tceam.py` | TCE-AM | ✅ |
 | Quem governou de fato: suplementares | `02_mandatos.py` | TSE | ✅ |
-| Prefeito declarado pela prefeitura × eleito no TSE (sinal de interino/sucessão), 2008–2023 | `18_prefeito_declarado.py` | SIOPE/FNDE (responsáveis) | ✅ sinal a conferir, não prova |
+| Prefeito declarado pela prefeitura × eleito no TSE (sinal de interino/sucessão), 2008–2026 | `18_prefeito_declarado.py` | SIOPE/FNDE (responsáveis; 2024+ consultado por município) | ✅ sinal a conferir, não prova |
 | Decisões do TCE-AM desde 2016 em que prefeito/vice é parte (termos: irregular, multa, alcance, ato ilegal) | `19_tceam_decisoes.py` | API de jurisprudência do TCE-AM | ✅ classificação automática; PDF oficial junto |
 | Câmaras no SAPL: vereadores, matérias e autoria, normas, votações, votos nominais, Mesa Diretora (12 Câmaras) | `20_sapl.py` | SAPL/Interlegis de cada Câmara | ✅ |
 | Quanto cada prefeito arrecadou e gastou na gestão (R$ corrigidos pelo IPCA) | `21_gestoes.py` | série de `11_financas.py` + IPCA/IBGE | ✅ |
 | Gastos das Câmaras: despesa empenhada (MSC, 2019+, só onde Executivo + Câmara confere com a DCA) e pessoal do Legislativo (RGF, 2014+) | `22_camaras_financas.py` | SICONFI | ✅ |
+| Contas irregulares do TCE-AM de 2006 a 2021 (relações antigas retiradas do portal) | `23_tceam_listas_antigas.py` | TCE-AM, cópias do Internet Archive (Wayback) | ✅ ligação por CPF + nome, nome + município ou nome único (a conferir) |
+| Quem assinou atos como prefeito(a): interinos, vices em exercício, presidente da Câmara (61 municípios, 2009+) | `24_prefeito_atos_aam.py` | Diário Oficial dos Municípios (AAM/SIGPub) | ✅ sinal a conferir; link do ato junto |
+| O mesmo para Manaus (2000+) | `25_prefeito_atos_manaus.py` | DOM Manaus, texto do Querido Diário/OKBR (pacotes anuais) | ✅ de 2009 em diante o nome não está no texto: "em exercício" = vice presumido |
 
 ## Dados (`dados/`)
 
@@ -45,7 +48,7 @@ Compilação, a partir de fontes públicas oficiais, de quem governou e legislou
 
 ## Limitações conhecidas
 
-- **O TSE não registra quem governou de fato.** Afastamentos, cassações pela Câmara, mortes, renúncias e posse de suplente de vereador não estão capturados. Esses casos serão completados com fontes citadas.
+- **O TSE não registra quem governou de fato.** Os scripts 18, 24 e 25 dão sinais (prefeito declarado ao FNDE; quem assina atos no Diário Oficial), cada um com a fonte, mas a ligação do nome do ato ao candidato do TSE é por grafia e precisa de conferência humana. Posse de suplente de vereador ainda não está capturada.
 - O arquivo de candidatos do TSE é incompleto. Algumas candidaturas existem só no arquivo de votação e foram recuperadas de lá, com `origem_dado` marcada. Em Novo Airão (2008), o resultado de vereador é `#NULO` nos dois arquivos, e por isso fica como lacuna.
 - O início de mandato por eleição suplementar usa a data da eleição (`inicio_aproximado = sim`).
 - Finanças: o que a prefeitura declarou ao Tesouro. Ano em branco significa que não declarou. Saltos bruscos aparecem como alerta, porque costumam ser declaração incompleta.
@@ -57,5 +60,6 @@ Compilação, a partir de fontes públicas oficiais, de quem governou e legislou
 python -I scripts/01_tse_baixar.py && python -I scripts/02_mandatos.py && python -I scripts/05_vereadores.py && python -I scripts/07_fotos.py
 python -I scripts/03_siconfi.py && python -I scripts/04_finbra.py && python -I scripts/08_ibge.py && python -I scripts/11_financas.py
 python -I scripts/06_bens.py && python -I scripts/09_ideb.py && python -I scripts/10_emendas.py && python -I scripts/12_siope.py && python -I scripts/13_tcu.py && python -I scripts/14_siops.py && python -I scripts/15_idhm.py && python -I scripts/16_julgamentos.py && python -I scripts/17_tceam.py && python -I scripts/18_prefeito_declarado.py && python -I scripts/19_tceam_decisoes.py && python -I scripts/20_sapl.py && python -I scripts/21_gestoes.py && python -I scripts/22_camaras_financas.py
+python -I scripts/23_tceam_listas_antigas.py && python -I scripts/24_prefeito_atos_aam.py && python -I scripts/25_prefeito_atos_manaus.py
 ```
 A ordem 02 → 05 → 07 importa, porque os três escrevem em `pessoas.csv`. Requer Python 3.12, `truststore`, `Pillow`, `openpyxl` e, para o FINBRA, `pyodbc` com o driver do Access.

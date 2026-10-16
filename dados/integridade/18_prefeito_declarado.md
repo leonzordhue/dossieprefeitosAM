@@ -1,7 +1,7 @@
-# Integridade — prefeito declarado ao SIOPE (gerado em 16/10/2026 10:27)
+# Integridade — prefeito declarado ao SIOPE (gerado em 16/10/2026 17:28)
 
-- Linhas: 3161
-- Checagens: **17 de 17 passaram**
+- Linhas: 3718
+- Checagens: **17 de 19 passaram**
 
 - ✅ 2008: 62 de 62 municípios com prefeito declarado no SIOPE
 - ✅ 2009: 62 de 62 municípios com prefeito declarado no SIOPE
@@ -19,6 +19,8 @@
 - ✅ 2021: 62 de 62 municípios com prefeito declarado no SIOPE
 - ✅ 2022: 62 de 62 municípios com prefeito declarado no SIOPE
 - ✅ 2023: 62 de 62 municípios com prefeito declarado no SIOPE
+- ❌ 2024: 26 de 62 municípios com prefeito declarado no SIOPE
+- ❌ 2025: 54 de 62 municípios com prefeito declarado no SIOPE
 - ✅ declarações com outra pessoa como prefeito: 76 (29 casos distintos) — ver lista
 
 ## Outra pessoa declarada como prefeito (sinal de interino, afastamento ou sucessão — conferir)
@@ -60,18 +62,288 @@
 
 ## Períodos sem resposta da API
 
-- 2024/1: JSONDecodeError
-- 2024/2: HTTPError
-- 2024/3: HTTPError
-- 2024/4: JSONDecodeError
-- 2024/5: JSONDecodeError
-- 2024/6: JSONDecodeError
-- 2025/1: JSONDecodeError
-- 2025/2: JSONDecodeError
-- 2025/3: JSONDecodeError
-- 2025/4: HTTPError
-- 2025/5: HTTPError
-- 2025/6: HTTPError
-- 2026/1: JSONDecodeError
-- 2026/2: JSONDecodeError
-- 2026/3: JSONDecodeError
+- 2024/1 município 130002: HTTPError
+- 2024/1 município 130006: HTTPError
+- 2024/1 município 130008: HTTPError
+- 2024/1 município 130014: HTTPError
+- 2024/1 município 130020: HTTPError
+- 2024/1 município 130030: HTTPError
+- 2024/1 município 130060: HTTPError
+- 2024/1 município 130080: HTTPError
+- 2024/1 município 130100: HTTPError
+- 2024/1 município 130110: HTTPError
+- 2024/1 município 130120: HTTPError
+- 2024/1 município 130130: HTTPError
+- 2024/1 município 130140: HTTPError
+- 2024/1 município 130160: HTTPError
+- 2024/1 município 130165: HTTPError
+- 2024/1 município 130180: HTTPError
+- 2024/1 município 130210: HTTPError
+- 2024/1 município 130220: HTTPError
+- 2024/1 município 130250: HTTPError
+- 2024/1 município 130255: HTTPError
+- 2024/1 município 130270: HTTPError
+- 2024/1 município 130290: HTTPError
+- 2024/1 município 130300: HTTPError
+- 2024/1 município 130320: HTTPError
+- 2024/1 município 130340: HTTPError
+- 2024/1 município 130353: HTTPError
+- 2024/1 município 130356: HTTPError
+- 2024/1 município 130370: HTTPError
+- 2024/1 município 130400: HTTPError
+- 2024/1 município 130380: HTTPError
+- 2024/1 município 130390: HTTPError
+- 2024/1 município 130395: HTTPError
+- 2024/1 município 130406: HTTPError
+- 2024/1 município 130410: HTTPError
+- 2024/1 município 130420: HTTPError
+- 2024/1 município 130423: HTTPError
+- 2024/1 município 130426: HTTPError
+- 2024/1 município 130440: HTTPError
+- 2024/2 município 130002: HTTPError
+- 2024/2 município 130006: HTTPError
+- 2024/2 município 130008: HTTPError
+- 2024/2 município 130014: HTTPError
+- 2024/2 município 130020: HTTPError
+- 2024/2 município 130030: HTTPError
+- 2024/2 município 130060: HTTPError
+- 2024/2 município 130080: HTTPError
+- 2024/2 município 130100: HTTPError
+- 2024/2 município 130110: HTTPError
+- 2024/2 município 130120: HTTPError
+- 2024/2 município 130130: HTTPError
+- 2024/2 município 130140: HTTPError
+- 2024/2 município 130160: HTTPError
+- 2024/2 município 130165: HTTPError
+- 2024/2 município 130180: HTTPError
+- 2024/2 município 130210: HTTPError
+- 2024/2 município 130220: HTTPError
+- 2024/2 município 130250: HTTPError
+- 2024/2 município 130255: HTTPError
+- 2024/2 município 130270: HTTPError
+- 2024/2 município 130290: HTTPError
+- 2024/2 município 130300: HTTPError
+- 2024/2 município 130320: HTTPError
+- 2024/2 município 130340: HTTPError
+- 2024/2 município 130353: HTTPError
+- 2024/2 município 130356: HTTPError
+- 2024/2 município 130360: HTTPError
+- 2024/2 município 130370: HTTPError
+- 2024/2 município 130400: HTTPError
+- 2024/2 município 130380: HTTPError
+- 2024/2 município 130390: HTTPError
+- 2024/2 município 130395: HTTPError
+- 2024/2 município 130406: HTTPError
+- 2024/2 município 130410: HTTPError
+- 2024/2 município 130420: HTTPError
+- 2024/2 município 130423: HTTPError
+- 2024/2 município 130426: HTTPError
+- 2024/2 município 130440: HTTPError
+- 2024/3 município 130002: HTTPError
+- 2024/3 município 130006: HTTPError
+- 2024/3 município 130008: HTTPError
+- 2024/3 município 130014: HTTPError
+- 2024/3 município 130020: HTTPError
+- 2024/3 município 130030: HTTPError
+- 2024/3 município 130060: HTTPError
+- 2024/3 município 130080: HTTPError
+- 2024/3 município 130100: HTTPError
+- 2024/3 município 130110: HTTPError
+- 2024/3 município 130120: HTTPError
+- 2024/3 município 130130: HTTPError
+- 2024/3 município 130140: HTTPError
+- 2024/3 município 130160: HTTPError
+- 2024/3 município 130165: HTTPError
+- 2024/3 município 130180: HTTPError
+- 2024/3 município 130185: HTTPError
+- 2024/3 município 130210: HTTPError
+- 2024/3 município 130220: HTTPError
+- 2024/3 município 130250: HTTPError
+- 2024/3 município 130255: HTTPError
+- 2024/3 município 130270: HTTPError
+- 2024/3 município 130290: HTTPError
+- 2024/3 município 130300: HTTPError
+- 2024/3 município 130320: HTTPError
+- 2024/3 município 130340: HTTPError
+- 2024/3 município 130353: HTTPError
+- 2024/3 município 130356: HTTPError
+- 2024/3 município 130360: HTTPError
+- 2024/3 município 130400: HTTPError
+- 2024/3 município 130380: HTTPError
+- 2024/3 município 130390: HTTPError
+- 2024/3 município 130395: HTTPError
+- 2024/3 município 130406: HTTPError
+- 2024/3 município 130410: HTTPError
+- 2024/3 município 130420: HTTPError
+- 2024/3 município 130423: HTTPError
+- 2024/3 município 130426: HTTPError
+- 2024/3 município 130440: HTTPError
+- 2024/4 município 130002: HTTPError
+- 2024/4 município 130006: HTTPError
+- 2024/4 município 130008: HTTPError
+- 2024/4 município 130014: HTTPError
+- 2024/4 município 130020: HTTPError
+- 2024/4 município 130030: HTTPError
+- 2024/4 município 130060: HTTPError
+- 2024/4 município 130080: HTTPError
+- 2024/4 município 130100: HTTPError
+- 2024/4 município 130110: HTTPError
+- 2024/4 município 130120: HTTPError
+- 2024/4 município 130130: HTTPError
+- 2024/4 município 130140: HTTPError
+- 2024/4 município 130160: HTTPError
+- 2024/4 município 130165: HTTPError
+- 2024/4 município 130180: HTTPError
+- 2024/4 município 130185: HTTPError
+- 2024/4 município 130210: HTTPError
+- 2024/4 município 130220: HTTPError
+- 2024/4 município 130250: HTTPError
+- 2024/4 município 130255: HTTPError
+- 2024/4 município 130270: HTTPError
+- 2024/4 município 130290: HTTPError
+- 2024/4 município 130300: HTTPError
+- 2024/4 município 130320: HTTPError
+- 2024/4 município 130340: HTTPError
+- 2024/4 município 130353: HTTPError
+- 2024/4 município 130356: HTTPError
+- 2024/4 município 130360: HTTPError
+- 2024/4 município 130400: HTTPError
+- 2024/4 município 130380: HTTPError
+- 2024/4 município 130390: HTTPError
+- 2024/4 município 130395: HTTPError
+- 2024/4 município 130406: HTTPError
+- 2024/4 município 130410: HTTPError
+- 2024/4 município 130420: HTTPError
+- 2024/4 município 130423: HTTPError
+- 2024/4 município 130426: HTTPError
+- 2024/4 município 130440: HTTPError
+- 2024/5 município 130002: HTTPError
+- 2024/5 município 130006: HTTPError
+- 2024/5 município 130008: HTTPError
+- 2024/5 município 130014: HTTPError
+- 2024/5 município 130020: HTTPError
+- 2024/5 município 130030: HTTPError
+- 2024/5 município 130060: HTTPError
+- 2024/5 município 130080: HTTPError
+- 2024/5 município 130100: HTTPError
+- 2024/5 município 130110: HTTPError
+- 2024/5 município 130120: HTTPError
+- 2024/5 município 130130: HTTPError
+- 2024/5 município 130140: HTTPError
+- 2024/5 município 130160: HTTPError
+- 2024/5 município 130165: HTTPError
+- 2024/5 município 130180: HTTPError
+- 2024/5 município 130185: HTTPError
+- 2024/5 município 130210: HTTPError
+- 2024/5 município 130220: HTTPError
+- 2024/5 município 130250: HTTPError
+- 2024/5 município 130255: HTTPError
+- 2024/5 município 130270: HTTPError
+- 2024/5 município 130290: HTTPError
+- 2024/5 município 130300: HTTPError
+- 2024/5 município 130320: HTTPError
+- 2024/5 município 130340: HTTPError
+- 2024/5 município 130353: HTTPError
+- 2024/5 município 130356: HTTPError
+- 2024/5 município 130360: HTTPError
+- 2024/5 município 130400: HTTPError
+- 2024/5 município 130380: HTTPError
+- 2024/5 município 130390: HTTPError
+- 2024/5 município 130395: HTTPError
+- 2024/5 município 130406: HTTPError
+- 2024/5 município 130410: HTTPError
+- 2024/5 município 130420: HTTPError
+- 2024/5 município 130423: HTTPError
+- 2024/5 município 130426: HTTPError
+- 2024/5 município 130440: HTTPError
+- 2024/6 município 130002: HTTPError
+- 2024/6 município 130006: HTTPError
+- 2024/6 município 130008: HTTPError
+- 2024/6 município 130014: HTTPError
+- 2024/6 município 130020: HTTPError
+- 2024/6 município 130030: HTTPError
+- 2024/6 município 130060: HTTPError
+- 2024/6 município 130080: HTTPError
+- 2024/6 município 130100: HTTPError
+- 2024/6 município 130110: HTTPError
+- 2024/6 município 130120: HTTPError
+- 2024/6 município 130130: HTTPError
+- 2024/6 município 130140: HTTPError
+- 2024/6 município 130160: HTTPError
+- 2024/6 município 130165: HTTPError
+- 2024/6 município 130180: HTTPError
+- 2024/6 município 130185: HTTPError
+- 2024/6 município 130210: HTTPError
+- 2024/6 município 130220: HTTPError
+- 2024/6 município 130250: HTTPError
+- 2024/6 município 130255: HTTPError
+- 2024/6 município 130270: HTTPError
+- 2024/6 município 130290: HTTPError
+- 2024/6 município 130300: HTTPError
+- 2024/6 município 130320: HTTPError
+- 2024/6 município 130340: HTTPError
+- 2024/6 município 130353: HTTPError
+- 2024/6 município 130356: HTTPError
+- 2024/6 município 130360: HTTPError
+- 2024/6 município 130400: HTTPError
+- 2024/6 município 130380: HTTPError
+- 2024/6 município 130390: HTTPError
+- 2024/6 município 130395: HTTPError
+- 2024/6 município 130406: HTTPError
+- 2024/6 município 130420: HTTPError
+- 2024/6 município 130423: HTTPError
+- 2024/6 município 130426: HTTPError
+- 2024/6 município 130440: HTTPError
+- 2025/1 município 130002: HTTPError
+- 2025/1 município 130110: HTTPError
+- 2025/1 município 130360: HTTPError
+- 2025/1 município 130370: HTTPError
+- 2025/1 município 130395: HTTPError
+- 2025/1 município 130410: HTTPError
+- 2025/1 município 130420: HTTPError
+- 2025/1 município 130423: HTTPError
+- 2025/2 município 130002: HTTPError
+- 2025/2 município 130110: HTTPError
+- 2025/2 município 130360: HTTPError
+- 2025/2 município 130370: HTTPError
+- 2025/2 município 130395: HTTPError
+- 2025/2 município 130410: HTTPError
+- 2025/2 município 130420: HTTPError
+- 2025/2 município 130423: HTTPError
+- 2025/3 município 130002: HTTPError
+- 2025/3 município 130110: HTTPError
+- 2025/3 município 130360: HTTPError
+- 2025/3 município 130370: HTTPError
+- 2025/3 município 130395: HTTPError
+- 2025/3 município 130410: HTTPError
+- 2025/3 município 130420: HTTPError
+- 2025/3 município 130423: HTTPError
+- 2025/4 município 130002: HTTPError
+- 2025/4 município 130110: HTTPError
+- 2025/4 município 130360: HTTPError
+- 2025/4 município 130370: HTTPError
+- 2025/4 município 130395: HTTPError
+- 2025/4 município 130410: HTTPError
+- 2025/4 município 130420: HTTPError
+- 2025/4 município 130423: HTTPError
+- 2025/5 município 130002: HTTPError
+- 2025/5 município 130110: HTTPError
+- 2025/5 município 130360: HTTPError
+- 2025/5 município 130370: HTTPError
+- 2025/5 município 130395: HTTPError
+- 2025/5 município 130410: HTTPError
+- 2025/5 município 130420: HTTPError
+- 2025/5 município 130423: HTTPError
+- 2025/6 município 130002: HTTPError
+- 2025/6 município 130110: HTTPError
+- 2025/6 município 130360: HTTPError
+- 2025/6 município 130370: HTTPError
+- 2025/6 município 130395: HTTPError
+- 2025/6 município 130410: HTTPError
+- 2025/6 município 130420: HTTPError
+- 2025/6 município 130423: HTTPError
+- 2026/1 município 130420: HTTPError
+- 2026/2 município 130420: HTTPError
+- 2026/3 município 130420: HTTPError
+- 2026/5: sem resposta
+- 2026/6: sem resposta
