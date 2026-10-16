@@ -1,4 +1,4 @@
-# Integridade — prefeito declarado ao SIOPE (gerado em 16/10/2026 17:28)
+# Integridade — prefeito declarado ao SIOPE (gerado em 16/10/2026 19:04)
 
 - Linhas: 3718
 - Checagens: **17 de 19 passaram**

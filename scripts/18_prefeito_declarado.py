@@ -90,7 +90,8 @@ def responsaveis(a, p, muns):
     for c in muns:
         u = API.format(a=a, p=p).replace("$filter=TIP_RESP%20eq%20'P'", f"$filter=COD_MUNI%20eq%20{c}%20and%20TIP_RESP%20eq%20'P'")
         try:
-            v += rede.get_json(u, tentativas=3)["value"]  # o que falhar não fica no cache: rodar de novo repete só as falhas
+            # 1 tentativa: o 500 do FNDE é fixo por município/ano (ex.: Anamã falha nos 6 bimestres de 2024, testado em 16/10/2026)
+            v += rede.get_json(u, tentativas=1)["value"]  # o que falhar não fica no cache: rodar de novo repete só as falhas
         except Exception as e:
             falhas.append(f"{a}/{p} município {c}: {e.__class__.__name__}")
     return v, falhas
