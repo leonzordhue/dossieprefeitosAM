@@ -46,7 +46,8 @@ def get(url, tentativas=5, cache=True, data=None):
             time.sleep(3 * 2 ** i)
     if cache:
         os.makedirs(CACHE, exist_ok=True)
-        open(arq, "wb").write(dados)
+        open(arq + ".tmp", "wb").write(dados)
+        os.replace(arq + ".tmp", arq)  # atômico: queda no meio da gravação não deixa resposta cortada no cache
     return dados
 
 

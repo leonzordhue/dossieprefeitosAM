@@ -3,13 +3,20 @@
 Fontes (API do SICONFI, Tesouro Nacional — https://apidatalake.tesouro.gov.br/ords/siconfi/tt/):
   - MSC (Matriz de Saldos Contábeis), msc_orcamentaria, matriz MSCC, classe 6, saldo final de dezembro (ending_balance):
     soma das contas 6.2.2.1.3.xx (crédito empenhado, em todos os estágios: a liquidar, liquidado, pago) por poder/órgão.
-    poder_orgao 1xxxx = Executivo (Prefeitura e entidades), 2xxxx = Legislativo (Câmara). A MSC existe a partir de 2018.
+    poder_orgao 1xxxx = Executivo (Prefeitura e entidades), 2xxxx = Legislativo (Câmara). Para municípios do AM a API só
+    tem MSC a partir de 2019 (2018 veio vazio para os 62).
+    Muitos municípios mandam o saldo de dezembro sem acumular o ano (ex.: Anamã 2025: saldo de R$ 19 mi, DCA R$ 86 mi).
+    Quando o saldo de dezembro não confere com a DCA, usa-se a soma dos movimentos dos 12 meses (period_change, C − D),
+    que fechou no real em Anamã 2025 (83.261.256 + 2.688.774 = 85.950.030).
   - RGF Anexo 1 do Poder Legislativo (co_poder=L): despesa total com pessoal da Câmara e % da RCL (LRF art. 20, III, a:
     limite de 6% para o Legislativo municipal). Quadrimestral (3º) ou semestral (2º, "RGF Simplificado").
 Limite de gasto total da Câmara (CF art. 29-A) não é calculado: a base (receita tributária + transferências do ano
 anterior) não está nessas fontes.
-Conferência: Executivo (MSC) deve bater com a despesa empenhada da DCA (dados/indicadores/financas.csv) — mesma fonte,
-outro demonstrativo.
+Conferência: Executivo + Legislativo (MSC) deve bater (±3%) com a despesa empenhada da DCA (dados/indicadores/financas.csv),
+que é consolidada e inclui a Câmara. Coluna msc_confere: "saldo dez" ou "soma mensal" (conferiu), "sem DCA" (sem como
+conferir; publicado com aviso), "não" (não conferiu: o valor da Câmara NÃO é publicado e vira alerta).
+Câmara sem lançamento próprio na MSC (poder_orgao 2 ausente ou zero) fica em branco, nunca R$ 0.
+Empenhado da Câmara menor que o pessoal dela no RGF (impossível: a folha é parte do empenhado) também fica em branco.
 
 Saídas: dados/indicadores/camaras_financas.csv, dados/integridade/22_camaras_financas.md
 Uso: python -I scripts/22_camaras_financas.py   (~1 requisição/s; respostas em dados/brutos/cache_http)
@@ -27,7 +34,7 @@ import rede  # noqa: E402
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DADOS = os.path.join(BASE_DIR, "dados")
 API = "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/"
-ANOS_MSC = range(2018, datetime.now().year)
+ANOS_MSC = range(2019, datetime.now().year)
 ANOS_RGF = range(2014, datetime.now().year)
 
 
@@ -44,6 +51,20 @@ def consulta(caminho):
         off += len(d["items"])
 
 
+def msc(cod, a, tv):
+    """Empenhado por poder ('1' Executivo, '2' Legislativo) no ano: saldo de dezembro ou soma dos 12 movimentos mensais."""
+    emp, url = defaultdict(float), ""
+    for me in ([12] if tv == "ending_balance" else range(1, 13)):
+        itens, url = consulta(f"msc_orcamentaria?id_ente={cod}&an_referencia={a}&me_referencia={me}&co_tipo_matriz=MSCC&classe_conta=6&id_tv={tv}")
+        for x in itens:
+            if str(x["conta_contabil"])[:5] == "62213":
+                sinal = 1 if tv == "ending_balance" or x["natureza_conta"] == "C" else -1
+                emp[str(x["poder_orgao"])[0]] += sinal * (x["valor"] or 0)
+        if tv == "ending_balance" and not itens:
+            return None, url, ""
+    return (emp if emp else None), url.replace("me_referencia=12", "me_referencia=1..12") if tv == "period_change" else url, "saldo dez"
+
+
 def main():
     muns = list(csv.DictReader(open(os.path.join(DADOS, "municipios.csv"), encoding="utf-8")))
     fin = {(r["cod_ibge"], int(r["ano"])): r for r in csv.DictReader(open(os.path.join(DADOS, "indicadores", "financas.csv"), encoding="utf-8"))}
@@ -52,22 +73,28 @@ def main():
         cod = m["cod_ibge"]
         for a in sorted(set(ANOS_MSC) | set(ANOS_RGF)):
             lin = {"cod_ibge": cod, "municipio": m["municipio"], "ano": a, "camara_empenhado": "", "executivo_empenhado": "",
-                   "camara_pessoal": "", "camara_pessoal_pct_rcl": "", "fonte_msc": "", "fonte_rgf": ""}
+                   "camara_pessoal": "", "camara_pessoal_pct_rcl": "", "msc_confere": "", "fonte_msc": "", "fonte_rgf": ""}
             if a in ANOS_MSC:
-                itens, url = consulta(f"msc_orcamentaria?id_ente={cod}&an_referencia={a}&me_referencia=12&co_tipo_matriz=MSCC&classe_conta=6&id_tv=ending_balance")
-                emp = defaultdict(float)
-                for x in itens:
-                    if str(x["conta_contabil"]).startswith("6221") and str(x["conta_contabil"])[:5] == "62213":
-                        emp[str(x["poder_orgao"])[0]] += x["valor"] or 0
-                if itens:
-                    lin.update(camara_empenhado=round(emp["2"], 2), executivo_empenhado=round(emp["1"], 2), fonte_msc=url)
-                    dca = fin.get((cod, a), {}).get("despesa_empenhada")
-                    if dca and emp["1"]:
+                dca = fin.get((cod, a), {}).get("despesa_empenhada")
+                dca = float(dca) if dca else None
+                emp, url, modo = msc(cod, a, "ending_balance")
+                if emp and dca and abs(emp["1"] + emp["2"] - dca) / dca > 0.03:
+                    emp2, url2, _ = msc(cod, a, "period_change")
+                    if emp2:
+                        emp, url, modo = emp2, url2, "soma mensal"
+                if emp:
+                    tot = emp["1"] + emp["2"]
+                    ok_ = dca is None or abs(tot - dca) / dca <= 0.03
+                    lin.update(executivo_empenhado=round(emp["1"], 2), fonte_msc=url,
+                               msc_confere=("sem DCA" if dca is None else modo if ok_ else "não"),
+                               # Câmara = 0 na MSC é "não informada à parte" (o Executivo leva tudo), não gasto zero
+                               camara_empenhado=round(emp["2"], 2) if ok_ and emp["2"] else "")
+                    if dca:
                         compara += 1
-                        d = abs(emp["1"] - float(dca)) / float(dca)
-                        confere += d <= 0.03
-                        if d > 0.03:
-                            alertas.append(f"{a} {m['municipio']}: Executivo na MSC R$ {emp['1']:,.0f} ≠ DCA R$ {float(dca):,.0f} ({100 * d:.1f}%)")
+                        confere += ok_
+                        if not ok_:
+                            alertas.append(f"{a} {m['municipio']}: MSC (Executivo + Câmara) R$ {tot:,.0f} ≠ DCA R$ {dca:,.0f} "
+                                           f"({100 * abs(tot - dca) / dca:.1f}%); gasto da Câmara não publicado")
             if a in ANOS_RGF:
                 for per, tipo, dem in ((3, "Q", "RGF"), (2, "S", "RGF%20Simplificado"), (2, "S", "RGF"), (3, "Q", "RGF%20Simplificado")):
                     itens, url = consulta(f"rgf?an_exercicio={a}&in_periodicidade={tipo}&nr_periodo={per}&co_tipo_demonstrativo={dem}&co_poder=L&id_ente={cod}")
@@ -80,10 +107,15 @@ def main():
                     pct = v("DespesaComPessoalTotal", True)
                     if pct and pct > 6:
                         alertas.append(f"{a} {m['municipio']}: pessoal da Câmara {pct}% da RCL, acima do limite de 6% (LRF art. 20, III, a)")
+            # o empenhado da Câmara inclui a folha dela: se vier menor que o pessoal do RGF, a divisão Executivo/Câmara da MSC está errada
+            if lin["camara_empenhado"] != "" and lin["camara_pessoal"] != "" and lin["camara_empenhado"] < 0.95 * lin["camara_pessoal"]:
+                alertas.append(f"{a} {m['municipio']}: empenhado da Câmara na MSC R$ {lin['camara_empenhado']:,.0f} < pessoal no RGF "
+                               f"R$ {lin['camara_pessoal']:,.0f}; gasto da Câmara não publicado")
+                lin.update(camara_empenhado="", msc_confere="não (Câmara < pessoal)")
             if lin["fonte_msc"] or lin["fonte_rgf"]:
                 linhas.append(lin)
         print(m["municipio"], flush=True)
-    checagens.append((compara and confere >= 0.9 * compara, f"Executivo na MSC = despesa empenhada da DCA (±3%): {confere} de {compara} município-anos"))
+    checagens.append((compara and confere >= 0.9 * compara, f"MSC (Executivo + Câmara) = despesa empenhada da DCA (±3%): {confere} de {compara} município-anos"))
     for a in ANOS_MSC:
         n = sum(1 for x in linhas if x["ano"] == a and x["camara_empenhado"] not in ("", 0, 0.0))
         checagens.append((n >= 50, f"{a}: {n} de 62 Câmaras com despesa na MSC"))

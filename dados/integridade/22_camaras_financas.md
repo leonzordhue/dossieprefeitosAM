@@ -1,0 +1,129 @@
+# Integridade — finanças das Câmaras (gerado em 16/10/2026 14:10)
+
+- Linhas: 587
+- Checagens: **4 de 9 passaram**
+
+- ❌ MSC (Executivo + Câmara) = despesa empenhada da DCA (±3%): 347 de 427 município-anos
+- ❌ 2019: 29 de 62 Câmaras com despesa na MSC
+- ❌ 2020: 32 de 62 Câmaras com despesa na MSC
+- ❌ 2021: 41 de 62 Câmaras com despesa na MSC
+- ❌ 2022: 40 de 62 Câmaras com despesa na MSC
+- ✅ 2023: 50 de 62 Câmaras com despesa na MSC
+- ✅ 2024: 50 de 62 Câmaras com despesa na MSC
+- ✅ 2025: 56 de 62 Câmaras com despesa na MSC
+- ✅ RGF do Legislativo: 579 de 744 Câmara-anos
+
+## Alertas
+
+- ⚠️ 2020 Alvarães: empenhado da Câmara na MSC R$ 115,119 < pessoal no RGF R$ 1,113,637; gasto da Câmara não publicado
+- ⚠️ 2022 Alvarães: MSC (Executivo + Câmara) R$ 85,768,340 ≠ DCA R$ 103,552,366 (17.2%); gasto da Câmara não publicado
+- ⚠️ 2020 Anori: MSC (Executivo + Câmara) R$ 60,604,978 ≠ DCA R$ 65,440,219 (7.4%); gasto da Câmara não publicado
+- ⚠️ 2019 Autazes: MSC (Executivo + Câmara) R$ 88,081,813 ≠ DCA R$ 92,268,371 (4.5%); gasto da Câmara não publicado
+- ⚠️ 2020 Autazes: MSC (Executivo + Câmara) R$ 77,032,380 ≠ DCA R$ 118,749,208 (35.1%); gasto da Câmara não publicado
+- ⚠️ 2022 Autazes: MSC (Executivo + Câmara) R$ 193,143,714 ≠ DCA R$ 232,271,653 (16.8%); gasto da Câmara não publicado
+- ⚠️ 2025 Autazes: MSC (Executivo + Câmara) R$ 87,743,108 ≠ DCA R$ 249,381,603 (64.8%); gasto da Câmara não publicado
+- ⚠️ 2019 Barcelos: MSC (Executivo + Câmara) R$ 48,886,643 ≠ DCA R$ 55,165,482 (11.4%); gasto da Câmara não publicado
+- ⚠️ 2022 Barcelos: MSC (Executivo + Câmara) R$ 86,497,537 ≠ DCA R$ 92,145,922 (6.1%); gasto da Câmara não publicado
+- ⚠️ 2023 Barcelos: MSC (Executivo + Câmara) R$ 45,690,518 ≠ DCA R$ 113,775,403 (59.8%); gasto da Câmara não publicado
+- ⚠️ 2024 Barcelos: MSC (Executivo + Câmara) R$ 124,876,471 ≠ DCA R$ 143,235,917 (12.8%); gasto da Câmara não publicado
+- ⚠️ 2019 Barreirinha: pessoal da Câmara 64.48% da RCL, acima do limite de 6% (LRF art. 20, III, a)
+- ⚠️ 2021 Barreirinha: MSC (Executivo + Câmara) R$ 121,569,522 ≠ DCA R$ 116,722,074 (4.2%); gasto da Câmara não publicado
+- ⚠️ 2022 Barreirinha: MSC (Executivo + Câmara) R$ 162,496,628 ≠ DCA R$ 156,088,310 (4.1%); gasto da Câmara não publicado
+- ⚠️ 2024 Barreirinha: MSC (Executivo + Câmara) R$ 204,034,473 ≠ DCA R$ 191,942,458 (6.3%); gasto da Câmara não publicado
+- ⚠️ 2021 Benjamin Constant: MSC (Executivo + Câmara) R$ 139,470,357 ≠ DCA R$ 135,177,084 (3.2%); gasto da Câmara não publicado
+- ⚠️ 2023 Benjamin Constant: pessoal da Câmara 12.53% da RCL, acima do limite de 6% (LRF art. 20, III, a)
+- ⚠️ 2025 Benjamin Constant: pessoal da Câmara 14.11% da RCL, acima do limite de 6% (LRF art. 20, III, a)
+- ⚠️ 2019 Beruri: MSC (Executivo + Câmara) R$ 51,429,928 ≠ DCA R$ 49,809,972 (3.3%); gasto da Câmara não publicado
+- ⚠️ 2019 Boca do Acre: empenhado da Câmara na MSC R$ 937,844 < pessoal no RGF R$ 1,682,506; gasto da Câmara não publicado
+- ⚠️ 2020 Boca do Acre: MSC (Executivo + Câmara) R$ 81,523,913 ≠ DCA R$ 78,859,403 (3.4%); gasto da Câmara não publicado
+- ⚠️ 2024 Borba: MSC (Executivo + Câmara) R$ 175,575,921 ≠ DCA R$ 168,852,812 (4.0%); gasto da Câmara não publicado
+- ⚠️ 2023 Caapiranga: MSC (Executivo + Câmara) R$ 59,835,260 ≠ DCA R$ 85,505,165 (30.0%); gasto da Câmara não publicado
+- ⚠️ 2021 Canutama: empenhado da Câmara na MSC R$ 117,405 < pessoal no RGF R$ 1,242,424; gasto da Câmara não publicado
+- ⚠️ 2019 Carauari: MSC (Executivo + Câmara) R$ 78,793,551 ≠ DCA R$ 76,169,583 (3.4%); gasto da Câmara não publicado
+- ⚠️ 2017 Coari: pessoal da Câmara 70.75% da RCL, acima do limite de 6% (LRF art. 20, III, a)
+- ⚠️ 2021 Coari: pessoal da Câmara 9.44% da RCL, acima do limite de 6% (LRF art. 20, III, a)
+- ⚠️ 2021 Coari: empenhado da Câmara na MSC R$ 3,422,537 < pessoal no RGF R$ 7,493,737; gasto da Câmara não publicado
+- ⚠️ 2022 Codajás: MSC (Executivo + Câmara) R$ 88,866,179 ≠ DCA R$ 92,491,882 (3.9%); gasto da Câmara não publicado
+- ⚠️ 2021 Guajará: empenhado da Câmara na MSC R$ 451,207 < pessoal no RGF R$ 729,977; gasto da Câmara não publicado
+- ⚠️ 2017 Humaitá: pessoal da Câmara 60.52% da RCL, acima do limite de 6% (LRF art. 20, III, a)
+- ⚠️ 2018 Humaitá: pessoal da Câmara 61.3% da RCL, acima do limite de 6% (LRF art. 20, III, a)
+- ⚠️ 2019 Humaitá: MSC (Executivo + Câmara) R$ 123,728,853 ≠ DCA R$ 117,794,423 (5.0%); gasto da Câmara não publicado
+- ⚠️ 2020 Humaitá: MSC (Executivo + Câmara) R$ 130,958,398 ≠ DCA R$ 126,407,310 (3.6%); gasto da Câmara não publicado
+- ⚠️ 2021 Humaitá: MSC (Executivo + Câmara) R$ 123,819,958 ≠ DCA R$ 146,310,973 (15.4%); gasto da Câmara não publicado
+- ⚠️ 2021 Humaitá: pessoal da Câmara 60.41% da RCL, acima do limite de 6% (LRF art. 20, III, a)
+- ⚠️ 2022 Humaitá: MSC (Executivo + Câmara) R$ 202,860,155 ≠ DCA R$ 231,314,816 (12.3%); gasto da Câmara não publicado
+- ⚠️ 2019 Iranduba: MSC (Executivo + Câmara) R$ 126,066,929 ≠ DCA R$ 121,093,823 (4.1%); gasto da Câmara não publicado
+- ⚠️ 2019 Iranduba: pessoal da Câmara 131.78% da RCL, acima do limite de 6% (LRF art. 20, III, a)
+- ⚠️ 2020 Iranduba: MSC (Executivo + Câmara) R$ 143,170,726 ≠ DCA R$ 135,497,576 (5.7%); gasto da Câmara não publicado
+- ⚠️ 2020 Iranduba: pessoal da Câmara 84.02% da RCL, acima do limite de 6% (LRF art. 20, III, a)
+- ⚠️ 2022 Iranduba: empenhado da Câmara na MSC R$ 319,372 < pessoal no RGF R$ 2,900,677; gasto da Câmara não publicado
+- ⚠️ 2024 Iranduba: MSC (Executivo + Câmara) R$ 268,543,428 ≠ DCA R$ 259,263,136 (3.6%); gasto da Câmara não publicado
+- ⚠️ 2022 Itacoatiara: MSC (Executivo + Câmara) R$ 396,527,400 ≠ DCA R$ 379,825,156 (4.4%); gasto da Câmara não publicado
+- ⚠️ 2023 Itacoatiara: empenhado da Câmara na MSC R$ 4,256,474 < pessoal no RGF R$ 6,902,927; gasto da Câmara não publicado
+- ⚠️ 2024 Itacoatiara: MSC (Executivo + Câmara) R$ 468,554,515 ≠ DCA R$ 504,725,715 (7.2%); gasto da Câmara não publicado
+- ⚠️ 2025 Itacoatiara: MSC (Executivo + Câmara) R$ 565,254,394 ≠ DCA R$ 543,086,885 (4.1%); gasto da Câmara não publicado
+- ⚠️ 2019 Juruá: MSC (Executivo + Câmara) R$ 46,057,096 ≠ DCA R$ 41,747,490 (10.3%); gasto da Câmara não publicado
+- ⚠️ 2019 Jutaí: MSC (Executivo + Câmara) R$ 60,895,657 ≠ DCA R$ 66,220,302 (8.0%); gasto da Câmara não publicado
+- ⚠️ 2020 Jutaí: MSC (Executivo + Câmara) R$ 71,299,627 ≠ DCA R$ 79,382,047 (10.2%); gasto da Câmara não publicado
+- ⚠️ 2016 Lábrea: pessoal da Câmara 1447541.76% da RCL, acima do limite de 6% (LRF art. 20, III, a)
+- ⚠️ 2019 Lábrea: empenhado da Câmara na MSC R$ 1,416,701 < pessoal no RGF R$ 1,870,831; gasto da Câmara não publicado
+- ⚠️ 2020 Lábrea: MSC (Executivo + Câmara) R$ 26,419,563 ≠ DCA R$ 119,130,037 (77.8%); gasto da Câmara não publicado
+- ⚠️ 2021 Lábrea: MSC (Executivo + Câmara) R$ 26,419,563 ≠ DCA R$ 144,462,962 (81.7%); gasto da Câmara não publicado
+- ⚠️ 2022 Lábrea: MSC (Executivo + Câmara) R$ 132,324,051 ≠ DCA R$ 177,752,686 (25.6%); gasto da Câmara não publicado
+- ⚠️ 2023 Lábrea: MSC (Executivo + Câmara) R$ 132,324,051 ≠ DCA R$ 190,476,333 (30.5%); gasto da Câmara não publicado
+- ⚠️ 2024 Lábrea: MSC (Executivo + Câmara) R$ 174,701,226 ≠ DCA R$ 96,393,185 (81.2%); gasto da Câmara não publicado
+- ⚠️ 2019 Manacapuru: MSC (Executivo + Câmara) R$ 224,919,031 ≠ DCA R$ 217,289,822 (3.5%); gasto da Câmara não publicado
+- ⚠️ 2022 Manacapuru: MSC (Executivo + Câmara) R$ 335,034,365 ≠ DCA R$ 403,949,015 (17.1%); gasto da Câmara não publicado
+- ⚠️ 2019 Manaquiri: MSC (Executivo + Câmara) R$ 58,851,374 ≠ DCA R$ 57,125,709 (3.0%); gasto da Câmara não publicado
+- ⚠️ 2019 Manaus: MSC (Executivo + Câmara) R$ 6,119,949,194 ≠ DCA R$ 5,446,499,554 (12.4%); gasto da Câmara não publicado
+- ⚠️ 2020 Manaus: MSC (Executivo + Câmara) R$ 7,169,485,104 ≠ DCA R$ 6,286,835,765 (14.0%); gasto da Câmara não publicado
+- ⚠️ 2021 Manaus: MSC (Executivo + Câmara) R$ 6,870,786,975 ≠ DCA R$ 6,194,341,887 (10.9%); gasto da Câmara não publicado
+- ⚠️ 2022 Manaus: MSC (Executivo + Câmara) R$ 8,163,783,716 ≠ DCA R$ 7,816,691,033 (4.4%); gasto da Câmara não publicado
+- ⚠️ 2023 Manaus: MSC (Executivo + Câmara) R$ 9,209,003,773 ≠ DCA R$ 8,873,145,186 (3.8%); gasto da Câmara não publicado
+- ⚠️ 2024 Manaus: MSC (Executivo + Câmara) R$ 10,739,490,978 ≠ DCA R$ 10,303,853,473 (4.2%); gasto da Câmara não publicado
+- ⚠️ 2025 Manaus: MSC (Executivo + Câmara) R$ 11,170,457,274 ≠ DCA R$ 10,706,228,385 (4.3%); gasto da Câmara não publicado
+- ⚠️ 2019 Manicoré: pessoal da Câmara 66.71% da RCL, acima do limite de 6% (LRF art. 20, III, a)
+- ⚠️ 2021 Manicoré: MSC (Executivo + Câmara) R$ 125,147,988 ≠ DCA R$ 138,894,808 (9.9%); gasto da Câmara não publicado
+- ⚠️ 2022 Manicoré: MSC (Executivo + Câmara) R$ 232,034,933 ≠ DCA R$ 240,349,931 (3.5%); gasto da Câmara não publicado
+- ⚠️ 2023 Manicoré: MSC (Executivo + Câmara) R$ 279,973,662 ≠ DCA R$ 270,544,945 (3.5%); gasto da Câmara não publicado
+- ⚠️ 2019 Maués: MSC (Executivo + Câmara) R$ 184,723,109 ≠ DCA R$ 173,852,507 (6.3%); gasto da Câmara não publicado
+- ⚠️ 2019 Maués: pessoal da Câmara 53.9% da RCL, acima do limite de 6% (LRF art. 20, III, a)
+- ⚠️ 2020 Maués: MSC (Executivo + Câmara) R$ 213,000,735 ≠ DCA R$ 203,227,658 (4.8%); gasto da Câmara não publicado
+- ⚠️ 2020 Maués: pessoal da Câmara 55.87% da RCL, acima do limite de 6% (LRF art. 20, III, a)
+- ⚠️ 2021 Maués: MSC (Executivo + Câmara) R$ 212,316,670 ≠ DCA R$ 202,356,327 (4.9%); gasto da Câmara não publicado
+- ⚠️ 2022 Maués: MSC (Executivo + Câmara) R$ 310,416,891 ≠ DCA R$ 296,532,595 (4.7%); gasto da Câmara não publicado
+- ⚠️ 2023 Maués: MSC (Executivo + Câmara) R$ 283,041,009 ≠ DCA R$ 299,199,095 (5.4%); gasto da Câmara não publicado
+- ⚠️ 2021 Nhamundá: MSC (Executivo + Câmara) R$ 44,813,785 ≠ DCA R$ 71,985,724 (37.7%); gasto da Câmara não publicado
+- ⚠️ 2020 Novo Airão: pessoal da Câmara 53.82% da RCL, acima do limite de 6% (LRF art. 20, III, a)
+- ⚠️ 2021 Novo Airão: MSC (Executivo + Câmara) R$ 29,162,014 ≠ DCA R$ 62,633,100 (53.4%); gasto da Câmara não publicado
+- ⚠️ 2021 Novo Airão: pessoal da Câmara 59.89% da RCL, acima do limite de 6% (LRF art. 20, III, a)
+- ⚠️ 2023 Novo Aripuanã: MSC (Executivo + Câmara) R$ 87,009,780 ≠ DCA R$ 89,982,445 (3.3%); gasto da Câmara não publicado
+- ⚠️ 2019 Pauini: MSC (Executivo + Câmara) R$ 45,119,396 ≠ DCA R$ 43,286,625 (4.2%); gasto da Câmara não publicado
+- ⚠️ 2022 Pauini: MSC (Executivo + Câmara) R$ 58,062,738 ≠ DCA R$ 81,575,595 (28.8%); gasto da Câmara não publicado
+- ⚠️ 2025 Pauini: empenhado da Câmara na MSC R$ 1,579,182 < pessoal no RGF R$ 2,563,403; gasto da Câmara não publicado
+- ⚠️ 2019 Presidente Figueiredo: MSC (Executivo + Câmara) R$ 182,540,686 ≠ DCA R$ 174,377,216 (4.7%); gasto da Câmara não publicado
+- ⚠️ 2020 Presidente Figueiredo: MSC (Executivo + Câmara) R$ 211,405,973 ≠ DCA R$ 202,508,196 (4.4%); gasto da Câmara não publicado
+- ⚠️ 2021 Presidente Figueiredo: MSC (Executivo + Câmara) R$ 236,874,295 ≠ DCA R$ 227,515,602 (4.1%); gasto da Câmara não publicado
+- ⚠️ 2022 Presidente Figueiredo: MSC (Executivo + Câmara) R$ 292,011,072 ≠ DCA R$ 282,250,772 (3.5%); gasto da Câmara não publicado
+- ⚠️ 2025 Presidente Figueiredo: MSC (Executivo + Câmara) R$ 360,582,532 ≠ DCA R$ 346,512,517 (4.1%); gasto da Câmara não publicado
+- ⚠️ 2021 Santa Isabel do Rio Negro: empenhado da Câmara na MSC R$ 839,683 < pessoal no RGF R$ 1,445,964; gasto da Câmara não publicado
+- ⚠️ 2019 Santo Antônio do Içá: MSC (Executivo + Câmara) R$ 41,038,879 ≠ DCA R$ 73,574,325 (44.2%); gasto da Câmara não publicado
+- ⚠️ 2020 Santo Antônio do Içá: MSC (Executivo + Câmara) R$ 6,214,984 ≠ DCA R$ 91,961,186 (93.2%); gasto da Câmara não publicado
+- ⚠️ 2022 Santo Antônio do Içá: empenhado da Câmara na MSC R$ 1,449,151 < pessoal no RGF R$ 2,042,976; gasto da Câmara não publicado
+- ⚠️ 2018 São Paulo de Olivença: pessoal da Câmara 59.59% da RCL, acima do limite de 6% (LRF art. 20, III, a)
+- ⚠️ 2019 São Paulo de Olivença: pessoal da Câmara 69.02% da RCL, acima do limite de 6% (LRF art. 20, III, a)
+- ⚠️ 2020 São Paulo de Olivença: pessoal da Câmara 48.85% da RCL, acima do limite de 6% (LRF art. 20, III, a)
+- ⚠️ 2024 São Paulo de Olivença: MSC (Executivo + Câmara) R$ 81,809,861 ≠ DCA R$ 237,104,474 (65.5%); gasto da Câmara não publicado
+- ⚠️ 2018 Tabatinga: pessoal da Câmara 60.49% da RCL, acima do limite de 6% (LRF art. 20, III, a)
+- ⚠️ 2020 Tabatinga: MSC (Executivo + Câmara) R$ 69,415,567 ≠ DCA R$ 174,741,508 (60.3%); gasto da Câmara não publicado
+- ⚠️ 2022 Tabatinga: MSC (Executivo + Câmara) R$ 103,889,901 ≠ DCA R$ 256,128,417 (59.4%); gasto da Câmara não publicado
+- ⚠️ 2023 Tabatinga: MSC (Executivo + Câmara) R$ 232,418,139 ≠ DCA R$ 292,022,129 (20.4%); gasto da Câmara não publicado
+- ⚠️ 2019 Tapauá: MSC (Executivo + Câmara) R$ 122,234,749 ≠ DCA R$ 62,701,490 (94.9%); gasto da Câmara não publicado
+- ⚠️ 2020 Tapauá: MSC (Executivo + Câmara) R$ 77,037,382 ≠ DCA R$ 66,337,266 (16.1%); gasto da Câmara não publicado
+- ⚠️ 2022 Tapauá: MSC (Executivo + Câmara) R$ 100,838,223 ≠ DCA R$ 120,459,681 (16.3%); gasto da Câmara não publicado
+- ⚠️ 2019 Tefé: pessoal da Câmara 63.65% da RCL, acima do limite de 6% (LRF art. 20, III, a)
+- ⚠️ 2020 Uarini: MSC (Executivo + Câmara) R$ 50,599,621 ≠ DCA R$ 54,350,736 (6.9%); gasto da Câmara não publicado
+- ⚠️ 2023 Uarini: MSC (Executivo + Câmara) R$ 63,453,054 ≠ DCA R$ 85,326,765 (25.6%); gasto da Câmara não publicado
+- ⚠️ 2019 Urucurituba: MSC (Executivo + Câmara) R$ 45,186,791 ≠ DCA R$ 55,391,149 (18.4%); gasto da Câmara não publicado
+- ⚠️ 2020 Urucurituba: MSC (Executivo + Câmara) R$ 66,547,381 ≠ DCA R$ 72,688,615 (8.4%); gasto da Câmara não publicado
+- ⚠️ 2022 Urucurituba: MSC (Executivo + Câmara) R$ 111,651,695 ≠ DCA R$ 107,773,559 (3.6%); gasto da Câmara não publicado

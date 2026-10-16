@@ -31,7 +31,7 @@ Compilação, a partir de fontes públicas oficiais, de quem governou e legislou
 | Decisões do TCE-AM desde 2016 em que prefeito/vice é parte (termos: irregular, multa, alcance, ato ilegal) | `19_tceam_decisoes.py` | API de jurisprudência do TCE-AM | ✅ classificação automática; PDF oficial junto |
 | Câmaras no SAPL: vereadores, matérias e autoria, normas, votações, votos nominais, Mesa Diretora (12 Câmaras) | `20_sapl.py` | SAPL/Interlegis de cada Câmara | ✅ |
 | Quanto cada prefeito arrecadou e gastou na gestão (R$ corrigidos pelo IPCA) | `21_gestoes.py` | série de `11_financas.py` + IPCA/IBGE | ✅ |
-| Gastos das Câmaras: despesa empenhada (MSC, 2018+) e pessoal do Legislativo (RGF, 2014+) | `22_camaras_financas.py` | SICONFI | ✅ |
+| Gastos das Câmaras: despesa empenhada (MSC, 2019+, só onde Executivo + Câmara confere com a DCA) e pessoal do Legislativo (RGF, 2014+) | `22_camaras_financas.py` | SICONFI | ✅ |
 
 ## Dados (`dados/`)
 
