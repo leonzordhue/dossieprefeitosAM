@@ -26,14 +26,15 @@ def esquecer(url):
         os.remove(arq)
 
 
-def get(url, tentativas=5, cache=True):
-    """Bytes da URL. Com cache=True, a resposta fica gravada e é reutilizada (a URL é a chave)."""
-    arq = os.path.join(CACHE, hashlib.sha1(url.encode()).hexdigest()[:20])
+def get(url, tentativas=5, cache=True, data=None):
+    """Bytes da URL. Com cache=True, a resposta fica gravada e é reutilizada (a URL é a chave; num POST, URL + corpo).
+    data (bytes) faz POST de formulário."""
+    arq = os.path.join(CACHE, hashlib.sha1(url.encode() + (b"\n" + data if data else b"")).hexdigest()[:20])
     if cache and os.path.exists(arq):
         return open(arq, "rb").read()
     for i in range(tentativas):
         try:
-            req = urllib.request.Request(url, headers={"Accept-Encoding": "gzip", "User-Agent": "dossieprefeitosAM/1.0"})
+            req = urllib.request.Request(url, data=data, headers={"Accept-Encoding": "gzip", "User-Agent": "dossieprefeitosAM/1.0"})
             with urllib.request.urlopen(req, timeout=120) as r:
                 dados = r.read()
                 if r.headers.get("Content-Encoding") == "gzip" or dados[:2] == b"\x1f\x8b":

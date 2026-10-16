@@ -22,9 +22,16 @@ Compilação, a partir de fontes públicas oficiais, de quem governou e legislou
 | Emendas parlamentares pagas às prefeituras (2014+) | `10_emendas.py` | CGU | ✅ |
 | Mínimos da educação: MDE 25%, FUNDEB (2017–2025) | `12_siope.py` | SIOPE/FNDE | ✅ |
 | Inabilitados pelo TCU (ligação só por CPF) | `13_tcu.py` | TCU | ✅ |
-| Mínimo da saúde (15%) | — | SIOPS | ⏳ sem API aberta localizada |
-| Contas julgadas pelo TCE-AM, cassações, quem governou de fato | — | TCE-AM, TRE-AM, Câmaras | ⏳ |
-| IDHM | — | Atlas Brasil | ⏳ |
+| Mínimo da saúde: % da receita própria em saúde (15%) e R$/hab. (2002–2025) | `14_siops.py` | SIOPS/MS (relatório de indicadores municipais) | ✅ |
+| IDHM e dimensões (1991, 2000, 2010) | `15_idhm.py` | Atlas do Desenvolvimento Humano via Ipeadata | ✅ |
+| Fundamentos de julgamento da candidatura (indeferimento, cassação) 2016–2024 | `16_julgamentos.py` | TSE motivo_cassacao | ✅ |
+| Contas julgadas irregulares pelo TCE-AM (relações 2022–2026; ligação por CPF + nome) | `17_tceam.py` | TCE-AM | ✅ |
+| Quem governou de fato: suplementares | `02_mandatos.py` | TSE | ✅ |
+| Prefeito declarado pela prefeitura × eleito no TSE (sinal de interino/sucessão), 2008–2023 | `18_prefeito_declarado.py` | SIOPE/FNDE (responsáveis) | ✅ sinal a conferir, não prova |
+| Decisões do TCE-AM desde 2016 em que prefeito/vice é parte (termos: irregular, multa, alcance, ato ilegal) | `19_tceam_decisoes.py` | API de jurisprudência do TCE-AM | ✅ classificação automática; PDF oficial junto |
+| Câmaras no SAPL: vereadores, matérias e autoria, normas, votações, votos nominais, Mesa Diretora (12 Câmaras) | `20_sapl.py` | SAPL/Interlegis de cada Câmara | ✅ |
+| Quanto cada prefeito arrecadou e gastou na gestão (R$ corrigidos pelo IPCA) | `21_gestoes.py` | série de `11_financas.py` + IPCA/IBGE | ✅ |
+| Gastos das Câmaras: despesa empenhada (MSC, 2018+) e pessoal do Legislativo (RGF, 2014+) | `22_camaras_financas.py` | SICONFI | ✅ |
 
 ## Dados (`dados/`)
 
@@ -49,6 +56,6 @@ Compilação, a partir de fontes públicas oficiais, de quem governou e legislou
 ```
 python -I scripts/01_tse_baixar.py && python -I scripts/02_mandatos.py && python -I scripts/05_vereadores.py && python -I scripts/07_fotos.py
 python -I scripts/03_siconfi.py && python -I scripts/04_finbra.py && python -I scripts/08_ibge.py && python -I scripts/11_financas.py
-python -I scripts/06_bens.py && python -I scripts/09_ideb.py && python -I scripts/10_emendas.py && python -I scripts/12_siope.py && python -I scripts/13_tcu.py
+python -I scripts/06_bens.py && python -I scripts/09_ideb.py && python -I scripts/10_emendas.py && python -I scripts/12_siope.py && python -I scripts/13_tcu.py && python -I scripts/14_siops.py && python -I scripts/15_idhm.py && python -I scripts/16_julgamentos.py && python -I scripts/17_tceam.py && python -I scripts/18_prefeito_declarado.py && python -I scripts/19_tceam_decisoes.py && python -I scripts/20_sapl.py && python -I scripts/21_gestoes.py && python -I scripts/22_camaras_financas.py
 ```
 A ordem 02 → 05 → 07 importa, porque os três escrevem em `pessoas.csv`. Requer Python 3.12, `truststore`, `Pillow`, `openpyxl` e, para o FINBRA, `pyodbc` com o driver do Access.
