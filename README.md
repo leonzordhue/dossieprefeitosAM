@@ -40,6 +40,7 @@ Compilação, a partir de fontes públicas oficiais, de quem governou e legislou
 | Edições completas do Diário Oficial dos Municípios onde a busca do SIGPub não alcança (2009–2011 e meados de 2020–2024): quem assina como prefeito, suplentes, autorias e votações | `28_aam_edicoes.py` | PDFs das edições do AAM/SIGPub | ✅ link da edição + código identificador do ato |
 | Quem governa de fato: sucessões verificadas (renúncia, cassação, morte) em `mandatos.csv` (fim_real + linha de quem assumiu) e suplentes chamados a assumir em `mandatos_vereador.csv` | `29_sucessoes.py` | `sucessoes_verificadas.csv` (ata da Câmara/Diário Oficial) + atos de posse dos scripts 26 e 28 | ✅ data e fonte em cada linha |
 | Quem assina como prefeito hoje (últimos 120 dias) | `24_prefeito_atos_aam.py` → `quem_assina_hoje.csv` | AAM/SIGPub | ✅ |
+| Vereadores eleitos calculados pelo quociente eleitoral onde o TSE publica "#NULO#" (Novo Airão 2008) | `30_quociente.py` | votos nominais e de legenda do TSE | ⚠️ calculado, marcado como tal |
 
 ## Dados (`dados/`)
 
@@ -54,7 +55,7 @@ Compilação, a partir de fontes públicas oficiais, de quem governou e legislou
 ## Limitações conhecidas
 
 - **O TSE não registra quem governou de fato.** Os scripts 18, 24 e 25 dão sinais (prefeito declarado ao FNDE; quem assina atos no Diário Oficial), cada um com a fonte, mas a ligação do nome do ato ao candidato do TSE é por grafia e precisa de conferência humana. Posse de suplente de vereador vem dos atos das Câmaras no Diário Oficial (script 26), só onde a Câmara publicou.
-- O arquivo de candidatos do TSE é incompleto. Algumas candidaturas existem só no arquivo de votação e foram recuperadas de lá, com `origem_dado` marcada. Em Novo Airão (2008), o resultado de vereador é `#NULO` nos dois arquivos, e por isso fica como lacuna.
+- O arquivo de candidatos do TSE é incompleto. Algumas candidaturas existem só no arquivo de votação e foram recuperadas de lá, com `origem_dado` marcada. Em Novo Airão (2008), o resultado de vereador é `#NULO` nos dois arquivos; os eleitos são calculados pelo quociente eleitoral (script 30) e marcados como calculados.
 - O início de mandato por eleição suplementar usa a data da eleição (`inicio_aproximado = sim`).
 - Finanças: o que a prefeitura declarou ao Tesouro. Ano em branco significa que não declarou. Saltos bruscos aparecem como alerta, porque costumam ser declaração incompleta.
 - Participação de saúde e educação na despesa **não** é o cálculo dos mínimos constitucionais. Para a educação, use `siope.csv`. Em 2020 e 2021 vale a EC 119/2022.
@@ -65,6 +66,6 @@ Compilação, a partir de fontes públicas oficiais, de quem governou e legislou
 python -I scripts/01_tse_baixar.py && python -I scripts/02_mandatos.py && python -I scripts/05_vereadores.py && python -I scripts/07_fotos.py
 python -I scripts/03_siconfi.py && python -I scripts/04_finbra.py && python -I scripts/08_ibge.py && python -I scripts/11_financas.py
 python -I scripts/06_bens.py && python -I scripts/09_ideb.py && python -I scripts/10_emendas.py && python -I scripts/12_siope.py && python -I scripts/13_tcu.py && python -I scripts/14_siops.py && python -I scripts/15_idhm.py && python -I scripts/16_julgamentos.py && python -I scripts/17_tceam.py && python -I scripts/18_prefeito_declarado.py && python -I scripts/19_tceam_decisoes.py && python -I scripts/20_sapl.py && python -I scripts/21_gestoes.py && python -I scripts/22_camaras_financas.py
-python -I scripts/23_tceam_listas_antigas.py && python -I scripts/24_prefeito_atos_aam.py && python -I scripts/25_prefeito_atos_manaus.py && python -I scripts/26_camaras_aam.py && python -I scripts/27_camaras_votacoes.py && python -I scripts/28_aam_edicoes.py && python -I scripts/29_sucessoes.py   # 29 sempre depois de 02, 05, 26 e 28
+python -I scripts/23_tceam_listas_antigas.py && python -I scripts/24_prefeito_atos_aam.py && python -I scripts/25_prefeito_atos_manaus.py && python -I scripts/26_camaras_aam.py && python -I scripts/27_camaras_votacoes.py && python -I scripts/28_aam_edicoes.py && python -I scripts/30_quociente.py && python -I scripts/29_sucessoes.py   # 29 sempre depois de 02, 05, 26, 28 e 30
 ```
 A ordem 02 → 05 → 07 importa, porque os três escrevem em `pessoas.csv`. Requer Python 3.12, `truststore`, `Pillow`, `openpyxl` e, para o FINBRA, `pyodbc` com o driver do Access.

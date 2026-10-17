@@ -48,11 +48,12 @@ def limpa(linhas):
     """Desfaz o que uma rodada anterior escreveu."""
     out = []
     for r in linhas:
-        if MARCA in r.get("observacao", "") and r.get("origem", "").startswith(("posse", "eleição suplementar")):
+        if MARCA in r.get("observacao", "") and r.get("origem", "").startswith(("posse", "eleição suplementar", "calculado")):
             continue
         if MARCA in r.get("observacao", ""):
             r["observacao"] = r["observacao"].split(" " + MARCA)[0].split(MARCA)[0].strip()
-            r["fim_real"] = ""
+            if "fim_real" in r:  # só mandatos.csv tem a coluna
+                r["fim_real"] = ""
         out.append(r)
     return out
 
@@ -119,8 +120,30 @@ def main():
                                   + ("encerramento das atividades em ato próprio" if f else
                                      "a data é a do ato; pode ter devolvido a vaga antes do fim do mandato")))
         novos += 1
+    # eleito com situação "FALECIDO" no TSE (ex.: Envira 2000, João Moreira Farias) não tomou posse
+    falecido = {(r["cod_ibge"], r["ciclo"], r["pessoa_id"]) for r in csv.DictReader(open(os.path.join(DADOS, "candidaturas_vereador.csv"), encoding="utf-8"))
+                if r["situacao_candidatura"].upper().startswith("FALECID")}
+    n_fal = 0
+    for m in mv:
+        if (m["cod_ibge"], m["ciclo"], m["pessoa_id"]) in falecido:
+            m["resultado"] = "ELEITO (falecido; não tomou posse)"
+            m["observacao"] = (m["observacao"] + " " if m["observacao"] else "") + f"{MARCA} situação da candidatura no TSE: FALECIDO"
+            n_fal += 1
+    checagens.append((True, f"eleitos com situação FALECIDO no TSE marcados como sem posse: {n_fal}"))
+    # eleitos calculados pelo quociente onde o TSE publica "#NULO#" (script 30)
+    calc = ler("vereadores_calculados.csv")[0]
+    for r in calc:
+        if any(m["cod_ibge"] == r["cod_ibge"] and m["ciclo"] == r["ciclo"] and m["pessoa_id"] == r["pessoa_id"] for m in mv):
+            continue
+        a = int(r["ciclo"])
+        mv.append({k: "" for k in campos_v} | {"ciclo": r["ciclo"], "periodo": f"{a + 1}-{a + 4}", "cargo": "vereador", "cod_ibge": r["cod_ibge"],
+                                               "municipio": r["municipio"], "pessoa_id": r["pessoa_id"], "vereador": r["vereador"], "votos": r["votos"],
+                                               "resultado": r["resultado"], "origem": "calculado pelo quociente eleitoral", "inicio": f"{a + 1}-01-01",
+                                               "fim_previsto": f"{a + 4}-12-31", "fonte": r["fonte"],
+                                               "observacao": f"{MARCA} o TSE publica o resultado como #NULO#; calculado com os votos do TSE (script 30); conferir"})
+        novos += 1
     mv.sort(key=lambda m: (m["cod_ibge"], m["ciclo"], m["inicio"], m.get("vereador", "")))
-    checagens.append((novos > 0, f"suplentes chamados a assumir acrescentados a mandatos_vereador.csv: {novos}"))
+    checagens.append((novos > 0, f"suplentes chamados a assumir e eleitos calculados (script 30) acrescentados a mandatos_vereador.csv: {novos}"))
     grava("mandatos_vereador.csv", mv, campos_v)
 
     ok = sum(1 for o, _ in checagens if o)
