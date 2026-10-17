@@ -104,6 +104,14 @@ def baixa(ini, fim):
     return falhas
 
 
+CPF = re.compile(r"\d{3}\.?\d{3}\.?\d{3}-?\d{2}")
+
+
+def sem_cpf(t):
+    """CPF nunca é publicado (regra do dossiê): atos de nomeação trazem "SENHOR FULANO, CPF Nº ..." logo no começo."""
+    return CPF.sub("[CPF omitido]", t)
+
+
 def atos(texto):
     """(url da edição, entidade, município, código identificador, texto do ato)."""
     for parte in texto.split("@@EDICAO ")[1:]:
@@ -162,7 +170,7 @@ def main(periodos):
                 continue
             n_atos[tipo[:3]] += 1
             fonte = f"Diário Oficial dos Municípios do AM (AAM/SIGPub), edição de {iso[8:]}/{iso[5:7]}/{iso[:4]}, {url}" + (f", código identificador {cod_id}" if cod_id else "")
-            titulo = " ".join(t.split("\n")[1:3])[:160]
+            titulo = sem_cpf(" ".join(t.split("\n")[1:3])[:160])
             plano = " ".join(t.split())
             if tipo.startswith(("PREF", "MUN")):
                 vig = next((x for x in mand[cod] if x["inicio"] <= iso <= x["fim_previsto"]), None)
@@ -194,6 +202,8 @@ def main(periodos):
             w = csv.DictWriter(f, campos, extrasaction="ignore")
             w.writeheader()
             w.writerows(sorted(linhas, key=lambda r: (r["cod_ibge"], r.get("data") or r.get("data_ata", ""))))
+    for linhas_ in (pref, sup, aut, vot):  # trava: nenhum CPF sai do script (a fonte tem URL com números longos, fica de fora)
+        assert not any(CPF.search(str(v)) for r in linhas_ for k, v in r.items() if k not in ("fonte", "pessoa_id")), "CPF na saída"
     grava("prefeito_atos_aam_edicoes.csv", pref, ["cod_ibge", "data", "nome_no_ato", "condicao", "papel", "pessoa_id", "titular_tse", "titulo", "codigo", "origem", "fonte"])
     grava("camaras_edicoes_suplentes.csv", sup, ["cod_ibge", "data", "nome_no_ato", "pessoa_id", "nome_tse", "ciclo", "papel", "motivo_no_ato", "titulo", "codigo", "fonte"])
     grava("camaras_edicoes_autorias.csv", aut, ["cod_ibge", "data", "nome_no_ato", "pessoa_id", "nome_tse", "tipo", "titulo", "codigo", "fonte"])
