@@ -1,6 +1,6 @@
-# Integridade — finanças das Câmaras (gerado em 16/10/2026 19:14)
+# Integridade — finanças das Câmaras (gerado em 17/10/2026 07:56)
 
-- Linhas: 1307
+- Linhas: 1310
 - Checagens: **34 de 34 passaram**
 
 - ✅ MSC publicada só onde confere com a DCA (347 de 427 conferem; 0 publicados sem conferir)
@@ -36,7 +36,7 @@
 - ✅ 2024: 58 de 62 Câmaras com despesa na função Legislativa
 - ✅ 2025: 60 de 62 Câmaras com despesa na função Legislativa
 - ✅ Câmara na MSC × função Legislativa (±15%): 265 de 295 município-anos
-- ✅ RGF do Legislativo: 579 de 744 Câmara-anos
+- ✅ RGF do Legislativo: 594 de 744 Câmara-anos
 
 ## Alertas
 
