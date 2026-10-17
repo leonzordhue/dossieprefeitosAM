@@ -158,8 +158,9 @@ def main():
     for x, s in bate:
         if s and abs(x["camara_pessoal"] - s) / s > 0.05:
             alertas.append(f"{x['municipio']} {x['ano']}: TCE R$ {x['camara_pessoal']:,.2f} × SICONFI R$ {s:,.2f}")
+    # piso de 20% contra quebra do leitor: muitas análises antigas não trazem o quadro (lista em "Sem o quadro")
     checagens = [(len(camaras) >= 55, f"Câmaras com unidade gestora no TCE-AM: {len(camaras)}"),
-                 (len(linhas) >= 0.2 * achados,  # piso contra quebra do leitor: muitas análises antigas não trazem o quadro (lista em "Sem o quadro") f"quadro de gastos com pessoal lido em {len(linhas)} de {achados} prestações de contas eletrônicas 2013–2017"),
+                 (len(linhas) >= 0.2 * achados, f"quadro de gastos com pessoal lido em {len(linhas)} de {achados} prestações de contas eletrônicas 2013–2017"),
                  (not bate or len(ok_b) >= 0.6 * len(bate), f"TCE (GEFIS) ≈ SICONFI (±5%) onde os dois existem: {len(ok_b)} de {len(bate)}; o 22 só usa o TCE onde o SICONFI falta, com travas")]
     with open(os.path.join(DADOS, "indicadores", "camaras_rgf_tce.csv"), "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, ["cod_ibge", "municipio", "ano", "processo", "camara_pessoal", "pct_rcl", "rcl", "documento", "pagina", "fonte"])
