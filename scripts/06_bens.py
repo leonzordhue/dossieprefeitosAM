@@ -95,7 +95,8 @@ def main():
                 soma_ok[k] += v
             bens.append({"pessoa_id": p, "ano": ano, "cargo": CARGOS[c["DS_CARGO"].upper()], "cod_ibge": mun[b["SG_UE"]]["cod_ibge"],
                          "ordem": b.get("NR_ORDEM_BEM_CANDIDATO") or b.get("NR_ORDEM_CANDIDATO", ""),  # nome muda em 2020
-                         "tipo": b["DS_TIPO_BEM_CANDIDATO"], "descricao": b["DS_BEM_CANDIDATO"],
+                         # CPF de terceiro (vendedor, sócio) citado na descrição nunca é publicado
+                         "tipo": b["DS_TIPO_BEM_CANDIDATO"], "descricao": re.sub(r"\d{3}\.\d{3}\.\d{3}-\d{2}|(?i:(CPF\W{0,8}))\d{3}\.?\d{3}\.?\d{3}-?\d{2}", lambda m: (m.group(1) or "") + "[CPF omitido]", b["DS_BEM_CANDIDATO"]),
                          "valor": round(v, 2), "valor_implausivel": "sim" if imp else "", "fonte": f"TSE bem_candidato_{ano} (SQ_CANDIDATO {b['SQ_CANDIDATO']})"})
         for k, c in cand.items():
             resumo.append({"pessoa_id": hashlib.sha1(c["NR_TITULO_ELEITORAL_CANDIDATO"].encode()).hexdigest()[:10], "ano": ano,

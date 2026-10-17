@@ -104,12 +104,12 @@ def baixa(ini, fim):
     return falhas
 
 
-CPF = re.compile(r"\d{3}\.?\d{3}\.?\d{3}-?\d{2}")
+CPF = re.compile(r"\d{3}\.\d{3}\.\d{3}-\d{2}|(?i:(CPF\W{0,8}))\d{3}\.?\d{3}\.?\d{3}-?\d{2}")  # formatado, ou número logo após "CPF"
 
 
 def sem_cpf(t):
     """CPF nunca é publicado (regra do dossiê): atos de nomeação trazem "SENHOR FULANO, CPF Nº ..." logo no começo."""
-    return CPF.sub("[CPF omitido]", t)
+    return CPF.sub(lambda m: (m.group(1) or "") + "[CPF omitido]", t)
 
 
 def atos(texto):
