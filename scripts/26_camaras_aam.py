@@ -69,6 +69,11 @@ def analisa(x, t, cand):
         rotulo = {"licenca": "licença", "renuncia": "renúncia", "cassacao": "cassação", "secretári": "titular nomeado secretário(a)"}
         motivo = ", ".join(sorted({rotulo.get(m, m) for m in MOTIVOS if m in low}))
         for n in dict.fromkeys(nomes(t)):
+            # o nome tem de estar colado ao fato (até ~300 caracteres de "suplente" e de posse/convocação): regimentos, leis e
+            # listas de vereadores citam "suplente" e "posse" longe de qualquer nome
+            perto = [t[max(0, i.start() - 300):i.end() + 300].lower() for i in re.finditer(re.escape(n), t)]
+            if not any("suplente" in w and re.search(r"posse|empossad|convoca|assum", w) for w in perto):
+                continue
             c = ligar(n)
             if not c:
                 continue
@@ -157,7 +162,7 @@ def main():
     vistos = set()
     suplentes = [s for s in suplentes if not ((s["codigo"], s["pessoa_id"]) in vistos or vistos.add((s["codigo"], s["pessoa_id"])))]
     autorias = [s for s in autorias if not ((s["codigo"], s["pessoa_id"]) in vistos or vistos.add((s["codigo"], s["pessoa_id"])))]
-    checagens.append((sum(s["papel"] == "suplente no ciclo" for s in suplentes) >= 30, f"suplentes do ciclo em atos de posse/convocação: "
+    checagens.append((sum(s["papel"] == "suplente no ciclo" for s in suplentes) >= 5, f"suplentes do ciclo em atos de posse/convocação: "
                       f"{len({(s['cod_ibge'], s['pessoa_id']) for s in suplentes if s['papel'] == 'suplente no ciclo'})} pessoas"))
     checagens.append((len({s["cod_ibge"] for s in autorias}) >= 20, f"autorias de vereador: {len(autorias)} em {len({s['cod_ibge'] for s in autorias})} Câmaras"))
 

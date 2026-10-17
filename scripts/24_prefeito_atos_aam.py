@@ -170,6 +170,20 @@ def main():
                 for c in cards:
                     registra(cod, c, "amostra trimestral de decretos")
         print(cod, len(linhas), flush=True)
+    # atos recentes (a amostra trimestral pega o começo de cada trimestre): os 100 mais recentes dos últimos 120 dias,
+    # para saber quem assina como prefeito HOJE
+    recente_ini = (hoje - timedelta(days=120)).isoformat()
+    for cod, ent in sorted(entidades.items()):
+        for pag in range(1, 5):
+            try:
+                cards, tot = busca(texto="prefeito", entidade=ent, ini=recente_ini, pagina=pag, ordem="recente")
+            except Exception as e:
+                alertas.append(f"{cod} recentes página {pag}: {e.__class__.__name__}")
+                break
+            for c in cards:
+                registra(cod, c, "atos recentes")
+            if pag * 25 >= tot:
+                break
     for q in ALVOS:
         pag, total = 1, None
         while True:
@@ -191,6 +205,28 @@ def main():
         w = csv.DictWriter(f, ["cod_ibge", "data", "nome_no_ato", "condicao", "papel", "pessoa_id", "titular_tse", "titulo", "codigo", "origem", "fonte"])
         w.writeheader()
         w.writerows(linhas)
+    # quem assina como prefeito hoje: último ato de cada município e se é o titular do TSE
+    hoje_csv, ult = [], defaultdict(list)
+    for x in linhas:
+        if x["data"] >= recente_ini:
+            ult[x["cod_ibge"]].append(x)
+    for cod in sorted(entidades):
+        v = sorted(ult.get(cod, []), key=lambda x: x["data"])
+        tit = [x for x in v if x["papel"] == "titular"]
+        depois = [x for x in v if x["papel"] != "titular" and (not tit or x["data"] > tit[-1]["data"])]
+        hoje_csv.append({"cod_ibge": cod, "municipio": next(m["municipio"] for m in muns if m["cod_ibge"] == cod),
+                         "ultimo_ato": v[-1]["data"] if v else "", "ultimo_assinante": v[-1]["nome_no_ato"] if v else "",
+                         "ultimo_papel": (v[-1]["papel"] + (f" ({v[-1]['condicao']})" if v[-1]["condicao"] else "")) if v else "",
+                         "ultimo_ato_do_titular": tit[-1]["data"] if tit else "", "titular_tse": v[-1]["titular_tse"] if v else "",
+                         "atos_de_outros_depois_do_titular": len(depois), "fonte": v[-1]["fonte"] if v else ""})
+    with open(os.path.join(DADOS, "quem_assina_hoje.csv"), "w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, list(hoje_csv[0].keys()))
+        w.writeheader()
+        w.writerows(hoje_csv)
+    for h in hoje_csv:
+        if h["atos_de_outros_depois_do_titular"] >= 3 or not h["ultimo_ato_do_titular"]:
+            alertas.insert(0, f"HOJE {h['municipio']}: último ato do titular {h['ultimo_ato_do_titular'] or 'nenhum nos últimos 120 dias'}; "
+                              f"depois, {h['atos_de_outros_depois_do_titular']} ato(s) de outro assinante (último: {h['ultimo_assinante']}, {h['ultimo_papel']})")
     cobertos = sum(len(v) for v in trimestres_com.values())
     possiveis = len(entidades) * ((hoje.year - 2009) * 4 + (hoje.month + 2) // 3)
     checagens.append((cobertos >= 0.3 * possiveis, f"trimestres com ao menos um assinante identificado: {cobertos} de {possiveis}"))

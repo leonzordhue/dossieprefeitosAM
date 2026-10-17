@@ -38,6 +38,8 @@ Compilação, a partir de fontes públicas oficiais, de quem governou e legislou
 | Câmaras do interior no Diário Oficial: todas as publicações (61 Câmaras), suplentes em ato de posse/convocação (com o motivo citado) e autoria de projetos | `26_camaras_aam.py` | Diário Oficial dos Municípios (AAM/SIGPub) | ✅ 12.836 matérias; sinal a conferir, link do ato junto |
 | Votações registradas nas atas das sessões (matéria, resultado, placar, autor, votos contrários quando a ata cita) | `27_camaras_votacoes.py` | atas do AAM/SIGPub | ✅ só o que a ata registra |
 | Edições completas do Diário Oficial dos Municípios onde a busca do SIGPub não alcança (2009–2011 e meados de 2020–2024): quem assina como prefeito, suplentes, autorias e votações | `28_aam_edicoes.py` | PDFs das edições do AAM/SIGPub | ✅ link da edição + código identificador do ato |
+| Quem governa de fato: sucessões verificadas (renúncia, cassação, morte) em `mandatos.csv` (fim_real + linha de quem assumiu) e suplentes chamados a assumir em `mandatos_vereador.csv` | `29_sucessoes.py` | `sucessoes_verificadas.csv` (ata da Câmara/Diário Oficial) + atos de posse dos scripts 26 e 28 | ✅ data e fonte em cada linha |
+| Quem assina como prefeito hoje (últimos 120 dias) | `24_prefeito_atos_aam.py` → `quem_assina_hoje.csv` | AAM/SIGPub | ✅ |
 
 ## Dados (`dados/`)
 
@@ -63,6 +65,6 @@ Compilação, a partir de fontes públicas oficiais, de quem governou e legislou
 python -I scripts/01_tse_baixar.py && python -I scripts/02_mandatos.py && python -I scripts/05_vereadores.py && python -I scripts/07_fotos.py
 python -I scripts/03_siconfi.py && python -I scripts/04_finbra.py && python -I scripts/08_ibge.py && python -I scripts/11_financas.py
 python -I scripts/06_bens.py && python -I scripts/09_ideb.py && python -I scripts/10_emendas.py && python -I scripts/12_siope.py && python -I scripts/13_tcu.py && python -I scripts/14_siops.py && python -I scripts/15_idhm.py && python -I scripts/16_julgamentos.py && python -I scripts/17_tceam.py && python -I scripts/18_prefeito_declarado.py && python -I scripts/19_tceam_decisoes.py && python -I scripts/20_sapl.py && python -I scripts/21_gestoes.py && python -I scripts/22_camaras_financas.py
-python -I scripts/23_tceam_listas_antigas.py && python -I scripts/24_prefeito_atos_aam.py && python -I scripts/25_prefeito_atos_manaus.py && python -I scripts/26_camaras_aam.py && python -I scripts/27_camaras_votacoes.py && python -I scripts/28_aam_edicoes.py
+python -I scripts/23_tceam_listas_antigas.py && python -I scripts/24_prefeito_atos_aam.py && python -I scripts/25_prefeito_atos_manaus.py && python -I scripts/26_camaras_aam.py && python -I scripts/27_camaras_votacoes.py && python -I scripts/28_aam_edicoes.py && python -I scripts/29_sucessoes.py   # 29 sempre depois de 02, 05, 26 e 28
 ```
 A ordem 02 → 05 → 07 importa, porque os três escrevem em `pessoas.csv`. Requer Python 3.12, `truststore`, `Pillow`, `openpyxl` e, para o FINBRA, `pyodbc` com o driver do Access.
