@@ -1,4 +1,4 @@
-# Integridade — sucessões e suplentes (gerado em 17/10/2026 04:31)
+# Integridade — sucessões e suplentes (gerado em 17/10/2026 07:37)
 
 - Checagens: **4 de 4 passaram**
 

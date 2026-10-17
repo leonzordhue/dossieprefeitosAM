@@ -51,7 +51,9 @@ def limpa(linhas):
         if MARCA in r.get("observacao", "") and r.get("origem", "").startswith(("posse", "eleição suplementar", "calculado")):
             continue
         if MARCA in r.get("observacao", ""):
-            r["observacao"] = r["observacao"].split(" " + MARCA)[0].split(MARCA)[0].strip()
+            if "vice fora do TSE" in r["observacao"]:  # vice preenchido por vices_verificados.csv: refeito a cada rodada
+                r["vice"], r["vice_pessoa_id"] = "", ""
+            r["observacao"] =r["observacao"].split(" " + MARCA)[0].split(MARCA)[0].strip()
             if "fim_real" in r:  # só mandatos.csv tem a coluna
                 r["fim_real"] = ""
         out.append(r)
@@ -85,6 +87,14 @@ def main():
             nova["partido"] = alvo["vice_partido"]
         mand.append(nova)
         aplicadas += 1
+    # vice que o TSE não registra (eleição suplementar fora do arquivo de candidatos), conferido em ato oficial
+    for v in ler("vices_verificados.csv")[0]:
+        alvo = next((m for m in mand if m["cod_ibge"] == v["cod_ibge"] and m["inicio"] == v["inicio"] and not m["vice"]), None)
+        if not alvo:
+            alertas.append(f"vice verificado sem mandato sem vice correspondente: {v['cod_ibge']} {v['inicio']}")
+            continue
+        alvo.update(vice=v["vice"], vice_pessoa_id=v["vice_pessoa_id"])
+        alvo["observacao"] = (alvo["observacao"] + " " if alvo["observacao"] else "") + f"{MARCA} vice fora do TSE, conferido em ato oficial: {v['fonte']}"
     mand.sort(key=lambda m: (m["cod_ibge"], m["inicio"]))
     checagens.append((aplicadas == len(suc), f"sucessões verificadas aplicadas a mandatos.csv: {aplicadas} de {len(suc)}"))
     checagens.append((all(s["fonte"].startswith(("Câmara", "Diário", "TSE", "TRE")) or "http" in s["fonte"] for s in suc),
