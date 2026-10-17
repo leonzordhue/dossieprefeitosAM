@@ -1,30 +1,29 @@
-# Integridade — quem assina os atos da prefeitura (AAM/SIGPub) (gerado em 16/10/2026 19:29)
+# Integridade — quem assina os atos da prefeitura (AAM/SIGPub) (gerado em 17/10/2026 00:56)
 
-- Linhas: 23125 (titular 16945, vice 2511, outro 3669)
+- Linhas: 22941 (titular 16830, vice 2480, outro 3631)
 - Checagens: **8 de 8 passaram**
 
 - ✅ 61 municípios com entidade no SIGPub/AAM
 - ✅ busca "prefeito interino": 2790 matérias
 - ✅ busca "prefeita interina": 2790 matérias
-- ✅ busca "presidente da câmara" "cargo de prefeito": 2287 matérias
+- ✅ busca "presidente da câmara" "cargo de prefeito": 0 matérias
 - ✅ busca "cassação" "mandato" prefeito: 298 matérias
 - ✅ busca "perda do mandato" prefeito: 791 matérias
 - ✅ busca "extinção do mandato" prefeito: 354 matérias
-- ✅ trimestres com ao menos um assinante identificado: 1837 de 4392
+- ✅ trimestres com ao menos um assinante identificado: 1828 de 4392
 
 ## Assinaram como prefeito(a) sem ser titular nem vice (conferir)
 
 - ⚠️ Alvarães: Ilce Rodrigues Barbosa (699d8c9960) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2013-01-11 a 2013-01-11
 - ⚠️ Alvarães: Antônio Alcilone Uchôa Da Silva (26afc407fe) assina como prefeito(a) sem ser titular nem vice no TSE: 10 ato(s), 2017-04-20 a 2018-11-08
-- ⚠️ Alvarães: Antonio Alcilone Uchôa Da Silva (26afc407fe) assina como prefeito(a) sem ser titular nem vice no TSE: 39 ato(s), 2017-04-20 a 2019-11-20
+- ⚠️ Alvarães: Antonio Alcilone Uchôa Da Silva (26afc407fe) assina como prefeito(a) sem ser titular nem vice no TSE: 38 ato(s), 2017-04-20 a 2019-11-20
 - ⚠️ Alvarães: Maurício Cruz De Souza (3eca260941) assina como prefeito(a) sem ser titular nem vice no TSE: 3 ato(s), 2017-07-07 a 2018-03-12
-- ⚠️ Amaturá: Daniel Lima Leandro (cf109db002) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2015-04-16 a 2015-04-16
+- ⚠️ Alvarães: Mário Tomaz Litaiff (c8a267c2b4) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2019-05-14 a 2019-05-14
 - ⚠️ Anamã: Maurício Barbosa Das Chagas (727c27c951) assina como prefeito(a) sem ser titular nem vice no TSE: 165 ato(s), 2012-01-25 a 2017-03-10
 - ⚠️ Anamã: Isaac Melos Nunes (eb6caea7dd) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2012-03-29 a 2012-03-29
 - ⚠️ Anamã: Mauricio Barbosa Das Chagas (727c27c951) assina como prefeito(a) sem ser titular nem vice no TSE: 11 ato(s), 2012-06-28 a 2016-02-19
-- ⚠️ Anamã: Amã Maurício Barbosa Das Chagas (727c27c951) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2016-12-22 a 2017-03-29
 - ⚠️ Anamã: Francisco Nunes Bastos (c77a191d65) assina como prefeito(a) sem ser titular nem vice no TSE: 182 ato(s), 2017-01-06 a 2018-10-19
-- ⚠️ Anamã: Jecimar Pinheiro Matos (d4f0595cf0) assina como prefeito(a) sem ser titular nem vice no TSE: 11 ato(s), 2017-01-09 a 2018-09-12
+- ⚠️ Anamã: Jecimar Pinheiro Matos (d4f0595cf0) assina como prefeito(a) sem ser titular nem vice no TSE: 11 ato(s), 2017-01-09 a 2019-10-24
 - ⚠️ Anamã: Enedina Gonçalves De Matos (5f21dbd9c7) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2017-03-21 a 2017-03-28
 - ⚠️ Anamã: Juscelino Nunes Bastos (4d28d8eeea) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-03-28 a 2017-03-28
 - ⚠️ Anamã: Sarquis Cordeiro Bastos (ee212dbf7e) assina como prefeito(a) sem ser titular nem vice no TSE: 56 ato(s), 2017-04-05 a 2018-06-04
@@ -36,23 +35,25 @@
 - ⚠️ Anori: José Alves Roberto (b748a3379a) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2017-02-07 a 2017-02-07
 - ⚠️ Anori: Jefferson Mendes De Andrade (f426415166) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-02-10 a 2017-02-10
 - ⚠️ Anori: Elton Gonçalves Lima (e3e46b8a22) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2025-10-10 a 2025-10-10
+- ⚠️ Apuí: Antonio Roque Longo (a3ff526864) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2012-01-06 a 2016-10-21
 - ⚠️ Apuí: Antônio Marcos Maciel Fernandes (ad508434ca) assina como prefeito(a) sem ser titular nem vice no TSE: 12 ato(s), 2013-01-02 a 2013-01-02
 - ⚠️ Apuí: Doze. Antônio Marcos Maciel Fernandes (ad508434ca) assina como prefeito(a) sem ser titular nem vice no TSE: 4 ato(s), 2013-01-02 a 2013-01-02
 - ⚠️ Apuí: Vagner Da Silva Luiz Da Silva (1e06b060dc) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2014-07-01 a 2014-07-01
 - ⚠️ Apuí: Marcos Antonio Alves De Lima (e242bdbfbc) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2015-10-27 a 2015-10-27
 - ⚠️ Apuí: Flaviano Carvalho De Souza (6e1cbc1e49) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2019-01-29 a 2019-01-29
 - ⚠️ Apuí: Flaviano Carvalho Souza (6e1cbc1e49) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2019-01-29 a 2019-01-29
-- ⚠️ Apuí: Bruno José De Morais (a3e2cc6a34) assina como prefeito(a) sem ser titular nem vice no TSE: 5 ato(s), 2025-05-20 a 2025-11-17
+- ⚠️ Apuí: Bruno José De Morais (a3e2cc6a34) assina como prefeito(a) sem ser titular nem vice no TSE: 4 ato(s), 2025-05-20 a 2025-11-17
 - ⚠️ Apuí: Bruno José De Moraes (a3e2cc6a34) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2025-11-12 a 2025-11-12
 - ⚠️ Atalaia do Norte: Maria Edmar Tenazor Ferreira (1042f29554) assina como prefeito(a) sem ser titular nem vice no TSE: 8 ato(s), 2016-05-18 a 2017-12-13
+- ⚠️ Atalaia do Norte: Anete Peres Castro Pinto (46bb08cda7) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-05-19 a 2017-05-19
 - ⚠️ Atalaia do Norte: José Francisco De Assis Oliveira Da Costa (925224009a) assina como prefeito(a) sem ser titular nem vice no TSE: 4 ato(s), 2025-05-20 a 2025-09-22
 - ⚠️ Atalaia do Norte: Valdeci Da Silva Barros (357e454098) assina como prefeito(a) sem ser titular nem vice no TSE: 4 ato(s), 2025-09-12 a 2026-03-02
-- ⚠️ Autazes: José Thomé Filho (963cab7989) assina como prefeito(a) sem ser titular nem vice no TSE: 39 ato(s), 2014-12-10 a 2017-01-02
+- ⚠️ Autazes: José Thomé Filho (963cab7989) assina como prefeito(a) sem ser titular nem vice no TSE: 40 ato(s), 2014-12-10 a 2017-01-02
 - ⚠️ Autazes: Jose Thomé Filho (963cab7989) assina como prefeito(a) sem ser titular nem vice no TSE: 3 ato(s), 2015-07-06 a 2015-07-06
 - ⚠️ Barcelos: Arlindo Soares Filho (2187fc8f63) assina como prefeito(a) sem ser titular nem vice no TSE: 18 ato(s), 2017-04-26 a 2017-10-20
 - ⚠️ Barcelos: Gleidson Rato Serrão (38a00b9941) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2019-06-11 a 2019-06-11
 - ⚠️ Barcelos: Lanna Raquel Pereira De Oliveira (29d3ea0500) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2025-05-12 a 2025-05-12
-- ⚠️ Barcelos: Franquiberto Leite Reginaldo (ae763d9c25) assina como prefeito(a) sem ser titular nem vice no TSE: 3 ato(s), 2026-04-08 a 2026-05-29
+- ⚠️ Barcelos: Franquiberto Leite Reginaldo (ae763d9c25) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2026-04-08 a 2026-05-29
 - ⚠️ Barcelos: Em Exercício Joelcimar Ugarte Alves (4fd9cf7817) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2026-04-30 a 2026-04-30
 - ⚠️ Barreirinha: Maria Margarete De Melo Carneiro (c7ffa37816) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2014-01-07 a 2014-01-07
 - ⚠️ Barreirinha: Gilvan Geraldo De Aquino Seixas (12f31a82af) assina como prefeito(a) sem ser titular nem vice no TSE: 3 ato(s), 2014-05-05 a 2016-09-26
@@ -72,7 +73,6 @@
 - ⚠️ Beruri: João Luiz Abreu De Souza (326fbadefb) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2013-11-06 a 2013-11-06
 - ⚠️ Beruri: Rufno Andrade Bustos (2a713fed74) assina como prefeito(a) sem ser titular nem vice no TSE: 7 ato(s), 2016-01-19 a 2016-01-28
 - ⚠️ Beruri: Eliezer Pereira Nunes (3ed06db6ed) assina como prefeito(a) sem ser titular nem vice no TSE: 17 ato(s), 2016-02-16 a 2016-10-24
-- ⚠️ Beruri: Alcimar Bezerra De Moraes (5635b8cd22) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2016-03-14 a 2016-03-14
 - ⚠️ Beruri: Raimundo Marcelo Praia (70ca0b8bc2) assina como prefeito(a) sem ser titular nem vice no TSE: 8 ato(s), 2016-06-01 a 2016-09-28
 - ⚠️ Beruri: Orlen Oliveira Picanço (2fb90c6f70) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-11-16 a 2017-11-16
 - ⚠️ Beruri: Kleber Araújo Pinheiro (59937f7a63) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2019-01-10 a 2019-01-10
@@ -80,11 +80,9 @@
 - ⚠️ Boa Vista do Ramos: Marlon Trindade Teixeira (0bc9f2a85b) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2012-04-04 a 2012-04-13
 - ⚠️ Boa Vista do Ramos: Excelentíssimo Senhor Marlon Trindade Teixeira (0bc9f2a85b) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2012-05-15 a 2012-05-15
 - ⚠️ Boa Vista do Ramos: Glauciomar Correa Pimentel (c9f3482859) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2013-06-28 a 2013-06-28
-- ⚠️ Boa Vista do Ramos: Evandro Miranda Cardoso (c802e3cdcd) assina como prefeito(a) sem ser titular nem vice no TSE: 7 ato(s), 2017-11-10 a 2019-08-28
-- ⚠️ Boa Vista do Ramos: Augusto Azevedo Da Silva (29a84904af) assina como prefeito(a) sem ser titular nem vice no TSE: 7 ato(s), 2025-05-28 a 2026-01-28
-- ⚠️ Boa Vista do Ramos: Silvano Menezes Rodrigues (735b02b87e) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2025-05-28 a 2025-05-28
+- ⚠️ Boa Vista do Ramos: Evandro Miranda Cardoso (c802e3cdcd) assina como prefeito(a) sem ser titular nem vice no TSE: 5 ato(s), 2017-11-10 a 2018-12-11
 - ⚠️ Boa Vista do Ramos: Jair Rodrigues Arruda (2b1295e6b8) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2025-06-23 a 2025-06-23
-- ⚠️ Boa Vista do Ramos: Azenaite Oliveira Lavareda (cc7d60f6d7) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2025-08-21 a 2025-08-26
+- ⚠️ Boa Vista do Ramos: Augusto Azevedo Da Silva (29a84904af) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2025-07-23 a 2025-07-23
 - ⚠️ Borba: José Maria Da Silva Maia (41a2898642) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2017-01-02 a 2018-11-01
 - ⚠️ Borba: Joaquim Gabriel De Souza Neto (c3f4d45db4) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2017-04-26 a 2017-04-26
 - ⚠️ Caapiranga: Antonio Ferreira Lima (de9dfbf8a6) assina como prefeito(a) sem ser titular nem vice no TSE: 5 ato(s), 2014-09-30 a 2015-11-04
@@ -95,7 +93,6 @@
 - ⚠️ Caapiranga: Messias Dantas Ferreira (538239d68d) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2018-03-15 a 2018-03-22
 - ⚠️ Caapiranga: Vereador Francisco Andrade Braz (23afae479f) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2019-01-03 a 2019-01-03
 - ⚠️ Canutama: João Ocivaldo Batista De Amorim (3f16717a1d) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-01-02 a 2017-01-02
-- ⚠️ Canutama: José Luis Torres De Pontes (82c2087886) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2025-05-29 a 2025-05-29
 - ⚠️ Canutama: Francismundo Lima Monteiro (ae7f2898ad) assina como prefeito(a) sem ser titular nem vice no TSE: 10 ato(s), 2025-08-20 a 2026-09-10
 - ⚠️ Carauari: Sebastião Hélio De Souza (e407d16cdb) assina como prefeito(a) sem ser titular nem vice no TSE: 311 ato(s), 2012-01-11 a 2016-12-30
 - ⚠️ Carauari: Sebastão Hélio De Souza (e407d16cdb) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2013-02-20 a 2013-02-20
@@ -104,7 +101,7 @@
 - ⚠️ Carauari: Sidonay Socorro Litaiff Ramalho (bb14e2c266) assina como prefeito(a) sem ser titular nem vice no TSE: 45 ato(s), 2017-01-05 a 2018-03-02
 - ⚠️ Carauari: Enelson Gomes De Lima Ass. Gab. (281eecd02f) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-01-23 a 2017-01-23
 - ⚠️ Carauari: José Francisco Ramos Dos Santos Assessor Planejamento José (a9adbc923f) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-01-23 a 2017-01-23
-- ⚠️ Carauari: José Cardoso Viana (f922ffea66) assina como prefeito(a) sem ser titular nem vice no TSE: 222 ato(s), 2017-03-16 a 2025-05-20
+- ⚠️ Carauari: José Cardoso Viana (f922ffea66) assina como prefeito(a) sem ser titular nem vice no TSE: 221 ato(s), 2017-03-16 a 2025-05-20
 - ⚠️ Carauari: Paulo Roberto Peixoto Incert (2b718f5135) assina como prefeito(a) sem ser titular nem vice no TSE: 110 ato(s), 2017-06-09 a 2019-05-10
 - ⚠️ Carauari: Raimundo Nonato Da Silva Viana (cf9019bf25) assina como prefeito(a) sem ser titular nem vice no TSE: 67 ato(s), 2018-01-16 a 2020-01-30
 - ⚠️ Carauari: Jospe Cardoso Viana (f922ffea66) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2018-01-22 a 2018-01-22
@@ -119,16 +116,16 @@
 - ⚠️ Careiro: Manoel Ernandes Santos Silva (27784a4c39) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2014-03-14 a 2014-04-11
 - ⚠️ Careiro: Manoel Ernandes Santos Da Silva (27784a4c39) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2014-04-11 a 2014-04-11
 - ⚠️ Careiro: Hamilton Alves Villar (f50b7ca256) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-11-01 a 2017-11-01
+- ⚠️ Careiro: Nathan Macena De Souza (9ceb424515) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2026-07-22 a 2026-07-22
 - ⚠️ Careiro da Várzea: Ramiro Goncalves De Araujo (11a23ee2d9) assina como prefeito(a) sem ser titular nem vice no TSE: 3 ato(s), 2017-01-31 a 2019-10-15
-- ⚠️ Careiro da Várzea: Ramiro Gonçalves De Araújo (11a23ee2d9) assina como prefeito(a) sem ser titular nem vice no TSE: 97 ato(s), 2017-02-10 a 2020-01-23
+- ⚠️ Careiro da Várzea: Ramiro Gonçalves De Araújo (11a23ee2d9) assina como prefeito(a) sem ser titular nem vice no TSE: 99 ato(s), 2017-02-10 a 2020-01-23
 - ⚠️ Careiro da Várzea: Ramiro Gonçalves De Araujo (11a23ee2d9) assina como prefeito(a) sem ser titular nem vice no TSE: 9 ato(s), 2017-08-04 a 2020-01-17
 - ⚠️ Coari: Rodrigo Alves Da Costa (e83bbcc294) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2011-10-03 a 2011-10-03
 - ⚠️ Coari: Emídio Rodrigues Neto (53edd899f3) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2013-01-10 a 2013-01-10
 - ⚠️ Coari: Antonio Adenilson Menezes Bonfim (e8d20f8553) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2014-06-12 a 2014-06-12
 - ⚠️ Coari: Iliseu Monteiro Da Silva (dbd626e82d) assina como prefeito(a) sem ser titular nem vice no TSE: 19 ato(s), 2015-01-08 a 2015-02-04
 - ⚠️ Coari: Iranilson Da Silva Medeiros (0890e987cc) assina como prefeito(a) sem ser titular nem vice no TSE: 25 ato(s), 2015-04-01 a 2015-04-01
-- ⚠️ Coari: Raimundo Nonato Gomes Monteiro Raimundo Nonato De Araujo (aac24b0dfa) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2015-04-20 a 2015-04-20
-- ⚠️ Coari: Raimundo Nonato De Araújo Magalhães (33214bd649) assina como prefeito(a) sem ser titular nem vice no TSE: 107 ato(s), 2015-05-19 a 2016-11-25
+- ⚠️ Coari: Raimundo Nonato De Araújo Magalhães (33214bd649) assina como prefeito(a) sem ser titular nem vice no TSE: 109 ato(s), 2015-05-19 a 2016-11-25
 - ⚠️ Coari: Raimundo Nonato De Araujo Magalhaes (33214bd649) assina como prefeito(a) sem ser titular nem vice no TSE: 4 ato(s), 2015-07-22 a 2015-07-22
 - ⚠️ Coari: Raimundo Nonato De Araúijo Magalhães (33214bd649) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2016-02-12 a 2016-02-12
 - ⚠️ Coari: Keitton Wyllyson Pinheiro Batista (15f2810f41) assina como prefeito(a) sem ser titular nem vice no TSE: 27 ato(s), 2017-07-24 a 2019-05-10
@@ -138,8 +135,8 @@
 - ⚠️ Coari: Jeany De Paula Amaral Pinheiro (ae7883ba53) assina como prefeito(a) sem ser titular nem vice no TSE: 62 ato(s), 2025-05-09 a 2026-07-09
 - ⚠️ Coari: Jeany De Paula Amaral Pinhero (ae7883ba53) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2026-07-09 a 2026-07-09
 - ⚠️ Codajás: Joel Gomes De Oliveira (e0d819b962) assina como prefeito(a) sem ser titular nem vice no TSE: 27 ato(s), 2013-09-03 a 2013-10-10
-- ⚠️ Codajás: Clemyson Marques Antunes (e5e6579f5d) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-03-06 a 2017-03-06
 - ⚠️ Codajás: José Gonçalves Da Silva (99f9b61f55) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2017-08-15 a 2018-12-19
+- ⚠️ Eirunepé: Francisco Das Chagas Dissica Valério Tomaz (f6eab11c30) assina como prefeito(a) sem ser titular nem vice no TSE: 4 ato(s), 2016-05-19 a 2016-05-19
 - ⚠️ Eirunepé: Francisco De Assis Carneiro Da Costa (caa946fd0b) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2018-04-09 a 2018-04-09
 - ⚠️ Eirunepé: Jocivande José Coelho Da Silva (fd6a5f4b7c) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2025-07-17 a 2025-07-17
 - ⚠️ Eirunepé: José Adilson Alves Da Silva (733b3a31e0) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2026-03-24 a 2026-03-24
@@ -148,12 +145,13 @@
 - ⚠️ Envira: Raimundo De Lira Castro (5ae7ef6591) assina como prefeito(a) sem ser titular nem vice no TSE: 4 ato(s), 2015-06-24 a 2015-06-24
 - ⚠️ Envira: Raiumndo De Lira Castro (5ae7ef6591) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2015-06-24 a 2015-06-24
 - ⚠️ Envira: Patrícia Pinheiro De Castro (182ae0ac73) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2015-10-09 a 2015-10-09
+- ⚠️ Envira: Rômulo Barbosa Mattos (87fb936201) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2016-12-15 a 2016-12-15
 - ⚠️ Envira: José Lucimar Gomes Da Costa (b9bede0492) assina como prefeito(a) sem ser titular nem vice no TSE: 4 ato(s), 2017-09-13 a 2026-07-06
 - ⚠️ Envira: Helenilson Da Silva Melo (fcf0cf2bf9) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2019-01-04 a 2019-01-04
 - ⚠️ Envira: Francimar Rodrigues Bezerra (6bd685c1e1) assina como prefeito(a) sem ser titular nem vice no TSE: 49 ato(s), 2025-10-06 a 2026-07-09
 - ⚠️ Envira: Neuzeli Ferreira Galvão (dc1e3194ad) assina como prefeito(a) sem ser titular nem vice no TSE: 6 ato(s), 2026-02-27 a 2026-07-08
 - ⚠️ Fonte Boa: Wilson Ferreira Lisboa (94d825b06b) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2013-09-02 a 2014-11-10
-- ⚠️ Fonte Boa: Neiverlice De Souza Oliveira (5f269d5923) assina como prefeito(a) sem ser titular nem vice no TSE: 4 ato(s), 2018-06-28 a 2026-05-28
+- ⚠️ Fonte Boa: Neiverlice De Souza Oliveira (5f269d5923) assina como prefeito(a) sem ser titular nem vice no TSE: 3 ato(s), 2026-02-09 a 2026-05-28
 - ⚠️ Guajará: Samuel Farias De Oliveira (6e4c37d1e3) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2012-07-25 a 2012-07-25
 - ⚠️ Guajará: Amarizio Dutra De Melo (292b28fbf8) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2015-07-23 a 2015-07-23
 - ⚠️ Guajará: Francisca Rosania Melo Lima (8c0b6da61b) assina como prefeito(a) sem ser titular nem vice no TSE: 8 ato(s), 2026-04-17 a 2026-07-24
@@ -161,11 +159,8 @@
 - ⚠️ Humaitá: Raimundo Santos Cruz (120cf37f70) assina como prefeito(a) sem ser titular nem vice no TSE: 5 ato(s), 2016-02-16 a 2016-03-01
 - ⚠️ Humaitá: José Cidenei Lobo Do Nascimento (a74b2cee43) assina como prefeito(a) sem ser titular nem vice no TSE: 3 ato(s), 2017-01-02 a 2017-01-02
 - ⚠️ Humaitá: Se José Cidenei Lobo Do Nascimento (a74b2cee43) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-01-02 a 2017-01-02
-- ⚠️ Humaitá: Aldemir Riça Júnior (7e4a00720b) assina como prefeito(a) sem ser titular nem vice no TSE: 145 ato(s), 2017-01-03 a 2019-07-10
-- ⚠️ Humaitá: Empossado Humberto Neves Garcia (4dc20d87bd) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-01-06 a 2017-01-06
-- ⚠️ Humaitá: Eleito Humberto Neves Garcia (4dc20d87bd) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-01-06 a 2017-01-06
+- ⚠️ Humaitá: Aldemir Riça Júnior (7e4a00720b) assina como prefeito(a) sem ser titular nem vice no TSE: 143 ato(s), 2017-01-03 a 2019-07-10
 - ⚠️ Humaitá: Aldemir Riça Junior (7e4a00720b) assina como prefeito(a) sem ser titular nem vice no TSE: 3 ato(s), 2017-10-31 a 2018-04-19
-- ⚠️ Humaitá: Humberto Neves Garcia (4dc20d87bd) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2018-03-28 a 2018-03-28
 - ⚠️ Humaitá: Jhonathan Maciel De Souza (1942e050de) assina como prefeito(a) sem ser titular nem vice no TSE: 142 ato(s), 2025-05-07 a 2026-08-19
 - ⚠️ Ipixuna: Aguimar Silvério Da Silva (30a9640853) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-01-02 a 2017-01-02
 - ⚠️ Ipixuna: Fábio Martins Saraiva (0077aaea85) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2019-08-23 a 2019-08-23
@@ -178,7 +173,7 @@
 - ⚠️ Itacoatiara: Mamoud Amed Filho (83e6c61068) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2017-01-02 a 2017-01-02
 - ⚠️ Itacoatiara: Edivane Pereira Vieira (8e6704ab29) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-07-20 a 2017-07-20
 - ⚠️ Itacoatiara: Natanael Oliveira De Souza (7b18e30a4a) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2019-10-03 a 2019-10-03
-- ⚠️ Itamarati: Antônio Sílvio Campelo Monteiro (d8aa5bd3e5) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2025-05-30 a 2025-05-30
+- ⚠️ Itamarati: Antônio Sílvio Campelo Monteiro (d8aa5bd3e5) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2025-05-30 a 2025-05-30
 - ⚠️ Itapiranga: Denise De Farias Lima (07b11af19d) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2025-09-19 a 2025-09-19
 - ⚠️ Japurá: Mauro Garcia Rego (c1f345e3a2) assina como prefeito(a) sem ser titular nem vice no TSE: 17 ato(s), 2011-12-20 a 2012-04-11
 - ⚠️ Japurá: Edigar Ventura Dos Santos (5c6a940cf7) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2014-10-09 a 2014-10-09
@@ -186,9 +181,8 @@
 - ⚠️ Juruá: Suame Dos Santos Ferreira (1c159a82b5) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2015-05-12 a 2015-05-12
 - ⚠️ Juruá: Suami Dos Santos Ferreira (1c159a82b5) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2015-07-20 a 2015-07-20
 - ⚠️ Juruá: Suami Santos Ferreira (1c159a82b5) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2015-07-30 a 2015-07-30
-- ⚠️ Juruá: Tabira Ramos Diasferreira (30ea332342) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2017-02-02 a 2025-11-21
 - ⚠️ Juruá: Edson De Oliveira Serrão (0fbe78ea49) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2019-03-26 a 2019-03-26
-- ⚠️ Juruá: Eldo Pereira Da Silva (e131e50eef) assina como prefeito(a) sem ser titular nem vice no TSE: 5 ato(s), 2026-05-06 a 2026-10-02
+- ⚠️ Juruá: Eldo Pereira Da Silva (e131e50eef) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2026-07-29 a 2026-07-29
 - ⚠️ Jutaí: Jason José Gomes Protásio (704cbb484c) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2013-01-30 a 2013-01-30
 - ⚠️ Jutaí: Ribamar Cruz De Farias (6ed3859d37) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2013-03-12 a 2013-03-12
 - ⚠️ Jutaí: Asclepiades Costa De Souza (c516f0598c) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2013-03-13 a 2013-03-13
@@ -208,13 +202,13 @@
 - ⚠️ Manaquiri: De Responsabilidade So Senhor Jair Aguiar Souto (3fc0b9285a) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2016-12-16 a 2016-12-16
 - ⚠️ Manaquiri: Valdemar Rodrigues Bandeira (2a6f2f224c) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2019-12-04 a 2019-12-04
 - ⚠️ Manaquiri: Jair Aguiar Souto (3fc0b9285a) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2026-02-16 a 2026-02-16
+- ⚠️ Manicoré: Lúcio Flávio Do Rosário (450239a1ce) assina como prefeito(a) sem ser titular nem vice no TSE: 69 ato(s), 2012-02-15 a 2017-05-05
 - ⚠️ Manicoré: Manoel De Oliveira Galdino (cb955c45e8) assina como prefeito(a) sem ser titular nem vice no TSE: 25 ato(s), 2012-04-09 a 2012-04-09
-- ⚠️ Manicoré: Lúcio Flávio Do Rosário (450239a1ce) assina como prefeito(a) sem ser titular nem vice no TSE: 68 ato(s), 2012-07-26 a 2017-05-05
 - ⚠️ Manicoré: Lúco Flávio Do Rosário (450239a1ce) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2012-08-27 a 2012-08-27
 - ⚠️ Manicoré: Manoel Do Rosário Paula Da Costa Semapa Paulo (1eee781cee) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2018-09-13 a 2018-09-13
 - ⚠️ Manicoré: Wellingtonyuri Lelo Reis (178c356966) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2026-02-09 a 2026-02-09
 - ⚠️ Maraã: Bethuel Pereira Brizido (d9e701d70c) assina como prefeito(a) sem ser titular nem vice no TSE: 14 ato(s), 2016-12-01 a 2016-12-01
-- ⚠️ Maraã: Marcilon Castro Moraes (773603d9ba) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2016-12-22 a 2017-01-05
+- ⚠️ Maraã: Marcilon Castro Moraes (773603d9ba) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-01-05 a 2017-01-05
 - ⚠️ Maraã: Bethuel Pereira Brizido Filho (d9e701d70c) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-10-20 a 2017-10-20
 - ⚠️ Maués: Raimundo Rodrigues De Souza (a5a1ecb993) assina como prefeito(a) sem ser titular nem vice no TSE: 4 ato(s), 2012-04-10 a 2014-07-23
 - ⚠️ Maués: Odivaldo Miguel De Oliveira Paiva (7cc537f53d) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2014-05-22 a 2014-05-22
@@ -225,12 +219,10 @@
 - ⚠️ Maués: Carlos Roberto De Oliveira Junior (c974550ece) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2025-07-11 a 2025-07-11
 - ⚠️ Maués: Carlos Roberto De Oliveira Júnior (c974550ece) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2025-07-21 a 2025-07-21
 - ⚠️ Maués: Rosely Oliveira Pereira (13f43524eb) assina como prefeito(a) sem ser titular nem vice no TSE: 6 ato(s), 2025-09-02 a 2026-08-31
-- ⚠️ Maués: Renata Patricia Raitz Antunes Koide (c5edb5b04f) assina como prefeito(a) sem ser titular nem vice no TSE: 3 ato(s), 2026-02-10 a 2026-08-21
-- ⚠️ Maués: Adauto Lopes Da Silva (cbd6c94e1f) assina como prefeito(a) sem ser titular nem vice no TSE: 3 ato(s), 2026-02-12 a 2026-07-29
-- ⚠️ Maués: Bruno Negreiros De Oliveira (fa52781cb0) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2026-08-21 a 2026-08-21
+- ⚠️ Maués: Renata Patricia Raitz Antunes Koide (c5edb5b04f) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2026-02-10 a 2026-02-13
+- ⚠️ Maués: Adauto Lopes Da Silva (cbd6c94e1f) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2026-02-12 a 2026-07-08
 - ⚠️ Nhamundá: Mário José Chagas Paulain (b07d8f6d6d) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2012-09-14 a 2012-09-14
 - ⚠️ Nova Olinda do Norte: Adenilson Lima Reis (b61c5546e3) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2016-01-08 a 2016-01-08
-- ⚠️ Nova Olinda do Norte: Franclin Mendes Dos Santos (496ac655c4) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-01-12 a 2017-01-12
 - ⚠️ Nova Olinda do Norte: Francelin Mendes Dos Santos (496ac655c4) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2018-02-09 a 2018-02-09
 - ⚠️ Novo Airão: Raimundo Valdessir Santana Da Silva (0db64741b0) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2013-02-20 a 2013-02-20
 - ⚠️ Novo Airão: Raimunda Gomes Rodrigues (f71b305a49) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2013-08-21 a 2013-08-21
@@ -238,11 +230,9 @@
 - ⚠️ Novo Airão: Antõnio Craveiro Martins (e8b9e7cd9a) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2013-10-21 a 2013-10-21
 - ⚠️ Novo Airão: Antonio Craveiro Martins (e8b9e7cd9a) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2014-01-22 a 2014-01-22
 - ⚠️ Novo Airão: Lindinalva Ferreira Silva (e4b76de718) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-01-02 a 2017-01-02
-- ⚠️ Novo Airão: José Roberto Nascimento Da Silva (db1b4f23a0) assina como prefeito(a) sem ser titular nem vice no TSE: 4 ato(s), 2017-07-18 a 2018-07-24
 - ⚠️ Novo Airão: Rosivaldo Sousa Dos Santos (f753d0810c) assina como prefeito(a) sem ser titular nem vice no TSE: 22 ato(s), 2018-07-18 a 2018-11-14
+- ⚠️ Novo Airão: José Roberto Nascimento Da Silva (db1b4f23a0) assina como prefeito(a) sem ser titular nem vice no TSE: 3 ato(s), 2018-07-24 a 2018-07-24
 - ⚠️ Novo Airão: Rosivaldo Souza Dos Santos (f753d0810c) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2018-08-02 a 2018-08-03
-- ⚠️ Novo Airão: Rosemberg De Souza Branco (b1d101210b) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2018-12-05 a 2018-12-05
-- ⚠️ Novo Airão: Marcos Janio Da Silva (5944d576d0) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2018-12-05 a 2018-12-05
 - ⚠️ Novo Aripuanã: Raimundo Brasil Alho (7c38eb1cb0) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2012-10-17 a 2012-10-17
 - ⚠️ Novo Aripuanã: Adiel Meira De Santana (fb1308a77b) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2014-12-08 a 2018-06-05
 - ⚠️ Novo Aripuanã: Ricardo Bezerra De Freitas (f6c8b52d0e) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-07-28 a 2017-07-28
@@ -255,14 +245,12 @@
 - ⚠️ Parintins: Nelson Raimundo Pinheiro Campos (ccc02710b2) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-10-03 a 2017-10-03
 - ⚠️ Parintins: Maildson Araújo Fonseca (d3d23bf251) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2017-10-09 a 2018-04-03
 - ⚠️ Parintins: Carlos Alexandre Ferreira Silva (e82e15d26b) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2018-11-01 a 2018-11-01
-- ⚠️ Parintins: Francisco Walteliton De Souza Pinto (d300528747) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2019-01-29 a 2019-01-29
 - ⚠️ Pauini: Vagner De Moura Costa (acf998764d) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2019-01-23 a 2019-01-23
 - ⚠️ Pauini: José Francisco Nonato Da Silva (686b9683cc) assina como prefeito(a) sem ser titular nem vice no TSE: 3 ato(s), 2025-06-16 a 2026-06-18
-- ⚠️ Presidente Figueiredo: Antônio Fernando Fontes Vieira (4a1c98bef7) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2014-07-08 a 2014-11-11
 - ⚠️ Presidente Figueiredo: Dejaína Castro Pontes (e769053126) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-07-04 a 2017-07-04
 - ⚠️ Presidente Figueiredo: Jonas Castro Ribeiro (0f2420e952) assina como prefeito(a) sem ser titular nem vice no TSE: 71 ato(s), 2019-12-02 a 2019-12-09
 - ⚠️ Presidente Figueiredo: Caldas Romeiro José Costeira De Mendonça (091d8bdd8e) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2025-05-29 a 2025-05-29
-- ⚠️ Presidente Figueiredo: Jarí Guerro Dutra (faefcbaf44) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2025-11-04 a 2025-11-18
+- ⚠️ Rio Preto da Eva: Fúllvio Da Silva Pinto (2ff0779814) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2020-01-27 a 2020-01-27
 - ⚠️ Santa Isabel do Rio Negro: Araildo Mendes Do Nascimento (19579da12e) assina como prefeito(a) sem ser titular nem vice no TSE: 81 ato(s), 2015-04-29 a 2016-10-24
 - ⚠️ Santa Isabel do Rio Negro: Sergio Da Silveira Cardador (38ee17be6d) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2015-11-12 a 2015-11-12
 - ⚠️ Santa Isabel do Rio Negro: Almiro Góes Dos Santos (8f9bdbbf0f) assina como prefeito(a) sem ser titular nem vice no TSE: 9 ato(s), 2016-05-25 a 2016-08-31
@@ -270,42 +258,39 @@
 - ⚠️ Santa Isabel do Rio Negro: Regiandro Albuquerque Góes (ade12c09ae) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2017-01-27 a 2017-02-06
 - ⚠️ Santa Isabel do Rio Negro: Jucirley Da Silva Maximiano (490ad73a6b) assina como prefeito(a) sem ser titular nem vice no TSE: 3 ato(s), 2019-08-05 a 2019-08-05
 - ⚠️ Santa Isabel do Rio Negro: Robson Beleza Oda (ef519d6f81) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2025-12-23 a 2025-12-23
-- ⚠️ Santo Antônio do Içá: Antunes Bitar Ruas (4bc7e0c58e) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2026-07-31 a 2026-07-31
 - ⚠️ São Gabriel da Cachoeira: Edinéia De Souza Pimenta (5ef23ea5da) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2015-05-14 a 2015-05-14
 - ⚠️ São Gabriel da Cachoeira: Edineia De Souza Pimenta (5ef23ea5da) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2015-07-03 a 2015-07-03
 - ⚠️ São Gabriel da Cachoeira: Ednéia De Souza Pimenta (5ef23ea5da) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-07-03 a 2017-07-03
 - ⚠️ São Gabriel da Cachoeira: Anderson Luiz Brazão Goes (ab739e1bda) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2025-05-12 a 2025-05-12
 - ⚠️ São Gabriel da Cachoeira: Messias Ambrósio De Souza (c245feb97c) assina como prefeito(a) sem ser titular nem vice no TSE: 12 ato(s), 2026-07-02 a 2026-08-05
-- ⚠️ São Paulo de Olivença: Carlos Márcio Gonçalves Galhego (b0ed918077) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2017-08-07 a 2018-03-13
+- ⚠️ São Paulo de Olivença: Carlos Márcio Gonçalves Galhego (b0ed918077) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2018-03-13 a 2018-03-13
 - ⚠️ São Paulo de Olivença: Pedro Pereira Da Silva (2a8dee71da) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2019-10-21 a 2019-10-21
 - ⚠️ São Paulo de Olivença: Excelentíssimo Senhor Jorge Roberto Lucas (d6bd7e0e85) assina como prefeito(a) sem ser titular nem vice no TSE: 4 ato(s), 2025-08-04 a 2025-09-25
 - ⚠️ São Paulo de Olivença: Jorge Roberto Lucas (d6bd7e0e85) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2025-11-24 a 2025-11-24
 - ⚠️ São Paulo de Olivença: Adahilton Gonçalves Martins (675f31e384) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2026-01-08 a 2026-01-08
-- ⚠️ São Sebastião do Uatumã: Carlos Da Silva Amora (3e504fd4d2) assina como prefeito(a) sem ser titular nem vice no TSE: 3 ato(s), 2013-01-16 a 2017-04-19
+- ⚠️ São Sebastião do Uatumã: Carlos Da Silva Amora (3e504fd4d2) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2013-01-16 a 2013-01-16
+- ⚠️ São Sebastião do Uatumã: Madson Oliveira Da Cunha (5c9c166705) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-01-18 a 2017-01-18
 - ⚠️ São Sebastião do Uatumã: Francisco Carlos Da Cunha Bareto (41307439a5) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2019-01-03 a 2019-01-03
 - ⚠️ São Sebastião do Uatumã: Francisco Carlos Cunha Barreto (41307439a5) assina como prefeito(a) sem ser titular nem vice no TSE: 3 ato(s), 2019-11-22 a 2020-01-08
 - ⚠️ Silves: Raimundo Luiz De Almeida Grana (2ea7b56039) assina como prefeito(a) sem ser titular nem vice no TSE: 51 ato(s), 2013-08-23 a 2015-08-24
+- ⚠️ Silves: Aristides Queiroz De Oliveira Neto (becb03ed8c) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2013-10-24 a 2014-07-15
 - ⚠️ Silves: Raimundo Luiz De Alemida Grana (2ea7b56039) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2014-02-17 a 2014-02-17
 - ⚠️ Silves: Raimundo Luiz De A (2ea7b56039) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2014-10-09 a 2014-12-03
 - ⚠️ Silves: Nelci De Oliveira Lira (46afcd3b82) assina como prefeito(a) sem ser titular nem vice no TSE: 14 ato(s), 2015-04-08 a 2015-09-17
 - ⚠️ Silves: Rita De Cássia Da Silva Lira (8fc687ad45) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2015-04-10 a 2015-04-10
-- ⚠️ Silves: Nelcy De Oliveira Lira (46afcd3b82) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2015-06-26 a 2015-06-26
 - ⚠️ Silves: Franrossi De Oliveira Lira (f723e4e159) assina como prefeito(a) sem ser titular nem vice no TSE: 21 ato(s), 2017-01-02 a 2017-01-02
-- ⚠️ Tapauá: José Raimundo Mesquita Da Silva (6bc8d91d6d) assina como prefeito(a) sem ser titular nem vice no TSE: 7 ato(s), 2025-06-26 a 2026-05-04
+- ⚠️ Tapauá: José Raimundo Mesquita Da Silva (6bc8d91d6d) assina como prefeito(a) sem ser titular nem vice no TSE: 6 ato(s), 2025-06-26 a 2026-05-04
 - ⚠️ Tefé: Francisco Das Chagas De Oliveira Pinheiro (67e1a8c33a) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2012-09-24 a 2012-09-24
 - ⚠️ Tefé: Icléia Pessoa Rego (b64244a660) assina como prefeito(a) sem ser titular nem vice no TSE: 3 ato(s), 2013-05-14 a 2013-05-29
 - ⚠️ Tefé: Francisco Das C.O (67e1a8c33a) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2013-06-28 a 2013-06-28
-- ⚠️ Tefé: Jucimar De Oliveira Veloso (32b8ef3573) assina como prefeito(a) sem ser titular nem vice no TSE: 179 ato(s), 2013-06-28 a 2016-12-30
+- ⚠️ Tefé: Jucimar De Oliveira Veloso (32b8ef3573) assina como prefeito(a) sem ser titular nem vice no TSE: 178 ato(s), 2013-06-28 a 2016-12-30
 - ⚠️ Tefé: Iclea Pessoa Rego (b64244a660) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2014-08-01 a 2014-08-01
 - ⚠️ Tefé: Maria Gean Banes Trindade Celani (2f9b9a8137) assina como prefeito(a) sem ser titular nem vice no TSE: 13 ato(s), 2014-10-15 a 2016-10-10
 - ⚠️ Tefé: Jucimar De Oliveira Velos (32b8ef3573) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2015-09-09 a 2015-09-09
 - ⚠️ Tefé: João Paulo Rodrigues Nascimento (bd45640c03) assina como prefeito(a) sem ser titular nem vice no TSE: 9 ato(s), 2016-02-24 a 2016-02-29
-- ⚠️ Tefé: Sidônio Trindade Gonçalves (818a64561f) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2018-03-08 a 2018-03-08
 - ⚠️ Tefé: João Paulo Rodrigues Do Nascimento (bd45640c03) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2019-10-30 a 2019-10-30
-- ⚠️ Tonantins: Maria Lúcia Ferreira Araújo (a19292d643) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2019-04-04 a 2019-04-04
 - ⚠️ Tonantins: Francisco Gois Maia (55d66eb5f4) assina como prefeito(a) sem ser titular nem vice no TSE: 2 ato(s), 2025-05-20 a 2025-07-08
 - ⚠️ Tonantins: Excelentíssimo Senhor Francisco Gois Maia (55d66eb5f4) assina como prefeito(a) sem ser titular nem vice no TSE: 4 ato(s), 2025-05-20 a 2025-07-14
-- ⚠️ Uarini: Franciso Togo Soares (3bbc4814c1) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2015-04-16 a 2015-04-16
 - ⚠️ Uarini: Adoanes Sevalho Pinedo (4a7601df88) assina como prefeito(a) sem ser titular nem vice no TSE: 12 ato(s), 2017-01-26 a 2019-11-22
 - ⚠️ Uarini: Carlos Gonçalves De Sousa Neto (571f008301) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-02-09 a 2017-02-09
 - ⚠️ Uarini: José Franklin Lopes Filho (d67d893824) assina como prefeito(a) sem ser titular nem vice no TSE: 1 ato(s), 2017-10-13 a 2017-10-13

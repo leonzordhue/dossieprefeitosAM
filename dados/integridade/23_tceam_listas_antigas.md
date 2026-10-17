@@ -1,106 +1,48 @@
-# Integridade — TCE-AM, relações antigas do Internet Archive (gerado em 16/10/2026 19:41)
+# Integridade — TCE-AM, relações antigas do Internet Archive (gerado em 17/10/2026 00:59)
 
-- Checagens: **5 de 5 passaram**
+- Checagens: **6 de 6 passaram**
 
-- ✅ ligação só pelo nome conferida (jurisprudência do TCE-AM e Diário Oficial dos Municípios): 147 confirmadas pelo município, 2 retiradas por homônimo
+- ✅ processos achados na consulta pública do TCE-AM (DEC): 242
+- ✅ ligação só pelo nome conferida (jurisprudência do TCE-AM e Diário Oficial dos Municípios): 209 confirmadas pelo município, 7 retiradas por homônimo
 - ✅ 25 relações lidas de 27 arquivos
 - ✅ 52 gestores excluídos após revisão (24/09/2020) aplicados à relação de 2020
-- ✅ 1447 decisões novas ligadas a 581 pessoas (sem repetir as 696 do script 17): cpf + nome: 717; nome + município (Diário Oficial dos Municípios): 49; nome + município (jurisprudência do TCE-AM): 98; nome + município do órgão: 486; nome único entre candidatos municipais (a conferir): 97
-- ✅ com número de processo: 1410 de 1447
+- ✅ 1442 decisões novas ligadas a 579 pessoas (sem repetir as 696 do script 17): cpf + nome: 717; nome + município (Diário Oficial dos Municípios): 4; nome + município (jurisprudência do TCE-AM): 7; nome + município (processo no TCE-AM): 198; nome + município do órgão: 486; nome único entre candidatos municipais (a conferir): 30
+- ✅ com número de processo: 1405 de 1442
 
 ## Alertas (conferir)
 
 - ⚠️ 20240805_Lista-Contas-Irregulares-para-publicacao.pdf: nenhuma tabela de gestores reconhecida
 - ⚠️ 20240916_Lista-Contas-Irregulares-atualizacao-em-15.08.2024.pdf: nenhuma tabela de gestores reconhecida
+- ⚠️ retirado (homônimo): “JOÃO SOCORRO CAVALCANTE DA COSTA”, processo 2044/2009: no TCE-AM o nome é parte só em órgãos de outro município
+- ⚠️ retirado (homônimo): “JOSÉ GARCIA DAS CHAGAS”, processo 535/2005: no TCE-AM o nome é parte só em órgãos de outro município
+- ⚠️ retirado (homônimo): “MARCOS ANTONIO CAVALCANTE”, processo 6319/1997: no TCE-AM o nome é parte só em órgãos de outro município
+- ⚠️ retirado (homônimo): “JORGE AMAZONAS AZEVEDO”, processo 1768/2004: no TCE-AM o nome é parte só em órgãos de outro município
+- ⚠️ retirado (homônimo): “EDMILSON DE LUCENA GOMES”, processo 227/2003: no TCE-AM o nome é parte só em órgãos de outro município
 - ⚠️ retirado (homônimo): “ERONILDO BRAGA BEZERRA”, processo 1979/2009: no TCE-AM o nome é parte só em órgãos de outro município
 - ⚠️ retirado (homônimo): “FÁBIO HENRIQUE DOS SANTOS ALBUQUERQUE”, processo 1964/2009: no TCE-AM o nome é parte só em órgãos de outro município
-- ⚠️ 03aab7fd58 (Luiz Ocivaldo Rodrigues Cordeiro): ligado só pelo nome “LUIZ OCIVALDO RODRIGUES CORDEIRO”, processo 1410/2008, órgão “não informado”
-- ⚠️ 052519e90e (Felix Vital De Almeida): ligado só pelo nome “FÉLIX VITAL DE ALMEIDA”, processo 1740/2004, órgão “não informado”
-- ⚠️ 089040c765 (José  Artemis  Rodrigues  Monteconrado): ligado só pelo nome “JOSE ARTEMIS RODRIGUES MONTECONRADO”, processo 1187/2005, órgão “não informado”
-- ⚠️ 09038bea51 (Jose Henrique De Oliveira Freitas): ligado só pelo nome “JOSÉ HENRIQUE DE OLIVEIRA FREITAS”, processo 1628/2010, órgão “não informado”
-- ⚠️ 09790cce26 (Clodoaldo Martins Rodrigues): ligado só pelo nome “CLODOALDO MARTINS RODRIGUES”, processo 2473/2000, órgão “não informado”
-- ⚠️ 09790cce26 (Clodoaldo Martins Rodrigues): ligado só pelo nome “CLODOALDO MARTINS RODRIGUES”, processo 6914/1997, órgão “não informado”
-- ⚠️ 0c32b990c5 (Iolanda Andrade Maues): ligado só pelo nome “IOLANDA ANDRADE MAUÉS”, processo 1875/2000, órgão “não informado”
 - ⚠️ 0e3aed8b68 (Liege De Fatima Ribeiro): ligado só pelo nome “Liege de Fátima Ribeiro”, processo 1144/2016, órgão “SPA DANILO CORRÊA”
 - ⚠️ 0e3aed8b68 (Liege De Fatima Ribeiro): ligado só pelo nome “LIEGE DE FÁTIMA RIBEIRO”, processo 12106/2016, órgão “SPA DANILO CORRÊA”
 - ⚠️ 0e3aed8b68 (Liege De Fatima Ribeiro): ligado só pelo nome “Liege de Fátima Ribeiro”, processo 1590/2015, órgão “SPA DANILO CORRÊA”
-- ⚠️ 0e71c66b03 (Carlos Pinto Dos Santos): ligado só pelo nome “CARLOS PINTO DOS SANTOS”, processo 2247/2003, órgão “não informado”
-- ⚠️ 121f0a8531 (Jorge Trajano Da Silva): ligado só pelo nome “JORGE TRAJANO DA SILVA”, processo 2735/2006, órgão “não informado”
-- ⚠️ 15c8b5c7ed (João Da Silva Menezes): ligado só pelo nome “JOÃO DA SILVA MENEZES”, processo 1323/2000, órgão “não informado”
-- ⚠️ 18aad5d1eb (João Rolim Pena): ligado só pelo nome “JOÃO ROLIM PENA”, processo 3429/2005, órgão “não informado”
-- ⚠️ 1d8f6edd0b (Manoel De Jesus Mendes): ligado só pelo nome “MANOEL DE JESUS MENDES”, processo 2525/2005, órgão “não informado”
-- ⚠️ 21cd1920e5 (Vasco Bento Dos Santos Ribeiro): ligado só pelo nome “VASCO BENTO DOS SANTOS RIBEIRO”, processo 1431/2004, órgão “não informado”
-- ⚠️ 21cd1920e5 (Vasco Bento Dos Santos Ribeiro): ligado só pelo nome “VASCO BENTO DOS SANTOS RIBEIRO”, processo 3088/2001, órgão “não informado”
-- ⚠️ 21cd1920e5 (Vasco Bento Dos Santos Ribeiro): ligado só pelo nome “VASCO BENTO DOS SANTOS RIBEIRO”, processo 3286/2005, órgão “não informado”
-- ⚠️ 23ed384546 (Joaquim Lopes Da Silva): ligado só pelo nome “JOAQUIM LOPES DA SILVA”, processo 2168/2005, órgão “não informado”
-- ⚠️ 2417631663 (Raimunda Nascimento Da Silva): ligado só pelo nome “RAIMUNDA NASCIMENTO DA SILVA”, processo 6579/2009, órgão “SECRETARIA DE ESTADO DE PRODUÇÃO RURAL E SINDICATO DOS TRABALHADORES E TRABALHADORES RURAIS”
-- ⚠️ 2fd3e2863c (Fabio Da Silva Cabral): ligado só pelo nome “FÁBIO DA SILVA CABRAL”, processo 3351/2001, órgão “não informado”
-- ⚠️ 3390371ffb (Joaquim De Lucena Gomes): ligado só pelo nome “JOAQUIM DE LUCENA GOMES”, processo 1611/2008, órgão “não informado”
-- ⚠️ 3390371ffb (Joaquim De Lucena Gomes): ligado só pelo nome “JOAQUIM DE LUCENA GOMES”, processo 1947/2006, órgão “não informado”
-- ⚠️ 37461be844 (André Nogueira Da Silva): ligado só pelo nome “ANDRÉ NOGUEIRA DA SILVA”, processo 6609/1999, órgão “não informado”
-- ⚠️ 374d3746a0 (Jose Maria Muniz De Castro): ligado só pelo nome “JOSÉ MARIA MUNIZ DE CASTRO”, processo 2271/2000, órgão “não informado”
-- ⚠️ 380a2c3158 (Francisco Antonio Magaldi Junior): ligado só pelo nome “FRANCISCO ANTONIO MAGALDI JUNIOR”, processo 898/2005, órgão “não informado”
-- ⚠️ 3a4a837f2a (Benedito Ferreira De Andrade): ligado só pelo nome “BENEDITO FERREIRA DE ANDRADE”, processo 6689/1999, órgão “não informado”
-- ⚠️ 4932c6e645 (João Socorro Cavalcante Da Costa): ligado só pelo nome “JOÃO SOCORRO CAVALCANTE DA COSTA”, processo 2044/2009, órgão “não informado”
-- ⚠️ 4a8d9758c4 (Lacerda Matos Antunes): ligado só pelo nome “LACERDA MATOS ANTUNES”, processo 2135/2003, órgão “não informado”
-- ⚠️ 5943147d07 (Gentil Castro De Oliveira): ligado só pelo nome “GENTIL CASTRO DE OLIVEIRA”, processo 2543/2009, órgão “não informado”
-- ⚠️ 5a2cc6c8f2 (Jose De Pinho Ferreira): ligado só pelo nome “JOSÉ DE PINHO FERREIRA”, processo 7234/1999, órgão “não informado”
-- ⚠️ 5f89e950f3 (João Bosco De Souza Pires): ligado só pelo nome “JOÃO BOSCO DE SOUZA PIRES”, processo 1299/2009, órgão “não informado”
+- ⚠️ 121f0a8531 (Jorge Trajano Da Silva): ligado só pelo nome “JORGE TRAJANO DA SILVA”, processo 2735/2006, órgão “SECRETARIA MUNICIPAL DE INFRAESTRUTURA – SEMINF”
+- ⚠️ 3390371ffb (Joaquim De Lucena Gomes): ligado só pelo nome “JOAQUIM DE LUCENA GOMES”, processo 1611/2008, órgão “FUNDO MUNICIPAL DE ASSISTENCIA SOCIAL - FMAS”
+- ⚠️ 3390371ffb (Joaquim De Lucena Gomes): ligado só pelo nome “JOAQUIM DE LUCENA GOMES”, processo 1947/2006, órgão “SEMAF”
 - ⚠️ 640d75b566 (Hamilton Lima Do Carmo Fermin): ligado só pelo nome “HAMILTON LIMA DO CARMO FERMIN”, processo ?, órgão “não informado”
-- ⚠️ 640d75b566 (Hamilton Lima Do Carmo Fermin): ligado só pelo nome “HAMILTON LIMA DO CARMO FERMIN”, processo 1754/2006, órgão “não informado”
-- ⚠️ 667af243db (Xisto Pereira De Souza): ligado só pelo nome “XISTO PEREIRA DE SOUZA”, processo 7345/1997, órgão “não informado”
-- ⚠️ 683869b897 (Antonio Gomes Graça): ligado só pelo nome “ANTONIO GOMES GRAÇA”, processo 4093/2005, órgão “não informado”
-- ⚠️ 6af328f3e2 (Sandro Da Silva Pires): ligado só pelo nome “SANDRO DA SILVA PIRES”, processo 3584/2002, órgão “não informado”
-- ⚠️ 70624f27c8 (Robson Weil Muller): ligado só pelo nome “ROBSON WEIL MULLER”, processo 2402/2007, órgão “não informado”
-- ⚠️ 73806dd379 (Carlos Jose Lima Cunha): ligado só pelo nome “CARLOS JOSÉ LIMA CUNHA”, processo 2244/2003, órgão “não informado”
-- ⚠️ 81f01c4446 (Alberta Maria Oliveira De Deus): ligado só pelo nome “ALBERTA MARIA OLIVEIRA DE DEUS”, processo 1897/2006, órgão “não informado”
-- ⚠️ 8675deb4d4 (Jose Julio Cesar Correa): ligado só pelo nome “JOSÉ JÚLIO CÉSAR CORRÊA”, processo 1520/2008, órgão “não informado”
+- ⚠️ 8675deb4d4 (Jose Julio Cesar Correa): ligado só pelo nome “JOSÉ JÚLIO CÉSAR CORRÊA”, processo 1520/2008, órgão “SEMDEC - SEC. MUNIC. DEF. CIVIL”
 - ⚠️ 8675deb4d4 (Jose Julio Cesar Correa): ligado só pelo nome “JOSÉ JULIO CESAR CORREA”, processo 1854/2006, órgão “SEMDEC – SECRETARIA MUNICIPAL DE DEFESA CIVIL”
 - ⚠️ 8675deb4d4 (Jose Julio Cesar Correa): ligado só pelo nome “JOSÉ JULIO CESAR CORREA”, processo 2008/2007, órgão “SEMDEC – SECRETARIA MUNICIPAL DE DEFESA CIVIL”
-- ⚠️ 8708e37633 (Antonio Dacio Neto): ligado só pelo nome “ANTONIO DÁCIO NETO”, processo 2294/2005, órgão “não informado”
-- ⚠️ 8bd8575308 (Walter De Oliveira Lopes): ligado só pelo nome “WALTER DE OLIVEIRA LOPES”, processo 1324/2009, órgão “não informado”
-- ⚠️ 8be479a300 (Sebastiao De Souza Nunes): ligado só pelo nome “SEBASTIÃO DE SOUZA NUNES”, processo 1875/2009, órgão “não informado”
-- ⚠️ 8efe15f579 (Waldemar Sanches Gomes Filho): ligado só pelo nome “WALDEMAR SANCHES GOMES FILHO”, processo 1705/1998, órgão “não informado”
-- ⚠️ 8efe15f579 (Waldemar Sanches Gomes Filho): ligado só pelo nome “WALDEMAR SANCHES GOMES FILHO”, processo 1919/2004, órgão “não informado”
+- ⚠️ 8bd8575308 (Walter De Oliveira Lopes): ligado só pelo nome “WALTER DE OLIVEIRA LOPES”, processo 1324/2009, órgão “SECRETARIA DE ESTADO DE SAÚDE DO AMAZONAS – SES”
+- ⚠️ 8be479a300 (Sebastiao De Souza Nunes): ligado só pelo nome “SEBASTIÃO DE SOUZA NUNES”, processo 1875/2009, órgão “INSTITUTO DE TERRAS DO AMAZONAS - ITEAM”
 - ⚠️ 8f7b8459c1 (Gedeao Timoteo Amorim): ligado só pelo nome “GEDEÃO TIMÓTEO AMORIM”, processo 1798/2011, órgão “SECRETARIA DE ESTADO DA EDUCAÇÃO E QUALIDADE DE ENSINO - SEDUC”
 - ⚠️ 916908bb6d (Oreni Campelo Braga Da Silva): ligado só pelo nome “ORENI CAMPÊLO BRAGA DA SILVA”, processo 1562/2015, órgão “EMPRESA ESTADUAL DE TURISMO DO AMAZONAS – AMAZONASTUR”
 - ⚠️ 9339b14fe3 (Josué De Oliveira Melo): ligado só pelo nome “JOSUÉ DE OLIVEIRA MELO”, processo ?, órgão “não informado”
-- ⚠️ 96ae864996 (José Vieira Da Cunha): ligado só pelo nome “JOSÉ VIEIRA DA CUNHA”, processo 3011/1997, órgão “não informado”
 - ⚠️ 9a4b6932c5 (Hamilton Fernandes Silva Cruz): ligado só pelo nome “HAMILTON FERNANDES SILVA CRUZ”, processo ?, órgão “não informado”
 - ⚠️ 9eeb4fbbe9 (Vital Da Costa Melo): ligado só pelo nome “VITAL DA COSTA MELO”, processo 1931/2012, órgão “SEMTEF -SECRETARIA MUNICIPAL DE TRABALHO, EMPREEEND. ABASTECIMENTO, FEIRAS E MERCADOS”
 - ⚠️ a01dffe0bc (João Ferdinando Barreto): ligado só pelo nome “JOÃO FERDINANDO BARRETO”, processo 1979/2009, órgão “SECRETARIA DE ESTADO DE PRODUÇÃO AGROPECUÁRIA, PESCA E DESENVOLVIMENTO RURAL INTEGRADO”
-- ⚠️ ad637f5e7e (Raimundo Nonato Batista De Souza): ligado só pelo nome “RAIMUNDO NONATO BATISTA DE SOUZA”, processo 2039/2004, órgão “não informado”
-- ⚠️ ad637f5e7e (Raimundo Nonato Batista De Souza): ligado só pelo nome “RAIMUNDO NONATO BATISTA DE SOUZA”, processo 2184/1999, órgão “não informado”
-- ⚠️ ad637f5e7e (Raimundo Nonato Batista De Souza): ligado só pelo nome “RAIMUNDO NONATO BATISTA DE SOUZA”, processo 3363/2001, órgão “não informado”
-- ⚠️ af02ee4e98 (Ronildo Ferreira Pimentel): ligado só pelo nome “RONILDO FERREIRA PIMENTEL”, processo 2300/2007, órgão “não informado”
-- ⚠️ af02ee4e98 (Ronildo Ferreira Pimentel): ligado só pelo nome “RONILDO FERREIRA PIMENTEL”, processo 653/2006, órgão “não informado”
 - ⚠️ af16042004 (Hilton Ferreira Da Silva): ligado só pelo nome “HILTON FERREIRA DA SILVA”, processo 2069/2008, órgão “SECRETARIA DE ESTADO DA ASSISTÊNCIA SOCIAL/ SINDICATO DOS FUNCIONÁRIOS DA POLÍCIA CIVIL DO AMAZONAS”
-- ⚠️ b10801c75b (Ines Baranda Hortencio): ligado só pelo nome “INÊS BARANDA HORTÊNCIO”, processo 3901/2003, órgão “não informado”
-- ⚠️ b542197901 (Joao Cicero Gomes De Almeida): ligado só pelo nome “JOÃO CÍCERO GOMES DE ALMEIDA”, processo 10732/2001, órgão “não informado”
-- ⚠️ b8a43a9331 (Oliveira De Souza Neto): ligado só pelo nome “OLIVEIRA DE SOUZA NETO”, processo 2199/2011, órgão “não informado”
-- ⚠️ b8a43a9331 (Oliveira De Souza Neto): ligado só pelo nome “OLIVEIRA DE SOUZA NETO”, processo 2258/2010, órgão “não informado”
-- ⚠️ b8a43a9331 (Oliveira De Souza Neto): ligado só pelo nome “OLIVEIRA DE SOUZA NETO”, processo 2551/2009, órgão “não informado”
-- ⚠️ c044474a88 (Jorge Amazonas Azevedo): ligado só pelo nome “JORGE AMAZONAS AZEVEDO”, processo 1675/2003, órgão “não informado”
-- ⚠️ c044474a88 (Jorge Amazonas Azevedo): ligado só pelo nome “JORGE AMAZONAS AZEVEDO”, processo 1768/2004, órgão “não informado”
-- ⚠️ c044474a88 (Jorge Amazonas Azevedo): ligado só pelo nome “JORGE AMAZONAS AZEVEDO”, processo 2276/2008, órgão “não informado”
-- ⚠️ c044474a88 (Jorge Amazonas Azevedo): ligado só pelo nome “JORGE AMAZONAS AZEVEDO”, processo 4017/2009, órgão “não informado”
-- ⚠️ c58e057b06 (Edmilson De Lucena Gomes): ligado só pelo nome “EDMILSON DE LUCENA GOMES”, processo 227/2003, órgão “FUNDACAO ESPECIAL DE TURISMO e GRUPO CIRANDA DO ALEIXO”
-- ⚠️ c91f960c77 (Raimundo Nonato Lima Da Costa): ligado só pelo nome “RAIMUNDO NONATO LIMA DA COSTA”, processo 4654/2002, órgão “não informado”
-- ⚠️ cb0dbcf86a (Sebastiao Rodrigues Maciel): ligado só pelo nome “SEBASTIÃO RODRIGUES MACIEL”, processo 3661/2002, órgão “não informado”
-- ⚠️ cb63415a11 (Flavio Lopes Nogueira): ligado só pelo nome “FLÁVIO LOPES NOGUEIRA”, processo 1496/2007, órgão “não informado”
-- ⚠️ cb63415a11 (Flavio Lopes Nogueira): ligado só pelo nome “FLÁVIO LOPES NOGUEIRA”, processo 909/2008, órgão “não informado”
-- ⚠️ d8c82102d9 (Erandir Marques De Avilar): ligado só pelo nome “ERANDIR MARQUES DE AVILAR”, processo 793/2006, órgão “não informado”
-- ⚠️ d8fb2812cc (Marilene Moreira Da Silva): ligado só pelo nome “MARILENE MOREIRA DA SILVA”, processo 1070/2007, órgão “não informado”
-- ⚠️ da525ff949 (Floriano Ramos Graça): ligado só pelo nome “FLORIANO RAMOS GRAÇA”, processo 4581/1997, órgão “não informado”
-- ⚠️ db783154e1 (Jose Olimpio Filho): ligado só pelo nome “JOSÉ OLÍMPIO FILHO”, processo 1290/2005, órgão “não informado”
-- ⚠️ dd0f686cca (Josino Gomes De Souza): ligado só pelo nome “JOSINO GOMES DE SOUZA”, processo 1450/2010, órgão “não informado”
-- ⚠️ e0e07d58bd (José Raimundo De Oliveira Felipe): ligado só pelo nome “JOSÉ RAIMUNDO DE OLIVEIRA FELIPE”, processo 1443/2004, órgão “não informado”
+- ⚠️ c044474a88 (Jorge Amazonas Azevedo): ligado só pelo nome “JORGE AMAZONAS AZEVEDO”, processo 1675/2003, órgão “FUNDAÇÃO DE MEDICINA TROPICAL DR. HEITOR VIEIRA DOURADO – FMT/HVD”
 - ⚠️ e1f8c85cd6 (Luis Faustino Da Costa Neto): ligado só pelo nome “LUIS FAUSTINO DA COSTA NETO”, processo 3164/2010, órgão “S E M D E J / F E D E R A Ç Ã O A M AZONENSE DE JIU-JITSU”
-- ⚠️ e3f90f2e6f (Vicente De Paulo Rodrigues Filho): ligado só pelo nome “VICENTE DE PAULO RODRIGUES FILHO”, processo 1065/2007, órgão “não informado”
-- ⚠️ e3f90f2e6f (Vicente De Paulo Rodrigues Filho): ligado só pelo nome “VICENTE DE PAULO RODRIGUES FILHO”, processo 842/2008, órgão “não informado”
-- ⚠️ e67e676f0c (Walmir Vitor Dos Santos): ligado só pelo nome “WALMIR VÍTOR DOS SANTOS”, processo 1561/2003, órgão “não informado”
-- ⚠️ eb33c9a47d (Raimundo Nonato Marreiros De Oliveira): ligado só pelo nome “RAIMUNDO NONATO MARREIROS DE OLIVEIRA”, processo 1834/1998, órgão “não informado”
-- ⚠️ f1092eb05e (Roberval Rodrigues Da Silva): ligado só pelo nome “ROBERVAL RODRIGUES DA SILVA”, processo 2467/2000, órgão “não informado”
+- ⚠️ e3f90f2e6f (Vicente De Paulo Rodrigues Filho): ligado só pelo nome “VICENTE DE PAULO RODRIGUES FILHO”, processo 842/2008, órgão “E.T.U.P.F.”
+- ⚠️ eb33c9a47d (Raimundo Nonato Marreiros De Oliveira): ligado só pelo nome “RAIMUNDO NONATO MARREIROS DE OLIVEIRA”, processo 1834/1998, órgão “SECRETARIA DE ESTADO DE ASSISTÊNCIA SOCIAL - SEAS”
 - ⚠️ f7b969a9f7 (Adail Alves Celestino): ligado só pelo nome “ADAIL ALVES CELESTINO”, processo 5463/2007, órgão “SECRETARIA DE ESTADO DA ASSISTÊNCIA SOCIAL/ACASOTA”
 - ⚠️ f7b969a9f7 (Adail Alves Celestino): ligado só pelo nome “ADAIL ALVES CELESTINO”, processo 5522/2007, órgão “SECRETARIA DE ESTADO DA ASSISTÊNCIA SOCIAL/ACASOTA”
 - ⚠️ f7b969a9f7 (Adail Alves Celestino): ligado só pelo nome “ADAIL ALVES CELESTINO”, processo 5523/2007, órgão “SECRETARIA DE ESTADO DA ASSISTÊNCIA SOCIAL/ACASOTA”
@@ -108,6 +50,3 @@
 - ⚠️ f7b969a9f7 (Adail Alves Celestino): ligado só pelo nome “ADAIL ALVES CELESTINO”, processo 5525/2007, órgão “SECRETARIA DE ESTADO DA ASSISTÊNCIA SOCIAL/ACASOTA”
 - ⚠️ f7b969a9f7 (Adail Alves Celestino): ligado só pelo nome “ADAIL ALVES CELESTINO”, processo 5526/2007, órgão “SECRETARIA DE ESTADO DA ASSISTÊNCIA SOCIAL/ACASOTA”
 - ⚠️ f7b969a9f7 (Adail Alves Celestino): ligado só pelo nome “ADAIL ALVES CELESTINO”, processo 5527/2007, órgão “SECRETARIA DE ESTADO DA ASSISTÊNCIA SOCIAL/ACASOTA”
-- ⚠️ f973328c44 (Raimundo Rodrigues De Amorim): ligado só pelo nome “RAIMUNDO RODRIGUES DE AMORIM”, processo 2709/2003, órgão “não informado”
-- ⚠️ fb1308a77b (Adiel Meira De Santana): ligado só pelo nome “ADIEL MEIRA DE SANTANA”, processo 2484/2003, órgão “não informado”
-- ⚠️ fc397aadef (Edno Ferreira Pimentel): ligado só pelo nome “EDNO FERREIRA PIMENTEL”, processo 1280/2000, órgão “não informado”

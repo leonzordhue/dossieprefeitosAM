@@ -46,6 +46,46 @@ CONTRA = re.compile(r"(?i:votaram\s+contr[áa]ri(?:o|amente)|votaram\s+contra|vo
                     r"([^.;]{3,200})")
 
 
+def votacoes(a, t, ligar):
+    """Deliberações no texto de uma ata. a: cod_ibge, data, titulo, fonte; ligar(cod, nome) -> pessoa_id.
+    Também usada pelo script 28 (edições completas do diário)."""
+    out = []
+    achou, vistos = 0, set()
+    # âncora no resultado de votação ("aprovado por unanimidade", "rejeitado por 5 votos", "foi aprovado o Projeto ... com 6 votos");
+    # "lida e aprovada" (a própria ata) e "para que seja aprovado" (pedido) não contam
+    for r in RESULTADO_VOTO.finditer(t):
+        ctx_antes, ctx_depois = t[max(0, r.start() - 260):r.start()], t[r.start():r.end() + 160]
+        if re.search(r"(?i)lida\s+e\s*$|seja\s*$|sejam\s*$|ser\s*$|j[áa]\s+foi\s*$", ctx_antes):
+            continue
+        mats = list(re.finditer(MATERIA_CITADA, ctx_antes)) or list(re.finditer(MATERIA_CITADA, ctx_depois[:120]))
+        if not mats:
+            continue
+        m = mats[-1]
+        chave = (" ".join(m.group(1).split()).lower(), " ".join(m.group(2).split()), r.start() // 400)
+        if chave in vistos:
+            continue
+        vistos.add(chave)
+        achou += 1
+        autores = AUTOR.findall(t[max(0, r.start() - 500):r.end() + 120])
+        autor = autores[-1] if autores else ""
+        pl = PLACAR.search(ctx_depois) or PLACAR_UM.search(ctx_depois)
+        contra = CONTRA.search(ctx_depois)
+        contra_pids = []
+        if contra:
+            for n in re.split(r",|\se\s", contra.group(1)):
+                n = n.strip(" -–")
+                p = ligar(a["cod_ibge"], n) if len(n.split()) >= 2 else ""
+                if p:
+                    contra_pids.append(p)
+        out.append({"cod_ibge": a["cod_ibge"], "data_ata": a["data"], "materia": " ".join(m.group(1).split()).capitalize(),
+                       "numero": " ".join(m.group(2).split()), "resultado": "aprovado" if (r.group(1) or r.group(2)).lower().startswith("aprov") else "rejeitado",
+                       "unanimidade": "sim" if UNANIME.search(ctx_depois[:120]) else "",
+                       "votos_favor": pl.group(1) if pl else "", "votos_contra": (pl.group(2) if pl and pl.re is PLACAR else "") if pl else "",
+                       "autor_no_ato": autor, "autor_pessoa_id": ligar(a["cod_ibge"], autor) if autor else "",
+                       "contra_pessoa_ids": " ".join(dict.fromkeys(contra_pids)), "titulo_ata": a["titulo"], "fonte": a["fonte"]})
+    return out
+
+
 def main():
     cand = defaultdict(list)
     for r in csv.DictReader(open(os.path.join(DADOS, "candidaturas_vereador.csv"), encoding="utf-8")):
@@ -63,39 +103,9 @@ def main():
         except Exception:
             continue
         lidas += 1
-        achou, vistos = 0, set()
-        # âncora no resultado de votação ("aprovado por unanimidade", "rejeitado por 5 votos", "foi aprovado o Projeto ... com 6 votos");
-        # "lida e aprovada" (a própria ata) e "para que seja aprovado" (pedido) não contam
-        for r in RESULTADO_VOTO.finditer(t):
-            ctx_antes, ctx_depois = t[max(0, r.start() - 260):r.start()], t[r.start():r.end() + 160]
-            if re.search(r"(?i)lida\s+e\s*$|seja\s*$|sejam\s*$|ser\s*$|j[áa]\s+foi\s*$", ctx_antes):
-                continue
-            mats = list(re.finditer(MATERIA_CITADA, ctx_antes)) or list(re.finditer(MATERIA_CITADA, ctx_depois[:120]))
-            if not mats:
-                continue
-            m = mats[-1]
-            chave = (" ".join(m.group(1).split()).lower(), " ".join(m.group(2).split()), r.start() // 400)
-            if chave in vistos:
-                continue
-            vistos.add(chave)
-            achou += 1
-            autores = AUTOR.findall(t[max(0, r.start() - 500):r.end() + 120])
-            autor = autores[-1] if autores else ""
-            pl = PLACAR.search(ctx_depois) or PLACAR_UM.search(ctx_depois)
-            contra = CONTRA.search(ctx_depois)
-            contra_pids = []
-            if contra:
-                for n in re.split(r",|\se\s", contra.group(1)):
-                    n = n.strip(" -–")
-                    p = ligar(a["cod_ibge"], n) if len(n.split()) >= 2 else ""
-                    if p:
-                        contra_pids.append(p)
-            linhas.append({"cod_ibge": a["cod_ibge"], "data_ata": a["data"], "materia": " ".join(m.group(1).split()).capitalize(),
-                           "numero": " ".join(m.group(2).split()), "resultado": "aprovado" if (r.group(1) or r.group(2)).lower().startswith("aprov") else "rejeitado",
-                           "unanimidade": "sim" if UNANIME.search(ctx_depois[:120]) else "",
-                           "votos_favor": pl.group(1) if pl else "", "votos_contra": (pl.group(2) if pl and pl.re is PLACAR else "") if pl else "",
-                           "autor_no_ato": autor, "autor_pessoa_id": ligar(a["cod_ibge"], autor) if autor else "",
-                           "contra_pessoa_ids": " ".join(dict.fromkeys(contra_pids)), "titulo_ata": a["titulo"], "fonte": a["fonte"]})
+        novas = votacoes(a, t, ligar)
+        linhas += novas
+        achou = len(novas)
         sem_votacao += not achou
     checagens = [(lidas >= 0.97 * len(atas), f"atas lidas: {lidas} de {len(atas)}"),
                  (len(linhas) >= 300, f"deliberações extraídas: {len(linhas)} em {len({x['cod_ibge'] for x in linhas})} Câmaras "

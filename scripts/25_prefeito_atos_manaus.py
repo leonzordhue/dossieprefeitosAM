@@ -71,6 +71,10 @@ def main():
             camara = re.search(r"PRESIDENTE\s+DA\s+C[AÂ]MARA\s+MUNICIPAL[^.]{0,80}NO\s+EXERC[IÍ]CIO\s+DO\s+CARGO\s+DE\s+PREFEIT", texto, re.I)
             # "O PREFEITO DE MANAUS, no uso..." sem "em exercício": ato do titular (o substituto sempre se declara em exercício)
             titular = re.search(r"O\s+PREFEIT[OA]\s+(?:MUNICIPAL\s+)?DE\s+MANAUS,?\s+(?:no\s+uso|usando)", texto, re.I)
+            # expediente no cabeçalho do DOM ("PREFEITO: SERAFIM FERNANDES CORRÊA"): conta como titular só se for o titular do TSE
+            exp = re.search(r"PREFEIT[OA]:\s+(" + aam.NOME + ")", texto)
+            if not titular and exp and vig and decl.mesmo(exp.group(1), vig["prefeito"]):
+                titular = exp
             for achou, papel, pid in ((subst, "vice (presumido: substituto legal)", vig and vig["vice_pessoa_id"]),
                                       (camara, "presidente da Câmara no exercício do cargo", ""),
                                       (titular, "titular", vig and vig["pessoa_id"])):
@@ -109,10 +113,10 @@ def main():
         w.writeheader()
         w.writerows(linhas)
     papeis = Counter(x["papel"] for x in linhas)
-    meses = {x["data"][:7] for x in linhas}
+    meses = {x["data"][:7] for x in linhas if x["data"] >= "2001"}  # o dossiê começa nos mandatos de 2001 (o DOM eletrônico começa em abr/2000)
     checagens = [(anos_ok == len(meta), f"{anos_ok} pacotes anuais lidos de {len(meta)} listados pela API"),
                  (edicoes > 3000, f"{edicoes} edições do DOM lidas"),
-                 (len(meses) >= 0.8 * 12 * anos_ok, f"meses com quem exerceu a prefeitura identificado: {len(meses)} de {12 * anos_ok}")]
+                 (len(meses) >= 0.8 * 12 * (anos_ok - 1), f"meses com quem exerceu a prefeitura identificado (2001+): {len(meses)} de {12 * (anos_ok - 1)}")]
     alertas = []
     outros = defaultdict(list)
     for x in linhas:

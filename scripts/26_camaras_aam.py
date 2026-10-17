@@ -57,6 +57,36 @@ def nomes(t):
     return out
 
 
+def analisa(x, t, cand):
+    """Suplentes (posse/convocação) e autorias no texto de uma matéria da Câmara. x: cod_ibge, data, titulo, codigo, fonte, tipo.
+    Também usada pelo script 28 (edições completas do diário)."""
+    sup, aut = [], []
+    cod, iso = x["cod_ibge"], x["data"]
+    ciclo = max((c for c in range(2000, 2030, 4) if f"{c + 1}-01-01" <= iso), default=None)
+    ligar = lambda n: next((c for c in cand[cod] if aam.estrito(n, c[1]) or (c[2] and len(decl.palavras(c[2])) >= 3 and aam.estrito(n, c[2]))), None)  # noqa: E731
+    low = t.lower()
+    if "suplente" in low and re.search(r"posse|empossad|convoca", low):
+        rotulo = {"licenca": "licença", "renuncia": "renúncia", "cassacao": "cassação", "secretári": "titular nomeado secretário(a)"}
+        motivo = ", ".join(sorted({rotulo.get(m, m) for m in MOTIVOS if m in low}))
+        for n in dict.fromkeys(nomes(t)):
+            c = ligar(n)
+            if not c:
+                continue
+            eleito_ciclo = any(k[0] == c[0] and k[3] == ciclo and k[4].startswith(("ELEITO", "MÉDIA", "QP")) for k in cand[cod])
+            suplente_ciclo = any(k[0] == c[0] and k[3] == ciclo for k in cand[cod]) and not eleito_ciclo
+            sup.append({"cod_ibge": cod, "data": iso, "nome_no_ato": n.title(), "pessoa_id": c[0], "nome_tse": c[1], "ciclo": ciclo or "",
+                              "papel": "suplente no ciclo" if suplente_ciclo else "eleito no ciclo" if eleito_ciclo else "outro ciclo",
+                              "motivo_no_ato": motivo, "titulo": x["titulo"], "codigo": x["codigo"], "fonte": x["fonte"]})
+    # "Autoria do Vereador X", "autoria da vereadora X", "Autor: Ver. X", "proposto pelo Vereador X" (só o prefixo ignora caixa)
+    for n in re.findall(r"(?i:(?:autoria\s+d[oae]s?|autor[a]?\s*:|propost[oa]\s+pel[oa]|de\s+iniciativa\s+d[oa])\s+(?:nobre\s+)?"
+                        r"(?:vereador(?:a)?|edil|ver\.)(?:\s+d[oa]\s+vereador(?:a)?)?)\s+(" + MISTO + "|" + aam.NOME + ")", t):
+        c = ligar(n)
+        if c:
+            aut.append({"cod_ibge": cod, "data": iso, "nome_no_ato": n.title(), "pessoa_id": c[0], "nome_tse": c[1], "tipo": x["tipo"],
+                             "titulo": x["titulo"], "codigo": x["codigo"], "fonte": x["fonte"]})
+    return sup, aut
+
+
 def main():
     muns = list(csv.DictReader(open(os.path.join(DADOS, "municipios.csv"), encoding="utf-8")))
     por_nome = {" ".join(decl.palavras(m["municipio"])): m for m in muns}
@@ -117,29 +147,9 @@ def main():
             continue
         com_texto += 1
         x["texto"] = t
-        cod, iso = x["cod_ibge"], x["data"]
-        ciclo = max((c for c in range(2000, 2030, 4) if f"{c + 1}-01-01" <= iso), default=None)
-        ligar = lambda n: next((c for c in cand[cod] if aam.estrito(n, c[1]) or (c[2] and len(decl.palavras(c[2])) >= 3 and aam.estrito(n, c[2]))), None)  # noqa: E731
-        low = t.lower()
-        if "suplente" in low and re.search(r"posse|empossad|convoca", low):
-            rotulo = {"licenca": "licença", "renuncia": "renúncia", "cassacao": "cassação", "secretári": "titular nomeado secretário(a)"}
-            motivo = ", ".join(sorted({rotulo.get(m, m) for m in MOTIVOS if m in low}))
-            for n in dict.fromkeys(nomes(t)):
-                c = ligar(n)
-                if not c:
-                    continue
-                eleito_ciclo = any(k[0] == c[0] and k[3] == ciclo and k[4].startswith(("ELEITO", "MÉDIA", "QP")) for k in cand[cod])
-                suplente_ciclo = any(k[0] == c[0] and k[3] == ciclo for k in cand[cod]) and not eleito_ciclo
-                suplentes.append({"cod_ibge": cod, "data": iso, "nome_no_ato": n.title(), "pessoa_id": c[0], "nome_tse": c[1], "ciclo": ciclo or "",
-                                  "papel": "suplente no ciclo" if suplente_ciclo else "eleito no ciclo" if eleito_ciclo else "outro ciclo",
-                                  "motivo_no_ato": motivo, "titulo": x["titulo"], "codigo": x["codigo"], "fonte": x["fonte"]})
-        # "Autoria do Vereador X", "autoria da vereadora X", "Autor: Ver. X", "proposto pelo Vereador X" (só o prefixo ignora caixa)
-        for n in re.findall(r"(?i:(?:autoria\s+d[oae]s?|autor[a]?\s*:|propost[oa]\s+pel[oa]|de\s+iniciativa\s+d[oa])\s+(?:nobre\s+)?"
-                            r"(?:vereador(?:a)?|edil|ver\.)(?:\s+d[oa]\s+vereador(?:a)?)?)\s+(" + MISTO + "|" + aam.NOME + ")", t):
-            c = ligar(n)
-            if c:
-                autorias.append({"cod_ibge": cod, "data": iso, "nome_no_ato": n.title(), "pessoa_id": c[0], "nome_tse": c[1], "tipo": x["tipo"],
-                                 "titulo": x["titulo"], "codigo": x["codigo"], "fonte": x["fonte"]})
+        sup, aut = analisa(x, t, cand)
+        suplentes += sup
+        autorias += aut
         if com_texto % 200 == 0:
             print("texto", com_texto, len(suplentes), len(autorias), flush=True)
     alvo = sum(1 for x in materias if COM_TEXTO.search(x["titulo"]) and not SEM_TEXTO.search(x["titulo"]))

@@ -41,6 +41,7 @@ t17 = import_module("17_tceam")  # mesmo_nome
 t19 = import_module("19_tceam_decisoes")  # API e VAZIOS da jurisprudência do TCE-AM
 rede = t19.rede
 aam = import_module("24_prefeito_atos_aam")  # busca() no Diário Oficial dos Municípios
+DEC = "https://dec-api.tceam.tc.br/api/v1/consultas-publicas/processos"  # consulta pública de processos do TCE-AM (DEC)
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DADOS = os.path.join(BASE_DIR, "dados")
@@ -231,7 +232,34 @@ def main():
         for p, c in ps:
             pid_muns[p].add(c)
     confirmados, derrubados, tce_cache = 0, [], {}
-    for x in [x for x in saida if x["ligacao"].endswith("(a conferir)")]:
+    # 1º) consulta pública de processos do TCE-AM (DEC): pelo número do processo, órgão, natureza e interessado oficiais.
+    # Completa o órgão de toda linha que veio sem ele e confere o município das ligações só pelo nome.
+    dec_ok = 0
+    for x in [x for x in saida if x["processo"] and (not x["orgao"] or x["ligacao"].endswith("(a conferir)"))]:
+        num, ano = (x["processo"].split("/") + [""])[:2]
+        url = f"{DEC}?numero={int(num)}&ano={ano}" if num.isdigit() and ano.isdigit() else ""
+        try:
+            proc = next((p for p in rede.get_json(url, tentativas=3)["content"] if p["codigoProcesso"].lstrip("0") == x["processo"].lstrip("0")), None) if url else None
+        except Exception as e:
+            alertas.append(f"DEC TCE-AM processo {x['processo']}: {e.__class__.__name__}")
+            continue
+        if not proc:
+            continue
+        dec_ok += 1
+        x["orgao"] = x["orgao"] or (proc.get("orgao") or "").strip()
+        x["natureza"] = x["natureza"] or (proc.get("natureza") or "").strip()
+        x["fonte"] += f"; órgão pela consulta pública de processos do TCE-AM: {url}"
+        if x["ligacao"].endswith("(a conferir)"):
+            # a própria relação do TCE-AM liga este nome a este processo: o município do órgão do processo é o do gestor
+            # (a grafia do interessado varia: "MONTECONRADO" × "MONTE CONRADO")
+            muns_dec = {c for nm, c in norm_mun if nm in tcu.sem_acento(f"{proc.get('orgao')} {proc.get('objeto')}")}
+            if muns_dec & pid_muns[x["pessoa_id"]]:
+                x["ligacao"] = "nome + município (processo no TCE-AM)"
+                confirmados += 1
+            elif muns_dec:
+                derrubados.append(x)
+    checagens.append((dec_ok > 0, f"processos achados na consulta pública do TCE-AM (DEC): {dec_ok}"))
+    for x in [x for x in saida if x["ligacao"].endswith("(a conferir)") and x not in derrubados]:
         n = tcu.sem_acento(x["nome_tce"])
         if n not in tce_cache:
             p = {"strConteudo": f'"{x["nome_tce"]}"', **{k: "null" for k in t19.VAZIOS}}

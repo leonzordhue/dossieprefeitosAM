@@ -1,11 +1,11 @@
-# Integridade — quem assina os atos da Prefeitura de Manaus (DOM, Querido Diário) (gerado em 16/10/2026 19:26)
+# Integridade — quem assina os atos da Prefeitura de Manaus (DOM, Querido Diário) (gerado em 17/10/2026 00:19)
 
-- Linhas: 5820 ({'titular': 5085, 'outro': 227, 'vice (presumido: substituto legal)': 442, 'vice': 66})
+- Linhas: 6146 ({'titular': 5411, 'outro': 227, 'vice (presumido: substituto legal)': 442, 'vice': 66})
 - Checagens: **3 de 3 passaram**
 
 - ✅ 26 pacotes anuais lidos de 26 listados pela API
 - ✅ 7519 edições do DOM lidas
-- ✅ meses com quem exerceu a prefeitura identificado: 296 de 312
+- ✅ meses com quem exerceu a prefeitura identificado (2001+): 296 de 300
 
 ## Quem assinou como prefeito(a) sem ser o titular do TSE (conferir)
 

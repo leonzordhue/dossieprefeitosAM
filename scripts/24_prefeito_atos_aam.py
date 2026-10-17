@@ -40,6 +40,7 @@ ALVOS = ('"prefeito interino"', '"prefeita interina"', '"presidente da câmara" 
          '"cassação" "mandato" prefeito', '"perda do mandato" prefeito', '"extinção do mandato" prefeito')
 # sem a partícula "E": em listas de assinatura ("FULANO E BELTRANO") ela juntaria duas pessoas
 NOME = r"[A-ZÁÉÍÓÚÂÊÔÃÕÇÜ][A-ZÁÉÍÓÚÂÊÔÃÕÇÜ'.]+(?:\s+(?:D[AEO]S?|[A-ZÁÉÍÓÚÂÊÔÃÕÇÜ][A-ZÁÉÍÓÚÂÊÔÃÕÇÜ'.]+)){1,7}"
+MISTO = r"[A-ZÁÉÍÓÚÂÊÔÃÕÇ][a-záéíóúâêôãõçü]+(?:\s+(?:d[aeo]s?|[A-ZÁÉÍÓÚÂÊÔÃÕÇ][a-záéíóúâêôãõçü]+)){2,6}"  # nome em caixa mista (3+ palavras)
 CONDICAO = re.compile(r"em\s+exerc[ií]cio|interin[oa]|no\s+exerc[ií]cio\s+do\s+cargo\s+de\s+prefeit", re.I)
 
 
@@ -76,7 +77,11 @@ def nomes_no_trecho(t):
         if m.start() > 90 and t[m.start() - 91].isalpha():
             janela = re.sub(r"^\S*", "", janela)  # janela cortada no meio de palavra: descarta o pedaço ("ANAMÃ" → "AMÃ")
         antes = re.search("(" + NOME + r")[\s,–\-]{0,4}$", janela)
-        for g in (depois.group(1) if depois else None, antes.group(1) if antes else None):
+        # caixa mista: "O Prefeito Municipal de Anori, Estado do Amazonas, Jamilson Ribeiro Carvalho, no uso..."
+        misto = re.match(r"(?i:(?:\s+municipal)?(?:\s+(?:de|do|da)\s+[^,;:]{2,40}?)?,?(?:\s*estado\s+do\s+amazonas,)?(?:\s+em\s+exerc[ií]cio,?)?"
+                         r"\s*(?:o\s+senhor\s+|a\s+senhora\s+|sr\.?\s+|sra\.?\s+)?)(" + MISTO + r")\s*,", t[m.end():m.end() + 160])
+        for g in (depois.group(1) if depois else None, antes.group(1) if antes else None,
+                  misto.group(1).upper() if misto and len(decl.palavras(misto.group(1))) >= 3 else None):
             if not g:
                 continue
             g = re.sub(r"(?:\s+E|\.)$", "", g.strip())
