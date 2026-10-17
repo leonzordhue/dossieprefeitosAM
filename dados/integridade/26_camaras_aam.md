@@ -1,13 +1,13 @@
-# Integridade — Câmaras no Diário Oficial dos Municípios (AAM/SIGPub) (gerado em 17/10/2026 03:57)
+# Integridade — Câmaras no Diário Oficial dos Municípios (AAM/SIGPub) (gerado em 17/10/2026 04:28)
 
 - Matérias: 12836; tipos mais comuns: PORTARIA 5553, EXTRATO 1474, DECRETO 877, AVISO 765, ATA 556, ATO 504, ERRATA 314, RESOLUÇÃO 312, A 231, DESPACHO 215, TERMO 214, LEI 190
 - Posse/convocação ligadas: 44; autorias: 208
-- Checagens: **4 de 5 passaram**
+- Checagens: **5 de 5 passaram**
 
 - ✅ 60 Câmaras com entidade no SIGPub/AAM
 - ✅ matérias listadas: 12836 de 12836 anunciadas pelo SIGPub
 - ✅ texto integral lido: 8037 de 8037 matérias de mandato (0 falhas)
-- ❌ suplentes do ciclo em atos de posse/convocação: 8 pessoas
+- ✅ suplentes do ciclo em atos de posse/convocação: 8 pessoas
 - ✅ autorias de vereador: 208 em 22 Câmaras
 
 ## Conferir
