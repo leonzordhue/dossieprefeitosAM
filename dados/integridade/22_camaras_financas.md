@@ -1,6 +1,6 @@
-# Integridade — finanças das Câmaras (gerado em 17/10/2026 07:56)
+# Integridade — finanças das Câmaras (gerado em 17/10/2026 11:29)
 
-- Linhas: 1310
+- Linhas: 1316
 - Checagens: **34 de 34 passaram**
 
 - ✅ MSC publicada só onde confere com a DCA (347 de 427 conferem; 0 publicados sem conferir)
@@ -36,7 +36,7 @@
 - ✅ 2024: 58 de 62 Câmaras com despesa na função Legislativa
 - ✅ 2025: 60 de 62 Câmaras com despesa na função Legislativa
 - ✅ Câmara na MSC × função Legislativa (±15%): 265 de 295 município-anos
-- ✅ RGF do Legislativo: 594 de 744 Câmara-anos
+- ✅ RGF do Legislativo: 632 de 744 Câmara-anos
 
 ## Alertas
 
@@ -47,6 +47,7 @@
 - ⚠️ 2020 Autazes: MSC (Executivo + Câmara) R$ 77,032,380 ≠ DCA R$ 118,749,208 (35.1%); gasto da Câmara não publicado
 - ⚠️ 2022 Autazes: MSC (Executivo + Câmara) R$ 193,143,714 ≠ DCA R$ 232,271,653 (16.8%); gasto da Câmara não publicado
 - ⚠️ 2025 Autazes: MSC (Executivo + Câmara) R$ 87,743,108 ≠ DCA R$ 249,381,603 (64.8%); gasto da Câmara não publicado
+- ⚠️ 2015 Barcelos: pessoal da Câmara lido no TCE-AM (R$ 2,200,545.32) reprovado nas travas; não publicado
 - ⚠️ 2019 Barcelos: MSC (Executivo + Câmara) R$ 48,886,643 ≠ DCA R$ 55,165,482 (11.4%); gasto da Câmara não publicado
 - ⚠️ 2022 Barcelos: MSC (Executivo + Câmara) R$ 86,497,537 ≠ DCA R$ 92,145,922 (6.1%); gasto da Câmara não publicado
 - ⚠️ 2023 Barcelos: MSC (Executivo + Câmara) R$ 45,690,518 ≠ DCA R$ 113,775,403 (59.8%); gasto da Câmara não publicado
@@ -119,6 +120,7 @@
 - ⚠️ 2022 Maués: MSC (Executivo + Câmara) R$ 310,416,891 ≠ DCA R$ 296,532,595 (4.7%); gasto da Câmara não publicado
 - ⚠️ 2023 Maués: MSC (Executivo + Câmara) R$ 283,041,009 ≠ DCA R$ 299,199,095 (5.4%); gasto da Câmara não publicado
 - ⚠️ 2021 Nhamundá: MSC (Executivo + Câmara) R$ 44,813,785 ≠ DCA R$ 71,985,724 (37.7%); gasto da Câmara não publicado
+- ⚠️ 2016 Novo Airão: pessoal da Câmara lido no TCE-AM (R$ 1,749,578.77) reprovado nas travas; não publicado
 - ⚠️ 2020 Novo Airão: pessoal da Câmara 53.82% da RCL, acima do limite de 6% (LRF art. 20, III, a)
 - ⚠️ 2021 Novo Airão: MSC (Executivo + Câmara) R$ 29,162,014 ≠ DCA R$ 62,633,100 (53.4%); gasto da Câmara não publicado
 - ⚠️ 2021 Novo Airão: pessoal da Câmara 59.89% da RCL, acima do limite de 6% (LRF art. 20, III, a)
@@ -149,6 +151,7 @@
 - ⚠️ 2020 Tapauá: MSC (Executivo + Câmara) R$ 77,037,382 ≠ DCA R$ 66,337,266 (16.1%); gasto da Câmara não publicado
 - ⚠️ 2022 Tapauá: MSC (Executivo + Câmara) R$ 100,838,223 ≠ DCA R$ 120,459,681 (16.3%); gasto da Câmara não publicado
 - ⚠️ 2019 Tefé: pessoal da Câmara 63.65% da RCL, acima do limite de 6% (LRF art. 20, III, a)
+- ⚠️ 2016 Uarini: pessoal da Câmara lido no TCE-AM (R$ 1,249,448.40) reprovado nas travas; não publicado
 - ⚠️ 2020 Uarini: MSC (Executivo + Câmara) R$ 50,599,621 ≠ DCA R$ 54,350,736 (6.9%); gasto da Câmara não publicado
 - ⚠️ 2023 Uarini: MSC (Executivo + Câmara) R$ 63,453,054 ≠ DCA R$ 85,326,765 (25.6%); gasto da Câmara não publicado
 - ⚠️ 2019 Urucurituba: MSC (Executivo + Câmara) R$ 45,186,791 ≠ DCA R$ 55,391,149 (18.4%); gasto da Câmara não publicado

@@ -8,8 +8,9 @@ Fontes (API do SICONFI, Tesouro Nacional — https://apidatalake.tesouro.gov.br/
     Muitos municípios mandam o saldo de dezembro sem acumular o ano (ex.: Anamã 2025: saldo de R$ 19 mi, DCA R$ 86 mi).
     Quando o saldo de dezembro não confere com a DCA, usa-se a soma dos movimentos dos 12 meses (period_change, C − D),
     que fechou no real em Anamã 2025 (83.261.256 + 2.688.774 = 85.950.030).
-  - Onde o SICONFI não tem números do RGF do Legislativo (2014–2017: entregue só em PDF), o RGF da Câmara publicado no Portal de
-    Transparência dos Municípios da AAM (script 31), com o % da RCL recalculado.
+  - Onde o SICONFI não tem números do RGF do Legislativo (2014–2017: entregue só em PDF): 2º a análise técnica do TCE-AM na
+    prestação de contas anual (script 32, dados enviados ao GEFIS, com travas); 3º o RGF publicado no Portal de Transparência
+    dos Municípios da AAM (script 31), com o % da RCL recalculado.
   - RGF Anexo 1 do Poder Legislativo (co_poder=L): despesa total com pessoal da Câmara e % da RCL (LRF art. 20, III, a:
     limite de 6% para o Legislativo municipal). Quadrimestral (3º) ou semestral (2º, "RGF Simplificado").
   - Despesa empenhada na função 01 – Legislativa (Portaria MOG 42/1999), de dados/indicadores/financas.csv (11_financas.py:
@@ -77,6 +78,8 @@ def main():
     fin = {(r["cod_ibge"], int(r["ano"])): r for r in csv.DictReader(open(os.path.join(DADOS, "indicadores", "financas.csv"), encoding="utf-8"))}
     arq_portal = os.path.join(DADOS, "indicadores", "camaras_rgf_portal.csv")
     portal = {(r["cod_ibge"], int(r["ano"])): r for r in csv.DictReader(open(arq_portal, encoding="utf-8"))} if os.path.exists(arq_portal) else {}
+    arq_tce = os.path.join(DADOS, "indicadores", "camaras_rgf_tce.csv")
+    tce = {(r["cod_ibge"], int(r["ano"])): r for r in csv.DictReader(open(arq_tce, encoding="utf-8"))} if os.path.exists(arq_tce) else {}
     linhas, checagens, alertas, confere, compara = [], [], [], 0, 0
     for m in muns:
         cod = m["cod_ibge"]
@@ -122,6 +125,17 @@ def main():
                     if pct and pct > 6:
                         alertas.append(f"{a} {m['municipio']}: pessoal da Câmara {pct}% da RCL, acima do limite de 6% (LRF art. 20, III, a)")
             # sem RGF do Legislativo no SICONFI (2014–2017 a Câmara entregou só em PDF): o RGF publicado no portal da AAM (script 31)
+            # 2º: análise técnica do TCE-AM na prestação de contas (script 32; dados que a Câmara enviou ao GEFIS), se passar nas travas:
+            # não maior que a despesa da função Legislativa e, havendo RCL e %, valor/RCL igual ao % da própria análise
+            if a in ANOS_RGF and lin["camara_pessoal"] == "" and (cod, a) in tce:
+                tr = tce[(cod, a)]
+                v, leg = float(tr["camara_pessoal"]), fin.get((cod, a), {}).get("desp_legislativa")
+                pct_ok = not (tr["pct_rcl"] and tr["rcl"] and float(tr["rcl"]) > 0 and abs(100 * v / float(tr["rcl"]) - float(tr["pct_rcl"])) > 0.3)
+                if (not leg or v <= float(leg) * 1.02) and pct_ok:
+                    lin.update(camara_pessoal=v, camara_pessoal_pct_rcl=tr["pct_rcl"], fonte_rgf=tr["fonte"])
+                else:
+                    alertas.append(f"{a} {m['municipio']}: pessoal da Câmara lido no TCE-AM (R$ {v:,.2f}) reprovado nas travas; não publicado")
+            # 3º: RGF publicado no portal da AAM (script 31)
             if a in ANOS_RGF and lin["camara_pessoal"] == "" and (cod, a) in portal:
                 pr = portal[(cod, a)]
                 lin.update(camara_pessoal=float(pr["camara_pessoal"]), camara_pessoal_pct_rcl=pr["pct_rcl_calculado"], fonte_rgf=pr["fonte"]
